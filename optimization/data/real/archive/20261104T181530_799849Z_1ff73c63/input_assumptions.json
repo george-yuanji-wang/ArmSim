@@ -1,0 +1,832 @@
+{
+  "study": "SO_30_550",
+  "retrieved_client_date": "2026-11-04",
+  "catalog_source_sha256": {
+    "stepperonline/motors.json": "d471ff33461304f5f331ead779387ff4aae3e4a25dc84a8a1e419aa5df5a4c84",
+    "stepperonline/motor_selection.json": "0c5ea4bbd52f5c3857930d39dda41b7f605e1ea826b4c6a29c9f30596fc245c9",
+    "sitodrive/reducer_selection.json": "0c4301a7f60fdc24af47e8e7bc09ff2e09bb9f2a3f572e70f8888ebaccc4631f"
+  },
+  "source_files": {
+    "stepperonline/motors.json": {
+      "path": "C:\\Users\\George\\Desktop\\ArmSim\\optimization\\catalogs\\stepperonline\\motors.json",
+      "sha256": "d471ff33461304f5f331ead779387ff4aae3e4a25dc84a8a1e419aa5df5a4c84"
+    },
+    "stepperonline/motor_selection.json": {
+      "path": "C:\\Users\\George\\Desktop\\ArmSim\\optimization\\catalogs\\stepperonline\\motor_selection.json",
+      "sha256": "0c5ea4bbd52f5c3857930d39dda41b7f605e1ea826b4c6a29c9f30596fc245c9"
+    },
+    "sitodrive/reducer_selection.json": {
+      "path": "C:\\Users\\George\\Desktop\\ArmSim\\optimization\\catalogs\\sitodrive\\reducer_selection.json",
+      "sha256": "0c4301a7f60fdc24af47e8e7bc09ff2e09bb9f2a3f572e70f8888ebaccc4631f"
+    }
+  },
+  "motor_count": 6,
+  "reducer_count": 3,
+  "source_eligible_motor_count_before_manual_screen": 19,
+  "raw_motor_record_count": 26,
+  "hardware_combinations_per_layout": 10,
+  "motor_exclusions": 20,
+  "reducer_exclusions": 0,
+  "motor_voltage_counts": {
+    "24": 5,
+    "36": 1
+  },
+  "policies": {
+    "hardware_scope": "Manually screened assembled STEPPERONLINE 24/36 V Hall BLDC motors at <= USD 50. Only J1-J3 motor choices vary; J4-J6 use three copies of one fixed motor model. Only the user's three 30:1 reducers on their specified joints.",
+    "manual_screening": {
+      "speed": "At 30:1, the current targets need 900 motor rpm for J1-J3 and 1500 rpm for J4-J6. Every selectable motor exceeds these speeds.",
+      "priorities": "Adequate torque/speed first, then shorter body and lower net mass. Diameter is secondary but its real envelope remains in the model. Preserve useful length/mass tradeoffs.",
+      "rated_power": "Rated mechanical watts approximately equal rated torque times rated angular speed. Lower rated rpm/watts alone do not establish lower operating consumption, loss or mass. Efficiency maps are unavailable.",
+      "voltage": "Keep one 36 V BSA62 winding as the mechanical representative of its otherwise equal 24 V package. This does not establish equal electrical losses or prescribe a common supply bus.",
+      "wrist": "The user requested roughly the 0.066 Nm class, interpreted from the lower-torque/size request. Use three copies of verified 0.063 Nm BSB41. It is a compact sizing candidate, not a claim that the faster motion suite passes.",
+      "unknowns": "No shipping weight is substituted for net motor mass. Missing rotor inertia, transient motor torque and loss maps stay unpublished; the existing simulation upper-bound policy is recorded separately.",
+      "coverage": "This is an explicitly reduced study, not a proof that rejected tradeoffs can never be optimal. Original supplier records and prior run snapshots are retained. Enumerate the same shortlisted hardware tuples in each layout; continuous geometry remains a finite optimization."
+    },
+    "motor_rating": "Published continuous torque from rest through published rated rpm is assumed; no extrapolation above rated speed. No measured stall thermal map.",
+    "motor_rotor_inertia": "Published rotor inertia remains null if unavailable. Simulation uses the explicit upper bound I <= M_motor * R_envelope^2, treating all motor mass at the envelope radius. This is a conservative bound, not a manufacturer rotor-inertia specification.",
+    "motor_mass": "Complete assembled motor net mass. Drivers, encoders, wiring and custom shaft adapters are not assigned invented masses.",
+    "motor_geometry": "Published body length; conservative circular radius encloses round body or square flange diagonal. Front/rear shaft dimensions are retained in source facts; exact reducer-specific shaft insertion/coupling requires mechanical design.",
+    "reducer_geometry": "Exact manufacturer model-specific drawings. CS-11-2XH-A uses nominal diameter 58 mm bounding flange circle and 32 mm axial envelope; generic 82.5 mm page summary is retained as a discrepancy.",
+    "reducer_rating": "Published rated output torque at 2000 input rpm; evaluation restricted to <=2000 input rpm. Repeated/momentary peaks are stored, not used to increase continuous capacity.",
+    "unpublished_reducer_input_torque": "Unknown; output limits enforced, separate input-shaft constraint remains unverified.",
+    "transmission": "Ideal lossless reducer and 1:1 local input belts, as in the existing optimization protocol. Published efficiency, friction and backdrive data unavailable; no 75% efficiency is silently substituted.",
+    "electrical_objective": "Pmax is a mechanical rating-limited objective. Voltage/current are retained; electrical current, copper loss and common-bus selection are not optimized. Mixed nominal voltages require suitable supplies/drives.",
+    "motion": {
+      "joint_speed_limits_deg_s": [
+        180,
+        180,
+        180,
+        300,
+        300,
+        300
+      ],
+      "joint_accel_rad_s2": 6,
+      "wrist2_length_mm": 110,
+      "motor_candidates_by_joint": {
+        "J1": [
+          "SO_57BLR50-24-01",
+          "SO_57BLR70-24-02"
+        ],
+        "J2": [
+          "SO_57BLR70-24-02"
+        ],
+        "J3": [
+          "SO_42BSA62-36-01",
+          "SO_57BYA54-24-01",
+          "SO_57BLY54-24-01",
+          "SO_57BLR50-24-01",
+          "SO_57BLR70-24-02"
+        ]
+      },
+      "shared_wrist_motor_id": "SO_42BSB41-24-01"
+    },
+    "geometry_and_mass": "Approved base edge-frame/mount topology and geometry-derived structural mass/CoM/inertia. L2 fixed 90 mm, J5-to-J6 spacing 110 mm. Belt side rails derive the needed clearance from the actual motor body length, within a 110 mm half-width envelope, rather than an arbitrary 82 mm cap. Physical contact, frame depth and stock-span checks remain enforced. Link lengths compensate to preserve exactly 550 mm reach. Unlimited joints; global self-collision checks off by user request."
+  },
+  "motor_sources": [
+    {
+      "motor_id": "SO_42BSA62-36-01",
+      "manufacturer": "STEPPERONLINE",
+      "model": "42BSA62-36-01",
+      "name": "STEPPERONLINE 42BSA62-36-01 complete framed BLDC motor",
+      "source_url": "https://www.omc-stepperonline.com/36v-3000rpm-0-16nm-50w-2-20a-42x42x62mm-brushless-dc-motor-42bsa62-36-01",
+      "retrieved_date": "2026-11-04",
+      "source_snapshot": "source_snapshots/20261104/42BSA62-36-01.txt",
+      "source_sha256": "4374236914f3a059eb54664261c79660f75d655a500221c41389c055ce3e2651",
+      "source_format": "web-tool-rendered-product-page-text",
+      "assembly_type": "complete framed motor with shaft and bearings; no reducer",
+      "driver_included": false,
+      "position_encoder_included": false,
+      "hall_sensors_included": true,
+      "price_USD": 17.88,
+      "price_scope": "one motor; China listing; excludes driver, encoder, freight and tax",
+      "minimum_order_qty_published": null,
+      "preorder_or_backorder_observed": false,
+      "rated_voltage_V": 36.0,
+      "rated_torque_Nm": 0.16,
+      "rated_speed_rpm": 3000.0,
+      "rated_power_W": 50.0,
+      "rated_current_A": 2.2,
+      "rated_current_published_text": "2.20A",
+      "rated_current_convention": "Product page does not distinguish DC, phase RMS or phase peak current",
+      "no_load_speed_rpm": 3900.0,
+      "pole_count": 8.0,
+      "stall_torque_Nm": null,
+      "peak_torque_Nm": null,
+      "peak_duration_s": null,
+      "max_speed_rpm": null,
+      "rotor_inertia_kg_m2": null,
+      "rotor_inertia_status": "not published in captured product-page specifications",
+      "body_shape": "square",
+      "body_diameter_mm": null,
+      "body_width_mm": 42.0,
+      "body_height_mm": 42.0,
+      "body_length_mm": 62.0,
+      "mass_kg": 0.43,
+      "mass_published_text": "0.43kg",
+      "mass_scope": "net motor mass from Physical Specification; gross shipping mass is never substituted",
+      "front_shaft_diameter_mm": 5.0,
+      "front_shaft_length_mm": 24.0,
+      "rear_shaft_diameter_mm": null,
+      "rear_shaft_length_mm": null,
+      "bearing_published_text": null,
+      "derived_circumscribed_radius_mm": 29.698484809834994,
+      "derived_circumscribed_radius_definition": "round: diameter/2; square: sqrt(width^2+height^2)/2",
+      "derived_named_axial_span_lower_bound_mm": 86.0,
+      "axial_span_scope": "body + named front/rear shaft lengths; drawing shoulder/cover protrusions not fully certified",
+      "notes": [
+        "Square frame width is not its circular envelope diameter; use the derived circumscribed radius for cylinder models.",
+        "This is a separately listed 36 V winding/operating point, not an extrapolated 24 V motor rating."
+      ],
+      "active_study_exclusion_reasons": [],
+      "active_study_source_fields_complete_except_inertia": true
+    },
+    {
+      "motor_id": "SO_42BSB41-24-01",
+      "manufacturer": "STEPPERONLINE",
+      "model": "42BSB41-24-01",
+      "name": "STEPPERONLINE 42BSB41-24-01 complete framed BLDC motor",
+      "source_url": "https://www.omc-stepperonline.com/24v-3000rpm-0-063nm-20w-1-20a-42x42x41mm-brushless-dc-motor-42bsb41-24-01",
+      "retrieved_date": "2026-11-04",
+      "source_snapshot": "source_snapshots/20261104/42BSB41-24-01.txt",
+      "source_sha256": "0800f9bba353245b5b4f73604f53982edb7f1e11f12b9c125b9bb4bacd8323b1",
+      "source_format": "web-tool-rendered-product-page-text",
+      "assembly_type": "complete framed motor with shaft and bearings; no reducer",
+      "driver_included": false,
+      "position_encoder_included": false,
+      "hall_sensors_included": true,
+      "price_USD": 13.9,
+      "price_scope": "one motor; China listing; excludes driver, encoder, freight and tax",
+      "minimum_order_qty_published": null,
+      "preorder_or_backorder_observed": true,
+      "rated_voltage_V": 24.0,
+      "rated_torque_Nm": 0.063,
+      "rated_speed_rpm": 3000.0,
+      "rated_power_W": 20.0,
+      "rated_current_A": 1.2,
+      "rated_current_published_text": "1.20A",
+      "rated_current_convention": "Product page does not distinguish DC, phase RMS or phase peak current",
+      "no_load_speed_rpm": 4100.0,
+      "pole_count": 8.0,
+      "stall_torque_Nm": null,
+      "peak_torque_Nm": null,
+      "peak_duration_s": null,
+      "max_speed_rpm": null,
+      "rotor_inertia_kg_m2": null,
+      "rotor_inertia_status": "not published in captured product-page specifications",
+      "body_shape": "square",
+      "body_diameter_mm": null,
+      "body_width_mm": 42.0,
+      "body_height_mm": 42.0,
+      "body_length_mm": 41.0,
+      "mass_kg": 0.262,
+      "mass_published_text": "0.262kg",
+      "mass_scope": "net motor mass from Physical Specification; gross shipping mass is never substituted",
+      "front_shaft_diameter_mm": 5.0,
+      "front_shaft_length_mm": 20.0,
+      "rear_shaft_diameter_mm": null,
+      "rear_shaft_length_mm": null,
+      "bearing_published_text": null,
+      "derived_circumscribed_radius_mm": 29.698484809834994,
+      "derived_circumscribed_radius_definition": "round: diameter/2; square: sqrt(width^2+height^2)/2",
+      "derived_named_axial_span_lower_bound_mm": 61.0,
+      "axial_span_scope": "body + named front/rear shaft lengths; drawing shoulder/cover protrusions not fully certified",
+      "notes": [
+        "Square frame width is not its circular envelope diameter; use the derived circumscribed radius for cylinder models."
+      ],
+      "active_study_exclusion_reasons": [],
+      "active_study_source_fields_complete_except_inertia": true
+    },
+    {
+      "motor_id": "SO_57BLR50-24-01",
+      "manufacturer": "STEPPERONLINE",
+      "model": "57BLR50-24-01",
+      "name": "STEPPERONLINE 57BLR50-24-01 complete framed BLDC motor",
+      "source_url": "https://www.omc-stepperonline.com/24v-3500rpm-0-23nm-84w-5-0a-%D1%8457x49mm-brushless-dc-motor-57blr50-24-01",
+      "retrieved_date": "2026-11-04",
+      "source_snapshot": "source_snapshots/20261104/57BLR50-24-01.txt",
+      "source_sha256": "a198c57193835b4d9720621bb3a5a64b8b171c65da2cf72cefec56a9eb5ef88a",
+      "source_format": "web-tool-rendered-product-page-text",
+      "assembly_type": "complete framed motor with shaft and bearings; no reducer",
+      "driver_included": false,
+      "position_encoder_included": false,
+      "hall_sensors_included": true,
+      "price_USD": 22.21,
+      "price_scope": "one motor; China listing; excludes driver, encoder, freight and tax",
+      "minimum_order_qty_published": null,
+      "preorder_or_backorder_observed": false,
+      "rated_voltage_V": 24.0,
+      "rated_torque_Nm": 0.23,
+      "rated_speed_rpm": 3500.0,
+      "rated_power_W": 84.0,
+      "rated_current_A": 5.0,
+      "rated_current_published_text": "5\u00b110%A",
+      "rated_current_convention": "Product page does not distinguish DC, phase RMS or phase peak current",
+      "no_load_speed_rpm": null,
+      "pole_count": 4.0,
+      "stall_torque_Nm": null,
+      "peak_torque_Nm": null,
+      "peak_duration_s": null,
+      "max_speed_rpm": null,
+      "rotor_inertia_kg_m2": null,
+      "rotor_inertia_status": "not published in captured product-page specifications",
+      "body_shape": "round",
+      "body_diameter_mm": 57.0,
+      "body_width_mm": 57.0,
+      "body_height_mm": 57.0,
+      "body_length_mm": 49.1,
+      "mass_kg": 0.5,
+      "mass_published_text": "0.5kg",
+      "mass_scope": "net motor mass from Physical Specification; gross shipping mass is never substituted",
+      "front_shaft_diameter_mm": 8.0,
+      "front_shaft_length_mm": 25.0,
+      "rear_shaft_diameter_mm": null,
+      "rear_shaft_length_mm": null,
+      "bearing_published_text": "NMB Ball Bearing, C3",
+      "derived_circumscribed_radius_mm": 28.5,
+      "derived_circumscribed_radius_definition": "round: diameter/2; square: sqrt(width^2+height^2)/2",
+      "derived_named_axial_span_lower_bound_mm": 74.1,
+      "axial_span_scope": "body + named front/rear shaft lengths; drawing shoulder/cover protrusions not fully certified",
+      "notes": [
+        "Current physical specification uses 49.1 mm and 0.50 kg; older translated listings used approximately 50 mm and 0.52 kg. Verify supplied revision."
+      ],
+      "active_study_exclusion_reasons": [],
+      "active_study_source_fields_complete_except_inertia": true
+    },
+    {
+      "motor_id": "SO_57BLR70-24-02",
+      "manufacturer": "STEPPERONLINE",
+      "model": "57BLR70-24-02",
+      "name": "STEPPERONLINE 57BLR70-24-02 complete framed BLDC motor",
+      "source_url": "https://www.omc-stepperonline.com/24v-3500rpm-0-47nm-172w-10-4a-57x69mm-brushless-dc-motor-57blr70-24-02",
+      "retrieved_date": "2026-11-04",
+      "source_snapshot": "source_snapshots/20261104/57BLR70-24-02.txt",
+      "source_sha256": "bdcdb3c580e6127bd83b12b2877a931f6ae22c57a6c75fa70d394571438ea33a",
+      "source_format": "web-tool-rendered-product-page-text",
+      "assembly_type": "complete framed motor with shaft and bearings; no reducer",
+      "driver_included": false,
+      "position_encoder_included": false,
+      "hall_sensors_included": true,
+      "price_USD": 31.56,
+      "price_scope": "one motor; China listing; excludes driver, encoder, freight and tax",
+      "minimum_order_qty_published": null,
+      "preorder_or_backorder_observed": true,
+      "rated_voltage_V": 24.0,
+      "rated_torque_Nm": 0.47,
+      "rated_speed_rpm": 3500.0,
+      "rated_power_W": 172.0,
+      "rated_current_A": 10.4,
+      "rated_current_published_text": "10.4\u00b110%A",
+      "rated_current_convention": "Product page does not distinguish DC, phase RMS or phase peak current",
+      "no_load_speed_rpm": null,
+      "pole_count": 4.0,
+      "stall_torque_Nm": null,
+      "peak_torque_Nm": null,
+      "peak_duration_s": null,
+      "max_speed_rpm": null,
+      "rotor_inertia_kg_m2": null,
+      "rotor_inertia_status": "not published in captured product-page specifications",
+      "body_shape": "round",
+      "body_diameter_mm": 57.0,
+      "body_width_mm": 57.0,
+      "body_height_mm": 57.0,
+      "body_length_mm": 74.0,
+      "mass_kg": 0.65,
+      "mass_published_text": "0.65kg",
+      "mass_scope": "net motor mass from Physical Specification; gross shipping mass is never substituted",
+      "front_shaft_diameter_mm": 8.0,
+      "front_shaft_length_mm": 25.0,
+      "rear_shaft_diameter_mm": null,
+      "rear_shaft_length_mm": null,
+      "bearing_published_text": "NMB Ball Bearing, C3",
+      "derived_circumscribed_radius_mm": 28.5,
+      "derived_circumscribed_radius_definition": "round: diameter/2; square: sqrt(width^2+height^2)/2",
+      "derived_named_axial_span_lower_bound_mm": 99.0,
+      "axial_span_scope": "body + named front/rear shaft lengths; drawing shoulder/cover protrusions not fully certified",
+      "notes": [
+        "Product states updated model: current physical body length 74 mm overrides legacy 69 mm URL slug; shape is round despite a generic NEMA23 square category label."
+      ],
+      "active_study_exclusion_reasons": [],
+      "active_study_source_fields_complete_except_inertia": true
+    },
+    {
+      "motor_id": "SO_57BLY54-24-01",
+      "manufacturer": "STEPPERONLINE",
+      "model": "57BLY54-24-01",
+      "name": "STEPPERONLINE 57BLY54-24-01 complete framed BLDC motor",
+      "source_url": "https://www.omc-stepperonline.com/24v-4000rpm-0-16nm-67w-4-1a-%D1%8457x53-5mm-brushless-dc-motor-57bly54-24-01",
+      "retrieved_date": "2026-11-04",
+      "source_snapshot": "source_snapshots/20261104/57BLY54-24-01.txt",
+      "source_sha256": "556a9d8730649cf9cbc177d1cf4b3a187d54899f86cffd52f98ecca3612bb7f5",
+      "source_format": "web-tool-rendered-product-page-text",
+      "assembly_type": "complete framed motor with shaft and bearings; no reducer",
+      "driver_included": false,
+      "position_encoder_included": false,
+      "hall_sensors_included": true,
+      "price_USD": 18.7,
+      "price_scope": "one motor; China listing; excludes driver, encoder, freight and tax",
+      "minimum_order_qty_published": null,
+      "preorder_or_backorder_observed": true,
+      "rated_voltage_V": 24.0,
+      "rated_torque_Nm": 0.16,
+      "rated_speed_rpm": 4000.0,
+      "rated_power_W": 67.0,
+      "rated_current_A": 4.1,
+      "rated_current_published_text": "4.1A",
+      "rated_current_convention": "Product page does not distinguish DC, phase RMS or phase peak current",
+      "no_load_speed_rpm": 5100.0,
+      "pole_count": 4.0,
+      "stall_torque_Nm": null,
+      "peak_torque_Nm": null,
+      "peak_duration_s": null,
+      "max_speed_rpm": null,
+      "rotor_inertia_kg_m2": null,
+      "rotor_inertia_status": "not published in captured product-page specifications",
+      "body_shape": "round",
+      "body_diameter_mm": 57.0,
+      "body_width_mm": 57.0,
+      "body_height_mm": 57.0,
+      "body_length_mm": 53.5,
+      "mass_kg": 0.45,
+      "mass_published_text": "450g",
+      "mass_scope": "net motor mass from Physical Specification; gross shipping mass is never substituted",
+      "front_shaft_diameter_mm": 8.0,
+      "front_shaft_length_mm": 21.0,
+      "rear_shaft_diameter_mm": null,
+      "rear_shaft_length_mm": null,
+      "bearing_published_text": null,
+      "derived_circumscribed_radius_mm": 28.5,
+      "derived_circumscribed_radius_definition": "round: diameter/2; square: sqrt(width^2+height^2)/2",
+      "derived_named_axial_span_lower_bound_mm": 74.5,
+      "axial_span_scope": "body + named front/rear shaft lengths; drawing shoulder/cover protrusions not fully certified",
+      "notes": [],
+      "active_study_exclusion_reasons": [],
+      "active_study_source_fields_complete_except_inertia": true
+    },
+    {
+      "motor_id": "SO_57BYA54-24-01",
+      "manufacturer": "STEPPERONLINE",
+      "model": "57BYA54-24-01",
+      "name": "STEPPERONLINE 57BYA54-24-01 complete framed BLDC motor",
+      "source_url": "https://www.omc-stepperonline.com/24v-3000rpm-0-16nm-50w-2-90a-57x57x53-5mm-brushless-dc-motor-57bya54-24-01",
+      "retrieved_date": "2026-11-04",
+      "source_snapshot": "source_snapshots/20261104/57BYA54-24-01.txt",
+      "source_sha256": "9451e99eb7dff2c7b704e8048bcc715d822609b1187013ad10257b61fd41a59e",
+      "source_format": "web-tool-rendered-product-page-text",
+      "assembly_type": "complete framed motor with shaft and bearings; no reducer",
+      "driver_included": false,
+      "position_encoder_included": false,
+      "hall_sensors_included": true,
+      "price_USD": 17.88,
+      "price_scope": "one motor; China listing; excludes driver, encoder, freight and tax",
+      "minimum_order_qty_published": null,
+      "preorder_or_backorder_observed": false,
+      "rated_voltage_V": 24.0,
+      "rated_torque_Nm": 0.16,
+      "rated_speed_rpm": 3000.0,
+      "rated_power_W": 50.0,
+      "rated_current_A": 2.9,
+      "rated_current_published_text": "2.90A",
+      "rated_current_convention": "Product page does not distinguish DC, phase RMS or phase peak current",
+      "no_load_speed_rpm": 3800.0,
+      "pole_count": 4.0,
+      "stall_torque_Nm": null,
+      "peak_torque_Nm": null,
+      "peak_duration_s": null,
+      "max_speed_rpm": null,
+      "rotor_inertia_kg_m2": null,
+      "rotor_inertia_status": "not published in captured product-page specifications",
+      "body_shape": "round",
+      "body_diameter_mm": 57.0,
+      "body_width_mm": 57.0,
+      "body_height_mm": 57.0,
+      "body_length_mm": 53.5,
+      "mass_kg": 0.47,
+      "mass_published_text": "0.47kg",
+      "mass_scope": "net motor mass from Physical Specification; gross shipping mass is never substituted",
+      "front_shaft_diameter_mm": 8.0,
+      "front_shaft_length_mm": 21.0,
+      "rear_shaft_diameter_mm": null,
+      "rear_shaft_length_mm": null,
+      "bearing_published_text": null,
+      "derived_circumscribed_radius_mm": 28.5,
+      "derived_circumscribed_radius_definition": "round: diameter/2; square: sqrt(width^2+height^2)/2",
+      "derived_named_axial_span_lower_bound_mm": 74.5,
+      "axial_span_scope": "body + named front/rear shaft lengths; drawing shoulder/cover protrusions not fully certified",
+      "notes": [],
+      "active_study_exclusion_reasons": [],
+      "active_study_source_fields_complete_except_inertia": true
+    }
+  ],
+  "reducer_sources": {
+    "schema_version": 1,
+    "retrieved_client_date": "2026-11-04",
+    "created_utc": "2026-11-04T08:14:40.951743+00:00",
+    "purpose": "Strict user-selected 30:1 reducer palette for the 0.5 kg fast-arm study. No substitute models or ratios.",
+    "selection": {
+      "J1": "SITO_HD-14_30",
+      "J2": "SITO_CD-20_30",
+      "J3": "SITO_CD-20_30",
+      "J4": "SITO_CS-11-2XH-A_30",
+      "J5": "SITO_CS-11-2XH-A_30",
+      "J6": "SITO_CS-11-2XH-A_30"
+    },
+    "reducers": [
+      {
+        "reducer_id": "SITO_HD-14_30",
+        "manufacturer": "SITO Drive",
+        "model": "HD-14",
+        "name": "SITO HD-14 30:1 (user-selected; drawing-verified nominal envelope)",
+        "allowed_joints": [
+          1
+        ],
+        "reduction_ratio": 30.0,
+        "rated_output_torque_at_2000rpm_Nm": 3.0,
+        "continuous_output_torque_Nm": 3.0,
+        "rated_input_speed_rpm": 2000.0,
+        "repeated_peak_output_torque_Nm": 8.7,
+        "peak_output_torque_Nm": 8.7,
+        "average_output_torque_limit_Nm": 6.2,
+        "momentary_peak_output_torque_Nm": 15.0,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "max_input_torque_Nm": null,
+        "efficiency": null,
+        "backdriving_torque_Nm": null,
+        "radius_mm": 35.0,
+        "diameter_mm": 70.0,
+        "length_mm": 17.5,
+        "geometry_envelope_status": "Exact model-specific manufacturer drawing visually inspected; nominal dimensions, excluding a custom motor adapter.",
+        "mass_kg": 0.312,
+        "mass_qualifier": "published_upper_bound",
+        "published_inertia_kg_m2": 2.1e-06,
+        "inertia_reference": "Shaft side not explicitly established in inspected manufacturer sources; do not reflect it through the ratio.",
+        "rotating_inertia_kg_m2": null,
+        "backlash_max_arcsec": 20.0,
+        "output_bearing_radial_load_N": null,
+        "output_bearing_axial_load_N": null,
+        "output_bearing_tilting_moment_Nm": null,
+        "source_url": "https://www.sitodrive.com/en/product/HD-14",
+        "source_catalog_url": "https://www.sitodrive.com/docs/Strain_Wave_Gear_Catalog_en.pdf",
+        "source_catalog_file_page_1based": 17,
+        "source_catalog_printed_page": 21,
+        "drawing_url": "https://sitodrive.com/stepfiles/HD/HD14_Standard.PDF",
+        "drawing_local_path": "optimization/catalogs/sitodrive/reducer_sources/HD14_Standard.PDF",
+        "drawing_sha256": "c5df9e7cb3815cd341d2bdc1b1948dcee00081fe7ef3a8075c35e60878cccbd1",
+        "source_rating_check": "Fresh manufacturer HTML and retained byte-verified current catalog agree on the selected 30:1 torque/speed ratings.",
+        "interface_notes": [
+          "Nominal total axial stack 17.50 mm; another drawing dimension is 15.50 mm, with 11.7 mm internal reference depth.",
+          "Drawing annotates central diameter 11H7 and 20 mm internal clearance. A motor shaft adapter/coupler is required; do not assume a direct 8 mm shaft fit.",
+          "Drawing calls out eight 3.4 mm through holes on diameter 64 mm pattern and output-side M3 fastener patterns.",
+          "Output bearing load/stiffness ratings were not established by these product drawings.",
+          "Undimensioned fastener heads are not treated as a newly invented additional case length."
+        ],
+        "drawing_nominal_dimensions_mm": {
+          "overall_axial_length": 17.5,
+          "outer_diameter": 70.0,
+          "central_bore": 11.0,
+          "internal_clearance_diameter": 20.0,
+          "mounting_bolt_circle": 64.0
+        }
+      },
+      {
+        "reducer_id": "SITO_CD-20_30",
+        "manufacturer": "SITO Drive",
+        "model": "CD-20",
+        "name": "SITO CD-20 30:1 (user-selected; drawing-verified nominal envelope)",
+        "allowed_joints": [
+          2,
+          3
+        ],
+        "reduction_ratio": 30.0,
+        "rated_output_torque_at_2000rpm_Nm": 10.2,
+        "continuous_output_torque_Nm": 10.2,
+        "rated_input_speed_rpm": 2000.0,
+        "repeated_peak_output_torque_Nm": 23.4,
+        "peak_output_torque_Nm": 23.4,
+        "average_output_torque_limit_Nm": 14.4,
+        "momentary_peak_output_torque_Nm": 41.4,
+        "max_input_speed_rpm": 6500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "max_input_torque_Nm": null,
+        "efficiency": null,
+        "backdriving_torque_Nm": null,
+        "radius_mm": 35.0,
+        "diameter_mm": 70.0,
+        "length_mm": 29.7,
+        "geometry_envelope_status": "Exact model-specific manufacturer drawing visually inspected; nominal dimensions, excluding a custom motor adapter.",
+        "mass_kg": 0.591,
+        "mass_qualifier": "published_upper_bound",
+        "published_inertia_kg_m2": 9e-06,
+        "inertia_reference": "Shaft side not explicitly established in inspected manufacturer sources; do not reflect it through the ratio.",
+        "rotating_inertia_kg_m2": null,
+        "backlash_max_arcsec": 20.0,
+        "output_bearing_radial_load_N": null,
+        "output_bearing_axial_load_N": null,
+        "output_bearing_tilting_moment_Nm": null,
+        "source_url": "https://www.sitodrive.com/en/product/CD-20",
+        "source_catalog_url": "https://www.sitodrive.com/docs/Strain_Wave_Gear_Catalog_en.pdf",
+        "source_catalog_file_page_1based": 77,
+        "source_catalog_printed_page": 85,
+        "drawing_url": "https://sitodrive.com/stepfiles/CD/CD20_Standard.PDF",
+        "drawing_local_path": "optimization/catalogs/sitodrive/reducer_sources/CD20_Standard.PDF",
+        "drawing_sha256": "51e7310084929c2e7292ab8e6ae28ccf3db86813db7097b0c4ee344e125e1771",
+        "source_rating_check": "Fresh manufacturer HTML and retained byte-verified current catalog agree on the selected 30:1 torque/speed ratings.",
+        "interface_notes": [
+          "29.70 mm total axial envelope includes the 2.50 mm difference relative to the 27.20 mm main body dimension.",
+          "Drawing annotates coaxial bore diameters 16H7, 18H7 and 20H7; input/output roles need assembly/interface review.",
+          "An 8 mm motor shaft does not directly fill the larger annotated bores; a reducer-specific hub/coupler is required.",
+          "Drawing output fasteners include eight M6 holes depth 12 mm on diameter 34 mm; outer mounting pattern has twelve diameter 3.4 mm through holes on diameter 64 mm."
+        ],
+        "drawing_nominal_dimensions_mm": {
+          "overall_axial_length": 29.7,
+          "main_body_axial_length": 27.2,
+          "outer_diameter": 70.0,
+          "annotated_bore_diameters": [
+            16.0,
+            18.0,
+            20.0
+          ],
+          "mounting_bolt_circle": 64.0
+        }
+      },
+      {
+        "reducer_id": "SITO_CS-11-2XH-A_30",
+        "manufacturer": "SITO Drive",
+        "model": "CS-11-2XH-A",
+        "name": "SITO CS-11-2XH-A 30:1 (user-selected; drawing-verified nominal envelope)",
+        "allowed_joints": [
+          4,
+          5,
+          6
+        ],
+        "reduction_ratio": 30.0,
+        "rated_output_torque_at_2000rpm_Nm": 2.2,
+        "continuous_output_torque_Nm": 2.2,
+        "rated_input_speed_rpm": 2000.0,
+        "repeated_peak_output_torque_Nm": 4.5,
+        "peak_output_torque_Nm": 4.5,
+        "average_output_torque_limit_Nm": 3.4,
+        "momentary_peak_output_torque_Nm": 8.5,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "max_input_torque_Nm": null,
+        "efficiency": null,
+        "backdriving_torque_Nm": null,
+        "radius_mm": 29.0,
+        "diameter_mm": 58.0,
+        "length_mm": 32.0,
+        "geometry_envelope_status": "Exact model-specific manufacturer drawing visually inspected; nominal dimensions, excluding a custom motor adapter.",
+        "mass_kg": 0.2,
+        "mass_qualifier": "published_upper_bound",
+        "published_inertia_kg_m2": 1.4e-06,
+        "inertia_reference": "Shaft side not explicitly established in inspected manufacturer sources; do not reflect it through the ratio.",
+        "rotating_inertia_kg_m2": null,
+        "backlash_max_arcsec": 20.0,
+        "output_bearing_radial_load_N": null,
+        "output_bearing_axial_load_N": null,
+        "output_bearing_tilting_moment_Nm": null,
+        "source_url": "https://www.sitodrive.com/en/product_detail?productid=1339",
+        "source_catalog_url": "https://www.sitodrive.com/docs/Strain_Wave_Gear_Catalog_en.pdf",
+        "source_catalog_file_page_1based": 70,
+        "source_catalog_printed_page": 77,
+        "drawing_url": "https://sitodrive.com/stepfiles/CS-Mini/CS-11-2XH-A.PDF",
+        "drawing_local_path": "optimization/catalogs/sitodrive/reducer_sources/CS-11-2XH-A.PDF",
+        "drawing_sha256": "805933b1b574b992b3ada2f3aaaf6e74ef7e4e31636c103936efae57856f40cf",
+        "source_rating_check": "Fresh manufacturer HTML and retained byte-verified current catalog agree on the selected 30:1 torque/speed ratings.",
+        "interface_notes": [
+          "Catalog explicitly identifies this exact 2XH-A variant as input hole and output flange; do not substitute the 2XH-B output-shaft variant.",
+          "Catalog direction arrows identify input at the left-side diameter 5 mm hole and output at the opposite end of the long body.",
+          "Nominal total axial envelope is 32 mm: 2 mm input projection plus 30 mm from square mounting-flange face to the opposite output face.",
+          "Fixed flange is a chamfered 43 mm square, with an explicitly annotated diameter 58 mm circumscribed envelope. The cylindrical body diameter is 40.5 mm; diameter 40 mm is another pilot/end feature.",
+          "A conservative circular rendering uses radius 29 mm to encompass the flange corners; treating 43 mm square width as a 43 mm circular diameter would underestimate occupied space.",
+          "Input bore diameter 5 +0.015/0 mm has 11.60 mm annotated depth and 2-M3 radial fasteners; this is a nominal match to a 5 mm motor shaft, subject to tolerances, usable insertion depth and radial shaft support.",
+          "Opposite output-end drawing annotations include diameter 12 +0.02/0 mm and diameter 26 mm.",
+          "Product HTML family summary says thickness <=82.5 mm, while manufacturer catalog family summary says <=40 mm. The exact model-specific drawing dimension 32 mm resolves the arm-envelope choice; both inconsistent summaries are retained below.",
+          "Do not infer the internal split of stationary and rotating reducer mass from these envelope dimensions; that split is unpublished."
+        ],
+        "drawing_nominal_dimensions_mm": {
+          "overall_axial_length": 32.0,
+          "body_from_fixed_flange_face_to_output_face": 30.0,
+          "input_projection_beyond_fixed_flange_face": 2.0,
+          "fixed_flange_square_width": 43.0,
+          "fixed_flange_width_tolerance": 0.2,
+          "fixed_flange_circumscribed_diameter": 58.0,
+          "cylindrical_body_diameter": 40.5,
+          "end_pilot_diameter": 40.0,
+          "input_bore_diameter": 5.0,
+          "input_bore_depth": 11.6,
+          "output_end_bore_diameter": 12.0
+        },
+        "retained_source_discrepancy": {
+          "product_summary_diameter_upper_mm": 43.0,
+          "product_summary_length_upper_mm": 82.5,
+          "catalog_summary_diameter_upper_mm": 43.0,
+          "catalog_summary_length_upper_mm": 40.0,
+          "specific_drawing_resolution": "43 mm is square flange width, not circular outer envelope; use nominal 58 mm circumscribed flange diameter and 32 mm total axial stack from the exact 2XH-A drawing."
+        }
+      }
+    ],
+    "source_manifest": {
+      "CS-11-2XH-A.PDF": {
+        "local_path": "optimization/catalogs/sitodrive/reducer_sources/CS-11-2XH-A.PDF",
+        "sha256": "805933b1b574b992b3ada2f3aaaf6e74ef7e4e31636c103936efae57856f40cf",
+        "bytes": 339658,
+        "retrieved_client_date": "2026-11-04",
+        "http_status": 200
+      },
+      "CD20_Standard.PDF": {
+        "local_path": "optimization/catalogs/sitodrive/reducer_sources/CD20_Standard.PDF",
+        "sha256": "51e7310084929c2e7292ab8e6ae28ccf3db86813db7097b0c4ee344e125e1771",
+        "bytes": 328932,
+        "retrieved_client_date": "2026-11-04",
+        "http_status": 200
+      },
+      "HD14_Standard.PDF": {
+        "local_path": "optimization/catalogs/sitodrive/reducer_sources/HD14_Standard.PDF",
+        "sha256": "c5df9e7cb3815cd341d2bdc1b1948dcee00081fe7ef3a8075c35e60878cccbd1",
+        "bytes": 297808,
+        "retrieved_client_date": "2026-11-04",
+        "http_status": 200
+      },
+      "CS-11-2XH-A.html": {
+        "local_path": "optimization/catalogs/sitodrive/reducer_sources/CS-11-2XH-A.html",
+        "sha256": "e9c8bb7b70d426bc861173428b71d930dff8aef7fcbca1627bbda91b878513f9",
+        "bytes": 193593,
+        "retrieved_client_date": "2026-11-04",
+        "http_status": 200
+      },
+      "CD-20.html": {
+        "local_path": "optimization/catalogs/sitodrive/reducer_sources/CD-20.html",
+        "sha256": "bc36e45fbef326df56f63abc619e9470e10f8107943e7a5c40407435cf3f50d0",
+        "bytes": 195096,
+        "retrieved_client_date": "2026-11-04",
+        "http_status": 200
+      },
+      "HD-14.html": {
+        "local_path": "optimization/catalogs/sitodrive/reducer_sources/HD-14.html",
+        "sha256": "8b215455dbf600b30c1438bf09401f8770edc2d86068c109cffe0c64d5828081",
+        "bytes": 196488,
+        "retrieved_client_date": "2026-11-04",
+        "http_status": 200
+      },
+      "manufacturer_catalog": {
+        "local_path": "optimization/catalogs/sitodrive/Strain_Wave_Gear_Catalog_en.pdf",
+        "sha256": "74454513b9c6b344c3a8f170c35f7728d76cdaa52677e6260eaea5474ae480e0",
+        "bytes": 10292544,
+        "retrieved_client_date": "2026-11-04",
+        "http_status": 200,
+        "note": "Freshly downloaded catalog is byte-identical to the retained manufacturer catalog; reuse that immutable source copy."
+      }
+    },
+    "unknown_fields_policy": "Unpublished input torque, efficiency, backdrive torque, rotating-inertia shaft reference and output-bearing load limits stay null. Repeated/momentary peak ratings are not continuous ratings.",
+    "geometry_policy": "Use exact model-specific nominal drawing envelopes. Preserve the square CS11 flange corners through a conservative 58 mm circular bound when the existing model requires cylindrical envelopes. Do not silently shrink geometry to make a design fit.",
+    "mass_policy": "Use the manufacturer published upper mass bound per entire reducer; moving/stationary mass partition remains unverified. Motor adapters, shaft couplers, encoders and support stock are separate model components."
+  },
+  "manual_motor_selection": {
+    "schema_version": 1,
+    "screened_client_date": "2026-11-04",
+    "source_catalog": "motors.json",
+    "purpose": "Manual package screening before optimization; three identical fixed wrist motors and independent choices only at J1, J2 and J3.",
+    "policy": {
+      "speed": "At 30:1, the current targets need 900 motor rpm for J1-J3 and 1500 rpm for J4-J6. Every selectable motor exceeds these speeds.",
+      "priorities": "Adequate torque/speed first, then shorter body and lower net mass. Diameter is secondary but its real envelope remains in the model. Preserve useful length/mass tradeoffs.",
+      "rated_power": "Rated mechanical watts approximately equal rated torque times rated angular speed. Lower rated rpm/watts alone do not establish lower operating consumption, loss or mass. Efficiency maps are unavailable.",
+      "voltage": "Keep one 36 V BSA62 winding as the mechanical representative of its otherwise equal 24 V package. This does not establish equal electrical losses or prescribe a common supply bus.",
+      "wrist": "The user requested roughly the 0.066 Nm class, interpreted from the lower-torque/size request. Use three copies of verified 0.063 Nm BSB41. It is a compact sizing candidate, not a claim that the faster motion suite passes.",
+      "unknowns": "No shipping weight is substituted for net motor mass. Missing rotor inertia, transient motor torque and loss maps stay unpublished; the existing simulation upper-bound policy is recorded separately.",
+      "coverage": "This is an explicitly reduced study, not a proof that rejected tradeoffs can never be optimal. Original supplier records and prior run snapshots are retained. Enumerate the same shortlisted hardware tuples in each layout; continuous geometry remains a finite optimization."
+    },
+    "selectable_motor_ids": [
+      "SO_42BSB41-24-01",
+      "SO_42BSA62-36-01",
+      "SO_57BYA54-24-01",
+      "SO_57BLY54-24-01",
+      "SO_57BLR50-24-01",
+      "SO_57BLR70-24-02"
+    ],
+    "motor_candidates_by_joint": {
+      "J1": [
+        "SO_57BLR50-24-01",
+        "SO_57BLR70-24-02"
+      ],
+      "J2": [
+        "SO_57BLR70-24-02"
+      ],
+      "J3": [
+        "SO_42BSA62-36-01",
+        "SO_57BYA54-24-01",
+        "SO_57BLY54-24-01",
+        "SO_57BLR50-24-01",
+        "SO_57BLR70-24-02"
+      ]
+    },
+    "shared_wrist_motor_id": "SO_42BSB41-24-01",
+    "motor_decisions": {
+      "SO_42BLR43-24-01": {
+        "status": "excluded",
+        "reason": "250 g and 43 mm, but the fresh main product page specifies preorder MOQ 30. Not a single-motor purchase candidate; only 12 g lighter and 2 mm longer than BSB41."
+      },
+      "SO_42BLS40-24-01": {
+        "status": "unverified",
+        "reason": "Compact 39.2 mm current body, but net motor mass is absent from checked HTML/PDF. The 300 g shipping weight cannot establish a lighter motor."
+      },
+      "SO_42BLS60-24-01": {
+        "status": "unverified",
+        "reason": "No published net motor mass in the retained source; cannot import shipping mass or make a weight comparison."
+      },
+      "SO_42BSA46-24-01": {
+        "status": "reserve",
+        "reason": "Useful 0.08 Nm step-up alternative: 46 mm, 280 g. Current 0.063 Nm common-wrist preference chooses BSB41, which is 5 mm shorter and 18 g lighter. Reserve is not a claim that its extra torque is useless."
+      },
+      "SO_42BSA62-24-01": {
+        "status": "equivalent",
+        "reason": "Same modeled 0.16 Nm, 3000 rpm, 62 mm and 430 g package as the retained 36 V winding. Preserve the electrical variant in research; do not spend duplicate mechanical search evaluations."
+      },
+      "SO_42BSA62-36-01": {
+        "status": "selectable",
+        "reason": "Retain the lighter 0.16 Nm package: 62 mm, 430 g, 3000 rpm, 50 W rated. Useful length/mass tradeoff against the shorter 57 mm models."
+      },
+      "SO_42BSA78-24-01": {
+        "status": "excluded",
+        "reason": "0.24 Nm is only 0.01 Nm above BLR50, but its 78 mm body is 28.9 mm longer and its 580 g mass is 80 g higher. Manual length/mass tradeoff exclusion, not strict torque dominance."
+      },
+      "SO_42BSA78-48-01": {
+        "status": "excluded",
+        "reason": "48 V winding is outside the current 24/36 V study; the long/heavy package is also not preferred."
+      },
+      "SO_42BSB41-24-01": {
+        "status": "selectable",
+        "reason": "Fixed common wrist model: 0.063 Nm, 3000 rpm, 20 W rated, 41 mm, verified 262 g, USD 13.90. Fits the existing 110 mm wrist. Fast-load adequacy is still a simulation question."
+      },
+      "SO_42BSB61-24-01": {
+        "status": "excluded",
+        "reason": "0.125 Nm, 61 mm and 438 g. BSA62 provides 0.16 Nm with less mass and only 1 mm more length; little useful package benefit for this shortlist."
+      },
+      "SO_42BSB61-48-01": {
+        "status": "excluded",
+        "reason": "48 V winding outside the current study and the BSB61 package is not preferred."
+      },
+      "SO_42BSB81-24-01": {
+        "status": "excluded",
+        "reason": "BLR50 provides more torque (0.23 versus 0.19 Nm), 31.9 mm less length and 116 g less mass at sufficient speed."
+      },
+      "SO_42BSB81-48-01": {
+        "status": "excluded",
+        "reason": "48 V winding outside the current study and the long/heavy BSB81 package is not preferred."
+      },
+      "SO_42BYA43-24-01": {
+        "status": "excluded",
+        "reason": "Light 200 g motor, but 0.04 Nm gives only 1.2 Nm ideal output at 30:1, below the recalled wrist demand and recorded J5 gravity loads. Not selected as the common J4-J6 model."
+      },
+      "SO_42BYA51-24-01": {
+        "status": "reserve",
+        "reason": "Useful 0.08 Nm step-up option: 51 mm, 260 g. It saves only 2 g versus the chosen BSB41 while adding 10 mm length. Retain in research for a wrist torque upgrade if needed."
+      },
+      "SO_42BYA73-24-01": {
+        "status": "excluded",
+        "reason": "At 0.16 Nm, it saves only 10 g versus BSA62 but adds 11 mm body length. Manual exclusion under the user's axial-length priority; its slimmer diameter remains documented."
+      },
+      "SO_57BLR50-24-01": {
+        "status": "selectable",
+        "reason": "Compact stronger option: 0.23 Nm, 3500 rpm, 49.1 mm, 500 g. More torque, less length and less mass than the 0.19/0.20 Nm alternatives at all required speeds."
+      },
+      "SO_57BLR50-36-01": {
+        "status": "excluded",
+        "reason": "Same 49.1 mm, 500 g package as the 24 V BLR50, but only 0.11 Nm at 4000 rpm. Higher nominal voltage does not make it a stronger or lighter choice."
+      },
+      "SO_57BLR70-24-02": {
+        "status": "selectable",
+        "reason": "Strongest retained motor: 0.47 Nm, 3500 rpm, 74 mm, 650 g. J2 candidate and stronger J1/J3 alternatives. Nominal power is 172 W, not an assumed operating draw."
+      },
+      "SO_57BLR70-36-01": {
+        "status": "excluded",
+        "reason": "BLR50-24 supplies slightly more torque (0.23 versus 0.22 Nm), saves 20 mm length and 150 g; both exceed required speed."
+      },
+      "SO_57BLY54-24-01": {
+        "status": "selectable",
+        "reason": "Retain the short lightweight 0.16 Nm alternative: 53.5 mm, 450 g. It is 20 g lighter than the same-length 3000 rpm BYA54 despite its 4000 rpm/67 W rating; operating efficiency is unknown."
+      },
+      "SO_57BSA58-24-01": {
+        "status": "excluded",
+        "reason": "BLR50 supplies 0.23 versus 0.20 Nm, saves 8.9 mm length and 100 g, and meets all target speeds. Lower nameplate watts are not evidence of lower consumption."
+      },
+      "SO_57BSA79-36-01": {
+        "status": "excluded",
+        "reason": "BLR70 supplies 0.47 versus 0.40 Nm, saves 5 mm length and 280 g, and meets all target speeds."
+      },
+      "SO_57BYA54-24-01": {
+        "status": "selectable",
+        "reason": "Retain the shorter 3000 rpm 0.16 Nm package: 53.5 mm, 470 g, 50 W rated. Compare its 20 g mass penalty with the same-size 4000 rpm BLY54 rather than assuming an efficiency advantage."
+      },
+      "SO_57BYA74-36-01": {
+        "status": "excluded",
+        "reason": "BLR70 supplies more torque (0.47 versus 0.32 Nm) and saves 110 g for only 0.5 mm extra body length. Manual torque/mass tradeoff exclusion."
+      },
+      "SO_57BYA94-48-01": {
+        "status": "excluded",
+        "reason": "48 V winding outside the current study; not needed for this manually reduced motor palette."
+      }
+    },
+    "further_compact_wrist_checks": "compact_wrist_followup.json"
+  }
+}

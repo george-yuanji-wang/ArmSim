@@ -1,0 +1,1019 @@
+{
+  "status": "completed",
+  "evaluations": 1,
+  "best_found_cycle": 1,
+  "requested_evaluations": 1,
+  "budget_reached": true,
+  "termination_reason": "evaluation_budget_reached",
+  "proposal_attempts": 1,
+  "proposal_attempt_limit": 10,
+  "unique_candidates_checked": 1,
+  "duplicate_proposals_skipped": 0,
+  "reach_rejections": 0,
+  "proposal_diagnostics": {
+    "block_trials": 0,
+    "geometry_rejected_trials": 0,
+    "duplicate_trials": 0,
+    "capacity_challenge_probes": 0,
+    "capacity_challenge_probe_limit_reached": 0,
+    "fallback_to_incumbent": 0,
+    "selected_blocks": {
+      "hardware_tuple_seed": 1
+    },
+    "fallback_reasons": {}
+  },
+  "hardware_enumeration": {
+    "mode": "exhaustive motor tuples with independent bounded geometry searches",
+    "hardware_tuple_count": 1,
+    "hardware_tuples_attempted": 1,
+    "hardware_tuples_load_evaluated": 1,
+    "categorical_coverage_complete": true,
+    "load_evaluation_coverage_complete": true,
+    "all_inner_budgets_met": true,
+    "continuous_global_optimality_proven": false,
+    "seed_failure_scope": "Only the recorded bounded seed probes; not a proof that no geometry can fit",
+    "tuples": [
+      {
+        "tuple_index": 1,
+        "layout_number": 7,
+        "motor_ids": [
+          "CUBEMARS_GL40_KV210",
+          "CUBEMARS_GL40_KV210",
+          "CUBEMARS_GL40_KV210",
+          "CUBEMARS_GL30_KV290",
+          "CUBEMARS_GL30_KV290",
+          "CUBEMARS_GL30_KV290"
+        ],
+        "allocated_evaluations": 1,
+        "evaluations": 1,
+        "proposal_attempts": 1,
+        "duplicate_proposals": 0,
+        "geometry_rejections": 0,
+        "reach_rejections": 0,
+        "seed_probes": 1,
+        "seed_error": null,
+        "attempted": true,
+        "status": "inner_budget_complete",
+        "best_pmax_kg": 0.9311164020619793,
+        "best_pmax_known_constraints_kg": 0.9311164020619793,
+        "best_peak_required_payload_utilization": 0.6907033743932652,
+        "best_gravity_score_JG": 0.2984492610455471,
+        "best_gravity_capacity_score_JG": 0.2984492610455471,
+        "best_arm_mass_kg": 2.7061814204934285,
+        "best_design": {
+          "layout_number": 7,
+          "lengths_m": [
+            0.24525000000000008,
+            0.09,
+            0.07118681408800363
+          ],
+          "link_masses_kg": [
+            0.08442749975004273,
+            0.08716666443401563,
+            0.0740991707720352,
+            0.057543249215072756,
+            0.06086095019747103,
+            0.06524080359729179
+          ],
+          "com_fractions": [
+            0.2140582329894061,
+            0.2861021783495783,
+            0.24378690396830902,
+            0.3962801821590806,
+            0.20806598423593478,
+            0.5500758533822134
+          ],
+          "spread_fractions": [
+            0.0816972082314676,
+            0.12305582582358014,
+            0.10813276589629087,
+            0.03227114025267379,
+            0.08174459375011396,
+            0.08347718250779625
+          ],
+          "motor_offsets_m": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "motor_ids": [
+            "CUBEMARS_GL40_KV210",
+            "CUBEMARS_GL40_KV210",
+            "CUBEMARS_GL40_KV210",
+            "CUBEMARS_GL30_KV290",
+            "CUBEMARS_GL30_KV290",
+            "CUBEMARS_GL30_KV290"
+          ],
+          "reducer_ids": [
+            "SITO_HD-14_50",
+            "SITO_CD-17_50",
+            "SITO_CD-17_50",
+            "SITO_CS-11-1U-E_30",
+            "SITO_CS-11-1U-E_30",
+            "SITO_CS-11-1U-E_30"
+          ],
+          "wrist2_length_m": 0.11
+        },
+        "rng_state": {
+          "bit_generator": "PCG64",
+          "state": {
+            "state": 321106103742628468597145984965858931511,
+            "inc": 204927678183806843212562267652975179825
+          },
+          "has_uint32": 0,
+          "uinteger": 0
+        }
+      }
+    ]
+  },
+  "final_detail_evaluation_included_in_budget": false,
+  "best_model_file": "best_model.xml",
+  "elapsed_s": 7.600594599964097,
+  "pose_count": 1008,
+  "pmax_kg": 0.9311164020619793,
+  "gravity_score_JG": 0.2984492610455471,
+  "pmax_continuous_screen_kg": 0.4217443396551734,
+  "motor_load_policy": "hold_and_peak_envelope",
+  "pmax_known_constraints_kg": 0.9311164020619793,
+  "gravity_capacity_score_JG": 0.2984492610455471,
+  "reducer_load_policy": "hold_and_repeated_peak",
+  "hardware_validation_status": "conditional_transient_envelope",
+  "motor_transient_rating_verified": false,
+  "duty_cycle_verified": false,
+  "extended_reach_mm": 550.0,
+  "wrist2_length_mm": 110.0,
+  "layout_number": 7,
+  "arm_mass_kg": 2.7061814204934285,
+  "requirements_met": true,
+  "reachable_poses": 1008,
+  "summary": {
+    "geometry_valid": true,
+    "geometry_contract": "approved-base-template-v8",
+    "extended_reach_mm": 550.0,
+    "reach_bounds_pass": true,
+    "reach_definition": "maximum unrestricted shoulder-to-TCP extension",
+    "required_extended_reach_lower_mm": 550.0,
+    "required_extended_reach_upper_mm": 550.0,
+    "pose_basis": "24 named joint-state references (zero, signed single-axis quarter turns, six fully extended world directions, combined folded/wrist states) plus 984 deterministic Halton states across six joint angles in [-pi, pi). Joint states are common to every design; fully extended tests resolve analytically for each design. Reach bounds constrain maximum shoulder-to-TCP extension, not a workspace shell. Global collision and joint-stop checks disabled.",
+    "ik_policy": "joint-state references applied directly; named extension poses resolved analytically",
+    "score_definition": "conditional zero-to-P payload over the finite velocity basis and acceleration box; static holding uses continuous ratings, motion uses the recorded speed-dependent motor peak envelope; transient duration and duty unverified",
+    "capacity_model": "continuous holding; speed-aware conditional motor transient envelope; selected reducer motion policy; ideal lossless 1:1 input belts",
+    "motor_load_policy": "hold_and_peak_envelope",
+    "pmax_is_conditional_on_transient_envelope": true,
+    "pmax_continuous_screen_kg": 0.4217443396551734,
+    "continuous_screen_passes_required_payload": false,
+    "continuous_screen_definition": "Same rigid body, reducer policy, holding limits and speed basis; motor dynamic torque restricted to the continuous envelope instead of the selected transient curve.",
+    "reducer_load_policy": "hold_and_repeated_peak",
+    "reducer_holding_output_limits_Nm": [
+      4.5,
+      11.0,
+      11.0,
+      2.2,
+      2.2,
+      2.2
+    ],
+    "reducer_repeated_peak_output_limits_Nm": [
+      13.0,
+      23.0,
+      23.0,
+      4.5,
+      4.5,
+      4.5
+    ],
+    "reducer_motion_output_limits_Nm": [
+      13.0,
+      23.0,
+      23.0,
+      4.5,
+      4.5,
+      4.5
+    ],
+    "holding_output_limits_Nm": [
+      4.5,
+      11.0,
+      11.0,
+      2.2,
+      2.2,
+      2.2
+    ],
+    "pmax_known_constraints_kg": 0.9311164020619793,
+    "known_constraints_passes_required_payload": true,
+    "known_constraints_definition": "Static motor continuous/reducer rated holding plus reducer motion limit and supported speeds. Omits the unverified dynamic motor transient constraint; not a complete arm payload rating.",
+    "motor_transient_rating_verified": false,
+    "duty_cycle_verified": false,
+    "thermal_duty_verified": false,
+    "hardware_validation_status": "conditional_transient_envelope",
+    "motor_peak_duration_s": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "motor_peak_durations_published": false,
+    "duty_cycle_policy": "No timed operating cycle or manufacturer equivalent-load rule is supplied. Motor/reducer peak comparisons are instantaneous screening only; missing duration remains unknown and no RMS, cycle-average, thermal or lifetime pass is inferred. Momentary/emergency reducer ratings are not used.",
+    "motor_envelope_assumption": "Static holding uses the continuous motor envelope. Motion linearly interpolates the recorded peak torque-speed curve at operating voltage, capped by published peak torque; no extrapolation outside curve endpoints or supported motor rpm. Published peak duration is recorded but no timed duty verification is performed.",
+    "motor_curve_evidence": [
+      {
+        "motor_id": "CUBEMARS_GL40_KV210",
+        "curve_basis": "digitized_official_16V_curve",
+        "operating_voltage_V": 16.0,
+        "published_rated_voltage_V": 16.0,
+        "operating_voltage_matches_published_rating": true,
+        "curve_points": [
+          [
+            0.0,
+            0.75
+          ],
+          [
+            1015.0,
+            0.75
+          ],
+          [
+            1063.0,
+            0.72
+          ],
+          [
+            1205.0,
+            0.64
+          ],
+          [
+            1361.0,
+            0.56
+          ],
+          [
+            1523.0,
+            0.48
+          ],
+          [
+            1706.0,
+            0.4
+          ],
+          [
+            1909.0,
+            0.32
+          ],
+          [
+            2132.0,
+            0.24
+          ],
+          [
+            2393.0,
+            0.16
+          ],
+          [
+            2694.0,
+            0.08
+          ],
+          [
+            3002.0,
+            0.01
+          ],
+          [
+            3120.0,
+            0.0
+          ]
+        ]
+      },
+      {
+        "motor_id": "CUBEMARS_GL40_KV210",
+        "curve_basis": "digitized_official_16V_curve",
+        "operating_voltage_V": 16.0,
+        "published_rated_voltage_V": 16.0,
+        "operating_voltage_matches_published_rating": true,
+        "curve_points": [
+          [
+            0.0,
+            0.75
+          ],
+          [
+            1015.0,
+            0.75
+          ],
+          [
+            1063.0,
+            0.72
+          ],
+          [
+            1205.0,
+            0.64
+          ],
+          [
+            1361.0,
+            0.56
+          ],
+          [
+            1523.0,
+            0.48
+          ],
+          [
+            1706.0,
+            0.4
+          ],
+          [
+            1909.0,
+            0.32
+          ],
+          [
+            2132.0,
+            0.24
+          ],
+          [
+            2393.0,
+            0.16
+          ],
+          [
+            2694.0,
+            0.08
+          ],
+          [
+            3002.0,
+            0.01
+          ],
+          [
+            3120.0,
+            0.0
+          ]
+        ]
+      },
+      {
+        "motor_id": "CUBEMARS_GL40_KV210",
+        "curve_basis": "digitized_official_16V_curve",
+        "operating_voltage_V": 16.0,
+        "published_rated_voltage_V": 16.0,
+        "operating_voltage_matches_published_rating": true,
+        "curve_points": [
+          [
+            0.0,
+            0.75
+          ],
+          [
+            1015.0,
+            0.75
+          ],
+          [
+            1063.0,
+            0.72
+          ],
+          [
+            1205.0,
+            0.64
+          ],
+          [
+            1361.0,
+            0.56
+          ],
+          [
+            1523.0,
+            0.48
+          ],
+          [
+            1706.0,
+            0.4
+          ],
+          [
+            1909.0,
+            0.32
+          ],
+          [
+            2132.0,
+            0.24
+          ],
+          [
+            2393.0,
+            0.16
+          ],
+          [
+            2694.0,
+            0.08
+          ],
+          [
+            3002.0,
+            0.01
+          ],
+          [
+            3120.0,
+            0.0
+          ]
+        ]
+      },
+      {
+        "motor_id": "CUBEMARS_GL30_KV290",
+        "curve_basis": "voltage_shift_estimate_from_official_12V_curve",
+        "operating_voltage_V": 16.0,
+        "published_rated_voltage_V": 12.0,
+        "operating_voltage_matches_published_rating": false,
+        "curve_points": [
+          [
+            0.0,
+            0.28
+          ],
+          [
+            1192.0,
+            0.27
+          ],
+          [
+            1459.0,
+            0.24
+          ],
+          [
+            1720.0,
+            0.21
+          ],
+          [
+            1995.0,
+            0.18
+          ],
+          [
+            2276.0,
+            0.15
+          ],
+          [
+            2581.0,
+            0.12
+          ],
+          [
+            2791.0,
+            0.1
+          ],
+          [
+            3007.0,
+            0.08
+          ],
+          [
+            3360.0,
+            0.05
+          ],
+          [
+            3618.0,
+            0.03
+          ],
+          [
+            3889.0,
+            0.01
+          ],
+          [
+            4080.0,
+            0.0
+          ]
+        ]
+      },
+      {
+        "motor_id": "CUBEMARS_GL30_KV290",
+        "curve_basis": "voltage_shift_estimate_from_official_12V_curve",
+        "operating_voltage_V": 16.0,
+        "published_rated_voltage_V": 12.0,
+        "operating_voltage_matches_published_rating": false,
+        "curve_points": [
+          [
+            0.0,
+            0.28
+          ],
+          [
+            1192.0,
+            0.27
+          ],
+          [
+            1459.0,
+            0.24
+          ],
+          [
+            1720.0,
+            0.21
+          ],
+          [
+            1995.0,
+            0.18
+          ],
+          [
+            2276.0,
+            0.15
+          ],
+          [
+            2581.0,
+            0.12
+          ],
+          [
+            2791.0,
+            0.1
+          ],
+          [
+            3007.0,
+            0.08
+          ],
+          [
+            3360.0,
+            0.05
+          ],
+          [
+            3618.0,
+            0.03
+          ],
+          [
+            3889.0,
+            0.01
+          ],
+          [
+            4080.0,
+            0.0
+          ]
+        ]
+      },
+      {
+        "motor_id": "CUBEMARS_GL30_KV290",
+        "curve_basis": "voltage_shift_estimate_from_official_12V_curve",
+        "operating_voltage_V": 16.0,
+        "published_rated_voltage_V": 12.0,
+        "operating_voltage_matches_published_rating": false,
+        "curve_points": [
+          [
+            0.0,
+            0.28
+          ],
+          [
+            1192.0,
+            0.27
+          ],
+          [
+            1459.0,
+            0.24
+          ],
+          [
+            1720.0,
+            0.21
+          ],
+          [
+            1995.0,
+            0.18
+          ],
+          [
+            2276.0,
+            0.15
+          ],
+          [
+            2581.0,
+            0.12
+          ],
+          [
+            2791.0,
+            0.1
+          ],
+          [
+            3007.0,
+            0.08
+          ],
+          [
+            3360.0,
+            0.05
+          ],
+          [
+            3618.0,
+            0.03
+          ],
+          [
+            3889.0,
+            0.01
+          ],
+          [
+            4080.0,
+            0.0
+          ]
+        ]
+      }
+    ],
+    "motor_peak_curve_speed_limits_rpm": [
+      2100.0,
+      2100.0,
+      2100.0,
+      1990.0,
+      1990.0,
+      1990.0
+    ],
+    "motor_dynamic_torque_limits_by_velocity_Nm": [
+      [
+        0.75,
+        0.75,
+        0.75,
+        0.28,
+        0.28,
+        0.28
+      ],
+      [
+        0.49135802469135803,
+        0.75,
+        0.75,
+        0.28,
+        0.28,
+        0.28
+      ],
+      [
+        0.75,
+        0.49135802469135803,
+        0.75,
+        0.28,
+        0.28,
+        0.28
+      ],
+      [
+        0.75,
+        0.75,
+        0.49135802469135803,
+        0.28,
+        0.28,
+        0.28
+      ],
+      [
+        0.75,
+        0.75,
+        0.75,
+        0.23528735632183906,
+        0.28,
+        0.28
+      ],
+      [
+        0.75,
+        0.75,
+        0.75,
+        0.28,
+        0.23528735632183906,
+        0.28
+      ],
+      [
+        0.75,
+        0.75,
+        0.75,
+        0.28,
+        0.28,
+        0.23528735632183906
+      ],
+      [
+        0.49135802469135803,
+        0.49135802469135803,
+        0.75,
+        0.28,
+        0.28,
+        0.28
+      ],
+      [
+        0.49135802469135803,
+        0.49135802469135803,
+        0.75,
+        0.28,
+        0.28,
+        0.28
+      ],
+      [
+        0.49135802469135803,
+        0.75,
+        0.49135802469135803,
+        0.28,
+        0.28,
+        0.28
+      ],
+      [
+        0.49135802469135803,
+        0.75,
+        0.49135802469135803,
+        0.28,
+        0.28,
+        0.28
+      ],
+      [
+        0.49135802469135803,
+        0.75,
+        0.75,
+        0.23528735632183906,
+        0.28,
+        0.28
+      ],
+      [
+        0.49135802469135803,
+        0.75,
+        0.75,
+        0.23528735632183906,
+        0.28,
+        0.28
+      ],
+      [
+        0.49135802469135803,
+        0.75,
+        0.75,
+        0.28,
+        0.23528735632183906,
+        0.28
+      ],
+      [
+        0.49135802469135803,
+        0.75,
+        0.75,
+        0.28,
+        0.23528735632183906,
+        0.28
+      ],
+      [
+        0.49135802469135803,
+        0.75,
+        0.75,
+        0.28,
+        0.28,
+        0.23528735632183906
+      ],
+      [
+        0.49135802469135803,
+        0.75,
+        0.75,
+        0.28,
+        0.28,
+        0.23528735632183906
+      ],
+      [
+        0.75,
+        0.49135802469135803,
+        0.49135802469135803,
+        0.28,
+        0.28,
+        0.28
+      ],
+      [
+        0.75,
+        0.49135802469135803,
+        0.49135802469135803,
+        0.28,
+        0.28,
+        0.28
+      ],
+      [
+        0.75,
+        0.49135802469135803,
+        0.75,
+        0.23528735632183906,
+        0.28,
+        0.28
+      ],
+      [
+        0.75,
+        0.49135802469135803,
+        0.75,
+        0.23528735632183906,
+        0.28,
+        0.28
+      ],
+      [
+        0.75,
+        0.49135802469135803,
+        0.75,
+        0.28,
+        0.23528735632183906,
+        0.28
+      ],
+      [
+        0.75,
+        0.49135802469135803,
+        0.75,
+        0.28,
+        0.23528735632183906,
+        0.28
+      ],
+      [
+        0.75,
+        0.49135802469135803,
+        0.75,
+        0.28,
+        0.28,
+        0.23528735632183906
+      ],
+      [
+        0.75,
+        0.49135802469135803,
+        0.75,
+        0.28,
+        0.28,
+        0.23528735632183906
+      ],
+      [
+        0.75,
+        0.75,
+        0.49135802469135803,
+        0.23528735632183906,
+        0.28,
+        0.28
+      ],
+      [
+        0.75,
+        0.75,
+        0.49135802469135803,
+        0.23528735632183906,
+        0.28,
+        0.28
+      ],
+      [
+        0.75,
+        0.75,
+        0.49135802469135803,
+        0.28,
+        0.23528735632183906,
+        0.28
+      ],
+      [
+        0.75,
+        0.75,
+        0.49135802469135803,
+        0.28,
+        0.23528735632183906,
+        0.28
+      ],
+      [
+        0.75,
+        0.75,
+        0.49135802469135803,
+        0.28,
+        0.28,
+        0.23528735632183906
+      ],
+      [
+        0.75,
+        0.75,
+        0.49135802469135803,
+        0.28,
+        0.28,
+        0.23528735632183906
+      ],
+      [
+        0.75,
+        0.75,
+        0.75,
+        0.23528735632183906,
+        0.23528735632183906,
+        0.28
+      ],
+      [
+        0.75,
+        0.75,
+        0.75,
+        0.23528735632183906,
+        0.23528735632183906,
+        0.28
+      ],
+      [
+        0.75,
+        0.75,
+        0.75,
+        0.23528735632183906,
+        0.28,
+        0.23528735632183906
+      ],
+      [
+        0.75,
+        0.75,
+        0.75,
+        0.23528735632183906,
+        0.28,
+        0.23528735632183906
+      ],
+      [
+        0.75,
+        0.75,
+        0.75,
+        0.28,
+        0.23528735632183906,
+        0.23528735632183906
+      ],
+      [
+        0.75,
+        0.75,
+        0.75,
+        0.28,
+        0.23528735632183906,
+        0.23528735632183906
+      ]
+    ],
+    "motor_capacity_models": [
+      "rated_continuous",
+      "rated_continuous",
+      "rated_continuous",
+      "rated_continuous",
+      "rated_continuous",
+      "rated_continuous"
+    ],
+    "motor_evaluation_speed_limits_rpm": [
+      2100.0,
+      2100.0,
+      2100.0,
+      1990.0,
+      1990.0,
+      1990.0
+    ],
+    "reducer_evaluation_input_speed_limits_rpm": [
+      2000.0,
+      2000.0,
+      2000.0,
+      2000.0,
+      2000.0,
+      2000.0
+    ],
+    "unpublished_reducer_input_torque_limits": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "reducer_input_torque_policy": "Published output ratings enforced; input-shaft torque constraint applied only when separately published. Unpublished input limits remain unverified.",
+    "velocity_cases_per_pose": 37,
+    "joint_speed_limits_rad_s": [
+      3.141592653589793,
+      3.141592653589793,
+      3.141592653589793,
+      5.235987755982989,
+      5.235987755982989,
+      5.235987755982989
+    ],
+    "joint_accel_rad_s2": 6.0,
+    "motor_rotor_inertia_basis": [
+      "published",
+      "published",
+      "published",
+      "published",
+      "published",
+      "published"
+    ],
+    "motor_evaluation_rotor_inertia_kg_m2": [
+      7.4e-06,
+      7.4e-06,
+      7.4e-06,
+      2.42e-06,
+      2.42e-06,
+      2.42e-06
+    ],
+    "motor_rotor_inertia_assumption": "Published rotor inertia when available; otherwise explicit conservative upper bound M_motor * R_envelope^2. Unpublished rotor values remain null in source inputs.",
+    "velocity_coefficient_order": [
+      "qdot1^2",
+      "qdot2^2",
+      "qdot3^2",
+      "qdot4^2",
+      "qdot5^2",
+      "qdot6^2",
+      "qdot1*qdot2",
+      "qdot1*qdot3",
+      "qdot1*qdot4",
+      "qdot1*qdot5",
+      "qdot1*qdot6",
+      "qdot2*qdot3",
+      "qdot2*qdot4",
+      "qdot2*qdot5",
+      "qdot2*qdot6",
+      "qdot3*qdot4",
+      "qdot3*qdot5",
+      "qdot3*qdot6",
+      "qdot4*qdot5",
+      "qdot4*qdot6",
+      "qdot5*qdot6"
+    ],
+    "acceleration_corners_per_velocity": 64,
+    "payload_inertia_model": "TCP-centered sphere, radius 10 mm, inertia per kg 4e-5 m2",
+    "unknown_reducer_rotating_inertia": "omitted; complete reducer case mass on parent",
+    "collision_checks": false,
+    "joint_stop_checks": false,
+    "worst_pose_id": "pose_0582",
+    "limiting_joint": 5,
+    "failure_reason": "",
+    "empty_arm_passes": true,
+    "peak_empty_arm_utilization": 0.44545337439326504,
+    "peak_empty_arm_utilization_by_joint": [
+      0.18610776600604645,
+      0.44545337439326504,
+      0.11158519333689024,
+      0.15580837911086845,
+      0.15097323913402155,
+      0.001957229868292607
+    ],
+    "peak_required_payload_utilization": 0.6907033743932652,
+    "peak_required_payload_utilization_by_joint": [
+      0.43687952305264355,
+      0.6907033743932652,
+      0.2458995195146695,
+      0.572781035866635,
+      0.6025702403648876,
+      0.0020222949129484577
+    ],
+    "unreachable_pose_count": 0,
+    "required_payload_upper_kg": 0.5,
+    "required_payload_lower_kg": 0.5,
+    "required_payload_passes": true,
+    "jg_definition": "weighted mean of squared gravity torques divided by the common reducer rated limits at required payload",
+    "gravity_capacity_score_JG": 0.2984492610455471,
+    "gravity_mean_square_Nm2_by_joint": [
+      0.0,
+      13.839836425266808,
+      1.7405234918061014,
+      0.20351698140788654,
+      0.6177630453696438,
+      2.946877135665029e-33
+    ]
+  },
+  "geometry_rejection_counts": {},
+  "scope": "Finite basis/grid search; this is not a proof of a global design optimum."
+}

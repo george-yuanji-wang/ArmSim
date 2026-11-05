@@ -1,0 +1,34 @@
+60.3±13±0.524±1
+Ø22 0-0.025Ø5 0-0.013
+13.5±1Ø5 0-0.013
+0.05A
+L=400±20
+ 31±0.2 42±0.3
+4-M3x0.5Depth 4.5 min.
+19.05±0.12-M2.5Depth 2 min.
+Ø0.05AA
+WIRING DIAGRAMYeRdBkRdBkBuMotor8pol.Colour
+GnWhHall24 Impl.perRev.
+UVW+5VGNDH1
+Function
+H3H2UL1430AWG20Lead Gauge
+UL1430AWG26
+FrFa Preload SpringA-ShaftB-Shaft
+Max. Axial ForceN(a =Max. Radial ForceNAxial PlayFaFrFa =mmRadial PlayFr  =mm)NNmm10280.080.024.54.5ax 20GENERAL MOTOR SPECIFICATIONAmbient TemperatureMax. Temperature Rise (at standstill - 2 phases energized)Max. Ambient Humidity (non condensing)Insulation ClassInsulation ResistanceDielectric Strength (for 1 min - coil to case)
+°C°C%MΩV AC
+Min.Max.-10508085B100500
+MOTOR SPECIFICATIONRated VoltageCurrent - No Load / Rated / PeakResistance Phase to PhaseInductance Phase to Phase (1kHz)
+Speed - No Load / RatedTorque - Rated / PeakRotor Inertia
+V DCAΩmHNmNm/AW
+±15%±20%
+x10-6
+No. of Poles
+Rated PowerTorque Constantrpmkg m²
+0.253.4710.61.20.1250.380.03652600040004.8
+240.88
+±10%7
+Released0703000037ISO 1302ISO 2768 cKWeight:ISO 8015
+State:Rev:
+DateDrawnNameReviewed03.12.2019Hofstet._M04.12.2017ImportReleased DB42M030.45
+Hofstet._M03.12.2019ISO 13715kg
+Page 1REVRev. TextNameDate07cha. no load sp./rev. dr.A4CONFIDENTIAL

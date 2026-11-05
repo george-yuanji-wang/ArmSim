@@ -1,0 +1,3057 @@
+{
+  "hallmark": {
+    "cycle": 220,
+    "best_found_cycle": 213,
+    "checkpoint_kind": "evaluation_milestone",
+    "requested_evaluations": 600,
+    "proposal_attempts": 220,
+    "unique_candidates_checked": 220,
+    "duplicate_proposals_skipped": 0,
+    "elapsed_s": 650.139,
+    "layout_number": 8,
+    "reachable_poses": 1008,
+    "total_poses": 1008,
+    "pmax_kg": 0.0,
+    "required_payload_upper_kg": 0.5,
+    "requirements_met": false,
+    "geometry_valid": true,
+    "extended_reach_mm": 550.0,
+    "wrist2_length_mm": 110.0,
+    "geometry_rejections": 0,
+    "cheap_geometry_rejections": 280,
+    "proposal_fallbacks": 0,
+    "capacity_challenge_probes": 0,
+    "arm_mass_kg": 5.154050568383364,
+    "gravity_score_JG": 0.4741092022082048
+  },
+  "best_design": {
+    "layout_number": 8,
+    "lengths_m": [
+      0.17895158000260186,
+      0.09,
+      0.15709401765679779
+    ],
+    "link_masses_kg": [
+      0.13755356683990091,
+      0.13393546733829503,
+      0.08397307694176337,
+      0.10888754128091474,
+      0.06445323594737674,
+      0.06696749404743758
+    ],
+    "com_fractions": [
+      0.3710072350400181,
+      0.3657750668632318,
+      0.20338524848935355,
+      0.44587128549060195,
+      0.2363343738845498,
+      0.5445133829586419
+    ],
+    "spread_fractions": [
+      0.10978012698211115,
+      0.13065469781326192,
+      0.10404159406214494,
+      0.09514232297261238,
+      0.10544558990123569,
+      0.08251453933779028
+    ],
+    "motor_offsets_m": [
+      0.0,
+      0.0,
+      -0.001594421410672124,
+      -0.0033662869326930053
+    ],
+    "motor_ids": [
+      "SO_57BLR50-24-01",
+      "SO_57BLR70-24-02",
+      "SO_57BLY54-24-01",
+      "SO_42BSB41-24-01",
+      "SO_42BSB41-24-01",
+      "SO_42BSB41-24-01"
+    ],
+    "reducer_ids": [
+      "SITO_HD-14_30",
+      "SITO_CD-20_30",
+      "SITO_CD-20_30",
+      "SITO_CS-11-2XH-A_30",
+      "SITO_CS-11-2XH-A_30",
+      "SITO_CS-11-2XH-A_30"
+    ],
+    "wrist2_length_m": 0.11
+  },
+  "summary": {
+    "geometry_valid": true,
+    "geometry_contract": "approved-base-template-v8",
+    "extended_reach_mm": 550.0,
+    "reach_bounds_pass": true,
+    "reach_definition": "maximum unrestricted shoulder-to-TCP extension",
+    "required_extended_reach_lower_mm": 550.0,
+    "required_extended_reach_upper_mm": 550.0,
+    "pose_basis": "24 named joint-state references (zero, signed single-axis quarter turns, six fully extended world directions, combined folded/wrist states) plus 984 deterministic Halton states across six joint angles in [-pi, pi). Joint states are common to every design; fully extended tests resolve analytically for each design. Reach bounds constrain maximum shoulder-to-TCP extension, not a workspace shell. Global collision and joint-stop checks disabled.",
+    "ik_policy": "joint-state references applied directly; named extension poses resolved analytically",
+    "score_definition": "conservative zero-to-P payload over the finite velocity basis and acceleration box; motor dynamic torque capped by continuous rating",
+    "capacity_model": "continuous-rated motors; rated reducer holding and repeated-peak motion; ideal lossless 1:1 input belts",
+    "reducer_load_policy": "hold_and_repeated_peak",
+    "reducer_holding_output_limits_Nm": [
+      3.0,
+      10.2,
+      10.2,
+      2.2,
+      2.2,
+      2.2
+    ],
+    "reducer_repeated_peak_output_limits_Nm": [
+      8.7,
+      23.4,
+      23.4,
+      4.5,
+      4.5,
+      4.5
+    ],
+    "reducer_motion_output_limits_Nm": [
+      8.7,
+      23.4,
+      23.4,
+      4.5,
+      4.5,
+      4.5
+    ],
+    "holding_output_limits_Nm": [
+      3.0,
+      10.2,
+      4.8,
+      1.8900000000000001,
+      1.8900000000000001,
+      1.8900000000000001
+    ],
+    "pmax_known_constraints_kg": 0.5923867008421556,
+    "known_constraints_passes_required_payload": true,
+    "known_constraints_definition": "Static motor continuous/reducer rated holding plus reducer motion limit and supported speeds. Omits the unverified dynamic motor transient constraint; not a complete arm payload rating.",
+    "motor_transient_rating_verified": false,
+    "duty_cycle_verified": false,
+    "hardware_validation_status": "conservative_basis_screen_only",
+    "duty_cycle_policy": "No timed operating cycle or manufacturer equivalent-load rule is supplied. Repeated-peak comparison is instantaneous screening only; no cycle-average, thermal or lifetime pass is inferred. Momentary/emergency torque ratings are not used.",
+    "motor_envelope_assumption": "Per motor: rated_continuous uses published continuous torque from rest through rated rpm with no extrapolation; legacy_linear uses min(rated torque, stall*(1-rpm/no-load)). Known mechanical maxima enforced. No measured thermal curve.",
+    "motor_capacity_models": [
+      "rated_continuous",
+      "rated_continuous",
+      "rated_continuous",
+      "rated_continuous",
+      "rated_continuous",
+      "rated_continuous"
+    ],
+    "motor_evaluation_speed_limits_rpm": [
+      3500.0,
+      3500.0,
+      4000.0,
+      3000.0,
+      3000.0,
+      3000.0
+    ],
+    "reducer_evaluation_input_speed_limits_rpm": [
+      2000.0,
+      2000.0,
+      2000.0,
+      2000.0,
+      2000.0,
+      2000.0
+    ],
+    "unpublished_reducer_input_torque_limits": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "reducer_input_torque_policy": "Published output ratings enforced; input-shaft torque constraint applied only when separately published. Unpublished input limits remain unverified.",
+    "velocity_cases_per_pose": 37,
+    "joint_speed_limits_rad_s": [
+      3.141592653589793,
+      3.141592653589793,
+      3.141592653589793,
+      5.235987755982989,
+      5.235987755982989,
+      5.235987755982989
+    ],
+    "joint_accel_rad_s2": 6.0,
+    "motor_rotor_inertia_basis": [
+      "mass_radius_upper_bound",
+      "mass_radius_upper_bound",
+      "mass_radius_upper_bound",
+      "mass_radius_upper_bound",
+      "mass_radius_upper_bound",
+      "mass_radius_upper_bound"
+    ],
+    "motor_evaluation_rotor_inertia_kg_m2": [
+      0.000406125,
+      0.0005279625,
+      0.00036551250000000003,
+      0.000231084,
+      0.000231084,
+      0.000231084
+    ],
+    "motor_rotor_inertia_assumption": "Published rotor inertia when available; otherwise explicit conservative upper bound M_motor * R_envelope^2. Unpublished rotor values remain null in source inputs.",
+    "velocity_coefficient_order": [
+      "qdot1^2",
+      "qdot2^2",
+      "qdot3^2",
+      "qdot4^2",
+      "qdot5^2",
+      "qdot6^2",
+      "qdot1*qdot2",
+      "qdot1*qdot3",
+      "qdot1*qdot4",
+      "qdot1*qdot5",
+      "qdot1*qdot6",
+      "qdot2*qdot3",
+      "qdot2*qdot4",
+      "qdot2*qdot5",
+      "qdot2*qdot6",
+      "qdot3*qdot4",
+      "qdot3*qdot5",
+      "qdot3*qdot6",
+      "qdot4*qdot5",
+      "qdot4*qdot6",
+      "qdot5*qdot6"
+    ],
+    "acceleration_corners_per_velocity": 64,
+    "payload_inertia_model": "TCP-centered sphere, radius 10 mm, inertia per kg 4e-5 m2",
+    "unknown_reducer_rotating_inertia": "omitted; complete reducer case mass on parent",
+    "collision_checks": false,
+    "joint_stop_checks": false,
+    "worst_pose_id": "pose_0001",
+    "limiting_joint": 3,
+    "failure_reason": "empty_arm_exceeds_basis_limits",
+    "empty_arm_passes": false,
+    "peak_empty_arm_utilization": 1.2888694932877305,
+    "peak_empty_arm_utilization_by_joint": [
+      0.7797356666780637,
+      0.9326702861056919,
+      1.2888694932877305,
+      1.2352061845631352,
+      1.279804142054213,
+      0.6610928424236849
+    ],
+    "peak_required_payload_utilization": 2.408211191803692,
+    "peak_required_payload_utilization_by_joint": [
+      1.2551322462505112,
+      1.4079735351490106,
+      2.2004728107538476,
+      2.247916598952618,
+      2.408211191803692,
+      0.661594256618677
+    ],
+    "unreachable_pose_count": 0,
+    "required_payload_upper_kg": 0.5,
+    "required_payload_lower_kg": 0.5,
+    "required_payload_passes": false,
+    "jg_definition": "weighted mean of squared gravity torques divided by the common reducer rated limits at required payload",
+    "gravity_capacity_score_JG": 0.7307030895182077,
+    "gravity_mean_square_Nm2_by_joint": [
+      0.0,
+      20.041005386071383,
+      5.157543636968788,
+      0.27934127999639313,
+      0.8430964198647667,
+      3.714238413851869e-33
+    ]
+  },
+  "rng_state": {
+    "bit_generator": "PCG64",
+    "state": {
+      "state": 274674114334540486603088602300644985544,
+      "inc": 332724090758049132448979897138935081983
+    },
+    "has_uint32": 0,
+    "uinteger": 0
+  },
+  "geometry_rejection_counts": {},
+  "proposal_diagnostics": {
+    "block_trials": 686,
+    "geometry_rejected_trials": 280,
+    "duplicate_trials": 216,
+    "capacity_challenge_probes": 0,
+    "capacity_challenge_probe_limit_reached": 0,
+    "fallback_to_incumbent": 0,
+    "selected_blocks": {
+      "hardware_tuple_seed": 30,
+      "placement": 159,
+      "lengths": 31
+    },
+    "fallback_reasons": {}
+  },
+  "hardware_coverage": {
+    "mode": "exhaustive motor tuples with independent bounded geometry searches",
+    "hardware_tuple_count": 30,
+    "hardware_tuples_attempted": 30,
+    "hardware_tuples_load_evaluated": 30,
+    "categorical_coverage_complete": true,
+    "load_evaluation_coverage_complete": true,
+    "all_inner_budgets_met": false,
+    "continuous_global_optimality_proven": false,
+    "seed_failure_scope": "Only the recorded bounded seed probes; not a proof that no geometry can fit",
+    "tuples": [
+      {
+        "tuple_index": 1,
+        "layout_number": 8,
+        "motor_ids": [
+          "SO_57BLR50-24-01",
+          "SO_57BLR70-24-02",
+          "SO_42BSA62-36-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01"
+        ],
+        "allocated_evaluations": 20,
+        "evaluations": 8,
+        "proposal_attempts": 8,
+        "duplicate_proposals": 0,
+        "geometry_rejections": 0,
+        "reach_rejections": 0,
+        "seed_probes": 1,
+        "seed_error": null,
+        "attempted": true,
+        "status": "in_progress",
+        "best_pmax_kg": 0.0,
+        "best_pmax_known_constraints_kg": 0.6095870367386252,
+        "best_peak_required_payload_utilization": 2.4158433559607135,
+        "best_gravity_score_JG": 0.4694896231797371,
+        "best_gravity_capacity_score_JG": 0.7305934178695969,
+        "best_arm_mass_kg": 5.137547758966824,
+        "best_design": {
+          "layout_number": 8,
+          "lengths_m": [
+            0.17550000000000004,
+            0.09,
+            0.16105977151355952
+          ],
+          "link_masses_kg": [
+            0.13655985341938076,
+            0.13796502058453647,
+            0.08397307694176337,
+            0.10934889203865387,
+            0.06445323594737674,
+            0.06696749404743758
+          ],
+          "com_fractions": [
+            0.3753644913441582,
+            0.3651771056657973,
+            0.20338524848935294,
+            0.4458265327558913,
+            0.23633437388455006,
+            0.5445133829586412
+          ],
+          "spread_fractions": [
+            0.11202912789911812,
+            0.12712949613190205,
+            0.10404159406214494,
+            0.0962240593891386,
+            0.10544558990123569,
+            0.08251453933779028
+          ],
+          "motor_offsets_m": [
+            -0.006018372311997322,
+            0.0033367223936549245,
+            -0.005961647437555405,
+            -0.003
+          ],
+          "motor_ids": [
+            "SO_57BLR50-24-01",
+            "SO_57BLR70-24-02",
+            "SO_42BSA62-36-01",
+            "SO_42BSB41-24-01",
+            "SO_42BSB41-24-01",
+            "SO_42BSB41-24-01"
+          ],
+          "reducer_ids": [
+            "SITO_HD-14_30",
+            "SITO_CD-20_30",
+            "SITO_CD-20_30",
+            "SITO_CS-11-2XH-A_30",
+            "SITO_CS-11-2XH-A_30",
+            "SITO_CS-11-2XH-A_30"
+          ],
+          "wrist2_length_m": 0.11
+        },
+        "rng_state": {
+          "bit_generator": "PCG64",
+          "state": {
+            "state": 287634118314076132239550041615297933314,
+            "inc": 252101603063402394885084957393789173453
+          },
+          "has_uint32": 1,
+          "uinteger": 4058325557
+        }
+      },
+      {
+        "tuple_index": 2,
+        "layout_number": 8,
+        "motor_ids": [
+          "SO_57BLR50-24-01",
+          "SO_57BLR70-24-02",
+          "SO_57BYA54-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01"
+        ],
+        "allocated_evaluations": 20,
+        "evaluations": 8,
+        "proposal_attempts": 8,
+        "duplicate_proposals": 0,
+        "geometry_rejections": 0,
+        "reach_rejections": 0,
+        "seed_probes": 1,
+        "seed_error": null,
+        "attempted": true,
+        "status": "in_progress",
+        "best_pmax_kg": 0.0,
+        "best_pmax_known_constraints_kg": 0.59799329726406,
+        "best_peak_required_payload_utilization": 2.41496730560565,
+        "best_gravity_score_JG": 0.47267676203864983,
+        "best_gravity_capacity_score_JG": 0.7339054287187549,
+        "best_arm_mass_kg": 5.173976819198295,
+        "best_design": {
+          "layout_number": 8,
+          "lengths_m": [
+            0.17589767697321368,
+            0.09,
+            0.1606040639082934
+          ],
+          "link_masses_kg": [
+            0.1375062098582505,
+            0.1335909500943568,
+            0.08397307694176337,
+            0.10920566632143386,
+            0.06445323594737674,
+            0.06696749404743758
+          ],
+          "com_fractions": [
+            0.3709457072424693,
+            0.3644213238533478,
+            0.20338524848935294,
+            0.44998847803325226,
+            0.2363343738845498,
+            0.5445133829586412
+          ],
+          "spread_fractions": [
+            0.10980345263200884,
+            0.13021983236953913,
+            0.10404159406214494,
+            0.09665328408986418,
+            0.10544558990123569,
+            0.08251453933779028
+          ],
+          "motor_offsets_m": [
+            -0.0004310435148466573,
+            0.0,
+            -0.002444449079470237,
+            0.0
+          ],
+          "motor_ids": [
+            "SO_57BLR50-24-01",
+            "SO_57BLR70-24-02",
+            "SO_57BYA54-24-01",
+            "SO_42BSB41-24-01",
+            "SO_42BSB41-24-01",
+            "SO_42BSB41-24-01"
+          ],
+          "reducer_ids": [
+            "SITO_HD-14_30",
+            "SITO_CD-20_30",
+            "SITO_CD-20_30",
+            "SITO_CS-11-2XH-A_30",
+            "SITO_CS-11-2XH-A_30",
+            "SITO_CS-11-2XH-A_30"
+          ],
+          "wrist2_length_m": 0.11
+        },
+        "rng_state": {
+          "bit_generator": "PCG64",
+          "state": {
+            "state": 265826475993555436187952261080833341316,
+            "inc": 246509925186285949978196491240064802315
+          },
+          "has_uint32": 0,
+          "uinteger": 275453614
+        }
+      },
+      {
+        "tuple_index": 3,
+        "layout_number": 8,
+        "motor_ids": [
+          "SO_57BLR50-24-01",
+          "SO_57BLR70-24-02",
+          "SO_57BLY54-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01"
+        ],
+        "allocated_evaluations": 20,
+        "evaluations": 8,
+        "proposal_attempts": 8,
+        "duplicate_proposals": 0,
+        "geometry_rejections": 0,
+        "reach_rejections": 0,
+        "seed_probes": 1,
+        "seed_error": null,
+        "attempted": true,
+        "status": "in_progress",
+        "best_pmax_kg": 0.0,
+        "best_pmax_known_constraints_kg": 0.5923867008421556,
+        "best_peak_required_payload_utilization": 2.408211191803692,
+        "best_gravity_score_JG": 0.4741092022082048,
+        "best_gravity_capacity_score_JG": 0.7307030895182077,
+        "best_arm_mass_kg": 5.154050568383364,
+        "best_design": {
+          "layout_number": 8,
+          "lengths_m": [
+            0.17895158000260186,
+            0.09,
+            0.15709401765679779
+          ],
+          "link_masses_kg": [
+            0.13755356683990091,
+            0.13393546733829503,
+            0.08397307694176337,
+            0.10888754128091474,
+            0.06445323594737674,
+            0.06696749404743758
+          ],
+          "com_fractions": [
+            0.3710072350400181,
+            0.3657750668632318,
+            0.20338524848935355,
+            0.44587128549060195,
+            0.2363343738845498,
+            0.5445133829586419
+          ],
+          "spread_fractions": [
+            0.10978012698211115,
+            0.13065469781326192,
+            0.10404159406214494,
+            0.09514232297261238,
+            0.10544558990123569,
+            0.08251453933779028
+          ],
+          "motor_offsets_m": [
+            0.0,
+            0.0,
+            -0.001594421410672124,
+            -0.0033662869326930053
+          ],
+          "motor_ids": [
+            "SO_57BLR50-24-01",
+            "SO_57BLR70-24-02",
+            "SO_57BLY54-24-01",
+            "SO_42BSB41-24-01",
+            "SO_42BSB41-24-01",
+            "SO_42BSB41-24-01"
+          ],
+          "reducer_ids": [
+            "SITO_HD-14_30",
+            "SITO_CD-20_30",
+            "SITO_CD-20_30",
+            "SITO_CS-11-2XH-A_30",
+            "SITO_CS-11-2XH-A_30",
+            "SITO_CS-11-2XH-A_30"
+          ],
+          "wrist2_length_m": 0.11
+        },
+        "rng_state": {
+          "bit_generator": "PCG64",
+          "state": {
+            "state": 31714277697108645057541346405253833328,
+            "inc": 234358335530849485425064040311006256713
+          },
+          "has_uint32": 0,
+          "uinteger": 1139303934
+        }
+      },
+      {
+        "tuple_index": 4,
+        "layout_number": 8,
+        "motor_ids": [
+          "SO_57BLR50-24-01",
+          "SO_57BLR70-24-02",
+          "SO_57BLR50-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01"
+        ],
+        "allocated_evaluations": 20,
+        "evaluations": 8,
+        "proposal_attempts": 8,
+        "duplicate_proposals": 0,
+        "geometry_rejections": 0,
+        "reach_rejections": 0,
+        "seed_probes": 1,
+        "seed_error": null,
+        "attempted": true,
+        "status": "in_progress",
+        "best_pmax_kg": 0.0,
+        "best_pmax_known_constraints_kg": 0.591431532557567,
+        "best_peak_required_payload_utilization": 2.412155938724515,
+        "best_gravity_score_JG": 0.4744748740835095,
+        "best_gravity_capacity_score_JG": 0.6162710102403132,
+        "best_arm_mass_kg": 5.201830026435894,
+        "best_design": {
+          "layout_number": 8,
+          "lengths_m": [
+            0.17717128839717758,
+            0.09,
+            0.15914250779206676
+          ],
+          "link_masses_kg": [
+            0.13754347579125195,
+            0.1314739627327376,
+            0.08397307694176337,
+            0.10913859498765117,
+            0.06445323594737674,
+            0.06696749404743758
+          ],
+          "com_fractions": [
+            0.3711635400037774,
+            0.36147063772878324,
+            0.20338524848935355,
+            0.444768609980597,
+            0.2363343738845498,
+            0.5445133829586419
+          ],
+          "spread_fractions": [
+            0.10983271541795295,
+            0.13102924992423443,
+            0.10404159406214494,
+            0.09558381520907963,
+            0.10544558990123569,
+            0.08251453933779028
+          ],
+          "motor_offsets_m": [
+            0.0,
+            9.735557928797994e-05,
+            -0.0030435218602226422,
+            -0.003951607095113873
+          ],
+          "motor_ids": [
+            "SO_57BLR50-24-01",
+            "SO_57BLR70-24-02",
+            "SO_57BLR50-24-01",
+            "SO_42BSB41-24-01",
+            "SO_42BSB41-24-01",
+            "SO_42BSB41-24-01"
+          ],
+          "reducer_ids": [
+            "SITO_HD-14_30",
+            "SITO_CD-20_30",
+            "SITO_CD-20_30",
+            "SITO_CS-11-2XH-A_30",
+            "SITO_CS-11-2XH-A_30",
+            "SITO_CS-11-2XH-A_30"
+          ],
+          "wrist2_length_m": 0.11
+        },
+        "rng_state": {
+          "bit_generator": "PCG64",
+          "state": {
+            "state": 127769428105058069854899470579713364547,
+            "inc": 148211758571781046255077612135386035203
+          },
+          "has_uint32": 0,
+          "uinteger": 3992936960
+        }
+      },
+      {
+        "tuple_index": 5,
+        "layout_number": 8,
+        "motor_ids": [
+          "SO_57BLR50-24-01",
+          "SO_57BLR70-24-02",
+          "SO_57BLR70-24-02",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01"
+        ],
+        "allocated_evaluations": 20,
+        "evaluations": 8,
+        "proposal_attempts": 8,
+        "duplicate_proposals": 0,
+        "geometry_rejections": 0,
+        "reach_rejections": 0,
+        "seed_probes": 1,
+        "seed_error": null,
+        "attempted": true,
+        "status": "in_progress",
+        "best_pmax_kg": 0.0,
+        "best_pmax_known_constraints_kg": 0.5649492099888712,
+        "best_peak_required_payload_utilization": 2.4158433559607126,
+        "best_gravity_score_JG": 0.4821246386879148,
+        "best_gravity_capacity_score_JG": 0.5644395778634484,
+        "best_arm_mass_kg": 5.363935666347513,
+        "best_design": {
+          "layout_number": 8,
+          "lengths_m": [
+            0.17550000000000004,
+            0.09,
+            0.16105977151355952
+          ],
+          "link_masses_kg": [
+            0.13684133148053423,
+            0.14408245777145626,
+            0.08397307694176337,
+            0.10933788417126857,
+            0.06445323594737674,
+            0.06696749404743758
+          ],
+          "com_fractions": [
+            0.38226325245258275,
+            0.3776898321662152,
+            0.20338524848935294,
+            0.4467433426324741,
+            0.23633437388455006,
+            0.5445133829586412
+          ],
+          "spread_fractions": [
+            0.11430709371831597,
+            0.12666281940185808,
+            0.10404159406214494,
+            0.09633672157943786,
+            0.10544558990123569,
+            0.08251453933779028
+          ],
+          "motor_offsets_m": [
+            0.0,
+            0.0071309023071704294,
+            0.0,
+            -0.0023312612356765224
+          ],
+          "motor_ids": [
+            "SO_57BLR50-24-01",
+            "SO_57BLR70-24-02",
+            "SO_57BLR70-24-02",
+            "SO_42BSB41-24-01",
+            "SO_42BSB41-24-01",
+            "SO_42BSB41-24-01"
+          ],
+          "reducer_ids": [
+            "SITO_HD-14_30",
+            "SITO_CD-20_30",
+            "SITO_CD-20_30",
+            "SITO_CS-11-2XH-A_30",
+            "SITO_CS-11-2XH-A_30",
+            "SITO_CS-11-2XH-A_30"
+          ],
+          "wrist2_length_m": 0.11
+        },
+        "rng_state": {
+          "bit_generator": "PCG64",
+          "state": {
+            "state": 232996060174222543545957284057357963765,
+            "inc": 186633262021180533256729114674950595327
+          },
+          "has_uint32": 0,
+          "uinteger": 70402344
+        }
+      },
+      {
+        "tuple_index": 6,
+        "layout_number": 8,
+        "motor_ids": [
+          "SO_57BLR50-24-01",
+          "SO_57BYA94-36-01",
+          "SO_42BSA62-36-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01"
+        ],
+        "allocated_evaluations": 20,
+        "evaluations": 8,
+        "proposal_attempts": 8,
+        "duplicate_proposals": 0,
+        "geometry_rejections": 0,
+        "reach_rejections": 0,
+        "seed_probes": 1,
+        "seed_error": null,
+        "attempted": true,
+        "status": "in_progress",
+        "best_pmax_kg": 0.0,
+        "best_pmax_known_constraints_kg": 0.6108900792757368,
+        "best_peak_required_payload_utilization": 2.4158433559607158,
+        "best_gravity_score_JG": 0.46913097145595584,
+        "best_gravity_capacity_score_JG": 0.7302347661458153,
+        "best_arm_mass_kg": 5.528557362790659,
+        "best_design": {
+          "layout_number": 8,
+          "lengths_m": [
+            0.17550000000000004,
+            0.09,
+            0.16105977151355952
+          ],
+          "link_masses_kg": [
+            0.14754342728131503,
+            0.13799105054643737,
+            0.08397307694176337,
+            0.10934889203865387,
+            0.06445323594737674,
+            0.06696749404743758
+          ],
+          "com_fractions": [
+            0.3795501328062783,
+            0.3634814453877172,
+            0.20338524848935294,
+            0.4458265327558913,
+            0.23633437388455006,
+            0.5445133829586412
+          ],
+          "spread_fractions": [
+            0.10500300615583363,
+            0.12661212483421358,
+            0.10404159406214494,
+            0.0962240593891386,
+            0.10544558990123569,
+            0.08251453933779028
+          ],
+          "motor_offsets_m": [
+            0.0,
+            0.0,
+            -0.007536710427645823,
+            -0.003
+          ],
+          "motor_ids": [
+            "SO_57BLR50-24-01",
+            "SO_57BYA94-36-01",
+            "SO_42BSA62-36-01",
+            "SO_42BSB41-24-01",
+            "SO_42BSB41-24-01",
+            "SO_42BSB41-24-01"
+          ],
+          "reducer_ids": [
+            "SITO_HD-14_30",
+            "SITO_CD-20_30",
+            "SITO_CD-20_30",
+            "SITO_CS-11-2XH-A_30",
+            "SITO_CS-11-2XH-A_30",
+            "SITO_CS-11-2XH-A_30"
+          ],
+          "wrist2_length_m": 0.11
+        },
+        "rng_state": {
+          "bit_generator": "PCG64",
+          "state": {
+            "state": 140010146005446932657593739464267291211,
+            "inc": 329233669073478483697346584247981015037
+          },
+          "has_uint32": 0,
+          "uinteger": 727976390
+        }
+      },
+      {
+        "tuple_index": 7,
+        "layout_number": 8,
+        "motor_ids": [
+          "SO_57BLR50-24-01",
+          "SO_57BYA94-36-01",
+          "SO_57BYA54-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01"
+        ],
+        "allocated_evaluations": 20,
+        "evaluations": 8,
+        "proposal_attempts": 8,
+        "duplicate_proposals": 0,
+        "geometry_rejections": 0,
+        "reach_rejections": 0,
+        "seed_probes": 1,
+        "seed_error": null,
+        "attempted": true,
+        "status": "in_progress",
+        "best_pmax_kg": 0.0,
+        "best_pmax_known_constraints_kg": 0.6019454360613493,
+        "best_peak_required_payload_utilization": 2.412492078952042,
+        "best_gravity_score_JG": 0.47150807495649993,
+        "best_gravity_capacity_score_JG": 0.731276498317809,
+        "best_arm_mass_kg": 5.564065541212302,
+        "best_design": {
+          "layout_number": 8,
+          "lengths_m": [
+            0.1770192187259239,
+            0.09,
+            0.159317187759737
+          ],
+          "link_masses_kg": [
+            0.14754342728131503,
+            0.13386092098798597,
+            0.08397307694176337,
+            0.10898720001874705,
+            0.06445323594737674,
+            0.06696749404743758
+          ],
+          "com_fractions": [
+            0.3795501328062783,
+            0.3556954529843637,
+            0.20338524848935355,
+            0.4501650359044107,
+            0.23633437388455006,
+            0.5445133829586419
+          ],
+          "spread_fractions": [
+            0.10500300615583363,
+            0.12744431809598644,
+            0.10404159406214494,
+            0.09631223139811843,
+            0.10544558990123576,
+            0.08251453933779028
+          ],
+          "motor_offsets_m": [
+            0.0,
+            0.0,
+            -0.010810659831301127,
+            0.0
+          ],
+          "motor_ids": [
+            "SO_57BLR50-24-01",
+            "SO_57BYA94-36-01",
+            "SO_57BYA54-24-01",
+            "SO_42BSB41-24-01",
+            "SO_42BSB41-24-01",
+            "SO_42BSB41-24-01"
+          ],
+          "reducer_ids": [
+            "SITO_HD-14_30",
+            "SITO_CD-20_30",
+            "SITO_CD-20_30",
+            "SITO_CS-11-2XH-A_30",
+            "SITO_CS-11-2XH-A_30",
+            "SITO_CS-11-2XH-A_30"
+          ],
+          "wrist2_length_m": 0.11
+        },
+        "rng_state": {
+          "bit_generator": "PCG64",
+          "state": {
+            "state": 174579885059098932070157463342330484067,
+            "inc": 95963489890761403814531195999220475639
+          },
+          "has_uint32": 1,
+          "uinteger": 258428484
+        }
+      },
+      {
+        "tuple_index": 8,
+        "layout_number": 8,
+        "motor_ids": [
+          "SO_57BLR50-24-01",
+          "SO_57BYA94-36-01",
+          "SO_57BLY54-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01"
+        ],
+        "allocated_evaluations": 20,
+        "evaluations": 8,
+        "proposal_attempts": 8,
+        "duplicate_proposals": 0,
+        "geometry_rejections": 0,
+        "reach_rejections": 0,
+        "seed_probes": 1,
+        "seed_error": null,
+        "attempted": true,
+        "status": "in_progress",
+        "best_pmax_kg": 0.0,
+        "best_pmax_known_constraints_kg": 0.6137299440590717,
+        "best_peak_required_payload_utilization": 2.415843355960711,
+        "best_gravity_score_JG": 0.46836335736094886,
+        "best_gravity_capacity_score_JG": 0.7287448490689007,
+        "best_arm_mass_kg": 5.543014714115371,
+        "best_design": {
+          "layout_number": 8,
+          "lengths_m": [
+            0.17550000000000004,
+            0.09,
+            0.16105977151355952
+          ],
+          "link_masses_kg": [
+            0.14629091618657783,
+            0.1337020413669274,
+            0.08397307694176337,
+            0.1093477636376116,
+            0.06445323594737674,
+            0.06696749404743758
+          ],
+          "com_fractions": [
+            0.38857061953338906,
+            0.35410509690130987,
+            0.20338524848935294,
+            0.441236910819821,
+            0.23633437388455006,
+            0.5445133829586412
+          ],
+          "spread_fractions": [
+            0.10887102997224511,
+            0.1270175354280083,
+            0.10404159406214494,
+            0.09574205644944253,
+            0.10544558990123569,
+            0.08251453933779028
+          ],
+          "motor_offsets_m": [
+            -0.0057732264165212726,
+            0.006196508873757625,
+            -0.011989601551215381,
+            -0.006331189057197
+          ],
+          "motor_ids": [
+            "SO_57BLR50-24-01",
+            "SO_57BYA94-36-01",
+            "SO_57BLY54-24-01",
+            "SO_42BSB41-24-01",
+            "SO_42BSB41-24-01",
+            "SO_42BSB41-24-01"
+          ],
+          "reducer_ids": [
+            "SITO_HD-14_30",
+            "SITO_CD-20_30",
+            "SITO_CD-20_30",
+            "SITO_CS-11-2XH-A_30",
+            "SITO_CS-11-2XH-A_30",
+            "SITO_CS-11-2XH-A_30"
+          ],
+          "wrist2_length_m": 0.11
+        },
+        "rng_state": {
+          "bit_generator": "PCG64",
+          "state": {
+            "state": 105767972249248104501265803900598969715,
+            "inc": 53245743019587277358203950863334653629
+          },
+          "has_uint32": 0,
+          "uinteger": 1718020411
+        }
+      },
+      {
+        "tuple_index": 9,
+        "layout_number": 8,
+        "motor_ids": [
+          "SO_57BLR50-24-01",
+          "SO_57BYA94-36-01",
+          "SO_57BLR50-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01"
+        ],
+        "allocated_evaluations": 20,
+        "evaluations": 8,
+        "proposal_attempts": 8,
+        "duplicate_proposals": 0,
+        "geometry_rejections": 0,
+        "reach_rejections": 0,
+        "seed_probes": 1,
+        "seed_error": null,
+        "attempted": true,
+        "status": "in_progress",
+        "best_pmax_kg": 0.0,
+        "best_pmax_known_constraints_kg": 0.5994850753892489,
+        "best_peak_required_payload_utilization": 2.4158433559607135,
+        "best_gravity_score_JG": 0.47229597456422956,
+        "best_gravity_capacity_score_JG": 0.6151049808042638,
+        "best_arm_mass_kg": 5.590992256104965,
+        "best_design": {
+          "layout_number": 8,
+          "lengths_m": [
+            0.17550000000000004,
+            0.09,
+            0.16105977151355952
+          ],
+          "link_masses_kg": [
+            0.1466812350960617,
+            0.13135388852680582,
+            0.08397307694176337,
+            0.1092831395578437,
+            0.06445323594737674,
+            0.06696749404743758
+          ],
+          "com_fractions": [
+            0.35864815667318745,
+            0.35626388797517866,
+            0.20338524848935294,
+            0.44992739011376065,
+            0.23633437388455006,
+            0.5445133829586412
+          ],
+          "spread_fractions": [
+            0.10082022120473541,
+            0.12932914424977976,
+            0.10404159406214494,
+            0.09677281777951507,
+            0.10544558990123569,
+            0.08251453933779028
+          ],
+          "motor_offsets_m": [
+            -0.003828909286904827,
+            -0.011871492282341798,
+            -0.007654762810812804,
+            0.0
+          ],
+          "motor_ids": [
+            "SO_57BLR50-24-01",
+            "SO_57BYA94-36-01",
+            "SO_57BLR50-24-01",
+            "SO_42BSB41-24-01",
+            "SO_42BSB41-24-01",
+            "SO_42BSB41-24-01"
+          ],
+          "reducer_ids": [
+            "SITO_HD-14_30",
+            "SITO_CD-20_30",
+            "SITO_CD-20_30",
+            "SITO_CS-11-2XH-A_30",
+            "SITO_CS-11-2XH-A_30",
+            "SITO_CS-11-2XH-A_30"
+          ],
+          "wrist2_length_m": 0.11
+        },
+        "rng_state": {
+          "bit_generator": "PCG64",
+          "state": {
+            "state": 332232645021677497634612586741728161964,
+            "inc": 93600409307182536851939727871362209675
+          },
+          "has_uint32": 0,
+          "uinteger": 634194831
+        }
+      },
+      {
+        "tuple_index": 10,
+        "layout_number": 8,
+        "motor_ids": [
+          "SO_57BLR50-24-01",
+          "SO_57BYA94-36-01",
+          "SO_57BLR70-24-02",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01"
+        ],
+        "allocated_evaluations": 20,
+        "evaluations": 8,
+        "proposal_attempts": 8,
+        "duplicate_proposals": 0,
+        "geometry_rejections": 0,
+        "reach_rejections": 0,
+        "seed_probes": 1,
+        "seed_error": null,
+        "attempted": true,
+        "status": "in_progress",
+        "best_pmax_kg": 0.0,
+        "best_pmax_known_constraints_kg": 0.5640639120022738,
+        "best_peak_required_payload_utilization": 2.4112930819449976,
+        "best_gravity_score_JG": 0.48230799599263996,
+        "best_gravity_capacity_score_JG": 0.5646228424837432,
+        "best_arm_mass_kg": 5.754842765524967,
+        "best_design": {
+          "layout_number": 8,
+          "lengths_m": [
+            0.17756138207680378,
+            0.09,
+            0.15869420061781084
+          ],
+          "link_masses_kg": [
+            0.14754342728131503,
+            0.14457008419612583,
+            0.08397307694176337,
+            0.10905526112327245,
+            0.06445323594737674,
+            0.06696749404743758
+          ],
+          "com_fractions": [
+            0.3795501328062783,
+            0.3726854819974288,
+            0.20338524848935294,
+            0.4474147072040381,
+            0.2363343738845498,
+            0.5445133829586412
+          ],
+          "spread_fractions": [
+            0.10500300615583363,
+            0.12503744513262038,
+            0.10404159406214494,
+            0.09577306577111697,
+            0.10544558990123569,
+            0.08251453933779028
+          ],
+          "motor_offsets_m": [
+            0.0,
+            0.0,
+            -0.005089478703965182,
+            -0.002097780069056724
+          ],
+          "motor_ids": [
+            "SO_57BLR50-24-01",
+            "SO_57BYA94-36-01",
+            "SO_57BLR70-24-02",
+            "SO_42BSB41-24-01",
+            "SO_42BSB41-24-01",
+            "SO_42BSB41-24-01"
+          ],
+          "reducer_ids": [
+            "SITO_HD-14_30",
+            "SITO_CD-20_30",
+            "SITO_CD-20_30",
+            "SITO_CS-11-2XH-A_30",
+            "SITO_CS-11-2XH-A_30",
+            "SITO_CS-11-2XH-A_30"
+          ],
+          "wrist2_length_m": 0.11
+        },
+        "rng_state": {
+          "bit_generator": "PCG64",
+          "state": {
+            "state": 290042913971531962846120093462583633144,
+            "inc": 201134213106761623850582364065252960353
+          },
+          "has_uint32": 1,
+          "uinteger": 3859959277
+        }
+      },
+      {
+        "tuple_index": 11,
+        "layout_number": 8,
+        "motor_ids": [
+          "SO_57BLR50-24-01",
+          "SO_57BSD96-36-01",
+          "SO_42BSA62-36-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01"
+        ],
+        "allocated_evaluations": 20,
+        "evaluations": 7,
+        "proposal_attempts": 7,
+        "duplicate_proposals": 0,
+        "geometry_rejections": 0,
+        "reach_rejections": 0,
+        "seed_probes": 1,
+        "seed_error": null,
+        "attempted": true,
+        "status": "in_progress",
+        "best_pmax_kg": 0.0,
+        "best_pmax_known_constraints_kg": 0.6072226278780345,
+        "best_peak_required_payload_utilization": 2.4158433559607126,
+        "best_gravity_score_JG": 0.4701373068354274,
+        "best_gravity_capacity_score_JG": 0.7316093645853026,
+        "best_arm_mass_kg": 5.308571641254258,
+        "best_design": {
+          "layout_number": 8,
+          "lengths_m": [
+            0.17550000000000004,
+            0.09,
+            0.16105977151355952
+          ],
+          "link_masses_kg": [
+            0.14824549307721274,
+            0.13733138369226913,
+            0.08397307694176337,
+            0.10932077156052288,
+            0.06445323594737674,
+            0.06696749404743758
+          ],
+          "com_fractions": [
+            0.3749362511840625,
+            0.37128588306509,
+            0.20338524848935294,
+            0.4481690672229488,
+            0.23633437388455006,
+            0.5445133829586412
+          ],
+          "spread_fractions": [
+            0.10355190354623715,
+            0.12767605014966119,
+            0.10404159406214494,
+            0.09652380617888447,
+            0.10544558990123569,
+            0.08251453933779028
+          ],
+          "motor_offsets_m": [
+            0.003,
+            -0.003,
+            -0.00415997519426671,
+            -0.0012909940447222536
+          ],
+          "motor_ids": [
+            "SO_57BLR50-24-01",
+            "SO_57BSD96-36-01",
+            "SO_42BSA62-36-01",
+            "SO_42BSB41-24-01",
+            "SO_42BSB41-24-01",
+            "SO_42BSB41-24-01"
+          ],
+          "reducer_ids": [
+            "SITO_HD-14_30",
+            "SITO_CD-20_30",
+            "SITO_CD-20_30",
+            "SITO_CS-11-2XH-A_30",
+            "SITO_CS-11-2XH-A_30",
+            "SITO_CS-11-2XH-A_30"
+          ],
+          "wrist2_length_m": 0.11
+        },
+        "rng_state": {
+          "bit_generator": "PCG64",
+          "state": {
+            "state": 288703680371441376175689613770057368795,
+            "inc": 129451594184518318696960311798258311005
+          },
+          "has_uint32": 0,
+          "uinteger": 128131050
+        }
+      },
+      {
+        "tuple_index": 12,
+        "layout_number": 8,
+        "motor_ids": [
+          "SO_57BLR50-24-01",
+          "SO_57BSD96-36-01",
+          "SO_57BYA54-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01"
+        ],
+        "allocated_evaluations": 20,
+        "evaluations": 7,
+        "proposal_attempts": 7,
+        "duplicate_proposals": 0,
+        "geometry_rejections": 0,
+        "reach_rejections": 0,
+        "seed_probes": 1,
+        "seed_error": null,
+        "attempted": true,
+        "status": "in_progress",
+        "best_pmax_kg": 0.0,
+        "best_pmax_known_constraints_kg": 0.6004858857274291,
+        "best_peak_required_payload_utilization": 2.4158433559607144,
+        "best_gravity_score_JG": 0.4720248213879659,
+        "best_gravity_capacity_score_JG": 0.7327976653616717,
+        "best_arm_mass_kg": 5.344244932727395,
+        "best_design": {
+          "layout_number": 8,
+          "lengths_m": [
+            0.17550000000000004,
+            0.09,
+            0.16105977151355952
+          ],
+          "link_masses_kg": [
+            0.14824549307721274,
+            0.13295120510167435,
+            0.08397307694176337,
+            0.1093742416242547,
+            0.06445323594737674,
+            0.06696749404743758
+          ],
+          "com_fractions": [
+            0.3749362511840625,
+            0.3690474915359516,
+            0.20338524848935294,
+            0.44371607863758233,
+            0.23633437388455006,
+            0.5445133829586412
+          ],
+          "spread_fractions": [
+            0.10355190354623715,
+            0.13049783087036057,
+            0.10404159406214494,
+            0.09598742345454983,
+            0.10544558990123569,
+            0.08251453933779028
+          ],
+          "motor_offsets_m": [
+            0.003,
+            -0.003,
+            -0.0016777566471922207,
+            -0.004538799545914027
+          ],
+          "motor_ids": [
+            "SO_57BLR50-24-01",
+            "SO_57BSD96-36-01",
+            "SO_57BYA54-24-01",
+            "SO_42BSB41-24-01",
+            "SO_42BSB41-24-01",
+            "SO_42BSB41-24-01"
+          ],
+          "reducer_ids": [
+            "SITO_HD-14_30",
+            "SITO_CD-20_30",
+            "SITO_CD-20_30",
+            "SITO_CS-11-2XH-A_30",
+            "SITO_CS-11-2XH-A_30",
+            "SITO_CS-11-2XH-A_30"
+          ],
+          "wrist2_length_m": 0.11
+        },
+        "rng_state": {
+          "bit_generator": "PCG64",
+          "state": {
+            "state": 232861927179252423106644895445387180050,
+            "inc": 270961425187653965826250168631183526969
+          },
+          "has_uint32": 0,
+          "uinteger": 15779431
+        }
+      },
+      {
+        "tuple_index": 13,
+        "layout_number": 8,
+        "motor_ids": [
+          "SO_57BLR50-24-01",
+          "SO_57BSD96-36-01",
+          "SO_57BLY54-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01"
+        ],
+        "allocated_evaluations": 20,
+        "evaluations": 7,
+        "proposal_attempts": 7,
+        "duplicate_proposals": 0,
+        "geometry_rejections": 0,
+        "reach_rejections": 0,
+        "seed_probes": 1,
+        "seed_error": null,
+        "attempted": true,
+        "status": "in_progress",
+        "best_pmax_kg": 0.0,
+        "best_pmax_known_constraints_kg": 0.6060964743333165,
+        "best_peak_required_payload_utilization": 2.4158433559607126,
+        "best_gravity_score_JG": 0.4704505772990155,
+        "best_gravity_capacity_score_JG": 0.7321992899859143,
+        "best_arm_mass_kg": 5.324191908233661,
+        "best_design": {
+          "layout_number": 8,
+          "lengths_m": [
+            0.17550000000000004,
+            0.09,
+            0.16105977151355952
+          ],
+          "link_masses_kg": [
+            0.14820325229170117,
+            0.13303152345986238,
+            0.08397307694176337,
+            0.1092831395578437,
+            0.06445323594737674,
+            0.06696749404743758
+          ],
+          "com_fractions": [
+            0.3768385511144737,
+            0.36379814972910146,
+            0.20338524848935294,
+            0.44992739011376065,
+            0.23633437388455006,
+            0.5445133829586412
+          ],
+          "spread_fractions": [
+            0.10407031827729997,
+            0.1287533559981997,
+            0.10404159406214494,
+            0.09677281777951507,
+            0.10544558990123569,
+            0.08251453933779028
+          ],
+          "motor_offsets_m": [
+            0.0028597351087828286,
+            -0.0018557546639110343,
+            -0.006545818496048306,
+            0.0
+          ],
+          "motor_ids": [
+            "SO_57BLR50-24-01",
+            "SO_57BSD96-36-01",
+            "SO_57BLY54-24-01",
+            "SO_42BSB41-24-01",
+            "SO_42BSB41-24-01",
+            "SO_42BSB41-24-01"
+          ],
+          "reducer_ids": [
+            "SITO_HD-14_30",
+            "SITO_CD-20_30",
+            "SITO_CD-20_30",
+            "SITO_CS-11-2XH-A_30",
+            "SITO_CS-11-2XH-A_30",
+            "SITO_CS-11-2XH-A_30"
+          ],
+          "wrist2_length_m": 0.11
+        },
+        "rng_state": {
+          "bit_generator": "PCG64",
+          "state": {
+            "state": 260967217373227918875586155802545390503,
+            "inc": 151343323775698636228613073066607537753
+          },
+          "has_uint32": 1,
+          "uinteger": 434130790
+        }
+      },
+      {
+        "tuple_index": 14,
+        "layout_number": 8,
+        "motor_ids": [
+          "SO_57BLR50-24-01",
+          "SO_57BSD96-36-01",
+          "SO_57BLR50-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01"
+        ],
+        "allocated_evaluations": 20,
+        "evaluations": 7,
+        "proposal_attempts": 7,
+        "duplicate_proposals": 0,
+        "geometry_rejections": 0,
+        "reach_rejections": 0,
+        "seed_probes": 1,
+        "seed_error": null,
+        "attempted": true,
+        "status": "in_progress",
+        "best_pmax_kg": 0.0,
+        "best_pmax_known_constraints_kg": 0.6008424079703664,
+        "best_peak_required_payload_utilization": 2.4158433559607135,
+        "best_gravity_score_JG": 0.4719291188877821,
+        "best_gravity_capacity_score_JG": 0.6145146519267658,
+        "best_arm_mass_kg": 5.372051599817113,
+        "best_design": {
+          "layout_number": 8,
+          "lengths_m": [
+            0.17550000000000004,
+            0.09,
+            0.16105977151355952
+          ],
+          "link_masses_kg": [
+            0.14824549307721274,
+            0.1307818203326312,
+            0.08397307694176337,
+            0.10935029348301599,
+            0.06445323594737674,
+            0.06696749404743758
+          ],
+          "com_fractions": [
+            0.3749362511840625,
+            0.35982835706675026,
+            0.20338524848935294,
+            0.4457098272213683,
+            0.23633437388455006,
+            0.5445133829586412
+          ],
+          "spread_fractions": [
+            0.10355190354623715,
+            0.12938255620919586,
+            0.10404159406214494,
+            0.09621014695098154,
+            0.10544558990123569,
+            0.08251453933779028
+          ],
+          "motor_offsets_m": [
+            0.003,
+            -0.003,
+            -0.007736644599577132,
+            -0.0030851158269536243
+          ],
+          "motor_ids": [
+            "SO_57BLR50-24-01",
+            "SO_57BSD96-36-01",
+            "SO_57BLR50-24-01",
+            "SO_42BSB41-24-01",
+            "SO_42BSB41-24-01",
+            "SO_42BSB41-24-01"
+          ],
+          "reducer_ids": [
+            "SITO_HD-14_30",
+            "SITO_CD-20_30",
+            "SITO_CD-20_30",
+            "SITO_CS-11-2XH-A_30",
+            "SITO_CS-11-2XH-A_30",
+            "SITO_CS-11-2XH-A_30"
+          ],
+          "wrist2_length_m": 0.11
+        },
+        "rng_state": {
+          "bit_generator": "PCG64",
+          "state": {
+            "state": 297166049146742567080179222327246271409,
+            "inc": 142122718755352994422083681527263344755
+          },
+          "has_uint32": 1,
+          "uinteger": 3402315374
+        }
+      },
+      {
+        "tuple_index": 15,
+        "layout_number": 8,
+        "motor_ids": [
+          "SO_57BLR50-24-01",
+          "SO_57BSD96-36-01",
+          "SO_57BLR70-24-02",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01"
+        ],
+        "allocated_evaluations": 20,
+        "evaluations": 7,
+        "proposal_attempts": 7,
+        "duplicate_proposals": 0,
+        "geometry_rejections": 0,
+        "reach_rejections": 0,
+        "seed_probes": 1,
+        "seed_error": null,
+        "attempted": true,
+        "status": "in_progress",
+        "best_pmax_kg": 0.0,
+        "best_pmax_known_constraints_kg": 0.5728390323945916,
+        "best_peak_required_payload_utilization": 2.415843355960709,
+        "best_gravity_score_JG": 0.47986524684224224,
+        "best_gravity_capacity_score_JG": 0.5621802083674783,
+        "best_arm_mass_kg": 5.534983407882932,
+        "best_design": {
+          "layout_number": 8,
+          "lengths_m": [
+            0.17550000000000004,
+            0.09,
+            0.16105977151355952
+          ],
+          "link_masses_kg": [
+            0.14824549307721274,
+            0.14371969872286985,
+            0.08397307694176337,
+            0.10934422315859697,
+            0.06445323594737674,
+            0.06696749404743758
+          ],
+          "com_fractions": [
+            0.3749362511840625,
+            0.3755041458623619,
+            0.20338524848935294,
+            0.44621536083845337,
+            0.23633437388455006,
+            0.5445133829586412
+          ],
+          "spread_fractions": [
+            0.10355190354623715,
+            0.1242528627167215,
+            0.10404159406214494,
+            0.09627111039216828,
+            0.10544558990123569,
+            0.08251453933779028
+          ],
+          "motor_offsets_m": [
+            0.003,
+            -0.003,
+            -0.006408895818570874,
+            -0.0027164007737913894
+          ],
+          "motor_ids": [
+            "SO_57BLR50-24-01",
+            "SO_57BSD96-36-01",
+            "SO_57BLR70-24-02",
+            "SO_42BSB41-24-01",
+            "SO_42BSB41-24-01",
+            "SO_42BSB41-24-01"
+          ],
+          "reducer_ids": [
+            "SITO_HD-14_30",
+            "SITO_CD-20_30",
+            "SITO_CD-20_30",
+            "SITO_CS-11-2XH-A_30",
+            "SITO_CS-11-2XH-A_30",
+            "SITO_CS-11-2XH-A_30"
+          ],
+          "wrist2_length_m": 0.11
+        },
+        "rng_state": {
+          "bit_generator": "PCG64",
+          "state": {
+            "state": 97673960631455007818431051563112232280,
+            "inc": 91092609819798454247805843274402229463
+          },
+          "has_uint32": 1,
+          "uinteger": 2513314404
+        }
+      },
+      {
+        "tuple_index": 16,
+        "layout_number": 8,
+        "motor_ids": [
+          "SO_57BLR70-24-02",
+          "SO_57BLR70-24-02",
+          "SO_42BSA62-36-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01"
+        ],
+        "allocated_evaluations": 20,
+        "evaluations": 7,
+        "proposal_attempts": 7,
+        "duplicate_proposals": 0,
+        "geometry_rejections": 0,
+        "reach_rejections": 0,
+        "seed_probes": 1,
+        "seed_error": null,
+        "attempted": true,
+        "status": "in_progress",
+        "best_pmax_kg": 0.0,
+        "best_pmax_known_constraints_kg": 0.6170869333569373,
+        "best_peak_required_payload_utilization": 2.415843355960712,
+        "best_gravity_score_JG": 0.46743482366372274,
+        "best_gravity_capacity_score_JG": 0.7281466916298719,
+        "best_arm_mass_kg": 5.287860999587678,
+        "best_design": {
+          "layout_number": 8,
+          "lengths_m": [
+            0.17550000000000004,
+            0.09,
+            0.16105977151355952
+          ],
+          "link_masses_kg": [
+            0.13701482075185917,
+            0.1380988294103344,
+            0.08397307694176337,
+            0.10937892014978016,
+            0.06445323594737674,
+            0.06696749404743758
+          ],
+          "com_fractions": [
+            0.3794752647877093,
+            0.35646543281887866,
+            0.20338524848935294,
+            0.44332669169244104,
+            0.23633437388455006,
+            0.5445133829586412
+          ],
+          "spread_fractions": [
+            0.11304407236596589,
+            0.12473834743508867,
+            0.10404159406214494,
+            0.09594721968218892,
+            0.10544558990123569,
+            0.08251453933779028
+          ],
+          "motor_offsets_m": [
+            0.0,
+            0.0053421660504100466,
+            -0.014043977041078032,
+            -0.004822621492915104
+          ],
+          "motor_ids": [
+            "SO_57BLR70-24-02",
+            "SO_57BLR70-24-02",
+            "SO_42BSA62-36-01",
+            "SO_42BSB41-24-01",
+            "SO_42BSB41-24-01",
+            "SO_42BSB41-24-01"
+          ],
+          "reducer_ids": [
+            "SITO_HD-14_30",
+            "SITO_CD-20_30",
+            "SITO_CD-20_30",
+            "SITO_CS-11-2XH-A_30",
+            "SITO_CS-11-2XH-A_30",
+            "SITO_CS-11-2XH-A_30"
+          ],
+          "wrist2_length_m": 0.11
+        },
+        "rng_state": {
+          "bit_generator": "PCG64",
+          "state": {
+            "state": 25045167431207911625053722407243408019,
+            "inc": 81531959227777139009772149242237133999
+          },
+          "has_uint32": 1,
+          "uinteger": 786694932
+        }
+      },
+      {
+        "tuple_index": 17,
+        "layout_number": 8,
+        "motor_ids": [
+          "SO_57BLR70-24-02",
+          "SO_57BLR70-24-02",
+          "SO_57BYA54-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01"
+        ],
+        "allocated_evaluations": 20,
+        "evaluations": 7,
+        "proposal_attempts": 7,
+        "duplicate_proposals": 0,
+        "geometry_rejections": 0,
+        "reach_rejections": 0,
+        "seed_probes": 1,
+        "seed_error": null,
+        "attempted": true,
+        "status": "in_progress",
+        "best_pmax_kg": 0.0,
+        "best_pmax_known_constraints_kg": 0.5992538603875993,
+        "best_peak_required_payload_utilization": 2.415843355960711,
+        "best_gravity_score_JG": 0.47236912696645844,
+        "best_gravity_capacity_score_JG": 0.733069438516562,
+        "best_arm_mass_kg": 5.323261833267661,
+        "best_design": {
+          "layout_number": 8,
+          "lengths_m": [
+            0.17550000000000004,
+            0.09,
+            0.16105977151355952
+          ],
+          "link_masses_kg": [
+            0.13717129425337715,
+            0.13334230261730579,
+            0.08397307694176337,
+            0.1093798071212745,
+            0.06445323594737674,
+            0.06696749404743758
+          ],
+          "com_fractions": [
+            0.35444076493377613,
+            0.36676299498871956,
+            0.20338524848935294,
+            0.44325287431309485,
+            0.23633437388455006,
+            0.5445133829586412
+          ],
+          "spread_fractions": [
+            0.10577212894209696,
+            0.13116010513830106,
+            0.10404159406214494,
+            0.09593971944960729,
+            0.10544558990123569,
+            0.08251453933779028
+          ],
+          "motor_offsets_m": [
+            -0.0009714437954923503,
+            -0.009485673755032077,
+            0.0,
+            -0.004876423310659083
+          ],
+          "motor_ids": [
+            "SO_57BLR70-24-02",
+            "SO_57BLR70-24-02",
+            "SO_57BYA54-24-01",
+            "SO_42BSB41-24-01",
+            "SO_42BSB41-24-01",
+            "SO_42BSB41-24-01"
+          ],
+          "reducer_ids": [
+            "SITO_HD-14_30",
+            "SITO_CD-20_30",
+            "SITO_CD-20_30",
+            "SITO_CS-11-2XH-A_30",
+            "SITO_CS-11-2XH-A_30",
+            "SITO_CS-11-2XH-A_30"
+          ],
+          "wrist2_length_m": 0.11
+        },
+        "rng_state": {
+          "bit_generator": "PCG64",
+          "state": {
+            "state": 29179666099359199812921129022932283874,
+            "inc": 117722183957557294884950721359868248187
+          },
+          "has_uint32": 0,
+          "uinteger": 4232265744
+        }
+      },
+      {
+        "tuple_index": 18,
+        "layout_number": 8,
+        "motor_ids": [
+          "SO_57BLR70-24-02",
+          "SO_57BLR70-24-02",
+          "SO_57BLY54-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01"
+        ],
+        "allocated_evaluations": 20,
+        "evaluations": 7,
+        "proposal_attempts": 7,
+        "duplicate_proposals": 0,
+        "geometry_rejections": 0,
+        "reach_rejections": 0,
+        "seed_probes": 1,
+        "seed_error": null,
+        "attempted": true,
+        "status": "in_progress",
+        "best_pmax_kg": 0.0,
+        "best_pmax_known_constraints_kg": 0.6014789322369405,
+        "best_peak_required_payload_utilization": 2.415460278455276,
+        "best_gravity_score_JG": 0.471727763189775,
+        "best_gravity_capacity_score_JG": 0.7325443038369901,
+        "best_arm_mass_kg": 5.302974448003395,
+        "best_design": {
+          "layout_number": 8,
+          "lengths_m": [
+            0.17567394220307797,
+            0.09,
+            0.16086048483998255
+          ],
+          "link_masses_kg": [
+            0.13690459616016792,
+            0.13337128855625963,
+            0.08397307694176337,
+            0.10933013401126354,
+            0.06445323594737674,
+            0.06696749404743758
+          ],
+          "com_fractions": [
+            0.38124270036484315,
+            0.36679808926302887,
+            0.20338524848935416,
+            0.44545920318028975,
+            0.2363343738845498,
+            0.5445133829586419
+          ],
+          "spread_fractions": [
+            0.11383375398990454,
+            0.13116588197898427,
+            0.10404159406214494,
+            0.09612696515986,
+            0.10544558990123569,
+            0.08251453933779028
+          ],
+          "motor_offsets_m": [
+            0.0,
+            0.006474432932533999,
+            0.0,
+            -0.0032872392380457268
+          ],
+          "motor_ids": [
+            "SO_57BLR70-24-02",
+            "SO_57BLR70-24-02",
+            "SO_57BLY54-24-01",
+            "SO_42BSB41-24-01",
+            "SO_42BSB41-24-01",
+            "SO_42BSB41-24-01"
+          ],
+          "reducer_ids": [
+            "SITO_HD-14_30",
+            "SITO_CD-20_30",
+            "SITO_CD-20_30",
+            "SITO_CS-11-2XH-A_30",
+            "SITO_CS-11-2XH-A_30",
+            "SITO_CS-11-2XH-A_30"
+          ],
+          "wrist2_length_m": 0.11
+        },
+        "rng_state": {
+          "bit_generator": "PCG64",
+          "state": {
+            "state": 158550785748902676362183223810529347606,
+            "inc": 247344537422715064775928505193242610177
+          },
+          "has_uint32": 0,
+          "uinteger": 1391360066
+        }
+      },
+      {
+        "tuple_index": 19,
+        "layout_number": 8,
+        "motor_ids": [
+          "SO_57BLR70-24-02",
+          "SO_57BLR70-24-02",
+          "SO_57BLR50-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01"
+        ],
+        "allocated_evaluations": 20,
+        "evaluations": 7,
+        "proposal_attempts": 7,
+        "duplicate_proposals": 0,
+        "geometry_rejections": 0,
+        "reach_rejections": 0,
+        "seed_probes": 1,
+        "seed_error": null,
+        "attempted": true,
+        "status": "in_progress",
+        "best_pmax_kg": 0.0,
+        "best_pmax_known_constraints_kg": 0.5932201173680899,
+        "best_peak_required_payload_utilization": 2.4150258132759346,
+        "best_gravity_score_JG": 0.47404372720722215,
+        "best_gravity_capacity_score_JG": 0.6163321327039792,
+        "best_arm_mass_kg": 5.351234073623835,
+        "best_design": {
+          "layout_number": 8,
+          "lengths_m": [
+            0.1758711296953356,
+            0.09,
+            0.16063449467555818
+          ],
+          "link_masses_kg": [
+            0.13740692369078775,
+            0.13112776597684908,
+            0.08397307694176337,
+            0.10933095468049489,
+            0.06445323594737674,
+            0.06696749404743758
+          ],
+          "com_fractions": [
+            0.3732866772736298,
+            0.36430925858590735,
+            0.20338524848935294,
+            0.44319640919007003,
+            0.23633437388455006,
+            0.5445133829586419
+          ],
+          "spread_fractions": [
+            0.11057526818586214,
+            0.13219065516639242,
+            0.10404159406214494,
+            0.09582094297778256,
+            0.10544558990123576,
+            0.08251453933779028
+          ],
+          "motor_offsets_m": [
+            0.0,
+            0.0014244495589845806,
+            0.0,
+            -0.004953710596939916
+          ],
+          "motor_ids": [
+            "SO_57BLR70-24-02",
+            "SO_57BLR70-24-02",
+            "SO_57BLR50-24-01",
+            "SO_42BSB41-24-01",
+            "SO_42BSB41-24-01",
+            "SO_42BSB41-24-01"
+          ],
+          "reducer_ids": [
+            "SITO_HD-14_30",
+            "SITO_CD-20_30",
+            "SITO_CD-20_30",
+            "SITO_CS-11-2XH-A_30",
+            "SITO_CS-11-2XH-A_30",
+            "SITO_CS-11-2XH-A_30"
+          ],
+          "wrist2_length_m": 0.11
+        },
+        "rng_state": {
+          "bit_generator": "PCG64",
+          "state": {
+            "state": 119263974612217889686580588056046387922,
+            "inc": 236320595471273007624347468576848970463
+          },
+          "has_uint32": 1,
+          "uinteger": 2031598746
+        }
+      },
+      {
+        "tuple_index": 20,
+        "layout_number": 8,
+        "motor_ids": [
+          "SO_57BLR70-24-02",
+          "SO_57BLR70-24-02",
+          "SO_57BLR70-24-02",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01"
+        ],
+        "allocated_evaluations": 20,
+        "evaluations": 7,
+        "proposal_attempts": 7,
+        "duplicate_proposals": 0,
+        "geometry_rejections": 0,
+        "reach_rejections": 0,
+        "seed_probes": 1,
+        "seed_error": null,
+        "attempted": true,
+        "status": "in_progress",
+        "best_pmax_kg": 0.0,
+        "best_pmax_known_constraints_kg": 0.5708050963456632,
+        "best_peak_required_payload_utilization": 2.415843355960711,
+        "best_gravity_score_JG": 0.4804719128879219,
+        "best_gravity_capacity_score_JG": 0.5627870381042795,
+        "best_arm_mass_kg": 5.514594681793102,
+        "best_design": {
+          "layout_number": 8,
+          "lengths_m": [
+            0.17550000000000004,
+            0.09,
+            0.16105977151355952
+          ],
+          "link_masses_kg": [
+            0.13755356683990091,
+            0.14430049361195732,
+            0.08397307694176337,
+            0.10937219206553962,
+            0.06445323594737674,
+            0.06696749404743758
+          ],
+          "com_fractions": [
+            0.3710072350400181,
+            0.37417748934189715,
+            0.20338524848935294,
+            0.4416122698837657,
+            0.23633437388455006,
+            0.5445133829586412
+          ],
+          "spread_fractions": [
+            0.10978012698211115,
+            0.12544358529573676,
+            0.10404159406214494,
+            0.09577916345426765,
+            0.10544558990123569,
+            0.08251453933779028
+          ],
+          "motor_offsets_m": [
+            0.0,
+            0.0,
+            -0.0034195032592533128,
+            -0.006064796969976433
+          ],
+          "motor_ids": [
+            "SO_57BLR70-24-02",
+            "SO_57BLR70-24-02",
+            "SO_57BLR70-24-02",
+            "SO_42BSB41-24-01",
+            "SO_42BSB41-24-01",
+            "SO_42BSB41-24-01"
+          ],
+          "reducer_ids": [
+            "SITO_HD-14_30",
+            "SITO_CD-20_30",
+            "SITO_CD-20_30",
+            "SITO_CS-11-2XH-A_30",
+            "SITO_CS-11-2XH-A_30",
+            "SITO_CS-11-2XH-A_30"
+          ],
+          "wrist2_length_m": 0.11
+        },
+        "rng_state": {
+          "bit_generator": "PCG64",
+          "state": {
+            "state": 222072751624695837447728319081066675829,
+            "inc": 129794793971238540138662973729912368577
+          },
+          "has_uint32": 1,
+          "uinteger": 3781219560
+        }
+      },
+      {
+        "tuple_index": 21,
+        "layout_number": 8,
+        "motor_ids": [
+          "SO_57BLR70-24-02",
+          "SO_57BYA94-36-01",
+          "SO_42BSA62-36-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01"
+        ],
+        "allocated_evaluations": 20,
+        "evaluations": 7,
+        "proposal_attempts": 7,
+        "duplicate_proposals": 0,
+        "geometry_rejections": 0,
+        "reach_rejections": 0,
+        "seed_probes": 1,
+        "seed_error": null,
+        "attempted": true,
+        "status": "in_progress",
+        "best_pmax_kg": 0.0,
+        "best_pmax_known_constraints_kg": 0.5987194601486838,
+        "best_peak_required_payload_utilization": 2.4099928123467245,
+        "best_gravity_score_JG": 0.47235414652140606,
+        "best_gravity_capacity_score_JG": 0.7300484424094201,
+        "best_arm_mass_kg": 5.677646120132115,
+        "best_design": {
+          "layout_number": 8,
+          "lengths_m": [
+            0.1781485111902032,
+            0.09,
+            0.15801887223474184
+          ],
+          "link_masses_kg": [
+            0.1470600894415157,
+            0.13822709082689327,
+            0.08397307694176337,
+            0.10899051058800285,
+            0.06445323594737674,
+            0.06696749404743758
+          ],
+          "com_fractions": [
+            0.3872278911637897,
+            0.3687560431213542,
+            0.20338524848935355,
+            0.4462531699095206,
+            0.2363343738845498,
+            0.5445133829586419
+          ],
+          "spread_fractions": [
+            0.10770445181409526,
+            0.12831307889688165,
+            0.10404159406214494,
+            0.09544354823400146,
+            0.10544558990123576,
+            0.08251453933779028
+          ],
+          "motor_offsets_m": [
+            0.0,
+            0.004778342668718946,
+            -0.003,
+            -0.003
+          ],
+          "motor_ids": [
+            "SO_57BLR70-24-02",
+            "SO_57BYA94-36-01",
+            "SO_42BSA62-36-01",
+            "SO_42BSB41-24-01",
+            "SO_42BSB41-24-01",
+            "SO_42BSB41-24-01"
+          ],
+          "reducer_ids": [
+            "SITO_HD-14_30",
+            "SITO_CD-20_30",
+            "SITO_CD-20_30",
+            "SITO_CS-11-2XH-A_30",
+            "SITO_CS-11-2XH-A_30",
+            "SITO_CS-11-2XH-A_30"
+          ],
+          "wrist2_length_m": 0.11
+        },
+        "rng_state": {
+          "bit_generator": "PCG64",
+          "state": {
+            "state": 231121319435948915297601426046651558012,
+            "inc": 27453057021055135143172427280075777305
+          },
+          "has_uint32": 1,
+          "uinteger": 1876213424
+        }
+      },
+      {
+        "tuple_index": 22,
+        "layout_number": 8,
+        "motor_ids": [
+          "SO_57BLR70-24-02",
+          "SO_57BYA94-36-01",
+          "SO_57BYA54-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01"
+        ],
+        "allocated_evaluations": 20,
+        "evaluations": 7,
+        "proposal_attempts": 7,
+        "duplicate_proposals": 0,
+        "geometry_rejections": 0,
+        "reach_rejections": 0,
+        "seed_probes": 1,
+        "seed_error": null,
+        "attempted": true,
+        "status": "in_progress",
+        "best_pmax_kg": 0.0,
+        "best_pmax_known_constraints_kg": 0.5970885219621206,
+        "best_peak_required_payload_utilization": 2.415843355960712,
+        "best_gravity_score_JG": 0.4729539208236319,
+        "best_gravity_capacity_score_JG": 0.7347026335105318,
+        "best_arm_mass_kg": 5.712873434813731,
+        "best_design": {
+          "layout_number": 8,
+          "lengths_m": [
+            0.17550000000000004,
+            0.09,
+            0.16105977151355952
+          ],
+          "link_masses_kg": [
+            0.14687956336287783,
+            0.13334230261730579,
+            0.08397307694176337,
+            0.1092831395578437,
+            0.06445323594737674,
+            0.06696749404743758
+          ],
+          "com_fractions": [
+            0.378782792306912,
+            0.36676299498871956,
+            0.20338524848935294,
+            0.44992739011376065,
+            0.23633437388455006,
+            0.5445133829586412
+          ],
+          "spread_fractions": [
+            0.10530134424878017,
+            0.13116010513830106,
+            0.10404159406214494,
+            0.09677281777951507,
+            0.10544558990123569,
+            0.08251453933779028
+          ],
+          "motor_offsets_m": [
+            -0.006156612377998159,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "motor_ids": [
+            "SO_57BLR70-24-02",
+            "SO_57BYA94-36-01",
+            "SO_57BYA54-24-01",
+            "SO_42BSB41-24-01",
+            "SO_42BSB41-24-01",
+            "SO_42BSB41-24-01"
+          ],
+          "reducer_ids": [
+            "SITO_HD-14_30",
+            "SITO_CD-20_30",
+            "SITO_CD-20_30",
+            "SITO_CS-11-2XH-A_30",
+            "SITO_CS-11-2XH-A_30",
+            "SITO_CS-11-2XH-A_30"
+          ],
+          "wrist2_length_m": 0.11
+        },
+        "rng_state": {
+          "bit_generator": "PCG64",
+          "state": {
+            "state": 333061030565760064759762272082588077596,
+            "inc": 35780109810934361148137065634894419561
+          },
+          "has_uint32": 1,
+          "uinteger": 2412500938
+        }
+      },
+      {
+        "tuple_index": 23,
+        "layout_number": 8,
+        "motor_ids": [
+          "SO_57BLR70-24-02",
+          "SO_57BYA94-36-01",
+          "SO_57BLY54-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01"
+        ],
+        "allocated_evaluations": 20,
+        "evaluations": 7,
+        "proposal_attempts": 7,
+        "duplicate_proposals": 0,
+        "geometry_rejections": 0,
+        "reach_rejections": 0,
+        "seed_probes": 1,
+        "seed_error": null,
+        "attempted": true,
+        "status": "in_progress",
+        "best_pmax_kg": 0.0,
+        "best_pmax_known_constraints_kg": 0.6124269322790904,
+        "best_peak_required_payload_utilization": 2.4158433559607144,
+        "best_gravity_score_JG": 0.4687143721591097,
+        "best_gravity_capacity_score_JG": 0.7298022569012727,
+        "best_arm_mass_kg": 5.693967450412765,
+        "best_design": {
+          "layout_number": 8,
+          "lengths_m": [
+            0.17550000000000004,
+            0.09,
+            0.16105977151355952
+          ],
+          "link_masses_kg": [
+            0.14754342728131503,
+            0.13370548486006356,
+            0.08397307694176337,
+            0.10935010899568266,
+            0.06445323594737674,
+            0.06696749404743758
+          ],
+          "com_fractions": [
+            0.3795501328062783,
+            0.3538814532310226,
+            0.20338524848935294,
+            0.4457251902315881,
+            0.23633437388455006,
+            0.5445133829586412
+          ],
+          "spread_fractions": [
+            0.10500300615583363,
+            0.12695829959112503,
+            0.10404159406214494,
+            0.09621197283663327,
+            0.10544558990123569,
+            0.08251453933779028
+          ],
+          "motor_offsets_m": [
+            0.0,
+            0.0,
+            -0.012197362896894173,
+            -0.0030739114047362514
+          ],
+          "motor_ids": [
+            "SO_57BLR70-24-02",
+            "SO_57BYA94-36-01",
+            "SO_57BLY54-24-01",
+            "SO_42BSB41-24-01",
+            "SO_42BSB41-24-01",
+            "SO_42BSB41-24-01"
+          ],
+          "reducer_ids": [
+            "SITO_HD-14_30",
+            "SITO_CD-20_30",
+            "SITO_CD-20_30",
+            "SITO_CS-11-2XH-A_30",
+            "SITO_CS-11-2XH-A_30",
+            "SITO_CS-11-2XH-A_30"
+          ],
+          "wrist2_length_m": 0.11
+        },
+        "rng_state": {
+          "bit_generator": "PCG64",
+          "state": {
+            "state": 190984323371385965821770492485347327960,
+            "inc": 246096481219542802117872702693095329607
+          },
+          "has_uint32": 0,
+          "uinteger": 1437324201
+        }
+      },
+      {
+        "tuple_index": 24,
+        "layout_number": 8,
+        "motor_ids": [
+          "SO_57BLR70-24-02",
+          "SO_57BYA94-36-01",
+          "SO_57BLR50-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01"
+        ],
+        "allocated_evaluations": 20,
+        "evaluations": 7,
+        "proposal_attempts": 7,
+        "duplicate_proposals": 0,
+        "geometry_rejections": 0,
+        "reach_rejections": 0,
+        "seed_probes": 1,
+        "seed_error": null,
+        "attempted": true,
+        "status": "in_progress",
+        "best_pmax_kg": 0.0,
+        "best_pmax_known_constraints_kg": 0.5998482996553739,
+        "best_peak_required_payload_utilization": 2.4158433559607104,
+        "best_gravity_score_JG": 0.472201204117339,
+        "best_gravity_capacity_score_JG": 0.614875330439065,
+        "best_arm_mass_kg": 5.741587976519188,
+        "best_design": {
+          "layout_number": 8,
+          "lengths_m": [
+            0.17550000000000004,
+            0.09,
+            0.16105977151355952
+          ],
+          "link_masses_kg": [
+            0.14754342728131503,
+            0.13134591562083034,
+            0.08397307694176337,
+            0.10933020434133943,
+            0.06445323594737674,
+            0.06696749404743758
+          ],
+          "com_fractions": [
+            0.3795501328062783,
+            0.3567807791695073,
+            0.20338524848935294,
+            0.4473831092553205,
+            0.23633437388455006,
+            0.5445133829586412
+          ],
+          "spread_fractions": [
+            0.10500300615583363,
+            0.12949172368405992,
+            0.10404159406214494,
+            0.0964188821924461,
+            0.10544558990123569,
+            0.08251453933779028
+          ],
+          "motor_offsets_m": [
+            0.0,
+            0.0,
+            -0.007172513591000342,
+            -0.0018645088168765915
+          ],
+          "motor_ids": [
+            "SO_57BLR70-24-02",
+            "SO_57BYA94-36-01",
+            "SO_57BLR50-24-01",
+            "SO_42BSB41-24-01",
+            "SO_42BSB41-24-01",
+            "SO_42BSB41-24-01"
+          ],
+          "reducer_ids": [
+            "SITO_HD-14_30",
+            "SITO_CD-20_30",
+            "SITO_CD-20_30",
+            "SITO_CS-11-2XH-A_30",
+            "SITO_CS-11-2XH-A_30",
+            "SITO_CS-11-2XH-A_30"
+          ],
+          "wrist2_length_m": 0.11
+        },
+        "rng_state": {
+          "bit_generator": "PCG64",
+          "state": {
+            "state": 339670754647049573708894613164044883143,
+            "inc": 441289530773617384368775134146542591
+          },
+          "has_uint32": 0,
+          "uinteger": 1305706511
+        }
+      },
+      {
+        "tuple_index": 25,
+        "layout_number": 8,
+        "motor_ids": [
+          "SO_57BLR70-24-02",
+          "SO_57BYA94-36-01",
+          "SO_57BLR70-24-02",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01"
+        ],
+        "allocated_evaluations": 20,
+        "evaluations": 7,
+        "proposal_attempts": 7,
+        "duplicate_proposals": 0,
+        "geometry_rejections": 0,
+        "reach_rejections": 0,
+        "seed_probes": 1,
+        "seed_error": null,
+        "attempted": true,
+        "status": "in_progress",
+        "best_pmax_kg": 0.0,
+        "best_pmax_known_constraints_kg": 0.5747318468874555,
+        "best_peak_required_payload_utilization": 2.4158433559607118,
+        "best_gravity_score_JG": 0.4793074138331687,
+        "best_gravity_capacity_score_JG": 0.5616221992498538,
+        "best_arm_mass_kg": 5.904573947686743,
+        "best_design": {
+          "layout_number": 8,
+          "lengths_m": [
+            0.17550000000000004,
+            0.09,
+            0.16105977151355952
+          ],
+          "link_masses_kg": [
+            0.14753273905168737,
+            0.14438963980150887,
+            0.08397307694176337,
+            0.1092831395578437,
+            0.06445323594737674,
+            0.06696749404743758
+          ],
+          "com_fractions": [
+            0.37953780750660204,
+            0.3683263853022971,
+            0.20338524848935294,
+            0.44992739011376065,
+            0.23633437388455006,
+            0.5445133829586412
+          ],
+          "spread_fractions": [
+            0.10500778242964116,
+            0.1237043487092884,
+            0.10404159406214494,
+            0.09677281777951507,
+            0.10544558990123569,
+            0.08251453933779028
+          ],
+          "motor_offsets_m": [
+            -9.719120432160813e-05,
+            0.0,
+            -0.008815861194235636,
+            0.0
+          ],
+          "motor_ids": [
+            "SO_57BLR70-24-02",
+            "SO_57BYA94-36-01",
+            "SO_57BLR70-24-02",
+            "SO_42BSB41-24-01",
+            "SO_42BSB41-24-01",
+            "SO_42BSB41-24-01"
+          ],
+          "reducer_ids": [
+            "SITO_HD-14_30",
+            "SITO_CD-20_30",
+            "SITO_CD-20_30",
+            "SITO_CS-11-2XH-A_30",
+            "SITO_CS-11-2XH-A_30",
+            "SITO_CS-11-2XH-A_30"
+          ],
+          "wrist2_length_m": 0.11
+        },
+        "rng_state": {
+          "bit_generator": "PCG64",
+          "state": {
+            "state": 290750756743893909615139142749331448606,
+            "inc": 236304643032232518998084472311850577725
+          },
+          "has_uint32": 1,
+          "uinteger": 3916383507
+        }
+      },
+      {
+        "tuple_index": 26,
+        "layout_number": 8,
+        "motor_ids": [
+          "SO_57BLR70-24-02",
+          "SO_57BSD96-36-01",
+          "SO_42BSA62-36-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01"
+        ],
+        "allocated_evaluations": 20,
+        "evaluations": 7,
+        "proposal_attempts": 7,
+        "duplicate_proposals": 0,
+        "geometry_rejections": 0,
+        "reach_rejections": 0,
+        "seed_probes": 1,
+        "seed_error": null,
+        "attempted": true,
+        "status": "in_progress",
+        "best_pmax_kg": 0.0,
+        "best_pmax_known_constraints_kg": 0.6056963952943104,
+        "best_peak_required_payload_utilization": 2.4158433559607153,
+        "best_gravity_score_JG": 0.47055537722401464,
+        "best_gravity_capacity_score_JG": 0.7323040899109139,
+        "best_arm_mass_kg": 5.458184428074069,
+        "best_design": {
+          "layout_number": 8,
+          "lengths_m": [
+            0.17550000000000004,
+            0.09,
+            0.16105977151355952
+          ],
+          "link_masses_kg": [
+            0.14822060777630164,
+            0.13731225146421988,
+            0.08397307694176337,
+            0.1092831395578437,
+            0.06445323594737674,
+            0.06696749404743758
+          ],
+          "com_fractions": [
+            0.37439033077537787,
+            0.3725392880793398,
+            0.20338524848935294,
+            0.44992739011376065,
+            0.23633437388455006,
+            0.5445133829586412
+          ],
+          "spread_fractions": [
+            0.10340842965130034,
+            0.12808530170471402,
+            0.10404159406214494,
+            0.09677281777951507,
+            0.10544558990123569,
+            0.08251453933779028
+          ],
+          "motor_offsets_m": [
+            0.003,
+            -0.00330948036006225,
+            -0.003,
+            0.0
+          ],
+          "motor_ids": [
+            "SO_57BLR70-24-02",
+            "SO_57BSD96-36-01",
+            "SO_42BSA62-36-01",
+            "SO_42BSB41-24-01",
+            "SO_42BSB41-24-01",
+            "SO_42BSB41-24-01"
+          ],
+          "reducer_ids": [
+            "SITO_HD-14_30",
+            "SITO_CD-20_30",
+            "SITO_CD-20_30",
+            "SITO_CS-11-2XH-A_30",
+            "SITO_CS-11-2XH-A_30",
+            "SITO_CS-11-2XH-A_30"
+          ],
+          "wrist2_length_m": 0.11
+        },
+        "rng_state": {
+          "bit_generator": "PCG64",
+          "state": {
+            "state": 194682478692686025608335406071950301463,
+            "inc": 229895056850226592928783545398349551067
+          },
+          "has_uint32": 1,
+          "uinteger": 2084554354
+        }
+      },
+      {
+        "tuple_index": 27,
+        "layout_number": 8,
+        "motor_ids": [
+          "SO_57BLR70-24-02",
+          "SO_57BSD96-36-01",
+          "SO_57BYA54-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01"
+        ],
+        "allocated_evaluations": 20,
+        "evaluations": 7,
+        "proposal_attempts": 7,
+        "duplicate_proposals": 0,
+        "geometry_rejections": 0,
+        "reach_rejections": 0,
+        "seed_probes": 1,
+        "seed_error": null,
+        "attempted": true,
+        "status": "in_progress",
+        "best_pmax_kg": 0.0,
+        "best_pmax_known_constraints_kg": 0.5991860822186938,
+        "best_peak_required_payload_utilization": 2.413846184509936,
+        "best_gravity_score_JG": 0.47231317023130437,
+        "best_gravity_capacity_score_JG": 0.7328787715196303,
+        "best_arm_mass_kg": 5.493844116145195,
+        "best_design": {
+          "layout_number": 8,
+          "lengths_m": [
+            0.17640604493377113,
+            0.09,
+            0.16002106216639259
+          ],
+          "link_masses_kg": [
+            0.14824549307721274,
+            0.13312355753368427,
+            0.08397307694176337,
+            0.10910663625859447,
+            0.06445323594737674,
+            0.06696749404743758
+          ],
+          "com_fractions": [
+            0.3749362511840625,
+            0.36488034072995407,
+            0.20338524848935355,
+            0.45006771870243,
+            0.23633437388455006,
+            0.5445133829586412
+          ],
+          "spread_fractions": [
+            0.10355190354623715,
+            0.1290777341883859,
+            0.10404159406214494,
+            0.09649941710294438,
+            0.10544558990123569,
+            0.08251453933779028
+          ],
+          "motor_offsets_m": [
+            0.003,
+            -0.003,
+            -0.005677213121198753,
+            0.0
+          ],
+          "motor_ids": [
+            "SO_57BLR70-24-02",
+            "SO_57BSD96-36-01",
+            "SO_57BYA54-24-01",
+            "SO_42BSB41-24-01",
+            "SO_42BSB41-24-01",
+            "SO_42BSB41-24-01"
+          ],
+          "reducer_ids": [
+            "SITO_HD-14_30",
+            "SITO_CD-20_30",
+            "SITO_CD-20_30",
+            "SITO_CS-11-2XH-A_30",
+            "SITO_CS-11-2XH-A_30",
+            "SITO_CS-11-2XH-A_30"
+          ],
+          "wrist2_length_m": 0.11
+        },
+        "rng_state": {
+          "bit_generator": "PCG64",
+          "state": {
+            "state": 82411967059510393063504643897574967065,
+            "inc": 74493456643870686077519569400158670071
+          },
+          "has_uint32": 0,
+          "uinteger": 448092348
+        }
+      },
+      {
+        "tuple_index": 28,
+        "layout_number": 8,
+        "motor_ids": [
+          "SO_57BLR70-24-02",
+          "SO_57BSD96-36-01",
+          "SO_57BLY54-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01"
+        ],
+        "allocated_evaluations": 20,
+        "evaluations": 7,
+        "proposal_attempts": 7,
+        "duplicate_proposals": 0,
+        "geometry_rejections": 0,
+        "reach_rejections": 0,
+        "seed_probes": 1,
+        "seed_error": null,
+        "attempted": true,
+        "status": "in_progress",
+        "best_pmax_kg": 0.0,
+        "best_pmax_known_constraints_kg": 0.6028980969395936,
+        "best_peak_required_payload_utilization": 2.4158433559607135,
+        "best_gravity_score_JG": 0.4713523633090669,
+        "best_gravity_capacity_score_JG": 0.731932055546663,
+        "best_arm_mass_kg": 5.4737232103496405,
+        "best_design": {
+          "layout_number": 8,
+          "lengths_m": [
+            0.17550000000000004,
+            0.09,
+            0.16105977151355952
+          ],
+          "link_masses_kg": [
+            0.1482038338535964,
+            0.1327618771075878,
+            0.08397307694176337,
+            0.10938907011275327,
+            0.06445323594737674,
+            0.06696749404743758
+          ],
+          "com_fractions": [
+            0.3740215897502656,
+            0.37064002865045664,
+            0.20338524848935294,
+            0.4424820445124597,
+            0.23633437388455006,
+            0.5445133829586412
+          ],
+          "spread_fractions": [
+            0.10331309686106385,
+            0.13114762322738377,
+            0.10404159406214494,
+            0.09586370865333867,
+            0.10544558990123569,
+            0.08251453933779028
+          ],
+          "motor_offsets_m": [
+            0.003,
+            -0.0035187907702843545,
+            0.0,
+            -0.00543818084500568
+          ],
+          "motor_ids": [
+            "SO_57BLR70-24-02",
+            "SO_57BSD96-36-01",
+            "SO_57BLY54-24-01",
+            "SO_42BSB41-24-01",
+            "SO_42BSB41-24-01",
+            "SO_42BSB41-24-01"
+          ],
+          "reducer_ids": [
+            "SITO_HD-14_30",
+            "SITO_CD-20_30",
+            "SITO_CD-20_30",
+            "SITO_CS-11-2XH-A_30",
+            "SITO_CS-11-2XH-A_30",
+            "SITO_CS-11-2XH-A_30"
+          ],
+          "wrist2_length_m": 0.11
+        },
+        "rng_state": {
+          "bit_generator": "PCG64",
+          "state": {
+            "state": 289185970151500781838618874043235106207,
+            "inc": 243711281122990139142111420192461535327
+          },
+          "has_uint32": 1,
+          "uinteger": 1926402911
+        }
+      },
+      {
+        "tuple_index": 29,
+        "layout_number": 8,
+        "motor_ids": [
+          "SO_57BLR70-24-02",
+          "SO_57BSD96-36-01",
+          "SO_57BLR50-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01"
+        ],
+        "allocated_evaluations": 20,
+        "evaluations": 7,
+        "proposal_attempts": 7,
+        "duplicate_proposals": 0,
+        "geometry_rejections": 0,
+        "reach_rejections": 0,
+        "seed_probes": 1,
+        "seed_error": null,
+        "attempted": true,
+        "status": "in_progress",
+        "best_pmax_kg": 0.0,
+        "best_pmax_known_constraints_kg": 0.5981999841894039,
+        "best_peak_required_payload_utilization": 2.4158433559607144,
+        "best_gravity_score_JG": 0.47267015151402353,
+        "best_gravity_capacity_score_JG": 0.6151507947515265,
+        "best_arm_mass_kg": 5.521720048174806,
+        "best_design": {
+          "layout_number": 8,
+          "lengths_m": [
+            0.17550000000000004,
+            0.09,
+            0.16105977151355952
+          ],
+          "link_masses_kg": [
+            0.14824549307721274,
+            0.13073198749131865,
+            0.08397307694176337,
+            0.10937413833056993,
+            0.06445323594737674,
+            0.06696749404743758
+          ],
+          "com_fractions": [
+            0.3749362511840625,
+            0.3635518080358149,
+            0.20338524848935294,
+            0.443724676024234,
+            0.23633437388455006,
+            0.5445133829586412
+          ],
+          "spread_fractions": [
+            0.10355190354623715,
+            0.13057242247852777,
+            0.10404159406214494,
+            0.0959883232682332,
+            0.10544558990123569,
+            0.08251453933779028
+          ],
+          "motor_offsets_m": [
+            0.003,
+            -0.003,
+            -0.004284619303378452,
+            -0.004532532633786048
+          ],
+          "motor_ids": [
+            "SO_57BLR70-24-02",
+            "SO_57BSD96-36-01",
+            "SO_57BLR50-24-01",
+            "SO_42BSB41-24-01",
+            "SO_42BSB41-24-01",
+            "SO_42BSB41-24-01"
+          ],
+          "reducer_ids": [
+            "SITO_HD-14_30",
+            "SITO_CD-20_30",
+            "SITO_CD-20_30",
+            "SITO_CS-11-2XH-A_30",
+            "SITO_CS-11-2XH-A_30",
+            "SITO_CS-11-2XH-A_30"
+          ],
+          "wrist2_length_m": 0.11
+        },
+        "rng_state": {
+          "bit_generator": "PCG64",
+          "state": {
+            "state": 103797902744552933855603055857437405193,
+            "inc": 339768649200132898262370127492503803633
+          },
+          "has_uint32": 0,
+          "uinteger": 3394727152
+        }
+      },
+      {
+        "tuple_index": 30,
+        "layout_number": 8,
+        "motor_ids": [
+          "SO_57BLR70-24-02",
+          "SO_57BSD96-36-01",
+          "SO_57BLR70-24-02",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01"
+        ],
+        "allocated_evaluations": 20,
+        "evaluations": 7,
+        "proposal_attempts": 7,
+        "duplicate_proposals": 0,
+        "geometry_rejections": 0,
+        "reach_rejections": 0,
+        "seed_probes": 1,
+        "seed_error": null,
+        "attempted": true,
+        "status": "in_progress",
+        "best_pmax_kg": 0.0,
+        "best_pmax_known_constraints_kg": 0.5684153703504383,
+        "best_peak_required_payload_utilization": 2.415843355960711,
+        "best_gravity_score_JG": 0.48111253842973195,
+        "best_gravity_capacity_score_JG": 0.563427341116789,
+        "best_arm_mass_kg": 5.684498166875215,
+        "best_design": {
+          "layout_number": 8,
+          "lengths_m": [
+            0.17550000000000004,
+            0.09,
+            0.16105977151355952
+          ],
+          "link_masses_kg": [
+            0.14815872420976742,
+            0.14367595555928353,
+            0.08397307694176337,
+            0.10929505783046106,
+            0.06445323594737674,
+            0.06696749404743758
+          ],
+          "com_fractions": [
+            0.3777549900858046,
+            0.37838994872672455,
+            0.20338524848935294,
+            0.4498032780344826,
+            0.23633437388455006,
+            0.5445133829586412
+          ],
+          "spread_fractions": [
+            0.10431241554000162,
+            0.1251118251748165,
+            0.10404159406214494,
+            0.0967554353181459,
+            0.10544558990123569,
+            0.08251453933779028
+          ],
+          "motor_offsets_m": [
+            0.003,
+            -0.0012930506564469532,
+            -0.0037593214086009733,
+            -9.537566323643763e-05
+          ],
+          "motor_ids": [
+            "SO_57BLR70-24-02",
+            "SO_57BSD96-36-01",
+            "SO_57BLR70-24-02",
+            "SO_42BSB41-24-01",
+            "SO_42BSB41-24-01",
+            "SO_42BSB41-24-01"
+          ],
+          "reducer_ids": [
+            "SITO_HD-14_30",
+            "SITO_CD-20_30",
+            "SITO_CD-20_30",
+            "SITO_CS-11-2XH-A_30",
+            "SITO_CS-11-2XH-A_30",
+            "SITO_CS-11-2XH-A_30"
+          ],
+          "wrist2_length_m": 0.11
+        },
+        "rng_state": {
+          "bit_generator": "PCG64",
+          "state": {
+            "state": 237756485150179447725400741754136787529,
+            "inc": 159515563014649501616867378581107235245
+          },
+          "has_uint32": 0,
+          "uinteger": 3708405366
+        }
+      }
+    ]
+  }
+}

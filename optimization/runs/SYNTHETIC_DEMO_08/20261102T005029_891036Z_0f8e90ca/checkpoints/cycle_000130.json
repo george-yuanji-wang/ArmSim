@@ -1,0 +1,152 @@
+{
+  "hallmark": {
+    "cycle": 130,
+    "best_found_cycle": 45,
+    "elapsed_s": 32.527,
+    "layout_number": 8,
+    "reachable_poses": 1008,
+    "total_poses": 1008,
+    "pmax_kg": 2.634609128093774,
+    "required_payload_upper_kg": 1.0,
+    "requirements_met": true,
+    "geometry_valid": true,
+    "extended_reach_mm": 539.4016875562082,
+    "geometry_rejections": 117,
+    "arm_mass_kg": 4.594326298210118,
+    "gravity_score_JG": 0.10284205264458089
+  },
+  "best_design": {
+    "layout_number": 8,
+    "lengths_m": [
+      0.2330391543726957,
+      0.09,
+      0.12786415363019082
+    ],
+    "link_masses_kg": [
+      0.17033251535325838,
+      0.18065536793912979,
+      0.0835721968629763,
+      0.08702367212950152,
+      0.04972839054340285,
+      0.05591733057448625
+    ],
+    "com_fractions": [
+      0.24031028183132316,
+      0.27139831152603516,
+      0.20475697820744754,
+      0.49174329190703914,
+      0.2777466473748357,
+      0.5862727263283877
+    ],
+    "spread_fractions": [
+      0.10081423221503298,
+      0.1339368009569675,
+      0.10648424524364099,
+      0.09277555427744709,
+      0.12216257906667456,
+      0.0881015103008793
+    ],
+    "motor_offsets_m": [
+      0.01400126120054036,
+      -0.005251495805741713,
+      0.014459108840070886,
+      -0.0012079044411645325
+    ],
+    "motor_ids": [
+      "SYNTHETIC_M_LARGE",
+      "SYNTHETIC_M_WRIST",
+      "SYNTHETIC_M_WRIST",
+      "SYNTHETIC_M_WRIST",
+      "SYNTHETIC_M_WRIST",
+      "SYNTHETIC_M_WRIST"
+    ],
+    "reducer_ids": [
+      "SYNTHETIC_R_100",
+      "SYNTHETIC_R_100",
+      "SYNTHETIC_R_50",
+      "SYNTHETIC_R_WRIST",
+      "SYNTHETIC_R_WRIST",
+      "SYNTHETIC_R_WRIST"
+    ]
+  },
+  "summary": {
+    "geometry_valid": true,
+    "geometry_contract": "approved-base-template-v4",
+    "extended_reach_mm": 539.4016875562082,
+    "reach_bounds_pass": true,
+    "reach_definition": "maximum unrestricted shoulder-to-TCP extension",
+    "required_extended_reach_lower_mm": 450.0,
+    "required_extended_reach_upper_mm": 600.0,
+    "pose_basis": "24 named joint-state references (zero, signed single-axis quarter turns, six fully extended world directions, combined folded/wrist states) plus 984 deterministic Halton states across six joint angles in [-pi, pi). Joint states are common to every design; fully extended tests resolve analytically for each design. Reach bounds constrain maximum shoulder-to-TCP extension, not a workspace shell. Global collision and joint-stop checks disabled.",
+    "ik_policy": "joint-state references applied directly; named extension poses resolved analytically",
+    "score_definition": "guaranteed zero-to-P payload over the finite velocity basis and acceleration box",
+    "capacity_model": "continuous-rated motor/reducer screening; ideal lossless 1:1 input belts",
+    "motor_envelope_assumption": "min(rated torque, stall torque * (1 - abs(rpm)/no-load rpm)); max mechanical rpm also enforced; no thermal curve",
+    "velocity_cases_per_pose": 37,
+    "velocity_coefficient_order": [
+      "qdot1^2",
+      "qdot2^2",
+      "qdot3^2",
+      "qdot4^2",
+      "qdot5^2",
+      "qdot6^2",
+      "qdot1*qdot2",
+      "qdot1*qdot3",
+      "qdot1*qdot4",
+      "qdot1*qdot5",
+      "qdot1*qdot6",
+      "qdot2*qdot3",
+      "qdot2*qdot4",
+      "qdot2*qdot5",
+      "qdot2*qdot6",
+      "qdot3*qdot4",
+      "qdot3*qdot5",
+      "qdot3*qdot6",
+      "qdot4*qdot5",
+      "qdot4*qdot6",
+      "qdot5*qdot6"
+    ],
+    "acceleration_corners_per_velocity": 64,
+    "payload_inertia_model": "TCP-centered sphere, radius 10 mm, inertia per kg 4e-5 m2",
+    "unknown_reducer_rotating_inertia": "omitted; complete reducer case mass on parent",
+    "collision_checks": false,
+    "joint_stop_checks": false,
+    "worst_pose_id": "pose_0014",
+    "limiting_joint": 2,
+    "failure_reason": "",
+    "empty_arm_passes": true,
+    "unreachable_pose_count": 0,
+    "required_payload_upper_kg": 1.0,
+    "required_payload_lower_kg": 0.5,
+    "required_payload_passes": true,
+    "jg_definition": "sum of squared normalized gravity torques at required upper payload, fixed pose weights"
+  },
+  "rng_state": {
+    "bit_generator": "PCG64",
+    "state": {
+      "state": 56948051202077664320582975823772637947,
+      "inc": 332724090758049132448979897138935081983
+    },
+    "has_uint32": 0,
+    "uinteger": 3942178667
+  },
+  "geometry_rejection_counts": {
+    "J5 motor intersects its parent template cage (wrist_1_link_frame_6)": 8,
+    "Approved case mount cannot fit J2: Offset motor outside its supporting frame: M2_case_mount": 27,
+    "No room for spatial link frame: wrist_2_link": 15,
+    "Insufficient spatial frame span for catalog hardware: forearm_link": 8,
+    "J2 motor intersects its parent template cage (shoulder_link_frame_2)": 3,
+    "J3 motor intersects its parent template cage (upper_arm_link_frame_2)": 3,
+    "J5 motor intersects its parent template cage (wrist_1_link_frame_2)": 25,
+    "J3 motor intersects its parent template cage (upper_arm_link_frame_8)": 1,
+    "J5 motor intersects its parent template cage (wrist_1_link_frame_4)": 1,
+    "Approved case mount cannot fit J5: Case saddle does not fit: J5_fixed_mount": 5,
+    "J3 motor intersects its parent template cage (upper_arm_link_frame_11)": 2,
+    "J3 motor intersects its parent template cage (upper_arm_link_frame_6)": 10,
+    "Insufficient spatial frame span for catalog hardware: wrist_1_link": 4,
+    "J3 motor intersects its parent template cage (upper_arm_link_frame_4)": 2,
+    "J5 local assembly interference: wrist_2_link_frame_0 intersects G5_housing by 2.32895 mm": 1,
+    "J5 motor intersects its parent template cage (wrist_1_link_frame_0)": 1,
+    "Approved case mount cannot fit J4: Case saddle does not fit: J4_fixed_mount": 1
+  }
+}

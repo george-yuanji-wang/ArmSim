@@ -1,0 +1,42 @@
+{
+  "excluded_hardware.csv": {
+    "sha256": "e632b7113bf7747275b2880a5ef2a967427d567a441e601c0e8228031e06c076",
+    "bytes": 34
+  },
+  "hardware_provenance.csv": {
+    "sha256": "1d26834b83a45434a917fc77d072507e79e0355ccabf5b83cacc3e97f8625e02",
+    "bytes": 16284
+  },
+  "link_bounds.csv": {
+    "sha256": "b631395cabdbbee40caded655cafadf30eccf732d0f98df45d67fd125bba79ee",
+    "bytes": 414
+  },
+  "motor.csv": {
+    "sha256": "15a19c4e879c83077db9bba88686929f54290919a37f24729c503fd877f4d222",
+    "bytes": 1008
+  },
+  "motor_curve.csv": {
+    "sha256": "583902468ea9674345a493a8f2f6eff83ad855943c1abc91c80384df8690156d",
+    "bytes": 3642
+  },
+  "reducer.csv": {
+    "sha256": "25a3028da9c3d9eba1c5857082143ce5232ac1221dc316077fdfa8bf622724db",
+    "bytes": 717
+  },
+  "requirement.csv": {
+    "sha256": "bbbdbf30d0595a1485c5d5ddeef7b5ec5056e435df0b1f9a840875245f463b11",
+    "bytes": 104
+  },
+  "study_assumptions.csv": {
+    "sha256": "3fd2b99d6d4c664dbbeecad493b183003b7706757fe7f78d67d9f1569c24e557",
+    "bytes": 2605
+  },
+  "input_assumptions.json": {
+    "sha256": "2c78792d5198f61c293c35bdd19d2496e764257551149c2bd4d40d539f2c3f4b",
+    "bytes": 24846
+  },
+  "study.json": {
+    "sha256": "4d186c2bc5702101e34a82a9143f091ac685f3fd19729a81b8ab00f4f594455d",
+    "bytes": 501
+  }
+}

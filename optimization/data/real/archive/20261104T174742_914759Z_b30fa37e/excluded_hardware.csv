@@ -1,0 +1,8 @@
+kind,id,model,reasons,source_url
+motor,SO_42BLR43-24-01,42BLR43-24-01,published minimum order exceeds one motor,https://www.omc-stepperonline.com/24v-2000rpm-0-062nm-13w-0-91a-round-%D1%8442x43mm-brushless-dc-motor-42blr43-24-01
+motor,SO_42BLS40-24-01,42BLS40-24-01,net motor mass unpublished in captured HTML; missing published/derived positive mass_kg,https://www.omc-stepperonline.com/24v-4000rpm-0-0625nm-26w-1-8a-42x42x40mm-brushless-dc-motor-42bls40-24-01
+motor,SO_42BLS60-24-01,42BLS60-24-01,net motor mass unpublished in captured HTML; missing published/derived positive mass_kg,https://www.omc-stepperonline.com/24v-4000rpm-0-125nm-52-5w-3-4a-42x42x60mm-brushless-dc-motor-42bls60-24-01
+motor,SO_42BSA78-48-01,42BSA78-48-01,optional voltage outside active 24/36 V study; this study includes only published 24 V and 36 V windings,https://www.omc-stepperonline.com/48v-3000rpm-0-24nm-75w-2-40a-42x42x78mm-brushless-dc-motor-42bsa78-48-01
+motor,SO_42BSB61-48-01,42BSB61-48-01,optional voltage outside active 24/36 V study; this study includes only published 24 V and 36 V windings,https://www.omc-stepperonline.com/48v-3000rpm-0-125nm-39w-1-20a-42x42x61mm-brushless-dc-motor-42bsb61-48-01
+motor,SO_42BSB81-48-01,42BSB81-48-01,optional voltage outside active 24/36 V study; this study includes only published 24 V and 36 V windings,https://www.omc-stepperonline.com/48v-3000rpm-0-19nm-60w-1-80a-42x42x81mm-brushless-dc-motor-42bsb81-48-01
+motor,SO_57BYA94-48-01,57BYA94-48-01,optional voltage outside active 24/36 V study; this study includes only published 24 V and 36 V windings,https://www.omc-stepperonline.com/48v-3000rpm-0-45nm-141w-4-00a-57x57x93-5mm-brushless-dc-motor-57bya94-48-01

@@ -1,0 +1,24 @@
+{
+  "project_id": "REAL_550_08",
+  "payload_lower_g": 500.0,
+  "payload_upper_g": 500.0,
+  "reach_lower_mm": 550.0,
+  "reach_upper_mm": 550.0,
+  "elevation_lower_deg": -45.0,
+  "elevation_upper_deg": 45.0,
+  "joint_speed_rad_s": 1.0,
+  "joint_accel_rad_s2": 2.0,
+  "l1_lower_mm": 82.5,
+  "l1_upper_mm": 495.0,
+  "l2_lower_mm": 90.0,
+  "l2_upper_mm": 90.0,
+  "l3_lower_mm": 16.5,
+  "l3_upper_mm": 495.0,
+  "motor_offset_max_mm": 110.0,
+  "seed": 42,
+  "cycles": 200,
+  "checkpoint_every": 10,
+  "allowed_layouts": [
+    8
+  ]
+}

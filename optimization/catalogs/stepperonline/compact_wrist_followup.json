@@ -1,0 +1,93 @@
+{
+  "retrieved_client_date": "2026-11-04",
+  "scope": "Primary-source follow-up for complete small wrist BLDC motors around 0.05-0.08 Nm, below USD 50. Existing research and active inputs are unchanged.",
+  "result": "42BSB41-24-01 remains the verified compact default. No checked, normally purchasable candidate was established as both shorter and lighter at this torque class with a published net mass.",
+  "baseline": {
+    "model": "42BSB41-24-01",
+    "rated_torque_Nm": 0.063,
+    "rated_speed_rpm": 3000,
+    "rated_power_W": 20,
+    "rated_voltage_V": 24,
+    "body_length_mm": 41,
+    "mass_kg": 0.262,
+    "mass_scope": "Published net motor weight in Physical Specification; gross shipping mass not used.",
+    "price_USD": 13.90,
+    "source_url": "https://www.omc-stepperonline.com/24v-3000rpm-0-063nm-20w-1-20a-42x42x41mm-brushless-dc-motor-42bsb41-24-01"
+  },
+  "checked_candidates": [
+    {
+      "model": "42BLR43-24-01",
+      "rated_torque_Nm": 0.062,
+      "rated_speed_rpm": 2000,
+      "rated_power_W": 13,
+      "rated_voltage_V": 24,
+      "body_length_mm": 43,
+      "body_diameter_mm": 42,
+      "mass_kg": 0.250,
+      "mass_scope": "Published net motor weight in Physical Specification.",
+      "price_USD": 19.87,
+      "procurement": "Main product page explicitly says pre-order and minimum order 30; related-series backorder tables do not remove that restriction.",
+      "decision": "Not active: MOQ 30. Only 12 g lighter and 2 mm longer than the baseline.",
+      "source_url": "https://www.omc-stepperonline.com/24v-2000rpm-0-062nm-13w-0-91a-round-%D1%8442x43mm-brushless-dc-motor-42blr43-24-01",
+      "datasheet_url": "https://files.omc-stepperonline.com/42BLR43-24-01_Full_Datasheet.pdf"
+    },
+    {
+      "model": "42BLS40-24-01",
+      "rated_torque_Nm": 0.063,
+      "rated_torque_title_Nm": 0.0625,
+      "rated_speed_rpm": 4000,
+      "rated_power_W": 26,
+      "rated_voltage_V": 24,
+      "body_length_mm": 39.2,
+      "body_width_mm": 42,
+      "body_height_mm": 42,
+      "rear_shaft_length_mm": 13.5,
+      "front_shaft_length_mm": 20,
+      "mass_kg": null,
+      "gross_shipping_mass_kg": 0.30,
+      "price_USD": 17.16,
+      "decision": "Not active: net mass is absent from checked current product page and complete extracted one-page manufacturer datasheet. Cannot claim it is lighter from gross shipping weight.",
+      "revision_note": "Product page identifies two revisions. Current physical specification states 39.2 mm body and rear shaft; the linked drawing annotates a 41 mm axial dimension. No exact-revision envelope is silently certified.",
+      "source_url": "https://www.omc-stepperonline.com/24v-4000rpm-0-0625nm-26w-1-8a-42x42x40mm-brushless-dc-motor-42bls40-24-01",
+      "datasheet_url": "https://files.omc-stepperonline.com/42BLS40-24-01_Full_Datasheet.pdf"
+    },
+    {
+      "model": "36BLR65-24-01",
+      "rated_torque_Nm": 0.064,
+      "rated_speed_rpm": 3000,
+      "rated_power_W": 20,
+      "rated_voltage_V": 24,
+      "body_diameter_mm": 36,
+      "body_length_mm": 65,
+      "mass_kg": null,
+      "decision": "Not active: official category and current related-product table explicitly mark this model discontinued.",
+      "source_url": "https://www.omc-stepperonline.com/brushless-dc-motor",
+      "secondary_source_url": "https://www.omc-stepperonline.com/discontinued"
+    },
+    {
+      "model": "32CL60-48-P2-14500",
+      "assembly_type": "Complete brushless coreless motor with shaft and Hall leads; not a frameless kit.",
+      "rated_torque_Nm": 0.080,
+      "rated_speed_rpm": 14500,
+      "rated_power_W": 121.47,
+      "rated_voltage_V": 48,
+      "body_diameter_mm": 32,
+      "body_length_mm": 61,
+      "mass_kg": null,
+      "gross_shipping_mass_kg": 0.28,
+      "price_USD": 41.19,
+      "procurement": "Pre-order.",
+      "decision": "Not active: outside current 24/36 V study and no net mass in checked product page or extracted one-page full datasheet. Smaller diameter alone does not establish shorter/lighter construction. High nominal speed also conflicts with the user's preferred winding class.",
+      "source_url": "https://www.omc-stepperonline.com/48v-14500rpm-80mnm-121-47w-3-16a-round-%D1%8432x61mm-brushless-coreless-motor-32cl60-48-p2-14500",
+      "datasheet_url": "https://files.omc-stepperonline.com/32CL60-48-P2-14500_Full_Datasheet.pdf",
+      "same_series_notes": "Current related-series table lists 24 V model at USD 73.85, exceeding budget; 28 V variant is USD 41.19 but outside the configured bus-voltage set. Neither supplies verified net mass in this follow-up."
+    }
+  ],
+  "verification_limits": {
+    "method": "Fresh manufacturer product/category pages and linked PDF text returned by web tools.",
+    "raw_download_byte_hashes": null,
+    "visual_pdf_inspection": false,
+    "reason": "PDF screenshot calls returned reference text without inspectable image data. No raw file-byte SHA or visual verification is claimed.",
+    "catalog_and_active_inputs_modified": false
+  }
+}

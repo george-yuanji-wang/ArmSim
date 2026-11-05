@@ -1,0 +1,13 @@
+assumption,value
+hardware_scope,Only assembled STEPPERONLINE 24/36 V Hall BLDC motors at <= USD 50; only the user's three 30:1 reducers on their specified joints.
+motor_rating,Published continuous torque from rest through published rated rpm is assumed; no extrapolation above rated speed. No measured stall thermal map.
+motor_rotor_inertia,"Published rotor inertia remains null if unavailable. Simulation uses the explicit upper bound I <= M_motor * R_envelope^2, treating all motor mass at the envelope radius. This is a conservative bound, not a manufacturer rotor-inertia specification."
+motor_mass,"Complete assembled motor net mass. Drivers, encoders, wiring and custom shaft adapters are not assigned invented masses."
+motor_geometry,Published body length; conservative circular radius encloses round body or square flange diagonal. Front/rear shaft dimensions are retained in source facts; exact reducer-specific shaft insertion/coupling requires mechanical design.
+reducer_geometry,Exact manufacturer model-specific drawings. CS-11-2XH-A uses nominal diameter 58 mm bounding flange circle and 32 mm axial envelope; generic 82.5 mm page summary is retained as a discrepancy.
+reducer_rating,"Published rated output torque at 2000 input rpm; evaluation restricted to <=2000 input rpm. Repeated/momentary peaks are stored, not used to increase continuous capacity."
+unpublished_reducer_input_torque,"Unknown; output limits enforced, separate input-shaft constraint remains unverified."
+transmission,"Ideal lossless reducer and 1:1 local input belts, as in the existing optimization protocol. Published efficiency, friction and backdrive data unavailable; no 75% efficiency is silently substituted."
+electrical_objective,"Pmax is a mechanical rating-limited objective. Voltage/current are retained; electrical current, copper loss and common-bus selection are not optimized. Mixed nominal voltages require suitable supplies/drives."
+motion,"{""joint_speed_limits_deg_s"": [180, 180, 180, 300, 300, 300], ""joint_accel_rad_s2"": 6, ""wrist2_length_mm"": 110}"
+geometry_and_mass,Approved base edge-frame/mount topology with unchanged local assembly gates and geometry-derived structural mass/CoM/inertia. L2 fixed 90 mm. Common J5-to-J6 spacing 110 mm (previous 70 mm) accommodates complete framed J6 motors; existing belt frames widen to clear motor rear bodies. The remaining links compensate to preserve exactly 550 mm reach. Unlimited joints; global self-collision checks off by user request.

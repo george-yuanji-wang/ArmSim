@@ -1,0 +1,6 @@
+cycle,best_found_cycle,checkpoint_kind,requested_evaluations,proposal_attempts,unique_candidates_checked,duplicate_proposals_skipped,elapsed_s,layout_number,reachable_poses,total_poses,pmax_kg,required_payload_upper_kg,requirements_met,geometry_valid,extended_reach_mm,wrist2_length_mm,geometry_rejections,cheap_geometry_rejections,proposal_fallbacks,capacity_challenge_probes,arm_mass_kg,gravity_score_JG
+1,1,evaluation_milestone,600,1,1,0,2.931,7,1008,1008,0.0,0.5,False,True,550.0,110.0,0,0,0,0,4.9962207620644,0.48897991185063755
+20,3,evaluation_milestone,600,20,20,0,59.675,7,1008,1008,0.0,0.5,False,True,550.0,110.0,0,0,0,0,5.016118388986273,0.49081563463075717
+40,38,evaluation_milestone,600,40,40,0,117.596,7,1008,1008,0.0,0.5,False,True,550.0,110.0,0,0,0,0,5.396532747022503,0.5111696905520406
+60,59,evaluation_milestone,600,60,60,0,174.989,7,1008,1008,0.0,0.5,False,True,550.0,110.0,0,0,0,0,5.374451788189124,0.5426930987075061
+80,66,evaluation_milestone,600,80,80,0,231.569,7,1008,1008,0.0,0.5,False,True,550.0,110.0,0,0,0,0,5.374855826262162,0.5716531793147731

@@ -1,0 +1,130 @@
+[
+  {
+    "source_id": "cubemars_ri30",
+    "url": "https://www.cubemars.com/product/ri30-kv260-frameless-torque-motor.html",
+    "file": "sources\\cubemars_ri30.html",
+    "sha256": "ea64d4e40116aecaed8af03d43cfbc1af987e3d2fd3e018a684f701f04d6d749",
+    "retrieved_date": "2026-11-01",
+    "error": ""
+  },
+  {
+    "source_id": "cubemars_ri50",
+    "url": "https://www.cubemars.com/product/ri50-kv100-frameless-inrunner-torque-motor.html",
+    "file": "sources\\cubemars_ri50.html",
+    "sha256": "e2bdb18d8c8bcdaf39a4f39ea1eee3570683242c2bf1f5b94042b6cd3f0ae26a",
+    "retrieved_date": "2026-11-01",
+    "error": ""
+  },
+  {
+    "source_id": "cubemars_ri60",
+    "url": "https://www.cubemars.com/product/ri60-kv120-frameless-inrunner-torque-motor.html",
+    "file": "sources\\cubemars_ri60.html",
+    "sha256": "93ce21093af5fa72913b64f5ed6c775f36daa6ba528b8652cf420876137b96bf",
+    "retrieved_date": "2026-11-01",
+    "error": ""
+  },
+  {
+    "source_id": "cubemars_ri75_welded",
+    "url": "https://www.cubemars.com/product/ri75-ph-kv70-potting-frameless-torque-motor-welded-model.html",
+    "file": "sources\\cubemars_ri75_welded.html",
+    "sha256": "2d3042ee3e0dd28fe46d376c84cc30638a45aa5e30bab271c541410e6a7c6a51",
+    "retrieved_date": "2026-11-01",
+    "error": ""
+  },
+  {
+    "source_id": "cubemars_ri75_connector",
+    "url": "https://www.cubemars.com/product/ri75-ph-kv70-potting-frameless-torque-motor.html",
+    "file": "sources\\cubemars_ri75_connector.html",
+    "sha256": "095866e3a52b226d7d80811696ad4262cbf4a00dba3cdd45e22d740779316e96",
+    "retrieved_date": "2026-11-01",
+    "error": ""
+  },
+  {
+    "source_id": "cubemars_ro40_lite",
+    "url": "https://www.cubemars.com/product/ro40-kv140-lite-without-hall-frameless-torque-motor.html",
+    "file": "sources\\cubemars_ro40_lite.html",
+    "sha256": "40f105d54d5f7dc00c9238e68cff1d46af04a793df245680bfa4b1b5dc75bf7e",
+    "retrieved_date": "2026-11-01",
+    "error": ""
+  },
+  {
+    "source_id": "cubemars_ro50_lite",
+    "url": "https://www.cubemars.com/product/ro50-kv108-lite-without-hall-frameless-torque-motor.html",
+    "file": "sources\\cubemars_ro50_lite.html",
+    "sha256": "c504fbcbd3cdd794c51cc4489b84687ddbe7441cd968d57d1fa8e17c93fe35e5",
+    "retrieved_date": "2026-11-01",
+    "error": ""
+  },
+  {
+    "source_id": "nanotec_db42_overview",
+    "url": "https://www.nanotec.com/fileadmin/files/Baureihenuebersichten/BLDC_Motoren/Product_Overview_DB42.pdf",
+    "file": "sources\\nanotec_db42_overview.pdf",
+    "sha256": "299ea6e24ea3850c449e9a432aa86546ee7123df749144b2dd9979ae37886321",
+    "retrieved_date": "2026-11-01",
+    "error": ""
+  },
+  {
+    "source_id": "nanotec_db43_overview",
+    "url": "https://www.nanotec.com/fileadmin/files/Baureihenuebersichten/BLDC_Motoren/Product_Overview_DB43.pdf",
+    "file": "sources\\nanotec_db43_overview.pdf",
+    "sha256": "3d47af5dc53d241e8a08cea1018385a9e3355c64c1a38bc48cc4fef5c430a8a5",
+    "retrieved_date": "2026-11-01",
+    "error": ""
+  },
+  {
+    "source_id": "nanotec_dbl42_overview",
+    "url": "https://www.nanotec.com/fileadmin/files/Baureihenuebersichten/BLDC_Motoren/Product_Overview_DBL42.pdf",
+    "file": "sources\\nanotec_dbl42_overview.pdf",
+    "sha256": "b4cafdc7354b3f4dc585df747428a4b6e45e2dc4efa57ba2747cb85739f123d9",
+    "retrieved_date": "2026-11-01",
+    "error": ""
+  },
+  {
+    "source_id": "nanotec_db42s01",
+    "url": "https://www.nanotec.com/fileadmin/files/Datenblaetter/BLDC/DB42/DB42S01.pdf",
+    "file": "sources\\nanotec_db42s01.pdf",
+    "sha256": "a0c7c0c9537b597f495c4020c2836f9b4e455c2b070e2e454cc8bdd316aa0ba1",
+    "retrieved_date": "2026-11-01",
+    "error": ""
+  },
+  {
+    "source_id": "nanotec_db42s02",
+    "url": "https://www.nanotec.com/fileadmin/files/Datenblaetter/BLDC/DB42/DB42S02.pdf",
+    "file": "sources\\nanotec_db42s02.pdf",
+    "sha256": "437c1fc3fbacb8d8f61e51008ff43ba23ab60bc47703a205ec2f04916fb558f1",
+    "retrieved_date": "2026-11-01",
+    "error": ""
+  },
+  {
+    "source_id": "nanotec_db42s03",
+    "url": "https://www.nanotec.com/fileadmin/files/Datenblaetter/BLDC/DB42/DB42S03.pdf",
+    "file": "sources\\nanotec_db42s03.pdf",
+    "sha256": "bb7ddba007bb6ae16011c33bfbe012e61fe6cb0c0eabdec49465d0e55b7ba58e",
+    "retrieved_date": "2026-11-01",
+    "error": ""
+  },
+  {
+    "source_id": "nanotec_db42m01",
+    "url": "https://www.nanotec.com/fileadmin/files/Datenblaetter/BLDC/DB42/DB42M01.pdf",
+    "file": "sources\\nanotec_db42m01.pdf",
+    "sha256": "d4dbb8d159d100fd6e540006ed12b1168038f0e56fc544a4f9e10b41044c21d3",
+    "retrieved_date": "2026-11-01",
+    "error": ""
+  },
+  {
+    "source_id": "nanotec_db42m03",
+    "url": "https://www.nanotec.com/fileadmin/files/Datenblaetter/BLDC/DB42/DB42M03.pdf",
+    "file": "sources\\nanotec_db42m03.pdf",
+    "sha256": "fefbe3bdfce1f5a8d879cc311bb43a786a184bf1963db3a6fea5c1501c14025f",
+    "retrieved_date": "2026-11-01",
+    "error": ""
+  },
+  {
+    "source_id": "nanotec_db42l01",
+    "url": "https://www.nanotec.com/fileadmin/files/Datenblaetter/BLDC/DB42/DB42L01.pdf",
+    "file": "sources\\nanotec_db42l01.pdf",
+    "sha256": "f81c19bafa88c650feb100440c5ae00055c80124d6c570c5d9f0ac38b454df80",
+    "retrieved_date": "2026-11-01",
+    "error": ""
+  }
+]

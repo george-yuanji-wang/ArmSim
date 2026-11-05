@@ -1,0 +1,418 @@
+RO50 Lite Frameless Torque Motor | 105g Large Hollow Design
+Cubemars - 17 Year Motor Manufacturer
+info@cubemars.com
++86 13755649079
+English
+English
+中文简体
+日本語
+Deutsch
+Français
+한국어
+Español
+Pусский
+CubeMars robot motor logo
+Product Series
+Robotic Actuator
+AK Series Robotic Actuator
+- AK10-9 V3.0 KV60
+- AK80-9 V3.0 KV100
+- AK70-9 V3.0 KV60
+AKH Series Hollow Shaft Planetary Actuator
+- AKH70-48 V1.0 KV41
+- AKH70-16 V1.0 KV41
+AKA Series Robotic Actuator
+- AKA10-9 KV60
+- AKA60-6 KV80
+Quasi Direct Drive Motor
+AKE Series Quasi Direct Drive Motor
+- AKE90-8 KV35
+- AKE80-8 KV30
+- AKE60-8 KV80
+- AKE40-6 KV90
+Frameless Inrunner Torque Motor
+RI Series Frameless Inrunner Torque Motor
+- RI50 KV100
+- RI100 KV105
+- RI80 V2.0 KV75
+RI Series Potting Frameless Inrunner Torque Motor
+- RI85-PH KV85 With Connector
+- RI75-PH KV70 With Connector
+Frameless Outrunner Torque Motor
+RO Series Frameless Outrunner Torque Motor
+- RO100 KV55-Standard-with-hall
+- RO80 KV105-Standard-with-hall
+- RO60 KV115-Standard-with-hall
+Gimbal Motor
+GL Series Gimbal Motor
+- GL II Gimbal Motor
+- GL Gimbal Motor
+G Series Gimbal Motor
+Underwater Thruster
+SW Series Underwater Thruster
+- SW12
+- SW17
+- SW7
+DW Series Underwater Thruster
+- DW15
+- DW20
+- DW25
+W Series Underwater Thruster
+- W30 Underwater Thruster
+TW ESC Series
+Robot Motor Application
+Humanoid Robot Motor
+Upper Limb Power
+Shoulder Joint Motor
+Elbow Joint Motor
+Wrist Joint Motor
+Neck Joint Motor
+Lower Limb Power
+Hip Joint Motor
+Knee Joint Motor
+Ankle Joint Motor
+Exoskeleton Motor
+Robot Joint Module
+Quadruped Robot Motor
+Robot Dog Motor
+Medical Robot Motor
+Rehabilitation Robot Motor
+Underwater Robot Motor
+ROV Thruster
+Gimbal System
+Gimbal Motor
+Product Selection
+Personalized Solution
+Technical Support
+Solution
+Video
+Event Sponsorship
+Contact Us
+Hello！Please LoginSign In|Sign Up
+Shopping cart
+There's nothing in your shopping cart
+Create your CubeMars account
+Home / Product Series / Frameless Outrunner Torque Motor / RO Series Frameless Outrunner Torque Motor / RO50 KV108 Lite
+RO50 KV108 Lite
+$65.90
+Available points：0 Points ▏
+Points reward：65
+Points
+?
+Points Rules
+Spend  $1 = 1point , 100 points can be redeemed for  $1
+Points will be deducted directly at checkout. Available points are subject to the amount displayed on the page ;
+Points are valid for 2 years and will expire automatically after the validity period
+• Ultra-low cogging torque, smooth low-speed operation
+• Minimalist Lite design for ultra-lightweight performance
+• Frameless architecture enables seamless embedded integration
+• Large hollow-through structure for flexible cable management
+• Open thermal design enhances continuous operation reliability
+$65.90
+RO50 KV108 Lite
+Add to cart
+Buy now
+USD200 Consumption Free Shipping by International Express (Excl. Remote Areas and Special Items).
+Customization Inquiry
+Payment Method :
+Share :
+Detail information
+Specifications
+Support and Downloads
+Leave Message
+Product Description
+CubeMars RO50 KV108 Lite Outrunner Frameless Torque Motor
+As a lightweight version of the RO series, the RO50 KV108 Lite removes the outer casing and Hall sensors while retaining the core motor, aiming to provide developers with the most flexible integration solution.
+This series fully inherits the outstanding electromagnetic performance of the RO series and delivers excellent smoothness even at extremely low speeds. The minimalist frameless design greatly cuts down motor weight and reduces system inertia, enabling versatile integration with precision joints, gimbals and custom reducers. Its large-diameter hollow through-hole allows multiple cables to pass through coaxially, making it a professional solution for applications requiring high power density and compact structure design.
+Core Data
+Motor Dimensions
+Φ61.7*14.5mm
+Motor Weight
+105g
+Peak Torque
+0.9 N·m
+No-load Speed
+2600 RPM
+Product Highlights
+Ultra-Low Cogging Torque
+Extremely low cogging torque effectively eliminates mechanical jitter, ensuring smooth and seamless power output.
+Extreme Lightweight Design
+The Lite version removes the outer casing and Hall sensors, significantly reducing weight.
+Large Hollow Design
+Large-diameter hollow through-hole design addresses internal wiring constraints in miniature joints, enabling seamless integration with diverse mechanical configurations.
+High Efficiency & Reliability
+Optimized thermal adaptability enhances operational stability under high dynamic loads.
+High Customizability
+Ultra-compact structure enables deep integration with harmonic reducers and planetary reducers, meeting the stringent requirements of various non-standard automation equipment.
+Packing List
+01
+RO50 KV108 Lite Outrunner Frameless Torque Motor *1
+02
+Certification *1
+Designed for Efficiency, Built for Integration
+The RO Lite series outrunner frameless torque motors remove the outer
+casing and sensors, engineered for ultimate space efficiency and high
+performance
+Smooth & Precise Control
+Cogging torque is reduced by 50% compared to similar motors, effectively
+eliminating low-speed stuttering and delivering silky-smooth torque
+output
+50
+Ultra-Lightweight, Fast Response
+The caseless Lite design weighs only 105g. It delivers a peak torque
+of 0.9 N·m within the compact dimensions of Φ61.7*14.5mm
+Large Hollow Shaft, Flexible Wiring
+The stator features a large-diameter hollow, allowing power cables,
+signal wires, or mechanical shafts to pass through coaxially
+Engineered for Flexible Integration
+Supports user integration with various high-precision encoders and
+reducers, enabling unlimited possibilities for integrated development of
+non-standard equipment
+Technical Drawing
+Specification
+| Size mm | Φ61.7*14.5mm | Insulation Class | F
+| Weight g | 105g | Insulation Withstand Voltage | 500V
+| Drive Method | FOC | Insulation Resistance | 10MΩ
+| Operating Ambient Temperature | -20℃~50℃ | Phase | 3
+| Pole Pairs | 14 |  |
+| Electrical Specifications
+| Maximum Continuous PowerW | 66 | Electrode Constant N·m/√W | 0.087
+| Rated Power V | 24 | Speed Constant RPM/V | 108
+| Rated Torque N·m | 0.3 | Torque Constant N·m/A | 0.088
+| Peak Torque N·m | 0.9 | Back EMF Constant V/kRPM | 9.2
+| Rated Speed RPM | 2100 | Rotor Inertia g·cm² | 327.21
+| No-Load Speed RPM | 2600 | Phase Resistance mΩ | 1035
+| Rated Current A | 3.4 | Phase Inductance uH | 460
+| Peak Current A | 9.3 | Electromechanical Time Constant ms | 2.4
+| Maximum Torque Density N·m/kg | 8.57 | Electrical Time Constant ms | 0.44
+| Cogging Torque N·mm | 10 |  |
+Analysis Chart
+|
+|
+Cogging Torque Curve
+|
+Packing List
+89*91*73mm
+RO50 KV108 Lite
+Before using this product, please check if all the items listed above are included in the packaging. If there are any missing items, please contact our online customer service or leave message to info@cubemars.com in time.
+Product Comparison
+| category
+| Model
+| Rated Voltage (V)
+| Rated Power (W)
+| Rated Torque (Nm)
+| Rated Current (A)
+| Rated Speed (RPM)
+| Peak Torque (Nm)
+| Peak Current (A)
+| No-load Speed (RPM)
+| Phase to Phase Resistance (mΩ)
+| Phase to Phase Inductance (μH)
+| Pole Pairs
+| Weight (G)
+| Size (diameter *length) MM
+| Hall Sensor
+| Temperature Sensor
+| Operation
+| RO Series Frameless Outrunner Torque Motor
+| RO100 KV55-Standard-with-hall
+| 48
+| 838
+| 4
+| 20
+| 2000
+| 12
+| 62
+| 2550
+| 143
+| 137
+| 21
+| 710
+| Ф113.5*36.2
+| Yes
+| Yes
+|
+| RO Series Frameless Outrunner Torque Motor
+| RO100  KV55 Lite without hall
+| 48
+| 838
+| 4
+| 20
+| 2000
+| 12
+| 62
+| 2550
+| 143
+| 137
+| 21
+| 525
+| Ф108.3*28
+| No
+| No
+|
+| RO Series Frameless Outrunner Torque Motor
+| RO80 KV105-Standard-with-hall
+| 48
+| 490
+| 1.3
+| 15
+| 3600
+| 4
+| 50
+| 5040
+| 120
+| 103
+| 21
+| 352
+| Ф92.6*26.4
+| Yes
+| Yes
+|
+| RO Series Frameless Outrunner Torque Motor
+| RO80 KV105 Lite without hall
+| 48
+| 490
+| 1.3
+| 15
+| 3600
+| 4
+| 50
+| 5040
+| 120
+| 103
+| 21
+| 265
+| Ф88.6*17.7
+| No
+| No
+|
+| RO Series Frameless Outrunner Torque Motor
+| RO60 KV115-Standard-with-hall
+| 48
+| 352
+| 0.8
+| 8.5
+| 4200
+| 2.4
+| 40
+| 5520
+| 300
+| 395
+| 14
+| 248
+| Ф73.8*23
+| Yes
+| Yes
+|
+| RO Series Frameless Outrunner Torque Motor
+| RO60 KV115 Lite without hall
+| 48
+| 352
+| 0.8
+| 8.5
+| 4200
+| 2.4
+| 40
+| 5520
+| 300
+| 395
+| 14
+| 195
+| Ф70.5*15
+| No
+| No
+|
+| RO Series Frameless Outrunner Torque Motor
+| RO50 KV108 Lite
+| 24
+| 66
+| 0.3
+| 3.4
+| 2100
+| 0.9
+| 9.3
+| 2600
+| 1035
+| 460
+| 14
+| 105
+| Ф61.7*14.5
+| No
+| No
+|
+| RO Series Frameless Outrunner Torque Motor
+| RO40 KV140 Lite
+| 24
+| 51
+| 0.2
+| 2.85
+| 2450
+| 0.6
+| 11.6
+| 3400
+| 1700
+| 580
+| 14
+| 60
+| Ф46.3*13
+| No
+| No
+|
+Support and Downloads
+Model
+Name
+File Type
+Update Time
+Operate
+RO50 KV108 Lite
+RO50 KV108 Lite Frameless Torque Motor 2D Drawing (PDF)
+Drawing / PDF
+2026-06-22
+RO50 KV108 Lite
+RO50 KV108 Lite Frameless Torque Motor 3D Drawing (STEP, ZIP)
+Drawing / ZIP
+2026-06-22
+Leave Message
+User name
+Anonymous
+E-mail *
+Name *
+Phone
+Comments
+Verification code
+BEST SELLERS
+AKA10-9
+AKE90-8
+GL60 II
+Warm prompt
+OKCancel
+Warm prompt
+Close
+Warm prompt
+Close
+Please Sign In
+Sign InSign Up
+Remember me
+Forgot Password?
+Warm prompt
+OKCancel
+CubeMars is a brand under Sanrui Intelligent (IPO in 2026), focused on robotic power systems. With 17 years of R&D experience, it fully designs and manufactures its product line in-house. The company specializes in compact high-torque planetary module and frameless motors, with an annual output of 6 million units and international certifications, widely used in humanoid robots and exoskeleton applications.
+info@cubemars.com
+Customer Service
+FAQ
+Payment Guide
+Order Information
+Moment
+Shipping Policy
+Return and Refund policy
+Terms & Conditions
+About CubeMars
+About Us
+Contact Us
+SiteMap
+Follow Us
+Moment
+How to Use CubeMars Actuators
+How to Use Two Motors to Build a Customs Electric Wheelchair For his Wife From Scratch
+How to Match Gimbal Motors to Robotics and Vision Systems
+Copyright © 2003-2026 CubeMars, All rights reserved.   Privacy Policy

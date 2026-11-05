@@ -1,0 +1,404 @@
+{
+  "method": "Full 6x6 tool-site geometric Jacobian, world-frame linear and angular velocity; translation scaled by L1=0.32 m.",
+  "scope": "Local kinematic mobility; sampling does not certify collision-free reachability or exclude all singular poses.",
+  "seed": 20261031,
+  "samples_per_model": 500,
+  "models": [
+    {
+      "file": "1-base-6dof.xml",
+      "title": "Long L2 / all motors at joints",
+      "wrist": "reference",
+      "sha256": "a015c7c156e6c5914644747d68ebc02aec5d4f6d3416c1f5331853ea4cf9f573",
+      "bent_pose_radians": [
+        -0.5235987755982988,
+        0.8726646259971648,
+        -1.7453292519943295,
+        0.0,
+        -0.17453292519943295,
+        0.0
+      ],
+      "bent_pose": {
+        "rank": 6,
+        "near_singular": false,
+        "reciprocal_condition": 0.004431981186942503,
+        "scaled_singular_values": [
+          2.7728942633934532,
+          1.5926210895786652,
+          0.8495531014487626,
+          0.7762101542722066,
+          0.5147440702291967,
+          0.012289415208740573
+        ]
+      },
+      "straight_pose": {
+        "rank": 3,
+        "near_singular": true,
+        "reciprocal_condition": 0.0,
+        "scaled_singular_values": [
+          3.4522931609660796,
+          1.7320508075688772,
+          0.7543053879211226,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "sample_rank_counts": {
+        "6": 500
+      },
+      "weakest_sample_reciprocal_condition": 3.0414059423710226e-05
+    },
+    {
+      "file": "2-base-6dof.xml",
+      "title": "Long L2 / J3 belt, J2 below",
+      "wrist": "reference",
+      "sha256": "1f933e03373e324952377cd1be9beb5a177f62f4cb27dc120a2c24a14a1aed7d",
+      "bent_pose_radians": [
+        -0.5235987755982988,
+        0.8726646259971648,
+        -1.7453292519943295,
+        0.0,
+        -0.17453292519943295,
+        0.0
+      ],
+      "bent_pose": {
+        "rank": 6,
+        "near_singular": false,
+        "reciprocal_condition": 0.004431981186942494,
+        "scaled_singular_values": [
+          2.772894263393452,
+          1.5926210895786643,
+          0.8495531014487627,
+          0.776210154272206,
+          0.5147440702291965,
+          0.012289415208740544
+        ]
+      },
+      "straight_pose": {
+        "rank": 3,
+        "near_singular": true,
+        "reciprocal_condition": 0.0,
+        "scaled_singular_values": [
+          3.4522931609660796,
+          1.7320508075688772,
+          0.7543053879211229,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "sample_rank_counts": {
+        "6": 500
+      },
+      "weakest_sample_reciprocal_condition": 3.041405942371658e-05
+    },
+    {
+      "file": "3-base-6dof.xml",
+      "title": "Long L2 / J3 belt, J2 at joint",
+      "wrist": "reference",
+      "sha256": "8055305a0502cda0c6827faad47119650ad7aefe6df94b121e3509c586492679",
+      "bent_pose_radians": [
+        -0.5235987755982988,
+        0.8726646259971648,
+        -1.7453292519943295,
+        0.0,
+        -0.17453292519943295,
+        0.0
+      ],
+      "bent_pose": {
+        "rank": 6,
+        "near_singular": false,
+        "reciprocal_condition": 0.004431981186942468,
+        "scaled_singular_values": [
+          2.7728942633934532,
+          1.5926210895786646,
+          0.8495531014487626,
+          0.7762101542722061,
+          0.5147440702291968,
+          0.012289415208740478
+        ]
+      },
+      "straight_pose": {
+        "rank": 3,
+        "near_singular": true,
+        "reciprocal_condition": 0.0,
+        "scaled_singular_values": [
+          3.4522931609660796,
+          1.7320508075688772,
+          0.7543053879211226,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "sample_rank_counts": {
+        "6": 500
+      },
+      "weakest_sample_reciprocal_condition": 3.0414059423662687e-05
+    },
+    {
+      "file": "4-base-6dof.xml",
+      "title": "Short L2 / all motors at joints",
+      "wrist": "reference",
+      "sha256": "d73e92248ad586e9b897bf323d0f3db7b303e9c0886119bce22608c208548d04",
+      "bent_pose_radians": [
+        -0.5235987755982988,
+        0.8726646259971648,
+        -1.7453292519943295,
+        0.0,
+        -0.17453292519943295,
+        0.0
+      ],
+      "bent_pose": {
+        "rank": 6,
+        "near_singular": false,
+        "reciprocal_condition": 0.004431981186942556,
+        "scaled_singular_values": [
+          2.772894263393453,
+          1.592621089578665,
+          0.849553101448763,
+          0.7762101542722062,
+          0.5147440702291965,
+          0.012289415208740719
+        ]
+      },
+      "straight_pose": {
+        "rank": 3,
+        "near_singular": true,
+        "reciprocal_condition": 0.0,
+        "scaled_singular_values": [
+          3.4522931609660796,
+          1.7320508075688772,
+          0.7543053879211226,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "sample_rank_counts": {
+        "6": 500
+      },
+      "weakest_sample_reciprocal_condition": 3.0414059423708457e-05
+    },
+    {
+      "file": "5-base-6dof.xml",
+      "title": "Short L2 / J3+J5 belts, J2 below",
+      "wrist": "reference",
+      "sha256": "c66d7851160740f3ce651b843f5db83ff97ce762ce638f4f028d86bf74469f62",
+      "bent_pose_radians": [
+        -0.5235987755982988,
+        0.8726646259971648,
+        -1.7453292519943295,
+        0.0,
+        -0.17453292519943295,
+        0.0
+      ],
+      "bent_pose": {
+        "rank": 6,
+        "near_singular": false,
+        "reciprocal_condition": 0.0044319811869425315,
+        "scaled_singular_values": [
+          2.7728942633934532,
+          1.5926210895786646,
+          0.849553101448763,
+          0.7762101542722065,
+          0.5147440702291967,
+          0.012289415208740653
+        ]
+      },
+      "straight_pose": {
+        "rank": 3,
+        "near_singular": true,
+        "reciprocal_condition": 0.0,
+        "scaled_singular_values": [
+          3.4522931609660796,
+          1.7320508075688772,
+          0.7543053879211226,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "sample_rank_counts": {
+        "6": 500
+      },
+      "weakest_sample_reciprocal_condition": 3.0414059423747333e-05
+    },
+    {
+      "file": "6-base-6dof.xml",
+      "title": "Short L2 / J3+J5 belts, J2 at joint",
+      "wrist": "reference",
+      "sha256": "7a09c62f0a2737c1c82e5d656aba43ff8f85d5a6abd71dc9d690328b45931954",
+      "bent_pose_radians": [
+        -0.5235987755982988,
+        0.8726646259971648,
+        -1.7453292519943295,
+        0.0,
+        -0.17453292519943295,
+        0.0
+      ],
+      "bent_pose": {
+        "rank": 6,
+        "near_singular": false,
+        "reciprocal_condition": 0.004431981186942499,
+        "scaled_singular_values": [
+          2.7728942633934524,
+          1.5926210895786648,
+          0.8495531014487626,
+          0.7762101542722067,
+          0.5147440702291965,
+          0.01228941520874056
+        ]
+      },
+      "straight_pose": {
+        "rank": 3,
+        "near_singular": true,
+        "reciprocal_condition": 0.0,
+        "scaled_singular_values": [
+          3.4522931609660796,
+          1.7320508075688772,
+          0.7543053879211229,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "sample_rank_counts": {
+        "6": 500
+      },
+      "weakest_sample_reciprocal_condition": 3.0414059423747333e-05
+    },
+    {
+      "file": "7-base-6dof.xml",
+      "title": "Short L2 / J4 axle at 90\u00b0 / all at joints",
+      "wrist": "reference",
+      "sha256": "a6314a3e67c040523ca83a4436556e582d49abee6e07636184c8507890fc72d5",
+      "bent_pose_radians": [
+        -0.5235987755982988,
+        0.636031641932725,
+        -0.2745653707794413,
+        0.0,
+        0.16213250444501526,
+        0.0
+      ],
+      "bent_pose": {
+        "rank": 6,
+        "near_singular": false,
+        "reciprocal_condition": 0.003928142068539045,
+        "scaled_singular_values": [
+          2.657584847561729,
+          1.518891882549922,
+          0.9748291370022343,
+          0.7903756234858618,
+          0.42294920172550465,
+          0.010439370840419154
+        ]
+      },
+      "straight_pose": {
+        "rank": 5,
+        "near_singular": true,
+        "reciprocal_condition": 2.9648323603935035e-33,
+        "scaled_singular_values": [
+          2.7520058498712423,
+          1.6500473478055107,
+          1.4142135623730951,
+          0.8200061001844111,
+          0.3738930133538377,
+          8.159235999690485e-33
+        ]
+      },
+      "sample_rank_counts": {
+        "6": 500
+      },
+      "weakest_sample_reciprocal_condition": 8.643796837839544e-06
+    },
+    {
+      "file": "8-base-6dof.xml",
+      "title": "Short L2 / J4 axle at 90\u00b0 / J2 below",
+      "wrist": "reference",
+      "sha256": "e84ef926a6fbe615d745cc41e167af2b3ff83d9960a20495c833c02471b20a67",
+      "bent_pose_radians": [
+        -0.5235987755982988,
+        0.636031641932725,
+        -0.2745653707794413,
+        0.0,
+        0.16213250444501526,
+        0.0
+      ],
+      "bent_pose": {
+        "rank": 6,
+        "near_singular": false,
+        "reciprocal_condition": 0.00392814206853904,
+        "scaled_singular_values": [
+          2.6575848475617287,
+          1.5188918825499225,
+          0.974829137002234,
+          0.790375623485862,
+          0.4229492017255048,
+          0.010439370840419137
+        ]
+      },
+      "straight_pose": {
+        "rank": 5,
+        "near_singular": true,
+        "reciprocal_condition": 2.9648323603935035e-33,
+        "scaled_singular_values": [
+          2.7520058498712423,
+          1.6500473478055107,
+          1.4142135623730951,
+          0.8200061001844111,
+          0.3738930133538377,
+          8.159235999690485e-33
+        ]
+      },
+      "sample_rank_counts": {
+        "6": 500
+      },
+      "weakest_sample_reciprocal_condition": 8.643796837838185e-06
+    },
+    {
+      "file": "9-base-6dof.xml",
+      "title": "Short L2 / J4 axle at 90\u00b0 / J2 at joint",
+      "wrist": "reference",
+      "sha256": "02d01ad859f0cb42827b4524e9e4f14fbd3c776af90ac482e0cb88a34a7593e1",
+      "bent_pose_radians": [
+        -0.5235987755982988,
+        0.636031641932725,
+        -0.2745653707794413,
+        0.0,
+        0.16213250444501526,
+        0.0
+      ],
+      "bent_pose": {
+        "rank": 6,
+        "near_singular": false,
+        "reciprocal_condition": 0.0039281420685391075,
+        "scaled_singular_values": [
+          2.6575848475617283,
+          1.518891882549922,
+          0.9748291370022342,
+          0.790375623485862,
+          0.42294920172550476,
+          0.010439370840419316
+        ]
+      },
+      "straight_pose": {
+        "rank": 5,
+        "near_singular": true,
+        "reciprocal_condition": 1.9765549069290024e-33,
+        "scaled_singular_values": [
+          2.7520058498712423,
+          1.6500473478055107,
+          1.4142135623730951,
+          0.8200061001844111,
+          0.3738930133538376,
+          5.4394906664603234e-33
+        ]
+      },
+      "sample_rank_counts": {
+        "6": 500
+      },
+      "weakest_sample_reciprocal_condition": 8.643796837842576e-06
+    }
+  ]
+}

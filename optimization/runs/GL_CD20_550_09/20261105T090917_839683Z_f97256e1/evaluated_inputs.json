@@ -1,0 +1,343 @@
+{
+  "motors": [
+    {
+      "motor_id": "CUBEMARS_GL40_KV210",
+      "name": "CubeMars GL40 KV210 (assembled motor)",
+      "rated_torque_Nm": 0.25,
+      "rated_speed_rpm": 2100.0,
+      "stall_torque_Nm": null,
+      "no_load_speed_rpm": 3120.0,
+      "max_speed_rpm": null,
+      "mass_kg": 0.107,
+      "radius_mm": 23.25,
+      "length_mm": 21.5,
+      "rotor_inertia_kg_m2": 7.4e-06,
+      "rated_power_W": 54.97787143782138,
+      "peak_torque_Nm": 0.75,
+      "peak_duration_s": null,
+      "capacity_model": "rated_continuous",
+      "rotor_inertia_upper_bound_kg_m2": null,
+      "rotor_inertia_basis": "published",
+      "rated_voltage_V": 16.0,
+      "rated_current_A": 4.9,
+      "price_usd": 72.99,
+      "source_url": "https://www.cubemars.com/product/gl40-kv210-gimbal-motor.html",
+      "operating_voltage_V": 16.0,
+      "peak_torque_speed_curve": [
+        [
+          0.0,
+          0.75
+        ],
+        [
+          1015.0,
+          0.75
+        ],
+        [
+          1063.0,
+          0.72
+        ],
+        [
+          1205.0,
+          0.64
+        ],
+        [
+          1361.0,
+          0.56
+        ],
+        [
+          1523.0,
+          0.48
+        ],
+        [
+          1706.0,
+          0.4
+        ],
+        [
+          1909.0,
+          0.32
+        ],
+        [
+          2132.0,
+          0.24
+        ],
+        [
+          2393.0,
+          0.16
+        ],
+        [
+          2694.0,
+          0.08
+        ],
+        [
+          3002.0,
+          0.01
+        ],
+        [
+          3120.0,
+          0.0
+        ]
+      ],
+      "peak_curve_basis": "digitized_official_16V_curve"
+    },
+    {
+      "motor_id": "CUBEMARS_GL30_KV290",
+      "name": "CubeMars GL30 KV290 (assembled motor)",
+      "rated_torque_Nm": 0.08,
+      "rated_speed_rpm": 1990.0,
+      "stall_torque_Nm": null,
+      "no_load_speed_rpm": 3060.0,
+      "max_speed_rpm": null,
+      "mass_kg": 0.041,
+      "radius_mm": 17.25,
+      "length_mm": 15.7,
+      "rotor_inertia_kg_m2": 2.42e-06,
+      "rated_power_W": 16.671385015049836,
+      "peak_torque_Nm": 0.28,
+      "peak_duration_s": null,
+      "capacity_model": "rated_continuous",
+      "rotor_inertia_upper_bound_kg_m2": null,
+      "rotor_inertia_basis": "published",
+      "rated_voltage_V": 12.0,
+      "rated_current_A": 2.13,
+      "price_usd": 50.99,
+      "source_url": "https://www.cubemars.com/product/gl30-kv290-gimbal-motor.html",
+      "operating_voltage_V": 16.0,
+      "peak_torque_speed_curve": [
+        [
+          0.0,
+          0.28
+        ],
+        [
+          1192.0,
+          0.27
+        ],
+        [
+          1459.0,
+          0.24
+        ],
+        [
+          1720.0,
+          0.21
+        ],
+        [
+          1995.0,
+          0.18
+        ],
+        [
+          2276.0,
+          0.15
+        ],
+        [
+          2581.0,
+          0.12
+        ],
+        [
+          2791.0,
+          0.1
+        ],
+        [
+          3007.0,
+          0.08
+        ],
+        [
+          3360.0,
+          0.05
+        ],
+        [
+          3618.0,
+          0.03
+        ],
+        [
+          3889.0,
+          0.01
+        ],
+        [
+          4080.0,
+          0.0
+        ]
+      ],
+      "peak_curve_basis": "voltage_shift_estimate_from_official_12V_curve"
+    }
+  ],
+  "reducers": [
+    {
+      "reducer_id": "SITO_HD-14_50",
+      "name": "SITO HD-14 50:1 (fixed GL study; exact drawing retained)",
+      "reduction_ratio": 50.0,
+      "mass_kg": 0.312,
+      "radius_mm": 35.0,
+      "length_mm": 17.5,
+      "continuous_output_torque_Nm": 4.5,
+      "peak_output_torque_Nm": 13.0,
+      "max_input_torque_Nm": null,
+      "max_input_speed_rpm": 8500.0,
+      "rated_input_speed_rpm": 2000.0,
+      "allowed_joints": [
+        1
+      ]
+    },
+    {
+      "reducer_id": "SITO_CD-20_50",
+      "name": "SITO CD-20 50:1 (fixed GL study; drawing-verified envelope)",
+      "reduction_ratio": 50.0,
+      "mass_kg": 0.591,
+      "radius_mm": 35.0,
+      "length_mm": 29.7,
+      "continuous_output_torque_Nm": 17.0,
+      "peak_output_torque_Nm": 39.0,
+      "max_input_torque_Nm": null,
+      "max_input_speed_rpm": 6500.0,
+      "rated_input_speed_rpm": 2000.0,
+      "allowed_joints": [
+        2
+      ]
+    },
+    {
+      "reducer_id": "SITO_CD-20_30",
+      "name": "SITO CD-20 30:1 (fixed GL study; drawing-verified envelope)",
+      "reduction_ratio": 30.0,
+      "mass_kg": 0.591,
+      "radius_mm": 35.0,
+      "length_mm": 29.7,
+      "continuous_output_torque_Nm": 10.2,
+      "peak_output_torque_Nm": 23.4,
+      "max_input_torque_Nm": null,
+      "max_input_speed_rpm": 6500.0,
+      "rated_input_speed_rpm": 2000.0,
+      "allowed_joints": [
+        3
+      ]
+    },
+    {
+      "reducer_id": "SITO_CS-11_30_USER_ENVELOPE",
+      "name": "SITO CS-11 series 30:1 (user model: dia43 x32 mm; 200 g)",
+      "reduction_ratio": 30.0,
+      "mass_kg": 0.2,
+      "radius_mm": 21.5,
+      "length_mm": 32.0,
+      "continuous_output_torque_Nm": 2.2,
+      "peak_output_torque_Nm": 4.5,
+      "max_input_torque_Nm": null,
+      "max_input_speed_rpm": 8500.0,
+      "rated_input_speed_rpm": 2000.0,
+      "allowed_joints": [
+        4,
+        5,
+        6
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "project_id": "GL_CD20_550",
+      "payload_lower_g": 500.0,
+      "payload_upper_g": 500.0,
+      "reach_lower_mm": 550.0,
+      "reach_upper_mm": 550.0,
+      "elevation_lower_deg": -45.0,
+      "elevation_upper_deg": 45.0,
+      "joint_speed_rad_s": 1.0,
+      "joint_accel_rad_s2": 6.0,
+      "l1_lower_mm": 82.5,
+      "l1_upper_mm": 495.0,
+      "l2_lower_mm": 90.0,
+      "l2_upper_mm": 90.0,
+      "l3_lower_mm": 16.5,
+      "l3_upper_mm": 495.0,
+      "motor_offset_max_mm": 110.0,
+      "seed": 42,
+      "cycles": 200,
+      "checkpoint_every": 10,
+      "allowed_layouts": [
+        7,
+        8,
+        9
+      ],
+      "joint_speed_limits_rad_s": [
+        3.141592653589793,
+        3.141592653589793,
+        3.141592653589793,
+        5.235987755982989,
+        5.235987755982989,
+        5.235987755982989
+      ],
+      "wrist2_length_m": 0.11,
+      "motor_candidates_by_joint": [
+        [
+          "CUBEMARS_GL40_KV210"
+        ],
+        [
+          "CUBEMARS_GL40_KV210"
+        ],
+        [
+          "CUBEMARS_GL40_KV210"
+        ]
+      ],
+      "shared_wrist_motor_id": "CUBEMARS_GL30_KV290",
+      "reducer_load_policy": "hold_and_repeated_peak",
+      "motor_load_policy": "hold_and_peak_envelope"
+    }
+  ],
+  "links": [
+    {
+      "body_name": "shoulder_link",
+      "mass_lower_kg": 0.1,
+      "mass_upper_kg": 0.4,
+      "com_fraction_lower": 0.3,
+      "com_fraction_upper": 0.7,
+      "spread_fraction_lower": 0.04,
+      "spread_fraction_upper": 0.16,
+      "radius_mm": 45.0
+    },
+    {
+      "body_name": "upper_arm_link",
+      "mass_lower_kg": 0.1,
+      "mass_upper_kg": 0.8,
+      "com_fraction_lower": 0.25,
+      "com_fraction_upper": 0.75,
+      "spread_fraction_lower": 0.03,
+      "spread_fraction_upper": 0.15,
+      "radius_mm": 25.0
+    },
+    {
+      "body_name": "forearm_link",
+      "mass_lower_kg": 0.05,
+      "mass_upper_kg": 0.6,
+      "com_fraction_lower": 0.25,
+      "com_fraction_upper": 0.75,
+      "spread_fraction_lower": 0.03,
+      "spread_fraction_upper": 0.15,
+      "radius_mm": 20.0
+    },
+    {
+      "body_name": "wrist_1_link",
+      "mass_lower_kg": 0.03,
+      "mass_upper_kg": 0.4,
+      "com_fraction_lower": 0.25,
+      "com_fraction_upper": 0.75,
+      "spread_fraction_lower": 0.03,
+      "spread_fraction_upper": 0.15,
+      "radius_mm": 18.0
+    },
+    {
+      "body_name": "wrist_2_link",
+      "mass_lower_kg": 0.02,
+      "mass_upper_kg": 0.25,
+      "com_fraction_lower": 0.25,
+      "com_fraction_upper": 0.75,
+      "spread_fraction_lower": 0.03,
+      "spread_fraction_upper": 0.15,
+      "radius_mm": 16.0
+    },
+    {
+      "body_name": "tool_flange_link",
+      "mass_lower_kg": 0.015,
+      "mass_upper_kg": 0.15,
+      "com_fraction_lower": 0.25,
+      "com_fraction_upper": 0.75,
+      "spread_fraction_lower": 0.03,
+      "spread_fraction_upper": 0.15,
+      "radius_mm": 12.0
+    }
+  ]
+}

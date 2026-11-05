@@ -1,0 +1,18 @@
+assumption,value
+motor_envelope,"Published continuous torque is the cap from zero to the published rated speed; zero supported torque above that speed. Known lower mechanical maximum further restricts speed. This assumes suitable FOC control and adequate stated thermal mounting, and does not invent stall torque or a mechanical speed limit."
+same_motor_policy,"Every included motor uses the same rated_continuous envelope, including maxon variants with fuller stall data."
+peak_ratings,Published peaks are preserved but do not improve continuous load capacity; unknown duration remains blank.
+motor_mass_scope,"Use source motor mass. Frameless rotor/stator sets are assumed integrated into the already modeled frame. Unmodeled custom motor housings, support bearings, encoders, wiring and controls receive no invented mass allowance; the result is a conceptual assembled-stock study rather than a complete manufactured-arm mass prediction."
+motor_envelope_scope,Conservative cylindrical body envelope; known complete axial lengths >=100 mm are excluded. Unknown shaft/cable envelopes remain identified in provenance.
+reducer_mass,"Published upper-bound weights are used as conservative mass values, with their bound qualifier retained here."
+reducer_torque,"Continuous cap is min(published rated output torque at 2000 rpm, published average output torque limit). No peak torque is treated as continuous."
+reducer_speed,"Evaluation input speed capped at min(published mechanical maximum, average input speed limit if published, 2000 rpm). This avoids extrapolating the torque rating beyond its published reference speed."
+unpublished_reducer_input_torque,Remains null and is not an extra evaluated constraint. Published output torque limits and input speed limits are still enforced; input-shaft strength is not certified.
+reducer_inertia,"Published inertia has no explicit shaft-reference declaration in the researched source, so it is not silently assigned to a rotating shaft. Rotor inertia uses published motor values."
+source_conflicts,"Any variant with a contradictory official website/PDF field is excluded, including conflicts limited to a peak or an envelope value."
+availability,Only SKU-backed public-store reducer ratios are included. Procurement stock is not asserted. PDF-only and selector-only variants are not input candidates.
+packaging,"Original approved base geometry, local assembly fit checks and derived stock masses remain authoritative. Global travel collisions and joint stops remain disabled as previously requested."
+source_motors,"{""path"": ""C:\\Users\\George\\Desktop\\ArmSim\\optimization\\catalogs\\motors.csv"", ""sha256"": ""91ad9d42be786dd546459e4e0509570e0c143c8e0dd81956828e2822c68329a1""}"
+source_reducers,"{""path"": ""C:\\Users\\George\\Desktop\\ArmSim\\optimization\\catalogs\\sitodrive\\reducer_variants.csv"", ""sha256"": ""769259409a7d4664801aa17fbcd0d2cb3ad95256b656f1d790ccd0238720b866""}"
+source_conflicts,"{""path"": ""C:\\Users\\George\\Desktop\\ArmSim\\optimization\\catalogs\\sitodrive\\source_conflicts.csv"", ""sha256"": ""7f5af55e1fcce54e6bba3ca9eed943cc884d5810fc2a776a0a15fd0a79df7fd5""}"
+source_link_schema,"{""path"": ""C:\\Users\\George\\Desktop\\ArmSim\\optimization\\data\\link_bounds.csv"", ""sha256"": ""b631395cabdbbee40caded655cafadf30eccf732d0f98df45d67fd125bba79ee""}"

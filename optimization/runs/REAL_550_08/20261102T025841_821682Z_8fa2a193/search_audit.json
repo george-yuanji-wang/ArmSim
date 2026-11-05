@@ -1,0 +1,6 @@
+{
+  "status": "superseded_before_completion",
+  "reason": "Cross-check found an obvious stronger reducer at almost the same envelope, missed by the bounded global capacity/size shortlist. Near-envelope hardware challenges are required before accepting comparison results.",
+  "example": "J3 HD-14 100:1 to HD-14Pro 100:1 at identical motor/geometry raises checked baseline Pmax from ~1.18 to ~3.21 kg.",
+  "records": "Original snapshots and checkpoints retained; these are not the final reviewed reruns."
+}

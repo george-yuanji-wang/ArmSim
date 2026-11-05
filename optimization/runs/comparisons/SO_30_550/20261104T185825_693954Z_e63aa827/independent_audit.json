@@ -1,0 +1,544 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-11-04T18:58:40.767963+00:00",
+  "overall_pass": true,
+  "scope": "Read-only independent numerical audit of completed approved-base-template-v8 runs. No optimizer rerun or source/run/model modifications.",
+  "methods": {
+    "DOF": "Ten deterministic generic TCP 6x6 Jacobian rank checks on each saved MJCF.",
+    "loads": "Reconstructed saved G,M,H coefficients at 500g; independently rebuilt all37 velocity states. Exact acceleration support max|tau_j|=max_v|G_j+H_j|+6*sum_k|M_jk| replaces enumeration of64 corners.",
+    "capacity": "Independent piecewise-linear intersection of sums of seven absolute affine payload terms; all positive sign-change breakpoints checked. Primary includes continuous motor dynamic constraints; conditional excludes dynamic motor constraints and retains static motor/gear holding plus repeated gear motion and supported speeds.",
+    "gravity": "Pose-weighted mean squared holding torque divided by common reducer continuous limits; prior motor-capacity-normalized score also reconstructed.",
+    "coverage": "All30 authorized J1/J2/J3 Cartesian-product motor tuples independently received20 counted evaluations; this does not prove continuous global optimality."
+  },
+  "joint_vector_order": [
+    "J1",
+    "J2",
+    "J3",
+    "J4",
+    "J5",
+    "J6"
+  ],
+  "all_three_input_and_pose_hashes_match": true,
+  "rating_limits": {
+    "reducer_continuous_holding_Nm": [
+      3.0,
+      10.2,
+      10.2,
+      2.2,
+      2.2,
+      2.2
+    ],
+    "reducer_repeated_motion_Nm": [
+      8.7,
+      23.4,
+      23.4,
+      4.5,
+      4.5,
+      4.5
+    ]
+  },
+  "interpretation": "Primary Pmax is a conservative continuous-motor finite-basis screen. Conditional Pmax is not a validated usable payload: motor transient/current/duration, thermal duty, reducer equivalent-load life and unpublished input torque limits remain unverified. True motor rotor inertias remain null; explicit upper bounds M_motor*R_envelope^2 are used. No precision, structural stiffness, global collision or joint-stop certification is inferred.",
+  "runs": [
+    {
+      "layout_number": 7,
+      "run_directory": "C:\\Users\\George\\Desktop\\ArmSim\\optimization\\runs\\SO_30_550_07\\20261104T182726_116834Z_4ccaac15",
+      "overall_pass": true,
+      "evaluations": 600,
+      "hardware_tuple_count": 30,
+      "evaluations_per_tuple": 20,
+      "all_approved_hardware_assignments_pass": true,
+      "geometry_contract": "approved-base-template-v8",
+      "generic_TCP_jacobian_ranks": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "maximum_extension_FK_mm": 550.0000000000003,
+      "published_layout_model_alias_matches": true,
+      "mass_result_kg": 5.524398393224886,
+      "mass_model_kg": 5.524398393224886,
+      "mass_structure_plus_catalog_kg": 5.524398393224885,
+      "selected_motor_ids": [
+        "SO_57BLR70-24-02",
+        "SO_57BYA94-36-01",
+        "SO_42BSA62-36-01",
+        "SO_42BSB41-24-01",
+        "SO_42BSB41-24-01",
+        "SO_42BSB41-24-01"
+      ],
+      "selected_reducer_ids": [
+        "SITO_HD-14_30",
+        "SITO_CD-20_30",
+        "SITO_CD-20_30",
+        "SITO_CS-11-2XH-A_30",
+        "SITO_CS-11-2XH-A_30",
+        "SITO_CS-11-2XH-A_30"
+      ],
+      "lengths_mm": [
+        244.61178733599337,
+        90.0,
+        72.21107686355349
+      ],
+      "motor_required_rpm": [
+        900.0,
+        900.0,
+        900.0,
+        1500.0,
+        1500.0,
+        1500.0
+      ],
+      "motor_rotor_inertia_source_published": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "motor_rotor_inertia_upper_bound_used_kg_m2": [
+        0.0005279625,
+        0.0008366175000000001,
+        0.00037925999999999997,
+        0.000231084,
+        0.000231084,
+        0.000231084
+      ],
+      "payload_500g_peak_joint_torque_Nm": [
+        7.073834756835291,
+        18.151383334075366,
+        6.4701803641444915,
+        2.946962227813945,
+        3.1108005982410765,
+        0.002559545009302511
+      ],
+      "payload_500g_peak_motor_torque_Nm": [
+        0.33082774189450975,
+        0.7556372611358455,
+        0.2839394788048164,
+        0.13982719426046483,
+        0.14528847327470257,
+        0.04168043816697675
+      ],
+      "payload_500g_peak_motor_continuous_utilization": [
+        0.7038888125415101,
+        1.679193913635212,
+        1.7746217425301025,
+        2.219479273975632,
+        2.306166242455596,
+        0.6615942566186785
+      ],
+      "payload_500g_peak_reducer_repeated_utilization": [
+        0.8130844548086542,
+        0.7757001424818533,
+        0.27650343436514924,
+        0.6548804950697655,
+        0.6912890218313503,
+        0.0005687877798450024
+      ],
+      "payload_500g_peak_static_holding_utilization": [
+        0.0,
+        1.10267644341166,
+        0.7406501206384085,
+        0.7767599566371913,
+        0.7813475205998408,
+        1.7989724936055776e-16
+      ],
+      "reducer_static_continuous_passes": false,
+      "reducer_instantaneous_repeated_peak_passes": true,
+      "static_motor_continuous_passes": true,
+      "dynamic_motor_continuous_screen_passes": false,
+      "reconstructed_primary_Pmax_kg": 0.0,
+      "reconstructed_conditional_Pmax_kg": 0.30589385176555806,
+      "reconstructed_common_gravity_JG": 0.5804340384119431,
+      "reconstructed_capacity_gravity_JG": 0.7705887422334694,
+      "joint_peak_saved_max_error_Nm": 3.552713678800501e-15,
+      "motor_peak_saved_max_error_Nm": 2.220446049250313e-16,
+      "J5_worst_required_motor_witness": {
+        "pose_id": "pose_0582",
+        "reference_name": "halton_0558",
+        "joint_positions_rad": [
+          -0.28838838812250056,
+          -2.5037933219968034,
+          1.0203892938859653,
+          1.6787435962331125,
+          1.758442168989028,
+          2.778386220266258
+        ],
+        "joint_velocity_rad_s": [
+          0.0,
+          3.141592653589793,
+          0.0,
+          -5.235987755982989,
+          0.0,
+          0.0
+        ],
+        "joint_acceleration_rad_s2": [
+          6.0,
+          6.0,
+          6.0,
+          6.0,
+          6.0,
+          -6.0
+        ],
+        "joint_torque_Nm": 3.110800598241077,
+        "joint_load_divided_by_ratio_Nm": 0.10369335327470257,
+        "rotor_upper_bound_addend_Nm": 0.04159512,
+        "required_motor_torque_Nm": 0.14528847327470257,
+        "continuous_motor_rating_Nm": 0.063
+      },
+      "input_sha256": {
+        "excluded_hardware.csv": "66913b38544cc709647a79d618d0e16dcbf39317cfb06c7a607e6b4acbe66bc0",
+        "hardware_provenance.csv": "d1342ce191c239b047e48ee017f4056576e43d2df2329b3658545ffdb26cd934",
+        "link_bounds.csv": "b631395cabdbbee40caded655cafadf30eccf732d0f98df45d67fd125bba79ee",
+        "motor.csv": "f9309f333e6f1340395198c18537944ee99857fdc3371d387d34a193caa86fe4",
+        "reducer.csv": "540659f38a6f2ac049266c2f5beaa5a84164114dedab841223968fe9228774c6",
+        "requirement.csv": "7cfd93ab2dae0a7ed96f4266b459dbd09a69b4f68218524326374d272bb6958a",
+        "study_assumptions.csv": "36af7e753b4bc0c9481c7b00a847ee5ace8e3a9251b25c553366b29cff77a5a4",
+        "input_assumptions.json": "af60a8c5c6a15de65c25c249e9a728b89a5d35c4e7c7b1f2cc62f27b37d17505",
+        "study.json": "1ffb8328672ef5de9cda3eb54911dcefd41b0635fa1841f48f9ba919aea32ffe"
+      },
+      "reference_poses_sha256": "3965ab572e8696231791c8107a3bdba3a83c024d47163181966cbfbe45069cf0"
+    },
+    {
+      "layout_number": 8,
+      "run_directory": "C:\\Users\\George\\Desktop\\ArmSim\\optimization\\runs\\SO_30_550_08\\20261104T182740_610868Z_855632aa",
+      "overall_pass": true,
+      "evaluations": 600,
+      "hardware_tuple_count": 30,
+      "evaluations_per_tuple": 20,
+      "all_approved_hardware_assignments_pass": true,
+      "geometry_contract": "approved-base-template-v8",
+      "generic_TCP_jacobian_ranks": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "maximum_extension_FK_mm": 550.0,
+      "published_layout_model_alias_matches": true,
+      "mass_result_kg": 5.534699645585312,
+      "mass_model_kg": 5.534699645585312,
+      "mass_structure_plus_catalog_kg": 5.534699645585311,
+      "selected_motor_ids": [
+        "SO_57BLR50-24-01",
+        "SO_57BSD96-36-01",
+        "SO_57BLR70-24-02",
+        "SO_42BSB41-24-01",
+        "SO_42BSB41-24-01",
+        "SO_42BSB41-24-01"
+      ],
+      "selected_reducer_ids": [
+        "SITO_HD-14_30",
+        "SITO_CD-20_30",
+        "SITO_CD-20_30",
+        "SITO_CS-11-2XH-A_30",
+        "SITO_CS-11-2XH-A_30",
+        "SITO_CS-11-2XH-A_30"
+      ],
+      "lengths_mm": [
+        181.77540730447888,
+        90.0,
+        153.83109387079196
+      ],
+      "motor_required_rpm": [
+        900.0,
+        900.0,
+        900.0,
+        1500.0,
+        1500.0,
+        1500.0
+      ],
+      "motor_rotor_inertia_source_published": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "motor_rotor_inertia_upper_bound_used_kg_m2": [
+        0.000406125,
+        0.0013158449999999997,
+        0.0005279625,
+        0.000231084,
+        0.000231084,
+        0.000231084
+      ],
+      "payload_500g_peak_joint_torque_Nm": [
+        6.517297335420567,
+        17.19092236883134,
+        8.498012939320361,
+        2.9993216368570192,
+        3.2917693513111113,
+        0.0025595450093015503
+      ],
+      "payload_500g_peak_motor_torque_Nm": [
+        0.29034574451401884,
+        0.8098828456277114,
+        0.3783003479773454,
+        0.14157250789523396,
+        0.15132076504370368,
+        0.04168043816697672
+      ],
+      "payload_500g_peak_motor_continuous_utilization": [
+        1.2623728022348646,
+        1.7997396569504698,
+        0.8048943573986073,
+        2.2471826650037134,
+        2.401916905455614,
+        0.6615942566186781
+      ],
+      "payload_500g_peak_reducer_repeated_utilization": [
+        0.7491146362552377,
+        0.7346548020868094,
+        0.36316294612480177,
+        0.6665159193015598,
+        0.731504300291358,
+        0.000568787779844789
+      ],
+      "payload_500g_peak_static_holding_utilization": [
+        0.0,
+        0.9698340041714728,
+        0.42217318676996723,
+        0.754532988127517,
+        0.78134752059984,
+        1.7622587692462801e-16
+      ],
+      "reducer_static_continuous_passes": true,
+      "reducer_instantaneous_repeated_peak_passes": true,
+      "static_motor_continuous_passes": true,
+      "dynamic_motor_continuous_screen_passes": false,
+      "reconstructed_primary_Pmax_kg": 0.0,
+      "reconstructed_conditional_Pmax_kg": 0.5570277374573213,
+      "reconstructed_common_gravity_JG": 0.4843026458854434,
+      "reconstructed_capacity_gravity_JG": 0.5666172692999876,
+      "joint_peak_saved_max_error_Nm": 3.552713678800501e-15,
+      "motor_peak_saved_max_error_Nm": 2.220446049250313e-16,
+      "J5_worst_required_motor_witness": {
+        "pose_id": "pose_0846",
+        "reference_name": "halton_0822",
+        "joint_positions_rad": [
+          -0.4724660826687775,
+          -2.1820206862381784,
+          0.489585799135434,
+          0.2342128633871603,
+          1.87173777182322,
+          -1.271222516632374
+        ],
+        "joint_velocity_rad_s": [
+          0.0,
+          3.141592653589793,
+          3.141592653589793,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "joint_acceleration_rad_s2": [
+          6.0,
+          6.0,
+          6.0,
+          -6.0,
+          6.0,
+          -6.0
+        ],
+        "joint_torque_Nm": 3.2917693513111104,
+        "joint_load_divided_by_ratio_Nm": 0.10972564504370368,
+        "rotor_upper_bound_addend_Nm": 0.04159512,
+        "required_motor_torque_Nm": 0.15132076504370368,
+        "continuous_motor_rating_Nm": 0.063
+      },
+      "input_sha256": {
+        "excluded_hardware.csv": "66913b38544cc709647a79d618d0e16dcbf39317cfb06c7a607e6b4acbe66bc0",
+        "hardware_provenance.csv": "d1342ce191c239b047e48ee017f4056576e43d2df2329b3658545ffdb26cd934",
+        "link_bounds.csv": "b631395cabdbbee40caded655cafadf30eccf732d0f98df45d67fd125bba79ee",
+        "motor.csv": "f9309f333e6f1340395198c18537944ee99857fdc3371d387d34a193caa86fe4",
+        "reducer.csv": "540659f38a6f2ac049266c2f5beaa5a84164114dedab841223968fe9228774c6",
+        "requirement.csv": "7cfd93ab2dae0a7ed96f4266b459dbd09a69b4f68218524326374d272bb6958a",
+        "study_assumptions.csv": "36af7e753b4bc0c9481c7b00a847ee5ace8e3a9251b25c553366b29cff77a5a4",
+        "input_assumptions.json": "af60a8c5c6a15de65c25c249e9a728b89a5d35c4e7c7b1f2cc62f27b37d17505",
+        "study.json": "1ffb8328672ef5de9cda3eb54911dcefd41b0635fa1841f48f9ba919aea32ffe"
+      },
+      "reference_poses_sha256": "3965ab572e8696231791c8107a3bdba3a83c024d47163181966cbfbe45069cf0"
+    },
+    {
+      "layout_number": 9,
+      "run_directory": "C:\\Users\\George\\Desktop\\ArmSim\\optimization\\runs\\SO_30_550_09\\20261104T182740_606750Z_af908b6a",
+      "overall_pass": true,
+      "evaluations": 600,
+      "hardware_tuple_count": 30,
+      "evaluations_per_tuple": 20,
+      "all_approved_hardware_assignments_pass": true,
+      "geometry_contract": "approved-base-template-v8",
+      "generic_TCP_jacobian_ranks": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "maximum_extension_FK_mm": 550.0000000000002,
+      "published_layout_model_alias_matches": true,
+      "mass_result_kg": 5.465973307864864,
+      "mass_model_kg": 5.465973307864864,
+      "mass_structure_plus_catalog_kg": 5.465973307864863,
+      "selected_motor_ids": [
+        "SO_57BLR50-24-01",
+        "SO_57BYA94-36-01",
+        "SO_42BSA62-36-01",
+        "SO_42BSB41-24-01",
+        "SO_42BSB41-24-01",
+        "SO_42BSB41-24-01"
+      ],
+      "selected_reducer_ids": [
+        "SITO_HD-14_30",
+        "SITO_CD-20_30",
+        "SITO_CD-20_30",
+        "SITO_CS-11-2XH-A_30",
+        "SITO_CS-11-2XH-A_30",
+        "SITO_CS-11-2XH-A_30"
+      ],
+      "lengths_mm": [
+        181.77734011654888,
+        90.0,
+        153.82885456224497
+      ],
+      "motor_required_rpm": [
+        900.0,
+        900.0,
+        900.0,
+        1500.0,
+        1500.0,
+        1500.0
+      ],
+      "motor_rotor_inertia_source_published": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "motor_rotor_inertia_upper_bound_used_kg_m2": [
+        0.000406125,
+        0.0008366175000000001,
+        0.00037925999999999997,
+        0.000231084,
+        0.000231084,
+        0.000231084
+      ],
+      "payload_500g_peak_joint_torque_Nm": [
+        6.500534793534757,
+        16.937600960669617,
+        8.497276082423006,
+        2.999308017602553,
+        3.291761178145279,
+        0.0025595450092996525
+      ],
+      "payload_500g_peak_motor_torque_Nm": [
+        0.28978699311782524,
+        0.7151778486889873,
+        0.35150933608076684,
+        0.1415720539200851,
+        0.15132049260484265,
+        0.041680438166976655
+      ],
+      "payload_500g_peak_motor_continuous_utilization": [
+        1.2599434483383705,
+        1.5892841081977493,
+        2.1969333505047928,
+        2.24717545904897,
+        2.4019125810292485,
+        0.6615942566186771
+      ],
+      "payload_500g_peak_reducer_repeated_utilization": [
+        0.7471879073028457,
+        0.723829100883317,
+        0.36313145651380374,
+        0.6665128928005672,
+        0.7315024840322842,
+        0.0005687877798443672
+      ],
+      "payload_500g_peak_static_holding_utilization": [
+        0.0,
+        0.9466494580519065,
+        0.8970401999565736,
+        0.7545336333655773,
+        0.7813475205998407,
+        2.423105807713635e-16
+      ],
+      "reducer_static_continuous_passes": true,
+      "reducer_instantaneous_repeated_peak_passes": true,
+      "static_motor_continuous_passes": true,
+      "dynamic_motor_continuous_screen_passes": false,
+      "reconstructed_primary_Pmax_kg": 0.0,
+      "reconstructed_conditional_Pmax_kg": 0.6008572936466597,
+      "reconstructed_common_gravity_JG": 0.47160568326394914,
+      "reconstructed_capacity_gravity_JG": 0.7247009581153812,
+      "joint_peak_saved_max_error_Nm": 3.552713678800501e-15,
+      "motor_peak_saved_max_error_Nm": 2.220446049250313e-16,
+      "J5_worst_required_motor_witness": {
+        "pose_id": "pose_0846",
+        "reference_name": "halton_0822",
+        "joint_positions_rad": [
+          -0.4724660826687775,
+          -2.1820206862381784,
+          0.489585799135434,
+          0.2342128633871603,
+          1.87173777182322,
+          -1.271222516632374
+        ],
+        "joint_velocity_rad_s": [
+          0.0,
+          3.141592653589793,
+          3.141592653589793,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "joint_acceleration_rad_s2": [
+          6.0,
+          6.0,
+          6.0,
+          6.0,
+          6.0,
+          6.0
+        ],
+        "joint_torque_Nm": 3.291761178145279,
+        "joint_load_divided_by_ratio_Nm": 0.10972537260484264,
+        "rotor_upper_bound_addend_Nm": 0.04159512,
+        "required_motor_torque_Nm": 0.15132049260484265,
+        "continuous_motor_rating_Nm": 0.063
+      },
+      "input_sha256": {
+        "excluded_hardware.csv": "66913b38544cc709647a79d618d0e16dcbf39317cfb06c7a607e6b4acbe66bc0",
+        "hardware_provenance.csv": "d1342ce191c239b047e48ee017f4056576e43d2df2329b3658545ffdb26cd934",
+        "link_bounds.csv": "b631395cabdbbee40caded655cafadf30eccf732d0f98df45d67fd125bba79ee",
+        "motor.csv": "f9309f333e6f1340395198c18537944ee99857fdc3371d387d34a193caa86fe4",
+        "reducer.csv": "540659f38a6f2ac049266c2f5beaa5a84164114dedab841223968fe9228774c6",
+        "requirement.csv": "7cfd93ab2dae0a7ed96f4266b459dbd09a69b4f68218524326374d272bb6958a",
+        "study_assumptions.csv": "36af7e753b4bc0c9481c7b00a847ee5ace8e3a9251b25c553366b29cff77a5a4",
+        "input_assumptions.json": "af60a8c5c6a15de65c25c249e9a728b89a5d35c4e7c7b1f2cc62f27b37d17505",
+        "study.json": "1ffb8328672ef5de9cda3eb54911dcefd41b0635fa1841f48f9ba919aea32ffe"
+      },
+      "reference_poses_sha256": "3965ab572e8696231791c8107a3bdba3a83c024d47163181966cbfbe45069cf0"
+    }
+  ]
+}

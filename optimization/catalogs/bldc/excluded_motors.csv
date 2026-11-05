@@ -1,0 +1,8 @@
+model,outer_diameter_mm,body_length_mm,reason,source_url
+CubeMars RI20 KV600,25,14.5,Below 30 mm OD,https://www.cubemars.com/product/ri30-kv260-frameless-torque-motor.html
+CubeMars RI70 KV95,76,24,Nominal name 70; actual OD exceeds 70 mm,https://www.cubemars.com/product/ri50-kv100-frameless-inrunner-torque-motor.html
+CubeMars RO60 Standard,73.8,23,Actual OD exceeds 70 mm,https://www.cubemars.com/categorys/frameless-outrunner-torque-motor
+Nanotec DB42C01,,100,"Body length is 100 mm, not strictly less than 100 mm",https://www.nanotec.com/fileadmin/files/Baureihenuebersichten/BLDC_Motoren/Product_Overview_DB42.pdf
+Nanotec DB42C02,,100,"Body length is 100 mm, not strictly less than 100 mm",https://www.nanotec.com/fileadmin/files/Baureihenuebersichten/BLDC_Motoren/Product_Overview_DB42.pdf
+Nanotec DB42C03,,100,"Body length is 100 mm, not strictly less than 100 mm",https://www.nanotec.com/fileadmin/files/Baureihenuebersichten/BLDC_Motoren/Product_Overview_DB42.pdf
+Nanotec DB43C048030-A,,100.3,Body length exceeds 100 mm,https://www.nanotec.com/fileadmin/files/Baureihenuebersichten/BLDC_Motoren/Product_Overview_DB43.pdf

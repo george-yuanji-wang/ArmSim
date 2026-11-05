@@ -1,0 +1,7 @@
+{
+  "status": "stopped_after_local_assembly_audit",
+  "geometry_contract": "approved-base-template-v2",
+  "reason": "Child cage/output connectors can intersect their own fixed reducer. Version 3 adds this local assembly clearance gate before scoring.",
+  "observed_example": "Cycle 72 winner at J5: child cage penetrated G5 housing by 2.329 mm; output connectors by 1.420 mm at assembly zero.",
+  "records": "Existing input snapshots and checkpoints are retained. This run is superseded and must not supply the reviewed best model."
+}

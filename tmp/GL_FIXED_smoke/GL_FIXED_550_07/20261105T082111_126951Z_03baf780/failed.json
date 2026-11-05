@@ -1,0 +1,22 @@
+{
+  "cycle": 0,
+  "exception": "ValueError",
+  "message": "No candidate fits the approved base geometry. Review selected hardware envelopes; no best_model.xml was exported. See checkpoint geometry errors.",
+  "requested_evaluations": 1,
+  "proposal_attempts": 1,
+  "unique_candidates_checked": 1,
+  "duplicate_proposals_skipped": 0,
+  "proposal_diagnostics": {
+    "block_trials": 0,
+    "geometry_rejected_trials": 0,
+    "duplicate_trials": 0,
+    "capacity_challenge_probes": 0,
+    "capacity_challenge_probe_limit_reached": 0,
+    "fallback_to_incumbent": 0,
+    "selected_blocks": {
+      "hardware_tuple_seed": 1
+    },
+    "fallback_reasons": {}
+  },
+  "last_checkpoints": "Previously written checkpoints and input snapshots are retained."
+}

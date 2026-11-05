@@ -1,0 +1,2 @@
+cycle,best_found_cycle,elapsed_s,layout_number,reachable_poses,total_poses,pmax_kg,required_payload_upper_kg,requirements_met,arm_mass_kg,gravity_score_JG
+1,1,2.007,1,1008,1008,9.225986745610715,1.0,True,10.515000000000002,0.08626678734920548

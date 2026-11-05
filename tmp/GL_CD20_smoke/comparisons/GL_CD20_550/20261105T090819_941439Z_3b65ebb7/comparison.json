@@ -1,0 +1,150 @@
+{
+  "study_conditions": {
+    "payload_lower_g": 500.0,
+    "payload_upper_g": 500.0,
+    "reach_lower_mm": 550.0,
+    "reach_upper_mm": 550.0,
+    "seed": 42.0,
+    "joint_speed_rad_s": 1.0,
+    "joint_accel_rad_s2": 6.0,
+    "cycles": 1.0,
+    "joint_speed_limits_rad_s": [
+      3.141592653589793,
+      3.141592653589793,
+      3.141592653589793,
+      5.235987755982989,
+      5.235987755982989,
+      5.235987755982989
+    ],
+    "wrist2_length_m": 0.11,
+    "motor_candidates_by_joint": [
+      [
+        "CUBEMARS_GL40_KV210"
+      ],
+      [
+        "CUBEMARS_GL40_KV210"
+      ],
+      [
+        "CUBEMARS_GL40_KV210"
+      ]
+    ],
+    "shared_wrist_motor_id": "CUBEMARS_GL30_KV290",
+    "reducer_load_policy": "hold_and_repeated_peak",
+    "motor_load_policy": "hold_and_peak_envelope",
+    "evaluations": 1.0,
+    "hardware_enumeration_plan": [
+      {
+        "motor_ids": [
+          "CUBEMARS_GL40_KV210",
+          "CUBEMARS_GL40_KV210",
+          "CUBEMARS_GL40_KV210",
+          "CUBEMARS_GL30_KV290",
+          "CUBEMARS_GL30_KV290",
+          "CUBEMARS_GL30_KV290"
+        ],
+        "allocated_evaluations": 1.0
+      }
+    ],
+    "pose_count": 1008.0,
+    "pose_limit": null,
+    "sampling": "24 named joint-state references (zero, signed single-axis quarter turns, six fully extended world directions, combined folded/wrist states) plus 984 deterministic Halton states across six joint angles in [-pi, pi). Joint states are common to every design; fully extended tests resolve analytically for each design. Reach bounds constrain maximum shoulder-to-TCP extension, not a workspace shell. Global collision and joint-stop checks disabled.",
+    "reach_definition": "maximum fully extended shoulder-to-TCP radius",
+    "structural_mass_model": "Approved aluminium edge/frame/output stock at 2700 kg/m3, plus the base builder's explicit small transmission-part masses. Catalog motor/reducer masses are separate; structural mass, 3D COM and full inertia follow geometry.",
+    "geometry_contract": "approved-base-template-v8",
+    "python": "3.13.15",
+    "mujoco": "3.17.0",
+    "numpy": "2.5.4",
+    "algorithm": "exhaustive motor-tuple enumeration with independent balanced bounded geometry searches",
+    "evaluation_budget": "Distinct supported physical candidates only; duplicate proposals are skipped",
+    "score_definition": "conditional zero-to-P payload over the finite velocity basis and acceleration box; static holding uses continuous ratings, motion uses the recorded speed-dependent motor peak envelope; transient duration and duty unverified",
+    "capacity_model": "continuous holding; speed-aware conditional motor transient envelope; selected reducer motion policy; ideal lossless 1:1 input belts",
+    "velocity_cases_per_pose": 37,
+    "acceleration_corners_per_velocity": 64,
+    "payload_inertia_model": "TCP-centered sphere, radius 10 mm, inertia per kg 4e-5 m2",
+    "jg_definition": "weighted mean of squared gravity torques divided by the common reducer rated limits at required payload",
+    "reference_poses_sha256": "3965ab572e8696231791c8107a3bdba3a83c024d47163181966cbfbe45069cf0",
+    "catalog_sha256": {
+      "excluded_hardware.csv": "e632b7113bf7747275b2880a5ef2a967427d567a441e601c0e8228031e06c076",
+      "hardware_provenance.csv": "e51e936ae794bf3e10fdbda50c3e56f302c70a7c22abb03db55a7f9c8293cf21",
+      "link_bounds.csv": "b631395cabdbbee40caded655cafadf30eccf732d0f98df45d67fd125bba79ee",
+      "motor.csv": "15a19c4e879c83077db9bba88686929f54290919a37f24729c503fd877f4d222",
+      "motor_curve.csv": "583902468ea9674345a493a8f2f6eff83ad855943c1abc91c80384df8690156d",
+      "reducer.csv": "c5fc7119878204e36e1455f8f77ef5bbb59dfc76242a49928ea3b48116ad9ca2",
+      "study_assumptions.csv": "4c3f4c445151005493e502a5a1aacc83497639afb81b96045d98e57977f80a6b",
+      "input_assumptions.json": "4a4ffd2ea934f114b0930b33ad3acd8555806dff7be45a595789894bcc6a75e7",
+      "study.json": "4d186c2bc5702101e34a82a9143f091ac685f3fd19729a81b8ab00f4f594455d"
+    }
+  },
+  "results": [
+    {
+      "layout_number": 7,
+      "extended_reach_mm": 550.0,
+      "L1_mm": 175.50000000000006,
+      "L2_mm": 90.0,
+      "L3_mm": 161.05977151355953,
+      "L1_mass_g": 89.7957260563634,
+      "L2_mass_g": 83.83211121279318,
+      "L3_mass_g": 52.88260465492086,
+      "arm_mass_kg": 3.028295680418853,
+      "pmax_kg": 0.8686139915062759,
+      "pmax_continuous_screen_kg": 0.3753197216163915,
+      "motor_load_policy": "hold_and_peak_envelope",
+      "pmax_known_constraints_kg": 0.8686139915062759,
+      "gravity_score_JG": 0.2400630173535174,
+      "gravity_capacity_score_JG": 0.2943100425838458,
+      "evaluations": 1.0,
+      "allocated_evaluations": 1.0,
+      "hardware_validation_status": "conditional_transient_envelope",
+      "requirements_met": true,
+      "run_dir": "C:\\Users\\George\\Desktop\\ArmSim\\tmp\\GL_CD20_smoke\\GL_CD20_550_07\\20261105T090755_257184Z_135ccf02",
+      "model_file": "C:\\Users\\George\\Desktop\\ArmSim\\tmp\\GL_CD20_smoke\\GL_CD20_550_07\\20261105T090755_257184Z_135ccf02\\best_model.xml"
+    },
+    {
+      "layout_number": 8,
+      "extended_reach_mm": 550.0,
+      "L1_mm": 175.50000000000006,
+      "L2_mm": 90.0,
+      "L3_mm": 161.05977151355953,
+      "L1_mass_g": 122.6151478086502,
+      "L2_mass_g": 83.83211121279318,
+      "L3_mass_g": 88.12132868352842,
+      "arm_mass_kg": 3.1296456753079576,
+      "pmax_kg": 0.8686139915062759,
+      "pmax_continuous_screen_kg": 0.3753197216163913,
+      "motor_load_policy": "hold_and_peak_envelope",
+      "pmax_known_constraints_kg": 0.8686139915062759,
+      "gravity_score_JG": 0.24098345049009803,
+      "gravity_capacity_score_JG": 0.2959914153186573,
+      "evaluations": 1.0,
+      "allocated_evaluations": 1.0,
+      "hardware_validation_status": "conditional_transient_envelope",
+      "requirements_met": true,
+      "run_dir": "C:\\Users\\George\\Desktop\\ArmSim\\tmp\\GL_CD20_smoke\\GL_CD20_550_08\\20261105T090803_501753Z_650cef27",
+      "model_file": "C:\\Users\\George\\Desktop\\ArmSim\\tmp\\GL_CD20_smoke\\GL_CD20_550_08\\20261105T090803_501753Z_650cef27\\best_model.xml"
+    },
+    {
+      "layout_number": 9,
+      "extended_reach_mm": 550.0,
+      "L1_mm": 175.50000000000006,
+      "L2_mm": 90.0,
+      "L3_mm": 161.05977151355953,
+      "L1_mass_g": 122.6151478086502,
+      "L2_mass_g": 83.83211121279318,
+      "L3_mass_g": 88.12132868352842,
+      "arm_mass_kg": 3.096353826199748,
+      "pmax_kg": 0.868613991506276,
+      "pmax_continuous_screen_kg": 0.37531972161639177,
+      "motor_load_policy": "hold_and_peak_envelope",
+      "pmax_known_constraints_kg": 0.868613991506276,
+      "gravity_score_JG": 0.24098345049009806,
+      "gravity_capacity_score_JG": 0.29599141531865725,
+      "evaluations": 1.0,
+      "allocated_evaluations": 1.0,
+      "hardware_validation_status": "conditional_transient_envelope",
+      "requirements_met": true,
+      "run_dir": "C:\\Users\\George\\Desktop\\ArmSim\\tmp\\GL_CD20_smoke\\GL_CD20_550_09\\20261105T090811_398687Z_08836457",
+      "model_file": "C:\\Users\\George\\Desktop\\ArmSim\\tmp\\GL_CD20_smoke\\GL_CD20_550_09\\20261105T090811_398687Z_08836457\\best_model.xml"
+    }
+  ],
+  "retention": "Original runs are unchanged; no automatic deletion."
+}

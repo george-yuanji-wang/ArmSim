@@ -1,0 +1,138 @@
+{
+  "hallmark": {
+    "cycle": 60,
+    "best_found_cycle": 58,
+    "elapsed_s": 68.081,
+    "layout_number": 7,
+    "reachable_poses": 1008,
+    "total_poses": 1008,
+    "pmax_kg": 4.159907254395689,
+    "required_payload_upper_kg": 1.0,
+    "requirements_met": true,
+    "geometry_valid": true,
+    "geometry_rejections": 27,
+    "arm_mass_kg": 4.516362162484058,
+    "gravity_score_JG": 0.13002245345095506
+  },
+  "best_design": {
+    "layout_number": 7,
+    "lengths_m": [
+      0.54,
+      0.10999286930364713,
+      0.27631677363695384
+    ],
+    "link_masses_kg": [
+      0.129246363061475,
+      0.1,
+      0.5261873181469703,
+      0.03,
+      0.02,
+      0.020928481275612733
+    ],
+    "com_fractions": [
+      0.6470299390589018,
+      0.39652370194398584,
+      0.32866846721268705,
+      0.6465455753228996,
+      0.5104996495263132,
+      0.25
+    ],
+    "spread_fractions": [
+      0.045695331131620116,
+      0.08400082606429236,
+      0.14095145604307951,
+      0.08107319389428397,
+      0.07288076373718413,
+      0.06292723947567216
+    ],
+    "motor_offsets_m": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "motor_ids": [
+      "SYNTHETIC_M_WRIST",
+      "SYNTHETIC_M_SMALL",
+      "SYNTHETIC_M_LARGE",
+      "SYNTHETIC_M_WRIST",
+      "SYNTHETIC_M_WRIST",
+      "SYNTHETIC_M_WRIST"
+    ],
+    "reducer_ids": [
+      "SYNTHETIC_R_50",
+      "SYNTHETIC_R_100",
+      "SYNTHETIC_R_50",
+      "SYNTHETIC_R_WRIST",
+      "SYNTHETIC_R_WRIST",
+      "SYNTHETIC_R_WRIST"
+    ]
+  },
+  "summary": {
+    "geometry_valid": true,
+    "geometry_contract": "approved-base-template-v3",
+    "ik_policy": "fixed canonical analytic yaw/elbow/wrist branch; alternative branches are not scored",
+    "score_definition": "guaranteed zero-to-P payload over the finite velocity basis and acceleration box",
+    "capacity_model": "continuous-rated motor/reducer screening; ideal lossless 1:1 input belts",
+    "motor_envelope_assumption": "min(rated torque, stall torque * (1 - abs(rpm)/no-load rpm)); max mechanical rpm also enforced; no thermal curve",
+    "velocity_cases_per_pose": 37,
+    "velocity_coefficient_order": [
+      "qdot1^2",
+      "qdot2^2",
+      "qdot3^2",
+      "qdot4^2",
+      "qdot5^2",
+      "qdot6^2",
+      "qdot1*qdot2",
+      "qdot1*qdot3",
+      "qdot1*qdot4",
+      "qdot1*qdot5",
+      "qdot1*qdot6",
+      "qdot2*qdot3",
+      "qdot2*qdot4",
+      "qdot2*qdot5",
+      "qdot2*qdot6",
+      "qdot3*qdot4",
+      "qdot3*qdot5",
+      "qdot3*qdot6",
+      "qdot4*qdot5",
+      "qdot4*qdot6",
+      "qdot5*qdot6"
+    ],
+    "acceleration_corners_per_velocity": 64,
+    "payload_inertia_model": "TCP-centered sphere, radius 10 mm, inertia per kg 4e-5 m2",
+    "unknown_reducer_rotating_inertia": "omitted; complete reducer case mass on parent",
+    "collision_checks": false,
+    "joint_stop_checks": false,
+    "worst_pose_id": "pose_0916",
+    "limiting_joint": 5,
+    "failure_reason": "",
+    "empty_arm_passes": true,
+    "unreachable_pose_count": 0,
+    "required_payload_upper_kg": 1.0,
+    "required_payload_lower_kg": 0.5,
+    "required_payload_passes": true,
+    "jg_definition": "sum of squared normalized gravity torques at required upper payload, fixed pose weights"
+  },
+  "rng_state": {
+    "bit_generator": "PCG64",
+    "state": {
+      "state": 128659038824121119762540137275171013812,
+      "inc": 332724090758049132448979897138935081983
+    },
+    "has_uint32": 1,
+    "uinteger": 4030876023
+  },
+  "geometry_rejection_counts": {
+    "No room for spatial link frame: wrist_2_link": 8,
+    "J5 local assembly interference: wrist_2_link_frame_0 intersects G5_housing by 2.32895 mm": 3,
+    "J5 local assembly interference: wrist_2_link_frame_0 intersects G5_housing by 17.3287 mm": 2,
+    "J3 motor intersects its parent template cage (upper_arm_link_frame_8)": 4,
+    "No room for spatial link frame: forearm_link": 1,
+    "Template mount is not spatial: J3 motor": 3,
+    "Case is outside the local template mount envelope: J5 motor": 2,
+    "Case is outside the local template mount envelope: J3 motor": 2,
+    "J3 motor intersects its parent template cage (upper_arm_link_frame_11)": 1,
+    "Insufficient spatial frame span for catalog hardware: wrist_1_link": 1
+  }
+}

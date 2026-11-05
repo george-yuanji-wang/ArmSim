@@ -1,0 +1,803 @@
+<!doctype html>
+<html lang="en" class="no-js init-js lang-en">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<title>Online shop for high precise drive systems by maxon  | maxon group</title>
+	<meta name="robots" content="index,follow"/>
+	<link rel="stylesheet" type="text/css" media="all" href="/maxon/css/maxon-all.min.202610230814.css" />
+    <link rel="stylesheet" type="text/css" media="print" href="/maxon/css/print.min.202610230814.css"/>
+<script src="/maxon/js/jquery-all.min.202610230814.js"></script>
+<script src="/maxon/js/jquery-ui-1.12.1.custom.min.202610230814.js"></script>
+<script src="/maxon/js/maxon-all.min.202610230814.js"></script>
+    <script>
+var fooprop = ".202610230814";
+
+function JsSource() {
+	this.create = function(js) {
+		return "/maxon/js/" + js + ".min" + fooprop + ".js";
+	};
+	this.image = function(img) {
+		return "/maxon/images/" + img;
+	}
+}
+
+var jsSource = new JsSource();
+
+function refreshCheckout() {
+	//var contentToReplace = $("form#CheckoutItemInfo\\.tmp");
+    var checkoutCheckContentToReplace = $("form#CheckoutCheck");
+    var checkoutItemInfoContentToReplace = $("form#CheckoutItemInfo\\.tmp");
+	if (checkoutCheckContentToReplace.length || checkoutItemInfoContentToReplace.length) {
+	    $.when($.ajax(location.href, {
+	        data: {
+	            'validate': 'true'
+            },
+            cache: true
+	    })).done(function (data) {
+            checkoutCheckContentToReplace.replaceWith($(checkoutCheckContentToReplace.selector, $(data)));
+            checkoutItemInfoContentToReplace.replaceWith($(checkoutItemInfoContentToReplace.selector, $(data)));
+		});
+	}
+}
+
+var sessionRefreshUrl = '/maxon/html/sessionRefresh.jsp';
+$(function () {
+    MAXON.vimeo.videoCdnURL="https://video.maxongroup.com/medias/CMS_Downloads/Videos/";
+});
+</script>
+
+<script>
+        function receiveMessage(event) {
+            if (event.origin.indexOf("www.maxongroup.com")<0) return;
+            if (event.data == "refreshLogin") refreshLogin();
+            if (typeof event.data == 'string' && event.data.indexOf("resizeAndCenter") > -1) {
+                $("#fancybox-content").height(parseInt(event.data.substring(15)));
+                /*console.log('height:', parseInt(event.data.substring(15)));*/
+                $.fancybox.center();refreshLogin();
+            }
+        }
+
+        if (window.addEventListener) {
+            window.addEventListener("message", receiveMessage, false);
+        } else {
+            if (window.attachEvent) {
+                window.attachEvent("onmessage", receiveMessage);
+            }
+        }
+    </script>
+
+    <meta name='CMS' content="persp=cmscockpit.perspective.catalog&events=pageviewnavigation&pnav-site=8796289664040&pnav-catalog=8796355232345&pnav-page=8799894537264">
+    <link rel="alternate" hreflang="x-default" href="https://www.maxongroup.com/maxon/view/catalog/"/>
+		<link rel="alternate" hreflang="en-GB" href="https://www.maxongroup.co.uk/maxon/view/catalog/"/>
+		<link rel="alternate" hreflang="en-US" href="https://www.maxongroup.us/maxon/view/catalog/"/>
+		<link rel="alternate" hreflang="en-AU" href="https://www.maxongroup.net.au/maxon/view/catalog/"/>
+		<link rel="alternate" hreflang="en-IN" href="https://www.maxongroup.in/maxon/view/catalog/"/>
+		<link rel="alternate" hreflang="de-CH" href="https://www.maxongroup.ch/maxon/view/catalog/"/>
+		<link rel="alternate" hreflang="de-DE" href="https://www.maxongroup.de/maxon/view/catalog/"/>
+		<link rel="alternate" hreflang="fr" href="https://www.maxongroup.fr/maxon/view/catalog/"/>
+		<link rel="alternate" hreflang="nl" href="https://www.maxongroup.nl/maxon/view/catalog/"/>
+		<link rel="alternate" hreflang="it-it" href="https://www.maxongroup.it/maxon/view/catalog/"/>
+		<link rel="alternate" hreflang="es" href="https://www.maxongroup.es/maxon/view/catalog/"/>
+		<link rel="alternate" hreflang="en-PT" href="https://www.maxongroup.pt/maxon/view/catalog/"/>
+		<link rel="alternate" hreflang="zh-CN" href="https://www.maxongroup.com.cn/maxon/view/catalog/"/>
+		<link rel="alternate" hreflang="ja" href="https://www.maxongroup.co.jp/maxon/view/catalog/"/>
+		<link rel="alternate" hreflang="ko" href="https://www.maxongroup.co.kr/maxon/view/catalog/"/>
+		<link rel="alternate" hreflang="zh-TW" href="https://www.maxongroup.com.tw/maxon/view/catalog/"/>
+	<link rel="canonical" href="https://www.maxongroup.com/maxon/view/catalog/" />
+	
+	<script type="text/javascript">
+			dataLayer = [{'loggedin': 'false'}];
+		</script>
+		<!-- Google Tag Manager -->
+		<script type="text/javascript" >(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','GTM-5J7GF4S');</script>
+		<!-- End Google Tag Manager -->
+	<meta name="keywords" content=""/>
+
+	<meta name="description"	content="With their optimized magnetic circuit, these brushless EC-i motors with iron windings offer a very high torque density and very low cogging torque. The multipole internal rotor has excellent dynamics. The robust design with a steel flange and housing makes this unit suitable for a wide variety of applications. Order your EC-i drive online now."/>
+
+	
+
+	<script type="text/javascript">
+	function et_eC_Wrapper(a,b,c,d,e,f,g,h,i,j,k,l,m){}
+	function et_cc_wrapper(a,b,c,d,e,f,g,h,i,j,k,l,m){}
+	var etCommerce={attachEvent:function(){},sendEvent:function(){},setUserCallback:function(){},etCommerceLoad:function(){},doPreparedEvents:function(){}};
+	var ET_Event = {link: function(){ },eventStart:function(){}, download: function (){}};
+</script><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+	<script type="text/javascript">
+		(function(doc) {
+			var addEvent = 'addEventListener',
+					type = 'gesturestart',
+					qsa = 'querySelectorAll',
+					meta = qsa in doc ? doc[qsa]('meta[name=viewport]') : [];
+			if(typeof window.orientation == 'undefined') {
+				//not a mobile
+				return true;
+			}
+			if(Math.abs(window.orientation) != 90) {
+				var scales = [0.7, 0.7];
+			} else {
+				var scales = [1, 1];
+			}
+			function fix() {
+				meta.content = 'width=device-width,minimum-scale=' + scales[0] + ',maximum-scale=' + scales[1];
+				doc.removeEventListener(type, fix, true);
+			}
+			if ((meta = meta[meta.length - 1]) && addEvent in doc) {
+				fix();
+				scales = [.25, 1.6];
+				doc[addEvent](type, fix, true);
+			}
+			$( window ).on( "orientationchange", function( event ) {
+				window.location.reload();
+			});
+		}(document));
+	</script>
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+</head>
+
+<body>
+<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5J7GF4S"
+					  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+
+<!-- tpl: 1col -->
+	<div class="head" id="head">
+    <div class="nav-main-container" id="navMainContainer">
+                <ul class="level-1"></ul><script>
+    function trackSearch(searchQuery) {
+        if (sessionStorage.getItem('searchOnSite') === null) {
+            sessionStorage.setItem('searchOnSite', 'y');
+            dataLayer.push({event: 'searchOnSite', search_term: searchQuery});
+        }
+    }
+</script>
+<div id="searchbar" class="js_searchbar slim">
+	<form action="/maxon/view/service_search" class="easyClear" id="searchbarSearchform" onsubmit="trackSearch(this.query.value)">
+		<input type="button" onclick="trackSearch(this.form.query.value);submit()">
+		<input type="text" placeholder="Enter search term" class="searchfield" name="query"  autocomplete="off" />
+	</form>
+	<div id="suggest" style="display: none;">
+		<div class="col-left">
+			<button type="submit" class="botton button--prio-c" onclick="document.forms.searchbarSearchform.submit();"><span>Show all search results</span></button>
+		</div>
+
+		<div class="suggest-tabs">
+			<input id="suggest-products" type="radio" name="tabs" checked="checked" />
+			<input id="suggest-contents" type="radio" name="tabs" />
+
+			<nav>
+				<label for="suggest-products">Product suggestions</label>
+				<label for="suggest-contents"></label>
+			</nav>
+
+			<div class="suggest-tabs-contents">
+				<ul class="suggest-products products js_products"></ul>
+				<ul class="suggest-contents content js_content"></ul>
+			</div>
+		</div>
+	</div>
+</div></div>
+        <div class="head-meta" id="headMeta">
+        <div id="logo">
+    <div id="innerLogo">
+	<a href="/maxon/view/catalog/"><img src="/medias/sys_master/root/8834464546846/logo.svg" alt="alt Maxon en" /></a>
+	</div>
+</div><div class="head-meta__inner" id="headMetaInner">
+            <div class="head-meta__content">
+                <div id="naviMaxonWorldWide">
+	<h3>
+		<span>
+			<span class="currCountry">Switzerland</span>
+				</span>
+	</h3>
+
+	<div class="layer">
+		<div class="inner">
+			<div class="iLayer">
+				<div class="links">
+						<h4><span>Country Websites</span></h4>
+		<ul>
+			<li><a href="https://www.maxongroup.com" data-location="230,62" target="_blank">Headquarters</a></li>
+			<li><a href="https://www.maxongroup.net.au" data-location="440,200" target="_blank">Australia</a></li>
+			<li><a href="https://www.maxongroup.nl" data-location="225,51" target="_blank">Netherlands</a></li>
+			<li><a href="https://www.maxongroup.com.cn" data-location="385,84" target="_blank">China</a></li>
+			<li><a href="https://www.maxongroup.de/" data-location="231,53" target="_blank">Germany</a></li>
+			<li><a href="https://www.maxongroup.fr" data-location="218,55" target="_blank">France</a></li>
+			<li><a href="https://www.maxongroup.in" data-location="340,120" target="_blank">India</a></li>
+			<li><a href="https://www.maxongroup.it" data-location="237,65" target="_blank">Italia</a></li>
+			<li><a href="https://www.maxongroup.co.jp" data-location="420,77" target="_blank">Japan</a></li>
+			<li><a href="https://www.maxongroup.co.kr" data-location="405,74" target="_blank">Republic of Korea</a></li>
+			<li><a href="https://www.maxongroup.pt" data-location="200,70" target="_blank">Portugal</a></li>
+			<li><a href="https://www.maxongroup.ch" data-location="233,60" target="_blank">Switzerland</a></li>
+			<li><a href="https://www.maxongroup.es" data-location="213,69" target="_blank">Spain</a></li>
+			<li><a href="https://www.maxongroup.com.tw" data-location="399,101" target="_blank">Taiwan</a></li>
+			<li><a href="https://www.maxongroup.co.uk" data-location="213,47" target="_blank">UK</a></li>
+			<li><a href="https://www.maxongroup.us" data-location="77,69" target="_blank">USA</a></li>
+			</ul>
+	<hr />
+			<a href="/maxon/view/content/contact" class="all-locations" target="_self"  >All locations</a>
+	</div>
+				</div>
+		</div>
+	</div>
+</div>
+<div id="navMyMaxon">
+    <h3><span>
+		<span>
+        Sign in my maxon</span></span></h3>
+
+    <div class="layer">
+        <div class="inner">
+            <div class="iLayer">
+                <form id="LoginInfo" action="/maxon/view/LoginController" method="post"><fieldset>
+                                <input type="text" placeholder="E-mail" name="email" value="" autocomplete="username email"/>
+                                <input type="password" placeholder="Password" name="password" autocomplete="current-password"
+                                       value=""/>
+                                        <input type="hidden" name="backURL" value="/maxon/view/product/539484"/>
+
+                                <input type="hidden" name="fromLoginTeaser" value="true"/>
+                                <button name="LoginController" type="submit" class="button button--prio-a"
+                                        data-etrackerfunc="loginSuccess"
+                                        data-etrackerattr="/view/catalog/,">
+                                               <span>
+                                                   LOG IN</span>
+                                </button>
+                            </fieldset>
+
+                            </form><ul>
+                            <li><a href="/maxon/view/content/login?from=/view/catalog/">
+                                Register now</a></li>
+
+                            <li><a href="/maxon/view/content/passwordRecovery" class="" target="_self"  >Forgot your password?</a>
+	</li>
+                                </ul>
+                    </div>
+        </div>
+    </div>
+
+</div>
+<div id="navCartInfo" class="teaserShoppingCart ">
+	
+	
+	<div id="jscript" style="display:none">
+		
+	</div>
+	<script type="text/javascript">
+		eval($("div#jscript").html());
+	</script>
+</div></div>
+        </div>
+    </div>
+</div>
+<div id="outerWrapper">
+					<div id="wrapper" class="cols-1">
+			<div id="content">
+		<div id="productCatalog">
+	<div class="modul" id="articleDetail">
+		<div class="iModul">
+			<div class="articleWrapper">
+    <script type="text/javascript">
+        /*Etracker*/
+        
+        et_eC_Wrapper('S59r6m', '[com]#en#_d_ /catalog/ *539484* vir.', 'Gesamt/[com]/#en#/_d_ catalog', '', '', '[com]#en#_d_ Productdetail', '0', '', '', '', ',,,,;', '', '', '', '');
+        et_cc_wrapper('JL9o41j6KPpzI07LiF30slYhXHdyfYbylz1E+J5edLI=', {cc_pagename: '[com]#en#_d_ /catalog/ *539484* vir.'});
+        var et_Commerce_product = {
+            id: "539484",
+            name: "EC-i 30 Ø30 mm, brushless, 45 W, with Hall sensors",
+            category: ['motor', 'ecmotor', 'EC-i'],
+            price: "",
+            currency: "CHF",
+            variants: {}
+        };
+        etCommerce.sendEvent('viewProduct', et_Commerce_product);
+        $("#orderButton").on("click", function () {
+            if (!$(this).hasClass('button-combine')) {
+                etCommerce.sendEvent('insertToBasket', et_Commerce_product, parseInt(Math.max(1, $("#orderQuantity").val())));
+                if ($(this).hasClass('button-order')) {
+                dataLayer.push({
+                    event: "add_to_cart",
+                    ecommerce: {
+                        items: [{
+                            item_name: "EC-i 30 Ø30 mm, brushless, 45 W, with Hall sensors",
+                            item_id: "539484",
+                            price: 250.1,
+                            currency: "EUR",
+                            item_category: "motor",
+                            quantity: parseInt(Math.max(1, $("#orderQuantity").val())),
+                        }]
+                    }
+                });
+                } else {
+                    dataLayer.push({
+                        event: 'request_article',
+                        step: 'button_request',
+                        ecommerce: {
+                            items: [{
+                                item_name: "EC-i 30 Ø30 mm, brushless, 45 W, with Hall sensors",
+                                item_id: "539484",
+                                price: 250.1,
+                                currency: "EUR",
+                                item_category: "motor",
+                            }]
+                        }
+                    });
+                }
+            }
+        });
+        /*Google Tag Manager*/
+        dataLayer.push({"event": "vp", "Pageview": "/maxon/view/catalog/details/539484"});
+        // dataLayer.push({ ecommerce: null }); // Clear the previous ecommerce object.
+        dataLayer.push({
+            event: "view_item",
+            ecommerce: {
+                items: [
+                    {
+                        item_id: "539484",
+                        item_name: "EC-i 30 Ø30 mm, brushless, 45 W, with Hall sensors", // name of product
+                        currency: "EUR",
+                        index: 0,
+                        item_brand: "maxon",
+
+                        price: 250.1,
+                        quantity: 1
+                    }]
+            }
+        });
+    </script>
+
+    <div class="articleHeader">
+        <div class="title">Details</div>
+        <div class="link__close--cross">
+            <a href="/maxon/view/catalog?target=filter">X</a>
+        </div>
+
+        <h1 class="name">EC-i 30 Ø30 mm, brushless, 45 W, with Hall sensors | <span class="marketingText">High Torque</span>
+            </h1>
+        <p class="articleNumber">
+            Part number 539484</p>
+    </div>
+
+    <figure class="articleImage">
+        <img src="/medias/sys_master/root/8845937704990/EC-i-30-539472-NEW.jpg" alt="EC-i 30 Ø30 mm, brushless, 45 W, with Hall sensors"/>
+    </figure>
+
+    <table class="articlePriceRanges">
+                        <thead>
+                            <tr>
+                                <th class="priceRanges">Price scales</th>
+                                <th class="quantity">Quantity</th>
+                                <th class="unitPrice">Price per unit</th>
+                            </tr>
+                        </thead>
+                        <tbody><tr>
+                                <td class="priceHint" rowspan="4">
+                                    Prices excluding VAT and <a class="noarrow cataloginlinelink" target="_blank" href="/maxon/view/content/Versandkosten">shipping costs</a></td>
+                                <td>
+                                    1-4</td>
+                                <td class="unitPrice">
+                                    €250.10</td>
+                            </tr>
+                        <tr>
+                                <td>
+                                    5-19</td>
+                                <td class="unitPrice">
+                                    €213.36</td>
+                            </tr>
+                        <tr>
+                                <td>
+                                    20-49</td>
+                                <td class="unitPrice">
+                                    €176.21</td>
+                            </tr>
+                        <tr>
+                            <td>from 50</td>
+                            <td class="unitPrice">On request</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                <div class="articleOrder">
+                <form id="form0-combination0" data-action="/maxon/view/product/combine/motor/ecmotor/EC-i/539484" action="/maxon/view/product/combine/motor/ecmotor/EC-i/539484" method="post"><input type="hidden" name="target" value="combination0"/>
+                        <input type="hidden" name="combinationProductCode" value="539484"/>
+                        <input type="hidden" name="combinationId"
+                               value="new"/>
+                        <input type="hidden" name="combinationAction" value="add"/>
+
+                        <button class="button button-combine"
+												data-type="catalog"
+                                                type="submit"
+												name="submit"
+												value="combine"
+												onmousedown="et_eC_Wrapper('S59r6m','[com]#en#_d_ /catalog/ *539484* vir.','Gesamt/[com]/#en#/_d_ catalog','','','[com]#en#_d_ Productdetail/Combination','0','','','',',,,,;','','','','');
+												et_cc_wrapper('JL9o41j6KPpzI07LiF30slYhXHdyfYbylz1E+J5edLI=',{cc_pagename:'[com]#en# Productdetail/Combination'});window.dataLayer.push({'event': 'combination','step': 'start_combination','product_category': 'motor',item_name: 'EC-i 30 Ø30 mm, brushless, 45 W, with Hall sensors' });">
+                                            Start combination</button>
+                                    </form><div class="containerRequestForm">
+                                <form id="form-buy-request" data-init-mode="order" data-button-text-request="Make a request" data-data-action-request="/maxon/overlay/content/servicerequest?product=539484" data-button-class-request="button-request" data-data-action-order="/maxon/overlay/CartController" data-max-quantity="49" data-action-request="/maxon/view/content/servicerequest?product=539484" data-button-text-order="Add to cart" data-form-method-request="get" data-action-order="/maxon/view/CartController" data-button-class-order="button-order" data-action="/maxon/overlay/CartController" data-form-method-order="post" action="/maxon/view/CartController" method="post"><input type="hidden" name="id" value="add2cart_539484"/>
+                                    <input type="hidden" name="productCode" value="539484"/>
+                                    <input type="hidden" name="currentURL" value="/maxon/view/CartController"/>
+                                    <input type="hidden" name="quickAdd" value="true"/>
+                                    <input type="hidden" name="fromCatalog" value="true"/>
+
+                                    <p class="orderInput">
+                                        <label for="orderQuantity">Order quantity</label>
+                                        <input id="orderQuantity"
+                                               name="quantity"
+                                               type="number"
+                                               min="1"
+                                               max="999999"
+                                               step="1"
+                                               value="1"/>
+                                        <button class="button button-order"
+                                                        onclick="if($(this).hasClass('button-request')){$.fancybox({href:'/maxon/iframe/content/servicerequest?product=539484',type:'iframe',hideOnOverlayClick:true,autoDimensions:true,autoScale:false,centerOnScroll:true,width:934,padding:20,scrolling:'no',onComplete:function(event) {$('body').addClass('fancybox-is-visible');},onClosed: function(event) {$('body').removeClass('fancybox-is-visible');}});return false}else{ET_Event.eventStart('[com]#en#_d_ catalog', 'Add to basket - Recommended Products', 'Inaktiv', '')}"
+                                                        data-type="order"
+                                                        type="submit"
+                                                        name="CartController"
+                                                        value="order"
+                                                        id="orderButton">
+                                                    Add to cart</button>
+                                            </p>
+                                </form></div>
+                        </div>
+        </div>
+
+<div class="articleTabs articleTabsPrintDetail"
+     data-select="0">
+
+    <div class="tabSpecifications"
+         data-tab-name="specifications" class="eTrackerHook"
+         data-etrackerattr="[com]#en#_d_ motor,539484 - Specification,Artikeldetail,"
+         data-etrackerfunc="eventStart">
+        <h2>Specifications</h2>
+        <div class="iTabSpecifications">
+            <h3 class="headerNoFormat">Technical illustrations</h3>
+                <div class="containerTecSlideShow">
+                    <ul class="listImages easyClear">
+                        <li><img src="/medias/sys_master/root/8841538371614/MASSBILD-EC-i30BL45W-259.jpg" alt=""/></li>
+                        </ul>
+
+                    <ul class="listLinks easyClear noHintText">
+                        <li>
+                                Dimension drawing</li>
+                        </ul>
+
+                    </div>
+            <table>
+                <tbody class="headRow">
+                                <tr class="headRow">
+                                    <td colspan="2">Values at nominal voltage</td>
+                                </tr>
+                            </tbody>
+                            <tbody><tr>
+                                <td>Nominal voltage</td>
+                                <td>48 V</td>
+                            </tr>
+                        <tr>
+                                <td>No load speed</td>
+                                <td>8510 rpm</td>
+                            </tr>
+                        <tr>
+                                <td>No load current</td>
+                                <td>74.5 mA</td>
+                            </tr>
+                        <tr>
+                                <td>Nominal speed</td>
+                                <td>7070 rpm</td>
+                            </tr>
+                        <tr>
+                                <td>Nominal torque (max. continuous torque)</td>
+                                <td>61.5 mNm</td>
+                            </tr>
+                        <tr>
+                                <td>Nominal current (max. continuous current)</td>
+                                <td>1.11 A</td>
+                            </tr>
+                        <tr>
+                                <td>Stall torque</td>
+                                <td>486 mNm</td>
+                            </tr>
+                        <tr>
+                                <td>Stall current</td>
+                                <td>15.1 A</td>
+                            </tr>
+                        <tr>
+                                <td>Max. efficiency</td>
+                                <td>86 %</td>
+                            </tr>
+                        </tbody><tbody class="headRow">
+                                <tr class="headRow">
+                                    <td colspan="2">Characteristics</td>
+                                </tr>
+                            </tbody>
+                            <tbody><tr>
+                                <td>Terminal resistance</td>
+                                <td>3.17 Ω</td>
+                            </tr>
+                        <tr>
+                                <td>Terminal inductance</td>
+                                <td>3 mH</td>
+                            </tr>
+                        <tr>
+                                <td>Torque constant</td>
+                                <td>53.2 mNm/A</td>
+                            </tr>
+                        <tr>
+                                <td>Speed constant</td>
+                                <td>180 rpm/V</td>
+                            </tr>
+                        <tr>
+                                <td>Speed / torque gradient</td>
+                                <td>10.7 rpm/mNm</td>
+                            </tr>
+                        <tr>
+                                <td>Mechanical time constant</td>
+                                <td>0.908 ms</td>
+                            </tr>
+                        <tr>
+                                <td>Rotor inertia</td>
+                                <td>8.1 gcm²</td>
+                            </tr>
+                        </tbody><tbody class="headRow">
+                                <tr class="headRow">
+                                    <td colspan="2">Thermal data</td>
+                                </tr>
+                            </tbody>
+                            <tbody><tr>
+                                <td>Thermal resistance housing-ambient</td>
+                                <td>11.1 K/W</td>
+                            </tr>
+                        <tr>
+                                <td>Thermal resistance winding-housing</td>
+                                <td>3.75 K/W</td>
+                            </tr>
+                        <tr>
+                                <td>Thermal time constant winding</td>
+                                <td>27.5 s</td>
+                            </tr>
+                        <tr>
+                                <td>Thermal time constant motor</td>
+                                <td>866 s</td>
+                            </tr>
+                        <tr>
+                                <td>Ambient temperature</td>
+                                <td>-40...+100 °C</td>
+                            </tr>
+                        <tr>
+                                <td>Max. winding temperature</td>
+                                <td>+155 °C</td>
+                            </tr>
+                        </tbody><tbody class="headRow">
+                                <tr class="headRow">
+                                    <td colspan="2">Mechanical data</td>
+                                </tr>
+                            </tbody>
+                            <tbody><tr>
+                                <td>Max. speed</td>
+                                <td>10000 rpm</td>
+                            </tr>
+                        </tbody><tbody class="headRow">
+                                <tr class="headRow">
+                                    <td colspan="2">Other specifications</td>
+                                </tr>
+                            </tbody>
+                            <tbody><tr>
+                                <td>Number of pole pairs</td>
+                                <td>4 </td>
+                            </tr>
+                        <tr>
+                                <td>Number of phases</td>
+                                <td>3 </td>
+                            </tr>
+                        </tbody><tbody class="headRow">
+                                <tr class="headRow">
+                                    <td colspan="2">Product</td>
+                                </tr>
+                            </tbody>
+                            <tbody><tr>
+                                <td>Weight</td>
+                                <td>156 g</td>
+                            </tr>
+                        </tbody>
+					</table>
+
+            </div>
+        <div class="bereichsDiagramm">
+                <ul>
+                    <li class="viewLarge">
+                        <h3 class="headerNoFormat">Operating Range</h3>
+                        <a href="#" data-range-chart="rangeValues1">
+                            <img src="/maxon/images/blank.gif" alt="" height="260" width="480"/>
+                        </a>
+                    </li>
+                </ul>
+                <div class="legende"><table border="0" class="auto-style1" style="width: 555;"><tbody><tr><td style="background-color: #ff0000; width: 50px;">&nbsp;</td> <td style="width: 5;">&nbsp;</td> <td style="width: 500;"><strong>Continuous operation range<br /></strong></td></tr> <tr><td style="width: 50px;">&nbsp;</td> <td style="width: 5;">&nbsp;</td> <td style="width: 500;"><br /></td></tr> <tr><td style="height: 10; width: 50px;">&nbsp;</td> <td style="width: 5; height: 10;">&nbsp;</td> <td style="width: 500; height: 10;">&nbsp;</td></tr> <tr><td style="background-color: #ffffff; border: 1px solid #000000; width: 50px;">&nbsp;</td> <td style="width: 5;">&nbsp;</td> <td style="width: 500;"><strong> Short term operation range<br /></strong></td></tr> <tr><td style="width: 50px;">&nbsp;</td> <td style="width: 5;">&nbsp;</td> <td style="width: 500;"><br /></td></tr></tbody></table></div>
+            </div>
+        </div>
+    <div class="foldToggle"></div>
+    <div class="tabDescription"
+         data-tab-name="description"
+         class="eTrackerHook"
+         data-etrackerattr="[com]#en#_d_ motor,539484 - Description,Artikeldetail,"
+         data-etrackerfunc="eventStart">
+        <h2>Description</h2>
+        <span style="font-size: small;">With their optimized magnetic circuit, these brushless <strong>EC-i motors</strong> with iron windings offer a very high torque density and very low cogging torque. The multipole internal rotor has excellent dynamics. The robust design with a steel flange and housing makes this unit suitable for a wide variety of applications. Order your EC-i drive online now.</span></div>
+    <div class="foldToggle"></div>
+    <div class="tabDownloads" data-tab-name="downloads"
+         class="eTrackerHook"
+         data-etrackerattr="[com]#en#_d_ motor,539484 - Download,Artikeldetail,"
+         data-etrackerfunc="eventStart">
+        <h2>Downloads</h2>
+        <div class="folderList">
+            <div>
+                        <h3 class="headerNoFormat">
+							CAD-Files (STEP)</h3>
+                        <ul>
+						<li>
+									<a href="/medias/sys_master/root/8830325456926/539481-EC-i30-45W-HighTorque.zip"
+									   target="_blank"
+									   onmousedown="ET_Event.eventStart('[com]#en#_d_ motor', '539481_EC-i30_45W_HighTorque.zip','Download_cadStep', '');">
+										CAD model (STEP) 
+										(ZIP 234 KB)
+										<span class="downloadVersion">Version 2018</span>
+										</a>
+								</li>
+							</ul>
+					</div>
+                    <div>
+                        <h3 class="headerNoFormat">
+							Catalog page</h3>
+                        <ul>
+						<li>
+									<a href="/medias/sys_master/root/9402695155742/Cataloge-Page-EN-303.pdf"
+									   target="_blank"
+									   onmousedown="ET_Event.eventStart('[com]#en#_d_ motor', 'Cataloge_Page_EN_303.pdf','Download_catalogpages', '');">
+										Catalog page 
+										(english, PDF 104 KB)
+										<span class="downloadVersion">Version 2025</span>
+										</a>
+								</li>
+							</ul>
+					</div>
+                    </div>
+    </div>
+    <div class="foldToggle"></div>
+    <div class="tabVideos galleryVideo inactive"
+         data-tab-name="videos" class="eTrackerHook"
+         data-etrackerattr="[com]#en#_d_ motor,539484 - Video,Artikeldetail,"
+         data-etrackerfunc="eventStart">
+        <h2>Videos</h2>
+
+        </div>
+    <div class="foldToggle"></div>
+    </div>
+
+<div class="articleActions">
+	<ul>
+        <li class="add2watchlist">
+					<a class="eTrackerHook1"
+					   href="/maxon/view/add2watchlist?addProduct=539484 "
+					   data-href="/maxon/iframe/add2watchlist?addProduct=539484"
+                       data-type="iframe"
+                       data-etrackerfunc="eventStart"
+					   data-etrackerattr="[com]#en#_d_ motor,539484,Artikeldetail_Watchlist,"
+                       onclick="if (sessionStorage.getItem('addToWishList') === null) {sessionStorage.setItem('addToWishList', 'y');dataLayer.push({ event: 'addToWishList', item_name: 'EC-i 30 Ø30 mm, brushless, 45 W, with Hall sensors'});}dataLayer.push({event: 'add_to_wishlist', ecommerce: { currency: 'EUR', value: 250.1, items: [ { item_name: 'EC-i 30 Ø30 mm, brushless, 45 W, with Hall sensors', price: 250.1, }] } });;$.fancybox({href:'/maxon/iframe/add2watchlist?addProduct=539484',type:'iframe',width:725, 'height': $(window).innerHeight() - 100, 'autoDimensions':false, 'centerOnScroll': true });return false">
+						<span>Add to wish list</span>
+					</a>
+				</li>
+			<li class="servicerequest">
+					<a class="eTrackerHook1"
+					   href="/maxon/view/content/servicerequest?product=539484"
+					   data-href="/maxon/iframe/content/servicerequest?product=539484"
+                       data-type="iframe"
+                       data-etrackerfunc="eventStart"
+					   data-etrackerattr="[com]#en#_d_ motor,539484,Artikeldetail_Request,"
+                       onclick="if (sessionStorage.getItem('request') === null) {sessionStorage.setItem('request', 'y');dataLayer.push({ event: 'request', item_name: 'EC-i 30 Ø30 mm, brushless, 45 W, with Hall sensors'});};dataLayer.push({ event: 'request_article', step: 'link_request', ecommerce: { items: [{ item_name: 'EC-i 30 Ø30 mm, brushless, 45 W, with Hall sensors', item_id: '539484', price: 250.1, currency: 'EUR', item_category: 'motor', }] } });$.fancybox({href:'/maxon/iframe/content/servicerequest?product=539484',type:'iframe',width:725, 'height': $(window).innerHeight() - 100, 'autoDimensions':false, 'centerOnScroll': true });return false">
+						<span>Make a request</span>
+					</a>
+				</li>
+			<li class="recommend">
+			<a class="eTrackerHook1"
+               href="mailto:?Subject=Recommendation: EC-i 30 Ø30 mm, brushless, 45 W, with Hall sensors&Body=motor - 539484 - EC-i 30 Ø30 mm, brushless, 45 W, with Hall sensors%0d%0dWith their optimized magnetic circuit, these brushless EC-i motors with iron windings offer a very high torque density and very low cogging torque. The multipole internal rotor has excellent dynamics. The robust design with a steel flange and housing makes this unit suitable for a wide variety of applications. Order your EC-i drive online now.%0d%0dDetails:%20https://www.maxongroup.com/maxon/view/product/motor/ecmotor/EC-i/539484%20%0dAdd to cart:%20https://www.maxongroup.com/maxon/view/FastOrderController?code=539484%26quantity=1%26orderMail=true"
+               data-etrackerfunc="eventStart"
+               data-etrackerattr="[com]#en#_d_ motor,539484,Artikeldetail_Weiterleiten,"
+               onclick="if (sessionStorage.getItem('share') === null) {sessionStorage.setItem('share', 'y');dataLayer.push({ event: 'share', item_name: 'EC-i 30 Ø30 mm, brushless, 45 W, with Hall sensors'});}"
+            >
+				<span>Send to a colleague</span>
+			</a>
+		</li>
+		<li class="printDetail">
+            <a class="eTrackerHook"
+               href="#"
+               data-type="print"
+               data-etrackerfunc="eventStart"
+               data-etrackerattr="[com]#en#_d_ motor,539484,Artikeldetail_Print,">
+                <span>Print specifications</span>
+            </a>
+        </li>
+	</ul>
+</div>
+</div>
+	</div>
+</div>
+</div>
+				</div>
+			</div>
+		<div id="shop-foot">
+	<div id="shop-footer">
+		<div class="key-fact-bar">
+			<ul class="easyClear wrapper-centered">
+				<li>Selecting, combining, and configuring drive systems</li>
+				<li>Short delivery times for custom drives</li>
+				<li>Extensive product specifications and software</li>
+				</ul>
+		</div>
+		<div class="easyClear wrapper-centered">
+			<div class="box">
+			<div class="content">
+				<h2>Product support</h2>
+				<ul>
+					<li class="text"><h2>+41 (41) 666 18 00</h2></li>
+					</ul>
+			</div>
+		</div>
+	<div class="box">
+			<div class="content">
+				<h2>Shopping made easy</h2>
+				<ul>
+					<li><ul class="easyClear">
+						<li><a href="/maxon/view/content/Shopping-made-easier" class="" target="_self"  >Product selection</a>
+	</li>
+						<li><a href="/maxon/view/content/Shipping-costs" class="" target="_self"  >Shipping</a>
+	</li>
+						<li><a href="/maxon/view/content/Information-about-delivery" class="" target="_self"  >Delivery</a>
+	</li>
+						<li><a href="/maxon/view/content/Payment" class="" target="_self"  >Payment</a>
+	</li>
+						</li></ul>
+						</ul>
+			</div>
+		</div>
+	<div class="box">
+			<div class="content">
+				<h2>Payment options</h2>
+				<ul>
+					<li class="social easyClear">
+							<img src="/medias/sys_master/root/9330115706910/payment-options-rebrush-new.png" title="" alt="" />
+			</li>
+					</ul>
+			</div>
+		</div>
+	<div class="box">
+			<div class="content">
+				<h2>Knowledge</h2>
+				<ul>
+					<li class="text"><p>Find out more about the interaction of motor, gearhead, sensors, and controller.</p></li>
+					<li><a href="/maxon/view/content/maxon-Knowledge" class="" target="_self"  >Knowledge & e-learning</a>
+	</li>
+						</ul>
+			</div>
+		</div>
+	</div>
+	</div>
+</div><div id="foot">
+			<div id="naviFooter">
+    <div id="iNaviFooter" class="easyClear">
+        <ul class="easyClear">
+                <li><a href="/maxon/view/content/Cookie_Policy" class="" target="_self"  >Cookie Policy</a>
+	</li>
+                <li><a href="/maxon/view/content/sitemap" class="" target="_self"  >Sitemap</a>
+	</li>
+                <li><a href="/maxon/view/content/privacy" class="" target="_self"  >Privacy</a>
+	</li>
+                <li><a href="/maxon/view/content/AGB-Board" class="" target="_self"  >Terms and conditions</a>
+	</li>
+                <li><a href="/maxon/view/content/Imprint" class="" target="_self"  >Imprint</a>
+	</li>
+                <li><a href="/maxon/view/content/legal-notice" class="" target="_self"  >Legal Information</a>
+	</li>
+                </ul>
+        <p class="copyright">© 2026 maxon. All rights reserved.</p>
+		</div>
+</div>
+</div>
+	<div class="nav-flyout-darken-bg"></div></body></html>

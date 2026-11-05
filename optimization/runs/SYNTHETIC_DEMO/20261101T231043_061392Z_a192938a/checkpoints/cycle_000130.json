@@ -1,0 +1,122 @@
+{
+  "hallmark": {
+    "cycle": 130,
+    "best_found_cycle": 71,
+    "elapsed_s": 233.054,
+    "layout_number": 1,
+    "reachable_poses": 1008,
+    "total_poses": 1008,
+    "pmax_kg": 12.599667198608646,
+    "required_payload_upper_kg": 1.0,
+    "requirements_met": true,
+    "arm_mass_kg": 8.008329187252475,
+    "gravity_score_JG": 0.037155107330256495
+  },
+  "best_design": {
+    "layout_number": 1,
+    "lengths_m": [
+      0.4041501517448146,
+      0.12151901656472604,
+      0.24130723335845225
+    ],
+    "link_masses_kg": [
+      0.19790168724865606,
+      0.16792356647711715,
+      0.13347698468263547,
+      0.05572011952664942,
+      0.05152326194776946,
+      0.05178356736964594
+    ],
+    "com_fractions": [
+      0.3,
+      0.723267488941473,
+      0.3851305427954548,
+      0.6747702244167203,
+      0.44507009789883567,
+      0.3631634915910827
+    ],
+    "spread_fractions": [
+      0.04237163806642321,
+      0.0930845701512775,
+      0.12659677102844313,
+      0.08163906613183443,
+      0.03,
+      0.06014164228478733
+    ],
+    "motor_offsets_m": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "motor_ids": [
+      "SYNTHETIC_M_LARGE",
+      "SYNTHETIC_M_LARGE",
+      "SYNTHETIC_M_LARGE",
+      "SYNTHETIC_M_SMALL",
+      "SYNTHETIC_M_SMALL",
+      "SYNTHETIC_M_SMALL"
+    ],
+    "reducer_ids": [
+      "SYNTHETIC_R_50",
+      "SYNTHETIC_R_100",
+      "SYNTHETIC_R_100",
+      "SYNTHETIC_R_100",
+      "SYNTHETIC_R_50",
+      "SYNTHETIC_R_50"
+    ]
+  },
+  "summary": {
+    "ik_policy": "fixed canonical analytic yaw/elbow/wrist branch; alternative branches are not scored",
+    "score_definition": "guaranteed zero-to-P payload over the finite velocity basis and acceleration box",
+    "capacity_model": "continuous-rated motor/reducer screening; ideal lossless 1:1 input belts",
+    "motor_envelope_assumption": "min(rated torque, stall torque * (1 - abs(rpm)/no-load rpm)); max mechanical rpm also enforced; no thermal curve",
+    "velocity_cases_per_pose": 37,
+    "velocity_coefficient_order": [
+      "qdot1^2",
+      "qdot2^2",
+      "qdot3^2",
+      "qdot4^2",
+      "qdot5^2",
+      "qdot6^2",
+      "qdot1*qdot2",
+      "qdot1*qdot3",
+      "qdot1*qdot4",
+      "qdot1*qdot5",
+      "qdot1*qdot6",
+      "qdot2*qdot3",
+      "qdot2*qdot4",
+      "qdot2*qdot5",
+      "qdot2*qdot6",
+      "qdot3*qdot4",
+      "qdot3*qdot5",
+      "qdot3*qdot6",
+      "qdot4*qdot5",
+      "qdot4*qdot6",
+      "qdot5*qdot6"
+    ],
+    "acceleration_corners_per_velocity": 64,
+    "payload_inertia_model": "TCP-centered sphere, radius 10 mm, inertia per kg 4e-5 m2",
+    "unknown_reducer_rotating_inertia": "omitted; complete reducer case mass on parent",
+    "collision_checks": false,
+    "joint_stop_checks": false,
+    "worst_pose_id": "pose_0890",
+    "limiting_joint": 5,
+    "failure_reason": "",
+    "empty_arm_passes": true,
+    "unreachable_pose_count": 0,
+    "required_payload_upper_kg": 1.0,
+    "required_payload_lower_kg": 0.5,
+    "required_payload_passes": true,
+    "jg_definition": "sum of squared normalized gravity torques at required upper payload, fixed pose weights"
+  },
+  "rng_state": {
+    "bit_generator": "PCG64",
+    "state": {
+      "state": 173092556545072811798418358028469479015,
+      "inc": 332724090758049132448979897138935081983
+    },
+    "has_uint32": 1,
+    "uinteger": 938069532
+  }
+}

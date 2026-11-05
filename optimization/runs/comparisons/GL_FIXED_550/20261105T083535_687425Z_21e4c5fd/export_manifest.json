@@ -1,0 +1,29 @@
+{
+  "study": "GL_FIXED_550",
+  "comparison": "C:\\Users\\George\\Desktop\\ArmSim\\optimization\\runs\\comparisons\\GL_FIXED_550\\20261105T083535_687425Z_21e4c5fd",
+  "models": [
+    {
+      "layout": 7,
+      "source_run": "C:\\Users\\George\\Desktop\\ArmSim\\optimization\\runs\\GL_FIXED_550_07\\20261105T082343_159550Z_2f971611",
+      "model": "C:\\Users\\George\\Desktop\\ArmSim\\model\\best-07-base-6dof.xml",
+      "sha256": "cad904222d667f87154577e4dc8e07411441a51165c60de50f0c10f540c55741"
+    },
+    {
+      "layout": 8,
+      "source_run": "C:\\Users\\George\\Desktop\\ArmSim\\optimization\\runs\\GL_FIXED_550_08\\20261105T082343_201966Z_fb54fecc",
+      "model": "C:\\Users\\George\\Desktop\\ArmSim\\model\\best-08-base-6dof.xml",
+      "sha256": "70c89db9496d53b72433ec44c6fff089bd06e1268378ef4913f3c236139ed6e9"
+    },
+    {
+      "layout": 9,
+      "source_run": "C:\\Users\\George\\Desktop\\ArmSim\\optimization\\runs\\GL_FIXED_550_09\\20261105T082343_165681Z_3d5c8240",
+      "model": "C:\\Users\\George\\Desktop\\ArmSim\\model\\best-09-base-6dof.xml",
+      "sha256": "51c2a459432d1ac3f106986e4ec5dbd69658faad98935a058fa80f2101eb072b"
+    }
+  ],
+  "alias": "C:\\Users\\George\\Desktop\\ArmSim\\model\\best_model.xml",
+  "alias_layout": 7,
+  "alias_selection": "Same lexicographic payload/feasibility/mass ranking as optimization.search._rank",
+  "capacity_interpretation": "Conditional transient-envelope Pmax; original holding ratings, speed-aware curves, unknown pulse duration/duty, assumed GL30 16 V and ideal transmissions.",
+  "run_metadata_objective_note": "The legacy run.json objective prose says conservative; the explicit motor_load_policy and result.summary.score_definition govern these peak-envelope runs."
+}

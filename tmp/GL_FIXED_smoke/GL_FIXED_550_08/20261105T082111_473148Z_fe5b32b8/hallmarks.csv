@@ -1,0 +1,2 @@
+cycle,best_found_cycle,checkpoint_kind,requested_evaluations,proposal_attempts,unique_candidates_checked,duplicate_proposals_skipped,elapsed_s,layout_number,reachable_poses,total_poses,pmax_kg,required_payload_upper_kg,requirements_met,geometry_valid,extended_reach_mm,wrist2_length_mm,geometry_rejections,cheap_geometry_rejections,proposal_fallbacks,capacity_challenge_probes,arm_mass_kg,gravity_score_JG
+1,1,evaluation_milestone,1,1,1,0,3.001,8,1008,1008,0.8825563311234659,0.5,True,True,550.0,110.0,0,0,0,0,2.8103501008062497,0.27258920555095095

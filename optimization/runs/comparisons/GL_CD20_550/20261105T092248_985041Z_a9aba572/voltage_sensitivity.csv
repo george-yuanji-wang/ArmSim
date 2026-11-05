@@ -1,0 +1,7 @@
+layout_number,GL30_operating_voltage_V,pmax_kg,passes_500g_basis,geometry_reoptimized,pose_count,GL30_voltage_curve_verified,thermal_duty_verified,transmission_losses_modeled
+7,12,0.9058948075138702,True,False,1008,True,False,False
+7,16,0.9184422358265393,True,False,1008,False,False,False
+8,12,0.8855406672327063,True,False,1008,True,False,False
+8,16,0.9008002101573099,True,False,1008,False,False,False
+9,12,0.8850442709952954,True,False,1008,True,False,False
+9,16,0.9098408870558826,True,False,1008,False,False,False

@@ -1,0 +1,2 @@
+project_id,layout_number,extended_reach_mm,wrist2_length_mm,candidate_evaluations,pose_count,reachable_poses,pmax_kg,required_payload_upper_kg,requirements_met,arm_mass_kg,gravity_score_JG,requested_evaluations,budget_reached,proposal_attempts,unique_candidates_checked,duplicate_proposals_skipped,cheap_geometry_rejections,proposal_fallbacks,capacity_challenge_probes,termination_reason
+SO_30_550_09,9,550.0,110.0,200,1008,1008,0.0,0.5,False,5.33719025373352,0.5349548704073028,200,True,217,200,17,516,0,234,evaluation_budget_reached

@@ -1,0 +1,76 @@
+kind,id,model,reasons,source_url
+motor,NANOTEC_DB42L01,DB42L01,known shaft-to-shaft axial envelope is not less than 100 mm,https://www.nanotec.com/fileadmin/files/Datenblaetter/BLDC/DB42/DB42L01.pdf
+reducer,SITO_CS-14-I_80,CS-14-I,contradictory official product/PDF fields: average_output_torque_limit_Nm,https://www.sitodrive.com/en/product/CS-14-I
+reducer,SITO_CS-14-II_30,CS-14-II,contradictory official product/PDF fields: mass_kg,https://www.sitodrive.com/en/product/CS-14-II
+reducer,SITO_CS-14-II_50,CS-14-II,contradictory official product/PDF fields: mass_kg,https://www.sitodrive.com/en/product/CS-14-II
+reducer,SITO_CS-14-II_80,CS-14-II,"contradictory official product/PDF fields: average_output_torque_limit_Nm, mass_kg",https://www.sitodrive.com/en/product/CS-14-II
+reducer,SITO_CS-14-II_100,CS-14-II,contradictory official product/PDF fields: mass_kg,https://www.sitodrive.com/en/product/CS-14-II
+reducer,SITO_CS-17-I_100,CS-17-I,contradictory official product/PDF fields: momentary_peak_output_torque_Nm,https://www.sitodrive.com/en/product/CS-17-I
+reducer,SITO_CS-17-II_100,CS-17-II,contradictory official product/PDF fields: momentary_peak_output_torque_Nm,https://www.sitodrive.com/en/product/CS-17-II
+reducer,SITO_CS-32-I_100,CS-32-I,contradictory official product/PDF fields: repeated_peak_output_torque_Nm,https://www.sitodrive.com/en/product/CS-32-I
+reducer,SITO_CS-32-II_100,CS-32-II,contradictory official product/PDF fields: repeated_peak_output_torque_Nm,https://www.sitodrive.com/en/product/CS-32-II
+reducer,SITO_CS-05-1U-C_30,CS-05-1U-C,contradictory official product/PDF fields: length_mm,https://www.sitodrive.com/en/product_detail?productid=1322
+reducer,SITO_CS-05-1U-C_50,CS-05-1U-C,contradictory official product/PDF fields: length_mm,https://www.sitodrive.com/en/product_detail?productid=1322
+reducer,SITO_CS-05-1U-C_80,CS-05-1U-C,contradictory official product/PDF fields: length_mm,https://www.sitodrive.com/en/product_detail?productid=1322
+reducer,SITO_CS-05-1U-D_30,CS-05-1U-D,contradictory official product/PDF fields: length_mm,https://www.sitodrive.com/en/product_detail?productid=1323
+reducer,SITO_CS-05-1U-D_50,CS-05-1U-D,contradictory official product/PDF fields: length_mm,https://www.sitodrive.com/en/product_detail?productid=1323
+reducer,SITO_CS-05-1U-D_80,CS-05-1U-D,contradictory official product/PDF fields: length_mm,https://www.sitodrive.com/en/product_detail?productid=1323
+reducer,SITO_CS-05-1U-E_30,CS-05-1U-E,contradictory official product/PDF fields: length_mm,https://www.sitodrive.com/en/product_detail?productid=1324
+reducer,SITO_CS-05-1U-E_50,CS-05-1U-E,contradictory official product/PDF fields: length_mm,https://www.sitodrive.com/en/product_detail?productid=1324
+reducer,SITO_CS-05-1U-E_80,CS-05-1U-E,contradictory official product/PDF fields: length_mm,https://www.sitodrive.com/en/product_detail?productid=1324
+reducer,SITO_CS-05-1U-U_30,CS-05-1U-U,contradictory official product/PDF fields: length_mm,https://www.sitodrive.com/en/product_detail?productid=1325
+reducer,SITO_CS-05-1U-U_50,CS-05-1U-U,contradictory official product/PDF fields: length_mm,https://www.sitodrive.com/en/product_detail?productid=1325
+reducer,SITO_CS-05-1U-U_80,CS-05-1U-U,contradictory official product/PDF fields: length_mm,https://www.sitodrive.com/en/product_detail?productid=1325
+reducer,SITO_CS-05-2XH-A_30,CS-05-2XH-A,contradictory official product/PDF fields: length_mm,https://www.sitodrive.com/en/product_detail?productid=1326
+reducer,SITO_CS-05-2XH-A_50,CS-05-2XH-A,contradictory official product/PDF fields: length_mm,https://www.sitodrive.com/en/product_detail?productid=1326
+reducer,SITO_CS-05-2XH-A_80,CS-05-2XH-A,contradictory official product/PDF fields: length_mm,https://www.sitodrive.com/en/product_detail?productid=1326
+reducer,SITO_CS-05-2XH-B_30,CS-05-2XH-B,contradictory official product/PDF fields: length_mm,https://www.sitodrive.com/en/product_detail?productid=1327
+reducer,SITO_CS-05-2XH-B_50,CS-05-2XH-B,contradictory official product/PDF fields: length_mm,https://www.sitodrive.com/en/product_detail?productid=1327
+reducer,SITO_CS-05-2XH-B_80,CS-05-2XH-B,contradictory official product/PDF fields: length_mm,https://www.sitodrive.com/en/product_detail?productid=1327
+reducer,SITO_CS-08-1U-C_30,CS-08-1U-C,contradictory official product/PDF fields: length_mm,https://www.sitodrive.com/en/product_detail?productid=1328
+reducer,SITO_CS-08-1U-C_50,CS-08-1U-C,contradictory official product/PDF fields: length_mm,https://www.sitodrive.com/en/product_detail?productid=1328
+reducer,SITO_CS-08-1U-C_100,CS-08-1U-C,contradictory official product/PDF fields: length_mm,https://www.sitodrive.com/en/product_detail?productid=1328
+reducer,SITO_CS-08-1U-D_30,CS-08-1U-D,contradictory official product/PDF fields: length_mm,https://www.sitodrive.com/en/product_detail?productid=1329
+reducer,SITO_CS-08-1U-D_50,CS-08-1U-D,contradictory official product/PDF fields: length_mm,https://www.sitodrive.com/en/product_detail?productid=1329
+reducer,SITO_CS-08-1U-D_100,CS-08-1U-D,contradictory official product/PDF fields: length_mm,https://www.sitodrive.com/en/product_detail?productid=1329
+reducer,SITO_CS-08-1U-E_30,CS-08-1U-E,contradictory official product/PDF fields: length_mm,https://www.sitodrive.com/en/product_detail?productid=1330
+reducer,SITO_CS-08-1U-E_50,CS-08-1U-E,contradictory official product/PDF fields: length_mm,https://www.sitodrive.com/en/product_detail?productid=1330
+reducer,SITO_CS-08-1U-E_100,CS-08-1U-E,contradictory official product/PDF fields: length_mm,https://www.sitodrive.com/en/product_detail?productid=1330
+reducer,SITO_CS-08-1U-U_30,CS-08-1U-U,contradictory official product/PDF fields: length_mm,https://www.sitodrive.com/en/product_detail?productid=1331
+reducer,SITO_CS-08-1U-U_50,CS-08-1U-U,contradictory official product/PDF fields: length_mm,https://www.sitodrive.com/en/product_detail?productid=1331
+reducer,SITO_CS-08-1U-U_100,CS-08-1U-U,contradictory official product/PDF fields: length_mm,https://www.sitodrive.com/en/product_detail?productid=1331
+reducer,SITO_CS-08-2UP_30,CS-08-2UP,contradictory official product/PDF fields: length_mm,https://www.sitodrive.com/en/product_detail?productid=1332
+reducer,SITO_CS-08-2UP_50,CS-08-2UP,contradictory official product/PDF fields: length_mm,https://www.sitodrive.com/en/product_detail?productid=1332
+reducer,SITO_CS-08-2UP_100,CS-08-2UP,contradictory official product/PDF fields: length_mm,https://www.sitodrive.com/en/product_detail?productid=1332
+reducer,SITO_CS-08-2XH-A_30,CS-08-2XH-A,contradictory official product/PDF fields: length_mm,https://www.sitodrive.com/en/product_detail?productid=1333
+reducer,SITO_CS-08-2XH-A_50,CS-08-2XH-A,contradictory official product/PDF fields: length_mm,https://www.sitodrive.com/en/product_detail?productid=1333
+reducer,SITO_CS-08-2XH-A_100,CS-08-2XH-A,contradictory official product/PDF fields: length_mm,https://www.sitodrive.com/en/product_detail?productid=1333
+reducer,SITO_CS-08-2XH-B_30,CS-08-2XH-B,contradictory official product/PDF fields: length_mm,https://www.sitodrive.com/en/product_detail?productid=1334
+reducer,SITO_CS-08-2XH-B_50,CS-08-2XH-B,contradictory official product/PDF fields: length_mm,https://www.sitodrive.com/en/product_detail?productid=1334
+reducer,SITO_CS-08-2XH-B_100,CS-08-2XH-B,contradictory official product/PDF fields: length_mm,https://www.sitodrive.com/en/product_detail?productid=1334
+reducer,SITO_CS-11-1U-C_30,CS-11-1U-C,contradictory official product/PDF fields: length_mm,https://www.sitodrive.com/en/product_detail?productid=1335
+reducer,SITO_CS-11-1U-C_50,CS-11-1U-C,contradictory official product/PDF fields: length_mm,https://www.sitodrive.com/en/product_detail?productid=1335
+reducer,SITO_CS-11-1U-C_100,CS-11-1U-C,contradictory official product/PDF fields: length_mm,https://www.sitodrive.com/en/product_detail?productid=1335
+reducer,SITO_CS-11-1U-D_30,CS-11-1U-D,contradictory official product/PDF fields: length_mm,https://www.sitodrive.com/en/product_detail?productid=1336
+reducer,SITO_CS-11-1U-D_50,CS-11-1U-D,contradictory official product/PDF fields: length_mm,https://www.sitodrive.com/en/product_detail?productid=1336
+reducer,SITO_CS-11-1U-D_100,CS-11-1U-D,contradictory official product/PDF fields: length_mm,https://www.sitodrive.com/en/product_detail?productid=1336
+reducer,SITO_CS-11-1U-E_30,CS-11-1U-E,contradictory official product/PDF fields: length_mm,https://www.sitodrive.com/en/product_detail?productid=1337
+reducer,SITO_CS-11-1U-E_50,CS-11-1U-E,contradictory official product/PDF fields: length_mm,https://www.sitodrive.com/en/product_detail?productid=1337
+reducer,SITO_CS-11-1U-E_100,CS-11-1U-E,contradictory official product/PDF fields: length_mm,https://www.sitodrive.com/en/product_detail?productid=1337
+reducer,SITO_CS-11-1U-U_30,CS-11-1U-U,contradictory official product/PDF fields: length_mm,https://www.sitodrive.com/en/product_detail?productid=1338
+reducer,SITO_CS-11-1U-U_50,CS-11-1U-U,contradictory official product/PDF fields: length_mm,https://www.sitodrive.com/en/product_detail?productid=1338
+reducer,SITO_CS-11-1U-U_100,CS-11-1U-U,contradictory official product/PDF fields: length_mm,https://www.sitodrive.com/en/product_detail?productid=1338
+reducer,SITO_CS-11-2XH-A_30,CS-11-2XH-A,contradictory official product/PDF fields: length_mm,https://www.sitodrive.com/en/product_detail?productid=1339
+reducer,SITO_CS-11-2XH-A_50,CS-11-2XH-A,contradictory official product/PDF fields: length_mm,https://www.sitodrive.com/en/product_detail?productid=1339
+reducer,SITO_CS-11-2XH-A_100,CS-11-2XH-A,contradictory official product/PDF fields: length_mm,https://www.sitodrive.com/en/product_detail?productid=1339
+reducer,SITO_CS-11-2XH-B_30,CS-11-2XH-B,contradictory official product/PDF fields: length_mm,https://www.sitodrive.com/en/product_detail?productid=1340
+reducer,SITO_CS-11-2XH-B_50,CS-11-2XH-B,contradictory official product/PDF fields: length_mm,https://www.sitodrive.com/en/product_detail?productid=1340
+reducer,SITO_CS-11-2XH-B_100,CS-11-2XH-B,contradictory official product/PDF fields: length_mm,https://www.sitodrive.com/en/product_detail?productid=1340
+reducer,SITO_FD-03_30,FD-03,no backing public-store SKU for this ratio choice; missing/nonpositive published rated_output_torque_at_2000rpm_Nm; missing/nonpositive published average_output_torque_limit_Nm; missing/nonpositive published max_input_speed_rpm,https://www.sitodrive.com/en/product_detail?productid=1343
+reducer,SITO_FD-03_50,FD-03,missing/nonpositive published rated_output_torque_at_2000rpm_Nm; missing/nonpositive published average_output_torque_limit_Nm; missing/nonpositive published max_input_speed_rpm,https://www.sitodrive.com/en/product_detail?productid=1343
+reducer,SITO_HD-08_80,HD-08,missing/nonpositive published rated_output_torque_at_2000rpm_Nm; missing/nonpositive published average_output_torque_limit_Nm; missing/nonpositive published max_input_speed_rpm,https://www.sitodrive.com/en/product/HD-08
+reducer,SITO_HS-25-II_30,HS-25-II,"contradictory official product/PDF fields: diameter_mm, length_mm, mass_kg",https://www.sitodrive.com/en/product/HS-25-II
+reducer,SITO_HS-25-II_50,HS-25-II,"contradictory official product/PDF fields: diameter_mm, length_mm, mass_kg",https://www.sitodrive.com/en/product/HS-25-II
+reducer,SITO_HS-25-II_80,HS-25-II,"contradictory official product/PDF fields: diameter_mm, length_mm, mass_kg",https://www.sitodrive.com/en/product/HS-25-II
+reducer,SITO_HS-25-II_100,HS-25-II,"contradictory official product/PDF fields: diameter_mm, length_mm, mass_kg",https://www.sitodrive.com/en/product/HS-25-II
+reducer,SITO_HS-25-II_120,HS-25-II,"contradictory official product/PDF fields: diameter_mm, length_mm, mass_kg",https://www.sitodrive.com/en/product/HS-25-II

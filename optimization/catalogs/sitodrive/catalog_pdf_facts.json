@@ -1,0 +1,3756 @@
+[
+  {
+    "model": "CD-14",
+    "pdf_page": 75,
+    "dimensions": {
+      "diameter": {
+        "value": 55.0,
+        "qualifier": "published_value"
+      },
+      "length": {
+        "value": 25.0,
+        "qualifier": "published_value"
+      },
+      "mass": {
+        "value": 0.35,
+        "qualifier": "upper_bound"
+      }
+    },
+    "ratings": {
+      "30": {
+        "rated_output_torque_at_2000rpm_Nm": 2.2,
+        "repeated_peak_output_torque_Nm": 10.2,
+        "average_output_torque_limit_Nm": 2.88,
+        "momentary_peak_output_torque_Nm": 14.4,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 2.1e-06,
+        "backlash_max_arcsec": 20.0
+      },
+      "50": {
+        "rated_output_torque_at_2000rpm_Nm": 3.7,
+        "repeated_peak_output_torque_Nm": 12.0,
+        "average_output_torque_limit_Nm": 4.8,
+        "momentary_peak_output_torque_Nm": 24.0,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 2.1e-06,
+        "backlash_max_arcsec": 20.0
+      },
+      "80": {
+        "rated_output_torque_at_2000rpm_Nm": 5.4,
+        "repeated_peak_output_torque_Nm": 16.0,
+        "average_output_torque_limit_Nm": 7.7,
+        "momentary_peak_output_torque_Nm": 31.0,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 2.1e-06,
+        "backlash_max_arcsec": 10.0
+      },
+      "100": {
+        "rated_output_torque_at_2000rpm_Nm": 5.4,
+        "repeated_peak_output_torque_Nm": 19.0,
+        "average_output_torque_limit_Nm": 7.7,
+        "momentary_peak_output_torque_Nm": 31.0,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 2.1e-06,
+        "backlash_max_arcsec": 10.0
+      }
+    },
+    "source_url": "https://www.sitodrive.com/docs/Strain_Wave_Gear_Catalog_en.pdf"
+  },
+  {
+    "model": "CD-17",
+    "pdf_page": 76,
+    "dimensions": {
+      "diameter": {
+        "value": 62.0,
+        "qualifier": "published_value"
+      },
+      "length": {
+        "value": 26.5,
+        "qualifier": "published_value"
+      },
+      "mass": {
+        "value": 0.421,
+        "qualifier": "upper_bound"
+      }
+    },
+    "ratings": {
+      "50": {
+        "rated_output_torque_at_2000rpm_Nm": 11.0,
+        "repeated_peak_output_torque_Nm": 23.0,
+        "average_output_torque_limit_Nm": 18.0,
+        "momentary_peak_output_torque_Nm": 48.0,
+        "max_input_speed_rpm": 7300.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 5.4e-06,
+        "backlash_max_arcsec": 20.0
+      },
+      "80": {
+        "rated_output_torque_at_2000rpm_Nm": 15.0,
+        "repeated_peak_output_torque_Nm": 29.0,
+        "average_output_torque_limit_Nm": 19.0,
+        "momentary_peak_output_torque_Nm": 55.0,
+        "max_input_speed_rpm": 7300.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 5.4e-06,
+        "backlash_max_arcsec": 10.0
+      },
+      "100": {
+        "rated_output_torque_at_2000rpm_Nm": 16.0,
+        "repeated_peak_output_torque_Nm": 37.0,
+        "average_output_torque_limit_Nm": 27.0,
+        "momentary_peak_output_torque_Nm": 55.0,
+        "max_input_speed_rpm": 7300.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 5.4e-06,
+        "backlash_max_arcsec": 10.0
+      }
+    },
+    "source_url": "https://www.sitodrive.com/docs/Strain_Wave_Gear_Catalog_en.pdf"
+  },
+  {
+    "model": "CD-20",
+    "pdf_page": 77,
+    "dimensions": {
+      "diameter": {
+        "value": 70.0,
+        "qualifier": "published_value"
+      },
+      "length": {
+        "value": 29.7,
+        "qualifier": "published_value"
+      },
+      "mass": {
+        "value": 0.591,
+        "qualifier": "upper_bound"
+      }
+    },
+    "ratings": {
+      "30": {
+        "rated_output_torque_at_2000rpm_Nm": 10.2,
+        "repeated_peak_output_torque_Nm": 23.4,
+        "average_output_torque_limit_Nm": 14.4,
+        "momentary_peak_output_torque_Nm": 41.4,
+        "max_input_speed_rpm": 6500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 9e-06,
+        "backlash_max_arcsec": 20.0
+      },
+      "50": {
+        "rated_output_torque_at_2000rpm_Nm": 17.0,
+        "repeated_peak_output_torque_Nm": 39.0,
+        "average_output_torque_limit_Nm": 24.0,
+        "momentary_peak_output_torque_Nm": 69.0,
+        "max_input_speed_rpm": 6500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 9e-06,
+        "backlash_max_arcsec": 20.0
+      },
+      "80": {
+        "rated_output_torque_at_2000rpm_Nm": 24.0,
+        "repeated_peak_output_torque_Nm": 51.0,
+        "average_output_torque_limit_Nm": 33.0,
+        "momentary_peak_output_torque_Nm": 76.0,
+        "max_input_speed_rpm": 6500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 9e-06,
+        "backlash_max_arcsec": 10.0
+      },
+      "100": {
+        "rated_output_torque_at_2000rpm_Nm": 28.0,
+        "repeated_peak_output_torque_Nm": 57.0,
+        "average_output_torque_limit_Nm": 34.0,
+        "momentary_peak_output_torque_Nm": 76.0,
+        "max_input_speed_rpm": 6500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 9e-06,
+        "backlash_max_arcsec": 10.0
+      },
+      "120": {
+        "rated_output_torque_at_2000rpm_Nm": 28.0,
+        "repeated_peak_output_torque_Nm": 61.0,
+        "average_output_torque_limit_Nm": 34.0,
+        "momentary_peak_output_torque_Nm": 95.0,
+        "max_input_speed_rpm": 6500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 9e-06,
+        "backlash_max_arcsec": 10.0
+      }
+    },
+    "source_url": "https://www.sitodrive.com/docs/Strain_Wave_Gear_Catalog_en.pdf"
+  },
+  {
+    "model": "CS-14-I",
+    "pdf_page": 52,
+    "dimensions": {
+      "diameter": {
+        "value": 73.0,
+        "qualifier": "published_value"
+      },
+      "length": {
+        "value": 44.03,
+        "qualifier": "published_value"
+      },
+      "mass": {
+        "value": 0.531,
+        "qualifier": "upper_bound"
+      }
+    },
+    "ratings": {
+      "30": {
+        "rated_output_torque_at_2000rpm_Nm": 4.0,
+        "repeated_peak_output_torque_Nm": 9.0,
+        "average_output_torque_limit_Nm": 6.8,
+        "momentary_peak_output_torque_Nm": 17.0,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 3.3e-06,
+        "backlash_max_arcsec": 20.0
+      },
+      "50": {
+        "rated_output_torque_at_2000rpm_Nm": 5.4,
+        "repeated_peak_output_torque_Nm": 18.0,
+        "average_output_torque_limit_Nm": 6.9,
+        "momentary_peak_output_torque_Nm": 35.0,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 3.3e-06,
+        "backlash_max_arcsec": 20.0
+      },
+      "80": {
+        "rated_output_torque_at_2000rpm_Nm": 7.8,
+        "repeated_peak_output_torque_Nm": 23.0,
+        "average_output_torque_limit_Nm": 9.5,
+        "momentary_peak_output_torque_Nm": 47.0,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 3.3e-06,
+        "backlash_max_arcsec": 10.0
+      },
+      "100": {
+        "rated_output_torque_at_2000rpm_Nm": 7.8,
+        "repeated_peak_output_torque_Nm": 28.0,
+        "average_output_torque_limit_Nm": 11.0,
+        "momentary_peak_output_torque_Nm": 54.0,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 3.3e-06,
+        "backlash_max_arcsec": 10.0
+      }
+    },
+    "source_url": "https://www.sitodrive.com/docs/Strain_Wave_Gear_Catalog_en.pdf"
+  },
+  {
+    "model": "CS-14-II",
+    "pdf_page": 53,
+    "dimensions": {
+      "diameter": {
+        "value": 73.0,
+        "qualifier": "published_value"
+      },
+      "length": {
+        "value": 36.0,
+        "qualifier": "published_value"
+      },
+      "mass": {
+        "value": 0.513,
+        "qualifier": "upper_bound"
+      }
+    },
+    "ratings": {
+      "30": {
+        "rated_output_torque_at_2000rpm_Nm": 4.0,
+        "repeated_peak_output_torque_Nm": 9.0,
+        "average_output_torque_limit_Nm": 6.8,
+        "momentary_peak_output_torque_Nm": 17.0,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 3.3e-06,
+        "backlash_max_arcsec": 20.0
+      },
+      "50": {
+        "rated_output_torque_at_2000rpm_Nm": 5.4,
+        "repeated_peak_output_torque_Nm": 18.0,
+        "average_output_torque_limit_Nm": 6.9,
+        "momentary_peak_output_torque_Nm": 35.0,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 3.3e-06,
+        "backlash_max_arcsec": 20.0
+      },
+      "80": {
+        "rated_output_torque_at_2000rpm_Nm": 7.8,
+        "repeated_peak_output_torque_Nm": 23.0,
+        "average_output_torque_limit_Nm": 9.5,
+        "momentary_peak_output_torque_Nm": 47.0,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 3.3e-06,
+        "backlash_max_arcsec": 10.0
+      },
+      "100": {
+        "rated_output_torque_at_2000rpm_Nm": 7.8,
+        "repeated_peak_output_torque_Nm": 28.0,
+        "average_output_torque_limit_Nm": 11.0,
+        "momentary_peak_output_torque_Nm": 54.0,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 3.3e-06,
+        "backlash_max_arcsec": 10.0
+      }
+    },
+    "source_url": "https://www.sitodrive.com/docs/Strain_Wave_Gear_Catalog_en.pdf"
+  },
+  {
+    "model": "CS-17-I",
+    "pdf_page": 54,
+    "dimensions": {
+      "diameter": {
+        "value": 79.0,
+        "qualifier": "published_value"
+      },
+      "length": {
+        "value": 47.44,
+        "qualifier": "published_value"
+      },
+      "mass": {
+        "value": 0.713,
+        "qualifier": "upper_bound"
+      }
+    },
+    "ratings": {
+      "30": {
+        "rated_output_torque_at_2000rpm_Nm": 8.8,
+        "repeated_peak_output_torque_Nm": 16.0,
+        "average_output_torque_limit_Nm": 12.0,
+        "momentary_peak_output_torque_Nm": 30.0,
+        "max_input_speed_rpm": 7300.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 7.9e-06,
+        "backlash_max_arcsec": 20.0
+      },
+      "50": {
+        "rated_output_torque_at_2000rpm_Nm": 16.0,
+        "repeated_peak_output_torque_Nm": 34.0,
+        "average_output_torque_limit_Nm": 26.0,
+        "momentary_peak_output_torque_Nm": 70.0,
+        "max_input_speed_rpm": 7300.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 7.9e-06,
+        "backlash_max_arcsec": 20.0
+      },
+      "80": {
+        "rated_output_torque_at_2000rpm_Nm": 22.0,
+        "repeated_peak_output_torque_Nm": 43.0,
+        "average_output_torque_limit_Nm": 27.0,
+        "momentary_peak_output_torque_Nm": 87.0,
+        "max_input_speed_rpm": 7300.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 7.9e-06,
+        "backlash_max_arcsec": 10.0
+      },
+      "100": {
+        "rated_output_torque_at_2000rpm_Nm": 24.0,
+        "repeated_peak_output_torque_Nm": 54.0,
+        "average_output_torque_limit_Nm": 39.0,
+        "momentary_peak_output_torque_Nm": 108.0,
+        "max_input_speed_rpm": 7300.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 7.9e-06,
+        "backlash_max_arcsec": 10.0
+      }
+    },
+    "source_url": "https://www.sitodrive.com/docs/Strain_Wave_Gear_Catalog_en.pdf"
+  },
+  {
+    "model": "CS-17-II",
+    "pdf_page": 55,
+    "dimensions": {
+      "diameter": {
+        "value": 79.0,
+        "qualifier": "published_value"
+      },
+      "length": {
+        "value": 39.0,
+        "qualifier": "published_value"
+      },
+      "mass": {
+        "value": 0.7,
+        "qualifier": "upper_bound"
+      }
+    },
+    "ratings": {
+      "30": {
+        "rated_output_torque_at_2000rpm_Nm": 8.8,
+        "repeated_peak_output_torque_Nm": 16.0,
+        "average_output_torque_limit_Nm": 12.0,
+        "momentary_peak_output_torque_Nm": 30.0,
+        "max_input_speed_rpm": 7300.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 7.9e-06,
+        "backlash_max_arcsec": 20.0
+      },
+      "50": {
+        "rated_output_torque_at_2000rpm_Nm": 16.0,
+        "repeated_peak_output_torque_Nm": 34.0,
+        "average_output_torque_limit_Nm": 26.0,
+        "momentary_peak_output_torque_Nm": 70.0,
+        "max_input_speed_rpm": 7300.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 7.9e-06,
+        "backlash_max_arcsec": 20.0
+      },
+      "80": {
+        "rated_output_torque_at_2000rpm_Nm": 22.0,
+        "repeated_peak_output_torque_Nm": 43.0,
+        "average_output_torque_limit_Nm": 27.0,
+        "momentary_peak_output_torque_Nm": 87.0,
+        "max_input_speed_rpm": 7300.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 7.9e-06,
+        "backlash_max_arcsec": 10.0
+      },
+      "100": {
+        "rated_output_torque_at_2000rpm_Nm": 24.0,
+        "repeated_peak_output_torque_Nm": 54.0,
+        "average_output_torque_limit_Nm": 39.0,
+        "momentary_peak_output_torque_Nm": 108.0,
+        "max_input_speed_rpm": 7300.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 7.9e-06,
+        "backlash_max_arcsec": 10.0
+      }
+    },
+    "source_url": "https://www.sitodrive.com/docs/Strain_Wave_Gear_Catalog_en.pdf"
+  },
+  {
+    "model": "CS-20-I",
+    "pdf_page": 56,
+    "dimensions": {
+      "diameter": {
+        "value": 93.0,
+        "qualifier": "published_value"
+      },
+      "length": {
+        "value": 45.5,
+        "qualifier": "published_value"
+      },
+      "mass": {
+        "value": 1.0,
+        "qualifier": "upper_bound"
+      }
+    },
+    "ratings": {
+      "30": {
+        "rated_output_torque_at_2000rpm_Nm": 15.0,
+        "repeated_peak_output_torque_Nm": 27.0,
+        "average_output_torque_limit_Nm": 20.0,
+        "momentary_peak_output_torque_Nm": 50.0,
+        "max_input_speed_rpm": 6500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 1.93e-05,
+        "backlash_max_arcsec": 20.0
+      },
+      "50": {
+        "rated_output_torque_at_2000rpm_Nm": 25.0,
+        "repeated_peak_output_torque_Nm": 56.0,
+        "average_output_torque_limit_Nm": 34.0,
+        "momentary_peak_output_torque_Nm": 98.0,
+        "max_input_speed_rpm": 6500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 1.93e-05,
+        "backlash_max_arcsec": 20.0
+      },
+      "80": {
+        "rated_output_torque_at_2000rpm_Nm": 34.0,
+        "repeated_peak_output_torque_Nm": 74.0,
+        "average_output_torque_limit_Nm": 47.0,
+        "momentary_peak_output_torque_Nm": 121.0,
+        "max_input_speed_rpm": 6500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 1.93e-05,
+        "backlash_max_arcsec": 10.0
+      },
+      "100": {
+        "rated_output_torque_at_2000rpm_Nm": 40.0,
+        "repeated_peak_output_torque_Nm": 82.0,
+        "average_output_torque_limit_Nm": 49.0,
+        "momentary_peak_output_torque_Nm": 147.0,
+        "max_input_speed_rpm": 6500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 1.93e-05,
+        "backlash_max_arcsec": 10.0
+      },
+      "120": {
+        "rated_output_torque_at_2000rpm_Nm": 47.0,
+        "repeated_peak_output_torque_Nm": 87.0,
+        "average_output_torque_limit_Nm": 55.0,
+        "momentary_peak_output_torque_Nm": 160.0,
+        "max_input_speed_rpm": 6500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 1.93e-05,
+        "backlash_max_arcsec": 10.0
+      }
+    },
+    "source_url": "https://www.sitodrive.com/docs/Strain_Wave_Gear_Catalog_en.pdf"
+  },
+  {
+    "model": "CS-20-II",
+    "pdf_page": 57,
+    "dimensions": {
+      "diameter": {
+        "value": 93.0,
+        "qualifier": "published_value"
+      },
+      "length": {
+        "value": 41.0,
+        "qualifier": "published_value"
+      },
+      "mass": {
+        "value": 0.935,
+        "qualifier": "upper_bound"
+      }
+    },
+    "ratings": {
+      "30": {
+        "rated_output_torque_at_2000rpm_Nm": 15.0,
+        "repeated_peak_output_torque_Nm": 27.0,
+        "average_output_torque_limit_Nm": 20.0,
+        "momentary_peak_output_torque_Nm": 50.0,
+        "max_input_speed_rpm": 6500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 1.93e-05,
+        "backlash_max_arcsec": 20.0
+      },
+      "50": {
+        "rated_output_torque_at_2000rpm_Nm": 25.0,
+        "repeated_peak_output_torque_Nm": 56.0,
+        "average_output_torque_limit_Nm": 34.0,
+        "momentary_peak_output_torque_Nm": 98.0,
+        "max_input_speed_rpm": 6500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 1.93e-05,
+        "backlash_max_arcsec": 20.0
+      },
+      "80": {
+        "rated_output_torque_at_2000rpm_Nm": 34.0,
+        "repeated_peak_output_torque_Nm": 74.0,
+        "average_output_torque_limit_Nm": 47.0,
+        "momentary_peak_output_torque_Nm": 121.0,
+        "max_input_speed_rpm": 6500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 1.93e-05,
+        "backlash_max_arcsec": 10.0
+      },
+      "100": {
+        "rated_output_torque_at_2000rpm_Nm": 40.0,
+        "repeated_peak_output_torque_Nm": 82.0,
+        "average_output_torque_limit_Nm": 49.0,
+        "momentary_peak_output_torque_Nm": 147.0,
+        "max_input_speed_rpm": 6500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 1.93e-05,
+        "backlash_max_arcsec": 10.0
+      },
+      "120": {
+        "rated_output_torque_at_2000rpm_Nm": 47.0,
+        "repeated_peak_output_torque_Nm": 87.0,
+        "average_output_torque_limit_Nm": 55.0,
+        "momentary_peak_output_torque_Nm": 160.0,
+        "max_input_speed_rpm": 6500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 1.93e-05,
+        "backlash_max_arcsec": 10.0
+      }
+    },
+    "source_url": "https://www.sitodrive.com/docs/Strain_Wave_Gear_Catalog_en.pdf"
+  },
+  {
+    "model": "CS-25-I",
+    "pdf_page": 58,
+    "dimensions": {
+      "diameter": {
+        "value": 107.0,
+        "qualifier": "published_value"
+      },
+      "length": {
+        "value": 52.0,
+        "qualifier": "published_value"
+      },
+      "mass": {
+        "value": 1.503,
+        "qualifier": "upper_bound"
+      }
+    },
+    "ratings": {
+      "30": {
+        "rated_output_torque_at_2000rpm_Nm": 27.0,
+        "repeated_peak_output_torque_Nm": 50.0,
+        "average_output_torque_limit_Nm": 38.0,
+        "momentary_peak_output_torque_Nm": 95.0,
+        "max_input_speed_rpm": 5600.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 4.13e-05,
+        "backlash_max_arcsec": 20.0
+      },
+      "50": {
+        "rated_output_torque_at_2000rpm_Nm": 39.0,
+        "repeated_peak_output_torque_Nm": 98.0,
+        "average_output_torque_limit_Nm": 55.0,
+        "momentary_peak_output_torque_Nm": 186.0,
+        "max_input_speed_rpm": 5600.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 4.13e-05,
+        "backlash_max_arcsec": 20.0
+      },
+      "80": {
+        "rated_output_torque_at_2000rpm_Nm": 63.0,
+        "repeated_peak_output_torque_Nm": 137.0,
+        "average_output_torque_limit_Nm": 87.0,
+        "momentary_peak_output_torque_Nm": 255.0,
+        "max_input_speed_rpm": 5600.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 4.13e-05,
+        "backlash_max_arcsec": 10.0
+      },
+      "100": {
+        "rated_output_torque_at_2000rpm_Nm": 67.0,
+        "repeated_peak_output_torque_Nm": 157.0,
+        "average_output_torque_limit_Nm": 108.0,
+        "momentary_peak_output_torque_Nm": 289.0,
+        "max_input_speed_rpm": 5600.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 4.13e-05,
+        "backlash_max_arcsec": 10.0
+      },
+      "120": {
+        "rated_output_torque_at_2000rpm_Nm": 78.0,
+        "repeated_peak_output_torque_Nm": 167.0,
+        "average_output_torque_limit_Nm": 115.0,
+        "momentary_peak_output_torque_Nm": 304.0,
+        "max_input_speed_rpm": 5600.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 4.13e-05,
+        "backlash_max_arcsec": 10.0
+      }
+    },
+    "source_url": "https://www.sitodrive.com/docs/Strain_Wave_Gear_Catalog_en.pdf"
+  },
+  {
+    "model": "CS-25-II",
+    "pdf_page": 59,
+    "dimensions": {
+      "diameter": {
+        "value": 107.0,
+        "qualifier": "published_value"
+      },
+      "length": {
+        "value": 49.0,
+        "qualifier": "published_value"
+      },
+      "mass": {
+        "value": 1.5,
+        "qualifier": "upper_bound"
+      }
+    },
+    "ratings": {
+      "30": {
+        "rated_output_torque_at_2000rpm_Nm": 27.0,
+        "repeated_peak_output_torque_Nm": 50.0,
+        "average_output_torque_limit_Nm": 38.0,
+        "momentary_peak_output_torque_Nm": 95.0,
+        "max_input_speed_rpm": 5600.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 4.13e-05,
+        "backlash_max_arcsec": 20.0
+      },
+      "50": {
+        "rated_output_torque_at_2000rpm_Nm": 39.0,
+        "repeated_peak_output_torque_Nm": 98.0,
+        "average_output_torque_limit_Nm": 55.0,
+        "momentary_peak_output_torque_Nm": 186.0,
+        "max_input_speed_rpm": 5600.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 4.13e-05,
+        "backlash_max_arcsec": 20.0
+      },
+      "80": {
+        "rated_output_torque_at_2000rpm_Nm": 63.0,
+        "repeated_peak_output_torque_Nm": 137.0,
+        "average_output_torque_limit_Nm": 87.0,
+        "momentary_peak_output_torque_Nm": 255.0,
+        "max_input_speed_rpm": 5600.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 4.13e-05,
+        "backlash_max_arcsec": 10.0
+      },
+      "100": {
+        "rated_output_torque_at_2000rpm_Nm": 67.0,
+        "repeated_peak_output_torque_Nm": 157.0,
+        "average_output_torque_limit_Nm": 108.0,
+        "momentary_peak_output_torque_Nm": 289.0,
+        "max_input_speed_rpm": 5600.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 4.13e-05,
+        "backlash_max_arcsec": 10.0
+      },
+      "120": {
+        "rated_output_torque_at_2000rpm_Nm": 78.0,
+        "repeated_peak_output_torque_Nm": 167.0,
+        "average_output_torque_limit_Nm": 115.0,
+        "momentary_peak_output_torque_Nm": 304.0,
+        "max_input_speed_rpm": 5600.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 4.13e-05,
+        "backlash_max_arcsec": 10.0
+      }
+    },
+    "source_url": "https://www.sitodrive.com/docs/Strain_Wave_Gear_Catalog_en.pdf"
+  },
+  {
+    "model": "CS-32-I",
+    "pdf_page": 60,
+    "dimensions": {
+      "diameter": {
+        "value": 138.0,
+        "qualifier": "published_value"
+      },
+      "length": {
+        "value": 62.0,
+        "qualifier": "published_value"
+      },
+      "mass": {
+        "value": 3.095,
+        "qualifier": "upper_bound"
+      }
+    },
+    "ratings": {
+      "50": {
+        "rated_output_torque_at_2000rpm_Nm": 76.0,
+        "repeated_peak_output_torque_Nm": 216.0,
+        "average_output_torque_limit_Nm": 108.0,
+        "momentary_peak_output_torque_Nm": 382.0,
+        "max_input_speed_rpm": 4800.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 0.000169,
+        "backlash_max_arcsec": 20.0
+      },
+      "80": {
+        "rated_output_torque_at_2000rpm_Nm": 118.0,
+        "repeated_peak_output_torque_Nm": 304.0,
+        "average_output_torque_limit_Nm": 167.0,
+        "momentary_peak_output_torque_Nm": 568.0,
+        "max_input_speed_rpm": 4800.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 0.000169,
+        "backlash_max_arcsec": 10.0
+      },
+      "100": {
+        "rated_output_torque_at_2000rpm_Nm": 137.0,
+        "repeated_peak_output_torque_Nm": 353.0,
+        "average_output_torque_limit_Nm": 216.0,
+        "momentary_peak_output_torque_Nm": 647.0,
+        "max_input_speed_rpm": 4800.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 0.000169,
+        "backlash_max_arcsec": 10.0
+      },
+      "120": {
+        "rated_output_torque_at_2000rpm_Nm": 152.0,
+        "repeated_peak_output_torque_Nm": 353.0,
+        "average_output_torque_limit_Nm": 240.0,
+        "momentary_peak_output_torque_Nm": 686.0,
+        "max_input_speed_rpm": 4800.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 0.000169,
+        "backlash_max_arcsec": 10.0
+      }
+    },
+    "source_url": "https://www.sitodrive.com/docs/Strain_Wave_Gear_Catalog_en.pdf"
+  },
+  {
+    "model": "CS-32-II",
+    "pdf_page": 61,
+    "dimensions": {
+      "diameter": {
+        "value": 138.0,
+        "qualifier": "published_value"
+      },
+      "length": {
+        "value": 60.0,
+        "qualifier": "published_value"
+      },
+      "mass": {
+        "value": 3.1,
+        "qualifier": "upper_bound"
+      }
+    },
+    "ratings": {
+      "50": {
+        "rated_output_torque_at_2000rpm_Nm": 76.0,
+        "repeated_peak_output_torque_Nm": 216.0,
+        "average_output_torque_limit_Nm": 108.0,
+        "momentary_peak_output_torque_Nm": 382.0,
+        "max_input_speed_rpm": 4800.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 0.000169,
+        "backlash_max_arcsec": 20.0
+      },
+      "80": {
+        "rated_output_torque_at_2000rpm_Nm": 118.0,
+        "repeated_peak_output_torque_Nm": 304.0,
+        "average_output_torque_limit_Nm": 167.0,
+        "momentary_peak_output_torque_Nm": 568.0,
+        "max_input_speed_rpm": 4800.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 0.000169,
+        "backlash_max_arcsec": 10.0
+      },
+      "100": {
+        "rated_output_torque_at_2000rpm_Nm": 137.0,
+        "repeated_peak_output_torque_Nm": 353.0,
+        "average_output_torque_limit_Nm": 216.0,
+        "momentary_peak_output_torque_Nm": 647.0,
+        "max_input_speed_rpm": 4800.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 0.000169,
+        "backlash_max_arcsec": 10.0
+      },
+      "120": {
+        "rated_output_torque_at_2000rpm_Nm": 152.0,
+        "repeated_peak_output_torque_Nm": 353.0,
+        "average_output_torque_limit_Nm": 240.0,
+        "momentary_peak_output_torque_Nm": 686.0,
+        "max_input_speed_rpm": 4800.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 0.000169,
+        "backlash_max_arcsec": 10.0
+      }
+    },
+    "source_url": "https://www.sitodrive.com/docs/Strain_Wave_Gear_Catalog_en.pdf"
+  },
+  {
+    "model": "CS-03-1U-C",
+    "pdf_page": 65,
+    "dimensions": {
+      "diameter": {
+        "value": 13.0,
+        "qualifier": "published_value",
+        "second_dimension_mm": 13.0,
+        "shape": "rectangular"
+      },
+      "length": {
+        "value": 31.2,
+        "qualifier": "published_value"
+      },
+      "mass": {
+        "value": 0.017,
+        "qualifier": "upper_bound"
+      }
+    },
+    "ratings": {
+      "30": {
+        "rated_output_torque_at_2000rpm_Nm": 0.06,
+        "repeated_peak_output_torque_Nm": 0.13,
+        "average_output_torque_limit_Nm": 0.1,
+        "momentary_peak_output_torque_Nm": 0.22,
+        "max_input_speed_rpm": 10000.0,
+        "average_input_speed_limit_rpm": 6500.0,
+        "backlash_max_arcsec": 20.0
+      },
+      "50": {
+        "rated_output_torque_at_2000rpm_Nm": 0.11,
+        "repeated_peak_output_torque_Nm": 0.21,
+        "average_output_torque_limit_Nm": 0.13,
+        "momentary_peak_output_torque_Nm": 0.41,
+        "max_input_speed_rpm": 10000.0,
+        "average_input_speed_limit_rpm": 6500.0,
+        "backlash_max_arcsec": 20.0
+      }
+    },
+    "source_url": "https://www.sitodrive.com/docs/Strain_Wave_Gear_Catalog_en.pdf"
+  },
+  {
+    "model": "CS-03-1U-U",
+    "pdf_page": 65,
+    "dimensions": {
+      "diameter": {
+        "value": 13.0,
+        "qualifier": "published_value",
+        "second_dimension_mm": 13.0,
+        "shape": "rectangular"
+      },
+      "length": {
+        "value": 31.2,
+        "qualifier": "published_value"
+      },
+      "mass": {
+        "value": 0.017,
+        "qualifier": "upper_bound"
+      }
+    },
+    "ratings": {
+      "30": {
+        "rated_output_torque_at_2000rpm_Nm": 0.06,
+        "repeated_peak_output_torque_Nm": 0.13,
+        "average_output_torque_limit_Nm": 0.1,
+        "momentary_peak_output_torque_Nm": 0.22,
+        "max_input_speed_rpm": 10000.0,
+        "average_input_speed_limit_rpm": 6500.0,
+        "backlash_max_arcsec": 20.0
+      },
+      "50": {
+        "rated_output_torque_at_2000rpm_Nm": 0.11,
+        "repeated_peak_output_torque_Nm": 0.21,
+        "average_output_torque_limit_Nm": 0.13,
+        "momentary_peak_output_torque_Nm": 0.41,
+        "max_input_speed_rpm": 10000.0,
+        "average_input_speed_limit_rpm": 6500.0,
+        "backlash_max_arcsec": 20.0
+      }
+    },
+    "source_url": "https://www.sitodrive.com/docs/Strain_Wave_Gear_Catalog_en.pdf"
+  },
+  {
+    "model": "CS-05-1U-C",
+    "pdf_page": 66,
+    "dimensions": {
+      "diameter": {
+        "value": 22.0,
+        "qualifier": "upper_bound"
+      },
+      "length": {
+        "value": 22.0,
+        "qualifier": "upper_bound"
+      },
+      "mass": {
+        "value": 0.042,
+        "qualifier": "upper_bound"
+      }
+    },
+    "ratings": {
+      "30": {
+        "rated_output_torque_at_2000rpm_Nm": 0.25,
+        "repeated_peak_output_torque_Nm": 0.5,
+        "average_output_torque_limit_Nm": 0.38,
+        "momentary_peak_output_torque_Nm": 0.9,
+        "max_input_speed_rpm": 10000.0,
+        "average_input_speed_limit_rpm": 6500.0,
+        "published_inertia_kg_m2": 2.5e-08,
+        "backlash_max_arcsec": 20.0
+      },
+      "50": {
+        "rated_output_torque_at_2000rpm_Nm": 0.4,
+        "repeated_peak_output_torque_Nm": 0.9,
+        "average_output_torque_limit_Nm": 0.53,
+        "momentary_peak_output_torque_Nm": 1.8,
+        "max_input_speed_rpm": 10000.0,
+        "average_input_speed_limit_rpm": 6500.0,
+        "published_inertia_kg_m2": 2.5e-08,
+        "backlash_max_arcsec": 20.0
+      },
+      "80": {
+        "rated_output_torque_at_2000rpm_Nm": 0.52,
+        "repeated_peak_output_torque_Nm": 1.35,
+        "average_output_torque_limit_Nm": 0.84,
+        "momentary_peak_output_torque_Nm": 2.5,
+        "max_input_speed_rpm": 10000.0,
+        "average_input_speed_limit_rpm": 6500.0,
+        "published_inertia_kg_m2": 2.5e-08,
+        "backlash_max_arcsec": 20.0
+      }
+    },
+    "source_url": "https://www.sitodrive.com/docs/Strain_Wave_Gear_Catalog_en.pdf"
+  },
+  {
+    "model": "CS-05-1U-D",
+    "pdf_page": 66,
+    "dimensions": {
+      "diameter": {
+        "value": 22.0,
+        "qualifier": "upper_bound"
+      },
+      "length": {
+        "value": 22.0,
+        "qualifier": "upper_bound"
+      },
+      "mass": {
+        "value": 0.042,
+        "qualifier": "upper_bound"
+      }
+    },
+    "ratings": {
+      "30": {
+        "rated_output_torque_at_2000rpm_Nm": 0.25,
+        "repeated_peak_output_torque_Nm": 0.5,
+        "average_output_torque_limit_Nm": 0.38,
+        "momentary_peak_output_torque_Nm": 0.9,
+        "max_input_speed_rpm": 10000.0,
+        "average_input_speed_limit_rpm": 6500.0,
+        "published_inertia_kg_m2": 2.5e-08,
+        "backlash_max_arcsec": 20.0
+      },
+      "50": {
+        "rated_output_torque_at_2000rpm_Nm": 0.4,
+        "repeated_peak_output_torque_Nm": 0.9,
+        "average_output_torque_limit_Nm": 0.53,
+        "momentary_peak_output_torque_Nm": 1.8,
+        "max_input_speed_rpm": 10000.0,
+        "average_input_speed_limit_rpm": 6500.0,
+        "published_inertia_kg_m2": 2.5e-08,
+        "backlash_max_arcsec": 20.0
+      },
+      "80": {
+        "rated_output_torque_at_2000rpm_Nm": 0.52,
+        "repeated_peak_output_torque_Nm": 1.35,
+        "average_output_torque_limit_Nm": 0.84,
+        "momentary_peak_output_torque_Nm": 2.5,
+        "max_input_speed_rpm": 10000.0,
+        "average_input_speed_limit_rpm": 6500.0,
+        "published_inertia_kg_m2": 2.5e-08,
+        "backlash_max_arcsec": 20.0
+      }
+    },
+    "source_url": "https://www.sitodrive.com/docs/Strain_Wave_Gear_Catalog_en.pdf"
+  },
+  {
+    "model": "CS-05-1U-E",
+    "pdf_page": 66,
+    "dimensions": {
+      "diameter": {
+        "value": 22.0,
+        "qualifier": "upper_bound"
+      },
+      "length": {
+        "value": 22.0,
+        "qualifier": "upper_bound"
+      },
+      "mass": {
+        "value": 0.042,
+        "qualifier": "upper_bound"
+      }
+    },
+    "ratings": {
+      "30": {
+        "rated_output_torque_at_2000rpm_Nm": 0.25,
+        "repeated_peak_output_torque_Nm": 0.5,
+        "average_output_torque_limit_Nm": 0.38,
+        "momentary_peak_output_torque_Nm": 0.9,
+        "max_input_speed_rpm": 10000.0,
+        "average_input_speed_limit_rpm": 6500.0,
+        "published_inertia_kg_m2": 2.5e-08,
+        "backlash_max_arcsec": 20.0
+      },
+      "50": {
+        "rated_output_torque_at_2000rpm_Nm": 0.4,
+        "repeated_peak_output_torque_Nm": 0.9,
+        "average_output_torque_limit_Nm": 0.53,
+        "momentary_peak_output_torque_Nm": 1.8,
+        "max_input_speed_rpm": 10000.0,
+        "average_input_speed_limit_rpm": 6500.0,
+        "published_inertia_kg_m2": 2.5e-08,
+        "backlash_max_arcsec": 20.0
+      },
+      "80": {
+        "rated_output_torque_at_2000rpm_Nm": 0.52,
+        "repeated_peak_output_torque_Nm": 1.35,
+        "average_output_torque_limit_Nm": 0.84,
+        "momentary_peak_output_torque_Nm": 2.5,
+        "max_input_speed_rpm": 10000.0,
+        "average_input_speed_limit_rpm": 6500.0,
+        "published_inertia_kg_m2": 2.5e-08,
+        "backlash_max_arcsec": 20.0
+      }
+    },
+    "source_url": "https://www.sitodrive.com/docs/Strain_Wave_Gear_Catalog_en.pdf"
+  },
+  {
+    "model": "CS-05-1U-U",
+    "pdf_page": 66,
+    "dimensions": {
+      "diameter": {
+        "value": 22.0,
+        "qualifier": "upper_bound"
+      },
+      "length": {
+        "value": 22.0,
+        "qualifier": "upper_bound"
+      },
+      "mass": {
+        "value": 0.042,
+        "qualifier": "upper_bound"
+      }
+    },
+    "ratings": {
+      "30": {
+        "rated_output_torque_at_2000rpm_Nm": 0.25,
+        "repeated_peak_output_torque_Nm": 0.5,
+        "average_output_torque_limit_Nm": 0.38,
+        "momentary_peak_output_torque_Nm": 0.9,
+        "max_input_speed_rpm": 10000.0,
+        "average_input_speed_limit_rpm": 6500.0,
+        "published_inertia_kg_m2": 2.5e-08,
+        "backlash_max_arcsec": 20.0
+      },
+      "50": {
+        "rated_output_torque_at_2000rpm_Nm": 0.4,
+        "repeated_peak_output_torque_Nm": 0.9,
+        "average_output_torque_limit_Nm": 0.53,
+        "momentary_peak_output_torque_Nm": 1.8,
+        "max_input_speed_rpm": 10000.0,
+        "average_input_speed_limit_rpm": 6500.0,
+        "published_inertia_kg_m2": 2.5e-08,
+        "backlash_max_arcsec": 20.0
+      },
+      "80": {
+        "rated_output_torque_at_2000rpm_Nm": 0.52,
+        "repeated_peak_output_torque_Nm": 1.35,
+        "average_output_torque_limit_Nm": 0.84,
+        "momentary_peak_output_torque_Nm": 2.5,
+        "max_input_speed_rpm": 10000.0,
+        "average_input_speed_limit_rpm": 6500.0,
+        "published_inertia_kg_m2": 2.5e-08,
+        "backlash_max_arcsec": 20.0
+      }
+    },
+    "source_url": "https://www.sitodrive.com/docs/Strain_Wave_Gear_Catalog_en.pdf"
+  },
+  {
+    "model": "CS-05-2XH-A",
+    "pdf_page": 66,
+    "dimensions": {
+      "diameter": {
+        "value": 22.0,
+        "qualifier": "upper_bound"
+      },
+      "length": {
+        "value": 22.0,
+        "qualifier": "upper_bound"
+      },
+      "mass": {
+        "value": 0.042,
+        "qualifier": "upper_bound"
+      }
+    },
+    "ratings": {
+      "30": {
+        "rated_output_torque_at_2000rpm_Nm": 0.25,
+        "repeated_peak_output_torque_Nm": 0.5,
+        "average_output_torque_limit_Nm": 0.38,
+        "momentary_peak_output_torque_Nm": 0.9,
+        "max_input_speed_rpm": 10000.0,
+        "average_input_speed_limit_rpm": 6500.0,
+        "published_inertia_kg_m2": 2.5e-08,
+        "backlash_max_arcsec": 20.0
+      },
+      "50": {
+        "rated_output_torque_at_2000rpm_Nm": 0.4,
+        "repeated_peak_output_torque_Nm": 0.9,
+        "average_output_torque_limit_Nm": 0.53,
+        "momentary_peak_output_torque_Nm": 1.8,
+        "max_input_speed_rpm": 10000.0,
+        "average_input_speed_limit_rpm": 6500.0,
+        "published_inertia_kg_m2": 2.5e-08,
+        "backlash_max_arcsec": 20.0
+      },
+      "80": {
+        "rated_output_torque_at_2000rpm_Nm": 0.52,
+        "repeated_peak_output_torque_Nm": 1.35,
+        "average_output_torque_limit_Nm": 0.84,
+        "momentary_peak_output_torque_Nm": 2.5,
+        "max_input_speed_rpm": 10000.0,
+        "average_input_speed_limit_rpm": 6500.0,
+        "published_inertia_kg_m2": 2.5e-08,
+        "backlash_max_arcsec": 20.0
+      }
+    },
+    "source_url": "https://www.sitodrive.com/docs/Strain_Wave_Gear_Catalog_en.pdf"
+  },
+  {
+    "model": "CS-05-2XH-B",
+    "pdf_page": 66,
+    "dimensions": {
+      "diameter": {
+        "value": 22.0,
+        "qualifier": "upper_bound"
+      },
+      "length": {
+        "value": 22.0,
+        "qualifier": "upper_bound"
+      },
+      "mass": {
+        "value": 0.042,
+        "qualifier": "upper_bound"
+      }
+    },
+    "ratings": {
+      "30": {
+        "rated_output_torque_at_2000rpm_Nm": 0.25,
+        "repeated_peak_output_torque_Nm": 0.5,
+        "average_output_torque_limit_Nm": 0.38,
+        "momentary_peak_output_torque_Nm": 0.9,
+        "max_input_speed_rpm": 10000.0,
+        "average_input_speed_limit_rpm": 6500.0,
+        "published_inertia_kg_m2": 2.5e-08,
+        "backlash_max_arcsec": 20.0
+      },
+      "50": {
+        "rated_output_torque_at_2000rpm_Nm": 0.4,
+        "repeated_peak_output_torque_Nm": 0.9,
+        "average_output_torque_limit_Nm": 0.53,
+        "momentary_peak_output_torque_Nm": 1.8,
+        "max_input_speed_rpm": 10000.0,
+        "average_input_speed_limit_rpm": 6500.0,
+        "published_inertia_kg_m2": 2.5e-08,
+        "backlash_max_arcsec": 20.0
+      },
+      "80": {
+        "rated_output_torque_at_2000rpm_Nm": 0.52,
+        "repeated_peak_output_torque_Nm": 1.35,
+        "average_output_torque_limit_Nm": 0.84,
+        "momentary_peak_output_torque_Nm": 2.5,
+        "max_input_speed_rpm": 10000.0,
+        "average_input_speed_limit_rpm": 6500.0,
+        "published_inertia_kg_m2": 2.5e-08,
+        "backlash_max_arcsec": 20.0
+      }
+    },
+    "source_url": "https://www.sitodrive.com/docs/Strain_Wave_Gear_Catalog_en.pdf"
+  },
+  {
+    "model": "CS-08-1U-C",
+    "pdf_page": 68,
+    "dimensions": {
+      "diameter": {
+        "value": 50.0,
+        "qualifier": "upper_bound"
+      },
+      "length": {
+        "value": 26.5,
+        "qualifier": "published_value"
+      },
+      "mass": {
+        "value": 0.106,
+        "qualifier": "upper_bound"
+      }
+    },
+    "ratings": {
+      "30": {
+        "rated_output_torque_at_2000rpm_Nm": 0.9,
+        "repeated_peak_output_torque_Nm": 1.8,
+        "average_output_torque_limit_Nm": 1.4,
+        "momentary_peak_output_torque_Nm": 3.3,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 3.2e-07,
+        "backlash_max_arcsec": 20.0
+      },
+      "50": {
+        "rated_output_torque_at_2000rpm_Nm": 1.8,
+        "repeated_peak_output_torque_Nm": 3.3,
+        "average_output_torque_limit_Nm": 2.3,
+        "momentary_peak_output_torque_Nm": 6.6,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 3.2e-07,
+        "backlash_max_arcsec": 20.0
+      },
+      "100": {
+        "rated_output_torque_at_2000rpm_Nm": 2.4,
+        "repeated_peak_output_torque_Nm": 4.8,
+        "average_output_torque_limit_Nm": 3.3,
+        "momentary_peak_output_torque_Nm": 9.0,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 3.2e-07,
+        "backlash_max_arcsec": 20.0
+      }
+    },
+    "source_url": "https://www.sitodrive.com/docs/Strain_Wave_Gear_Catalog_en.pdf"
+  },
+  {
+    "model": "CS-08-1U-D",
+    "pdf_page": 68,
+    "dimensions": {
+      "diameter": {
+        "value": 50.0,
+        "qualifier": "upper_bound"
+      },
+      "length": {
+        "value": 26.5,
+        "qualifier": "published_value"
+      },
+      "mass": {
+        "value": 0.106,
+        "qualifier": "upper_bound"
+      }
+    },
+    "ratings": {
+      "30": {
+        "rated_output_torque_at_2000rpm_Nm": 0.9,
+        "repeated_peak_output_torque_Nm": 1.8,
+        "average_output_torque_limit_Nm": 1.4,
+        "momentary_peak_output_torque_Nm": 3.3,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 3.2e-07,
+        "backlash_max_arcsec": 20.0
+      },
+      "50": {
+        "rated_output_torque_at_2000rpm_Nm": 1.8,
+        "repeated_peak_output_torque_Nm": 3.3,
+        "average_output_torque_limit_Nm": 2.3,
+        "momentary_peak_output_torque_Nm": 6.6,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 3.2e-07,
+        "backlash_max_arcsec": 20.0
+      },
+      "100": {
+        "rated_output_torque_at_2000rpm_Nm": 2.4,
+        "repeated_peak_output_torque_Nm": 4.8,
+        "average_output_torque_limit_Nm": 3.3,
+        "momentary_peak_output_torque_Nm": 9.0,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 3.2e-07,
+        "backlash_max_arcsec": 20.0
+      }
+    },
+    "source_url": "https://www.sitodrive.com/docs/Strain_Wave_Gear_Catalog_en.pdf"
+  },
+  {
+    "model": "CS-08-1U-E",
+    "pdf_page": 68,
+    "dimensions": {
+      "diameter": {
+        "value": 50.0,
+        "qualifier": "upper_bound"
+      },
+      "length": {
+        "value": 26.5,
+        "qualifier": "published_value"
+      },
+      "mass": {
+        "value": 0.106,
+        "qualifier": "upper_bound"
+      }
+    },
+    "ratings": {
+      "30": {
+        "rated_output_torque_at_2000rpm_Nm": 0.9,
+        "repeated_peak_output_torque_Nm": 1.8,
+        "average_output_torque_limit_Nm": 1.4,
+        "momentary_peak_output_torque_Nm": 3.3,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 3.2e-07,
+        "backlash_max_arcsec": 20.0
+      },
+      "50": {
+        "rated_output_torque_at_2000rpm_Nm": 1.8,
+        "repeated_peak_output_torque_Nm": 3.3,
+        "average_output_torque_limit_Nm": 2.3,
+        "momentary_peak_output_torque_Nm": 6.6,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 3.2e-07,
+        "backlash_max_arcsec": 20.0
+      },
+      "100": {
+        "rated_output_torque_at_2000rpm_Nm": 2.4,
+        "repeated_peak_output_torque_Nm": 4.8,
+        "average_output_torque_limit_Nm": 3.3,
+        "momentary_peak_output_torque_Nm": 9.0,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 3.2e-07,
+        "backlash_max_arcsec": 20.0
+      }
+    },
+    "source_url": "https://www.sitodrive.com/docs/Strain_Wave_Gear_Catalog_en.pdf"
+  },
+  {
+    "model": "CS-08-1U-U",
+    "pdf_page": 68,
+    "dimensions": {
+      "diameter": {
+        "value": 50.0,
+        "qualifier": "upper_bound"
+      },
+      "length": {
+        "value": 26.5,
+        "qualifier": "published_value"
+      },
+      "mass": {
+        "value": 0.106,
+        "qualifier": "upper_bound"
+      }
+    },
+    "ratings": {
+      "30": {
+        "rated_output_torque_at_2000rpm_Nm": 0.9,
+        "repeated_peak_output_torque_Nm": 1.8,
+        "average_output_torque_limit_Nm": 1.4,
+        "momentary_peak_output_torque_Nm": 3.3,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 3.2e-07,
+        "backlash_max_arcsec": 20.0
+      },
+      "50": {
+        "rated_output_torque_at_2000rpm_Nm": 1.8,
+        "repeated_peak_output_torque_Nm": 3.3,
+        "average_output_torque_limit_Nm": 2.3,
+        "momentary_peak_output_torque_Nm": 6.6,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 3.2e-07,
+        "backlash_max_arcsec": 20.0
+      },
+      "100": {
+        "rated_output_torque_at_2000rpm_Nm": 2.4,
+        "repeated_peak_output_torque_Nm": 4.8,
+        "average_output_torque_limit_Nm": 3.3,
+        "momentary_peak_output_torque_Nm": 9.0,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 3.2e-07,
+        "backlash_max_arcsec": 20.0
+      }
+    },
+    "source_url": "https://www.sitodrive.com/docs/Strain_Wave_Gear_Catalog_en.pdf"
+  },
+  {
+    "model": "CS-08-2UP",
+    "pdf_page": 68,
+    "dimensions": {
+      "diameter": {
+        "value": 50.0,
+        "qualifier": "upper_bound"
+      },
+      "length": {
+        "value": 26.5,
+        "qualifier": "published_value"
+      },
+      "mass": {
+        "value": 0.106,
+        "qualifier": "upper_bound"
+      }
+    },
+    "ratings": {
+      "30": {
+        "rated_output_torque_at_2000rpm_Nm": 0.9,
+        "repeated_peak_output_torque_Nm": 1.8,
+        "average_output_torque_limit_Nm": 1.4,
+        "momentary_peak_output_torque_Nm": 3.3,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 3.2e-07,
+        "backlash_max_arcsec": 20.0
+      },
+      "50": {
+        "rated_output_torque_at_2000rpm_Nm": 1.8,
+        "repeated_peak_output_torque_Nm": 3.3,
+        "average_output_torque_limit_Nm": 2.3,
+        "momentary_peak_output_torque_Nm": 6.6,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 3.2e-07,
+        "backlash_max_arcsec": 20.0
+      },
+      "100": {
+        "rated_output_torque_at_2000rpm_Nm": 2.4,
+        "repeated_peak_output_torque_Nm": 4.8,
+        "average_output_torque_limit_Nm": 3.3,
+        "momentary_peak_output_torque_Nm": 9.0,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 3.2e-07,
+        "backlash_max_arcsec": 20.0
+      }
+    },
+    "source_url": "https://www.sitodrive.com/docs/Strain_Wave_Gear_Catalog_en.pdf"
+  },
+  {
+    "model": "CS-08-2XH-A",
+    "pdf_page": 68,
+    "dimensions": {
+      "diameter": {
+        "value": 50.0,
+        "qualifier": "upper_bound"
+      },
+      "length": {
+        "value": 26.5,
+        "qualifier": "published_value"
+      },
+      "mass": {
+        "value": 0.106,
+        "qualifier": "upper_bound"
+      }
+    },
+    "ratings": {
+      "30": {
+        "rated_output_torque_at_2000rpm_Nm": 0.9,
+        "repeated_peak_output_torque_Nm": 1.8,
+        "average_output_torque_limit_Nm": 1.4,
+        "momentary_peak_output_torque_Nm": 3.3,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 3.2e-07,
+        "backlash_max_arcsec": 20.0
+      },
+      "50": {
+        "rated_output_torque_at_2000rpm_Nm": 1.8,
+        "repeated_peak_output_torque_Nm": 3.3,
+        "average_output_torque_limit_Nm": 2.3,
+        "momentary_peak_output_torque_Nm": 6.6,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 3.2e-07,
+        "backlash_max_arcsec": 20.0
+      },
+      "100": {
+        "rated_output_torque_at_2000rpm_Nm": 2.4,
+        "repeated_peak_output_torque_Nm": 4.8,
+        "average_output_torque_limit_Nm": 3.3,
+        "momentary_peak_output_torque_Nm": 9.0,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 3.2e-07,
+        "backlash_max_arcsec": 20.0
+      }
+    },
+    "source_url": "https://www.sitodrive.com/docs/Strain_Wave_Gear_Catalog_en.pdf"
+  },
+  {
+    "model": "CS-08-2XH-B",
+    "pdf_page": 68,
+    "dimensions": {
+      "diameter": {
+        "value": 50.0,
+        "qualifier": "upper_bound"
+      },
+      "length": {
+        "value": 26.5,
+        "qualifier": "published_value"
+      },
+      "mass": {
+        "value": 0.106,
+        "qualifier": "upper_bound"
+      }
+    },
+    "ratings": {
+      "30": {
+        "rated_output_torque_at_2000rpm_Nm": 0.9,
+        "repeated_peak_output_torque_Nm": 1.8,
+        "average_output_torque_limit_Nm": 1.4,
+        "momentary_peak_output_torque_Nm": 3.3,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 3.2e-07,
+        "backlash_max_arcsec": 20.0
+      },
+      "50": {
+        "rated_output_torque_at_2000rpm_Nm": 1.8,
+        "repeated_peak_output_torque_Nm": 3.3,
+        "average_output_torque_limit_Nm": 2.3,
+        "momentary_peak_output_torque_Nm": 6.6,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 3.2e-07,
+        "backlash_max_arcsec": 20.0
+      },
+      "100": {
+        "rated_output_torque_at_2000rpm_Nm": 2.4,
+        "repeated_peak_output_torque_Nm": 4.8,
+        "average_output_torque_limit_Nm": 3.3,
+        "momentary_peak_output_torque_Nm": 9.0,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 3.2e-07,
+        "backlash_max_arcsec": 20.0
+      }
+    },
+    "source_url": "https://www.sitodrive.com/docs/Strain_Wave_Gear_Catalog_en.pdf"
+  },
+  {
+    "model": "CS-11-1U-C",
+    "pdf_page": 70,
+    "dimensions": {
+      "diameter": {
+        "value": 43.0,
+        "qualifier": "upper_bound"
+      },
+      "length": {
+        "value": 40.0,
+        "qualifier": "upper_bound"
+      },
+      "mass": {
+        "value": 0.2,
+        "qualifier": "upper_bound"
+      }
+    },
+    "ratings": {
+      "30": {
+        "rated_output_torque_at_2000rpm_Nm": 2.2,
+        "repeated_peak_output_torque_Nm": 4.5,
+        "average_output_torque_limit_Nm": 3.4,
+        "momentary_peak_output_torque_Nm": 8.5,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 1.4e-06,
+        "backlash_max_arcsec": 20.0
+      },
+      "50": {
+        "rated_output_torque_at_2000rpm_Nm": 3.5,
+        "repeated_peak_output_torque_Nm": 8.3,
+        "average_output_torque_limit_Nm": 5.5,
+        "momentary_peak_output_torque_Nm": 17.0,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 1.4e-06,
+        "backlash_max_arcsec": 20.0
+      },
+      "100": {
+        "rated_output_torque_at_2000rpm_Nm": 5.0,
+        "repeated_peak_output_torque_Nm": 11.0,
+        "average_output_torque_limit_Nm": 8.9,
+        "momentary_peak_output_torque_Nm": 25.0,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 1.4e-06,
+        "backlash_max_arcsec": 20.0
+      }
+    },
+    "source_url": "https://www.sitodrive.com/docs/Strain_Wave_Gear_Catalog_en.pdf"
+  },
+  {
+    "model": "CS-11-1U-D",
+    "pdf_page": 70,
+    "dimensions": {
+      "diameter": {
+        "value": 43.0,
+        "qualifier": "upper_bound"
+      },
+      "length": {
+        "value": 40.0,
+        "qualifier": "upper_bound"
+      },
+      "mass": {
+        "value": 0.2,
+        "qualifier": "upper_bound"
+      }
+    },
+    "ratings": {
+      "30": {
+        "rated_output_torque_at_2000rpm_Nm": 2.2,
+        "repeated_peak_output_torque_Nm": 4.5,
+        "average_output_torque_limit_Nm": 3.4,
+        "momentary_peak_output_torque_Nm": 8.5,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 1.4e-06,
+        "backlash_max_arcsec": 20.0
+      },
+      "50": {
+        "rated_output_torque_at_2000rpm_Nm": 3.5,
+        "repeated_peak_output_torque_Nm": 8.3,
+        "average_output_torque_limit_Nm": 5.5,
+        "momentary_peak_output_torque_Nm": 17.0,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 1.4e-06,
+        "backlash_max_arcsec": 20.0
+      },
+      "100": {
+        "rated_output_torque_at_2000rpm_Nm": 5.0,
+        "repeated_peak_output_torque_Nm": 11.0,
+        "average_output_torque_limit_Nm": 8.9,
+        "momentary_peak_output_torque_Nm": 25.0,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 1.4e-06,
+        "backlash_max_arcsec": 20.0
+      }
+    },
+    "source_url": "https://www.sitodrive.com/docs/Strain_Wave_Gear_Catalog_en.pdf"
+  },
+  {
+    "model": "CS-11-1U-E",
+    "pdf_page": 70,
+    "dimensions": {
+      "diameter": {
+        "value": 43.0,
+        "qualifier": "upper_bound"
+      },
+      "length": {
+        "value": 40.0,
+        "qualifier": "upper_bound"
+      },
+      "mass": {
+        "value": 0.2,
+        "qualifier": "upper_bound"
+      }
+    },
+    "ratings": {
+      "30": {
+        "rated_output_torque_at_2000rpm_Nm": 2.2,
+        "repeated_peak_output_torque_Nm": 4.5,
+        "average_output_torque_limit_Nm": 3.4,
+        "momentary_peak_output_torque_Nm": 8.5,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 1.4e-06,
+        "backlash_max_arcsec": 20.0
+      },
+      "50": {
+        "rated_output_torque_at_2000rpm_Nm": 3.5,
+        "repeated_peak_output_torque_Nm": 8.3,
+        "average_output_torque_limit_Nm": 5.5,
+        "momentary_peak_output_torque_Nm": 17.0,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 1.4e-06,
+        "backlash_max_arcsec": 20.0
+      },
+      "100": {
+        "rated_output_torque_at_2000rpm_Nm": 5.0,
+        "repeated_peak_output_torque_Nm": 11.0,
+        "average_output_torque_limit_Nm": 8.9,
+        "momentary_peak_output_torque_Nm": 25.0,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 1.4e-06,
+        "backlash_max_arcsec": 20.0
+      }
+    },
+    "source_url": "https://www.sitodrive.com/docs/Strain_Wave_Gear_Catalog_en.pdf"
+  },
+  {
+    "model": "CS-11-1U-U",
+    "pdf_page": 70,
+    "dimensions": {
+      "diameter": {
+        "value": 43.0,
+        "qualifier": "upper_bound"
+      },
+      "length": {
+        "value": 40.0,
+        "qualifier": "upper_bound"
+      },
+      "mass": {
+        "value": 0.2,
+        "qualifier": "upper_bound"
+      }
+    },
+    "ratings": {
+      "30": {
+        "rated_output_torque_at_2000rpm_Nm": 2.2,
+        "repeated_peak_output_torque_Nm": 4.5,
+        "average_output_torque_limit_Nm": 3.4,
+        "momentary_peak_output_torque_Nm": 8.5,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 1.4e-06,
+        "backlash_max_arcsec": 20.0
+      },
+      "50": {
+        "rated_output_torque_at_2000rpm_Nm": 3.5,
+        "repeated_peak_output_torque_Nm": 8.3,
+        "average_output_torque_limit_Nm": 5.5,
+        "momentary_peak_output_torque_Nm": 17.0,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 1.4e-06,
+        "backlash_max_arcsec": 20.0
+      },
+      "100": {
+        "rated_output_torque_at_2000rpm_Nm": 5.0,
+        "repeated_peak_output_torque_Nm": 11.0,
+        "average_output_torque_limit_Nm": 8.9,
+        "momentary_peak_output_torque_Nm": 25.0,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 1.4e-06,
+        "backlash_max_arcsec": 20.0
+      }
+    },
+    "source_url": "https://www.sitodrive.com/docs/Strain_Wave_Gear_Catalog_en.pdf"
+  },
+  {
+    "model": "CS-11-2XH-A",
+    "pdf_page": 70,
+    "dimensions": {
+      "diameter": {
+        "value": 43.0,
+        "qualifier": "upper_bound"
+      },
+      "length": {
+        "value": 40.0,
+        "qualifier": "upper_bound"
+      },
+      "mass": {
+        "value": 0.2,
+        "qualifier": "upper_bound"
+      }
+    },
+    "ratings": {
+      "30": {
+        "rated_output_torque_at_2000rpm_Nm": 2.2,
+        "repeated_peak_output_torque_Nm": 4.5,
+        "average_output_torque_limit_Nm": 3.4,
+        "momentary_peak_output_torque_Nm": 8.5,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 1.4e-06,
+        "backlash_max_arcsec": 20.0
+      },
+      "50": {
+        "rated_output_torque_at_2000rpm_Nm": 3.5,
+        "repeated_peak_output_torque_Nm": 8.3,
+        "average_output_torque_limit_Nm": 5.5,
+        "momentary_peak_output_torque_Nm": 17.0,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 1.4e-06,
+        "backlash_max_arcsec": 20.0
+      },
+      "100": {
+        "rated_output_torque_at_2000rpm_Nm": 5.0,
+        "repeated_peak_output_torque_Nm": 11.0,
+        "average_output_torque_limit_Nm": 8.9,
+        "momentary_peak_output_torque_Nm": 25.0,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 1.4e-06,
+        "backlash_max_arcsec": 20.0
+      }
+    },
+    "source_url": "https://www.sitodrive.com/docs/Strain_Wave_Gear_Catalog_en.pdf"
+  },
+  {
+    "model": "CS-11-2XH-B",
+    "pdf_page": 70,
+    "dimensions": {
+      "diameter": {
+        "value": 43.0,
+        "qualifier": "upper_bound"
+      },
+      "length": {
+        "value": 40.0,
+        "qualifier": "upper_bound"
+      },
+      "mass": {
+        "value": 0.2,
+        "qualifier": "upper_bound"
+      }
+    },
+    "ratings": {
+      "30": {
+        "rated_output_torque_at_2000rpm_Nm": 2.2,
+        "repeated_peak_output_torque_Nm": 4.5,
+        "average_output_torque_limit_Nm": 3.4,
+        "momentary_peak_output_torque_Nm": 8.5,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 1.4e-06,
+        "backlash_max_arcsec": 20.0
+      },
+      "50": {
+        "rated_output_torque_at_2000rpm_Nm": 3.5,
+        "repeated_peak_output_torque_Nm": 8.3,
+        "average_output_torque_limit_Nm": 5.5,
+        "momentary_peak_output_torque_Nm": 17.0,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 1.4e-06,
+        "backlash_max_arcsec": 20.0
+      },
+      "100": {
+        "rated_output_torque_at_2000rpm_Nm": 5.0,
+        "repeated_peak_output_torque_Nm": 11.0,
+        "average_output_torque_limit_Nm": 8.9,
+        "momentary_peak_output_torque_Nm": 25.0,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 1.4e-06,
+        "backlash_max_arcsec": 20.0
+      }
+    },
+    "source_url": "https://www.sitodrive.com/docs/Strain_Wave_Gear_Catalog_en.pdf"
+  },
+  {
+    "model": "HD-03",
+    "pdf_page": 13,
+    "dimensions": {
+      "diameter": {
+        "value": 25.0,
+        "qualifier": "published_value"
+      },
+      "length": {
+        "value": 7.3,
+        "qualifier": "published_value"
+      },
+      "mass": {
+        "value": 0.016,
+        "qualifier": "published_value"
+      }
+    },
+    "ratings": {
+      "30": {
+        "rated_output_torque_at_2000rpm_Nm": 0.08,
+        "repeated_peak_output_torque_Nm": 0.15,
+        "average_output_torque_limit_Nm": 0.12,
+        "momentary_peak_output_torque_Nm": 0.25,
+        "max_input_speed_rpm": 10000.0,
+        "average_input_speed_limit_rpm": 6500.0,
+        "backlash_max_arcsec": 20.0
+      },
+      "50": {
+        "rated_output_torque_at_2000rpm_Nm": 0.13,
+        "repeated_peak_output_torque_Nm": 0.24,
+        "average_output_torque_limit_Nm": 0.16,
+        "momentary_peak_output_torque_Nm": 0.5,
+        "max_input_speed_rpm": 10000.0,
+        "average_input_speed_limit_rpm": 6500.0,
+        "backlash_max_arcsec": 20.0
+      }
+    },
+    "source_url": "https://www.sitodrive.com/docs/Strain_Wave_Gear_Catalog_en.pdf"
+  },
+  {
+    "model": "HD-05",
+    "pdf_page": 14,
+    "dimensions": {
+      "diameter": {
+        "value": 32.0,
+        "qualifier": "published_value"
+      },
+      "length": {
+        "value": 10.5,
+        "qualifier": "published_value"
+      },
+      "mass": {
+        "value": 0.04,
+        "qualifier": "upper_bound"
+      }
+    },
+    "ratings": {
+      "30": {
+        "rated_output_torque_at_2000rpm_Nm": 0.23,
+        "repeated_peak_output_torque_Nm": 0.47,
+        "average_output_torque_limit_Nm": 0.35,
+        "momentary_peak_output_torque_Nm": 0.85,
+        "max_input_speed_rpm": 10000.0,
+        "average_input_speed_limit_rpm": 6500.0,
+        "backlash_max_arcsec": 20.0
+      },
+      "50": {
+        "rated_output_torque_at_2000rpm_Nm": 0.38,
+        "repeated_peak_output_torque_Nm": 0.87,
+        "average_output_torque_limit_Nm": 0.5,
+        "momentary_peak_output_torque_Nm": 1.7,
+        "max_input_speed_rpm": 10000.0,
+        "average_input_speed_limit_rpm": 6500.0,
+        "backlash_max_arcsec": 20.0
+      },
+      "80": {
+        "rated_output_torque_at_2000rpm_Nm": 0.5,
+        "repeated_peak_output_torque_Nm": 1.2,
+        "average_output_torque_limit_Nm": 0.82,
+        "momentary_peak_output_torque_Nm": 2.2,
+        "max_input_speed_rpm": 10000.0,
+        "average_input_speed_limit_rpm": 6500.0,
+        "backlash_max_arcsec": 20.0
+      }
+    },
+    "source_url": "https://www.sitodrive.com/docs/Strain_Wave_Gear_Catalog_en.pdf"
+  },
+  {
+    "model": "HD-08",
+    "pdf_page": 15,
+    "dimensions": {
+      "diameter": {
+        "value": 40.0,
+        "qualifier": "published_value"
+      },
+      "length": {
+        "value": 11.5,
+        "qualifier": "published_value"
+      },
+      "mass": {
+        "value": 0.061,
+        "qualifier": "upper_bound"
+      }
+    },
+    "ratings": {
+      "30": {
+        "rated_output_torque_at_2000rpm_Nm": 0.8,
+        "repeated_peak_output_torque_Nm": 1.6,
+        "average_output_torque_limit_Nm": 1.3,
+        "momentary_peak_output_torque_Nm": 3.2,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "backlash_max_arcsec": 20.0
+      },
+      "50": {
+        "rated_output_torque_at_2000rpm_Nm": 1.6,
+        "repeated_peak_output_torque_Nm": 3.1,
+        "average_output_torque_limit_Nm": 2.1,
+        "momentary_peak_output_torque_Nm": 6.1,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "backlash_max_arcsec": 20.0
+      },
+      "100": {
+        "rated_output_torque_at_2000rpm_Nm": 2.4,
+        "repeated_peak_output_torque_Nm": 4.6,
+        "average_output_torque_limit_Nm": 3.2,
+        "momentary_peak_output_torque_Nm": 8.7,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "backlash_max_arcsec": 20.0
+      }
+    },
+    "source_url": "https://www.sitodrive.com/docs/Strain_Wave_Gear_Catalog_en.pdf"
+  },
+  {
+    "model": "HD-11",
+    "pdf_page": 16,
+    "dimensions": {
+      "diameter": {
+        "value": 52.0,
+        "qualifier": "published_value"
+      },
+      "length": {
+        "value": 13.5,
+        "qualifier": "published_value"
+      },
+      "mass": {
+        "value": 0.127,
+        "qualifier": "upper_bound"
+      }
+    },
+    "ratings": {
+      "30": {
+        "rated_output_torque_at_2000rpm_Nm": 2.1,
+        "repeated_peak_output_torque_Nm": 4.1,
+        "average_output_torque_limit_Nm": 3.1,
+        "momentary_peak_output_torque_Nm": 8.2,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "backlash_max_arcsec": 20.0
+      },
+      "50": {
+        "rated_output_torque_at_2000rpm_Nm": 3.2,
+        "repeated_peak_output_torque_Nm": 7.8,
+        "average_output_torque_limit_Nm": 5.1,
+        "momentary_peak_output_torque_Nm": 15.0,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "backlash_max_arcsec": 20.0
+      },
+      "100": {
+        "rated_output_torque_at_2000rpm_Nm": 4.8,
+        "repeated_peak_output_torque_Nm": 10.5,
+        "average_output_torque_limit_Nm": 8.7,
+        "momentary_peak_output_torque_Nm": 23.0,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "backlash_max_arcsec": 20.0
+      }
+    },
+    "source_url": "https://www.sitodrive.com/docs/Strain_Wave_Gear_Catalog_en.pdf"
+  },
+  {
+    "model": "HD-11Pro",
+    "pdf_page": 21,
+    "dimensions": {
+      "diameter": {
+        "value": 52.0,
+        "qualifier": "published_value"
+      },
+      "length": {
+        "value": 18.4,
+        "qualifier": "published_value"
+      },
+      "mass": {
+        "value": 0.17,
+        "qualifier": "published_value"
+      }
+    },
+    "ratings": {
+      "50": {
+        "rated_output_torque_at_2000rpm_Nm": 4.5,
+        "repeated_peak_output_torque_Nm": 13.0,
+        "average_output_torque_limit_Nm": 6.8,
+        "momentary_peak_output_torque_Nm": 25.0,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 2.1e-06,
+        "backlash_max_arcsec": 20.0
+      },
+      "100": {
+        "rated_output_torque_at_2000rpm_Nm": 7.4,
+        "repeated_peak_output_torque_Nm": 19.0,
+        "average_output_torque_limit_Nm": 10.8,
+        "momentary_peak_output_torque_Nm": 40.0,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 2.1e-06,
+        "backlash_max_arcsec": 10.0
+      }
+    },
+    "source_url": "https://www.sitodrive.com/docs/Strain_Wave_Gear_Catalog_en.pdf"
+  },
+  {
+    "model": "HD-14",
+    "pdf_page": 17,
+    "dimensions": {
+      "diameter": {
+        "value": 70.0,
+        "qualifier": "published_value"
+      },
+      "length": {
+        "value": 17.5,
+        "qualifier": "published_value"
+      },
+      "mass": {
+        "value": 0.312,
+        "qualifier": "upper_bound"
+      }
+    },
+    "ratings": {
+      "30": {
+        "rated_output_torque_at_2000rpm_Nm": 3.0,
+        "repeated_peak_output_torque_Nm": 8.7,
+        "average_output_torque_limit_Nm": 6.2,
+        "momentary_peak_output_torque_Nm": 15.0,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 2.1e-06,
+        "backlash_max_arcsec": 20.0
+      },
+      "50": {
+        "rated_output_torque_at_2000rpm_Nm": 4.5,
+        "repeated_peak_output_torque_Nm": 13.0,
+        "average_output_torque_limit_Nm": 6.8,
+        "momentary_peak_output_torque_Nm": 25.0,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 2.1e-06,
+        "backlash_max_arcsec": 20.0
+      },
+      "80": {
+        "rated_output_torque_at_2000rpm_Nm": 6.0,
+        "repeated_peak_output_torque_Nm": 15.0,
+        "average_output_torque_limit_Nm": 9.5,
+        "momentary_peak_output_torque_Nm": 38.0,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 2.1e-06,
+        "backlash_max_arcsec": 10.0
+      },
+      "100": {
+        "rated_output_torque_at_2000rpm_Nm": 7.4,
+        "repeated_peak_output_torque_Nm": 19.0,
+        "average_output_torque_limit_Nm": 10.8,
+        "momentary_peak_output_torque_Nm": 40.0,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 2.1e-06,
+        "backlash_max_arcsec": 10.0
+      }
+    },
+    "source_url": "https://www.sitodrive.com/docs/Strain_Wave_Gear_Catalog_en.pdf"
+  },
+  {
+    "model": "HD-14Pro",
+    "pdf_page": 22,
+    "dimensions": {
+      "diameter": {
+        "value": 70.0,
+        "qualifier": "published_value"
+      },
+      "length": {
+        "value": 18.5,
+        "qualifier": "published_value"
+      },
+      "mass": {
+        "value": 0.278,
+        "qualifier": "published_value"
+      }
+    },
+    "ratings": {
+      "50": {
+        "rated_output_torque_at_2000rpm_Nm": 11.0,
+        "repeated_peak_output_torque_Nm": 23.0,
+        "average_output_torque_limit_Nm": 18.0,
+        "momentary_peak_output_torque_Nm": 48.0,
+        "max_input_speed_rpm": 7000.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 5.4e-06,
+        "backlash_max_arcsec": 20.0
+      },
+      "100": {
+        "rated_output_torque_at_2000rpm_Nm": 16.0,
+        "repeated_peak_output_torque_Nm": 37.0,
+        "average_output_torque_limit_Nm": 27.8,
+        "momentary_peak_output_torque_Nm": 71.0,
+        "max_input_speed_rpm": 7000.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 5.4e-06,
+        "backlash_max_arcsec": 10.0
+      }
+    },
+    "source_url": "https://www.sitodrive.com/docs/Strain_Wave_Gear_Catalog_en.pdf"
+  },
+  {
+    "model": "HD-17",
+    "pdf_page": 18,
+    "dimensions": {
+      "diameter": {
+        "value": 80.0,
+        "qualifier": "published_value"
+      },
+      "length": {
+        "value": 18.5,
+        "qualifier": "published_value"
+      },
+      "mass": {
+        "value": 0.4,
+        "qualifier": "upper_bound"
+      }
+    },
+    "ratings": {
+      "30": {
+        "rated_output_torque_at_2000rpm_Nm": 6.6,
+        "repeated_peak_output_torque_Nm": 13.8,
+        "average_output_torque_limit_Nm": 10.8,
+        "momentary_peak_output_torque_Nm": 28.8,
+        "max_input_speed_rpm": 7000.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 5.4e-06,
+        "backlash_max_arcsec": 20.0
+      },
+      "50": {
+        "rated_output_torque_at_2000rpm_Nm": 11.0,
+        "repeated_peak_output_torque_Nm": 23.0,
+        "average_output_torque_limit_Nm": 18.0,
+        "momentary_peak_output_torque_Nm": 48.0,
+        "max_input_speed_rpm": 7000.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 5.4e-06,
+        "backlash_max_arcsec": 20.0
+      },
+      "80": {
+        "rated_output_torque_at_2000rpm_Nm": 12.8,
+        "repeated_peak_output_torque_Nm": 29.6,
+        "average_output_torque_limit_Nm": 21.6,
+        "momentary_peak_output_torque_Nm": 56.8,
+        "max_input_speed_rpm": 7000.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 5.4e-06,
+        "backlash_max_arcsec": 10.0
+      },
+      "100": {
+        "rated_output_torque_at_2000rpm_Nm": 16.0,
+        "repeated_peak_output_torque_Nm": 37.0,
+        "average_output_torque_limit_Nm": 27.8,
+        "momentary_peak_output_torque_Nm": 71.0,
+        "max_input_speed_rpm": 7000.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 5.4e-06,
+        "backlash_max_arcsec": 10.0
+      }
+    },
+    "source_url": "https://www.sitodrive.com/docs/Strain_Wave_Gear_Catalog_en.pdf"
+  },
+  {
+    "model": "HD-17Pro",
+    "pdf_page": 23,
+    "dimensions": {
+      "diameter": {
+        "value": 80.0,
+        "qualifier": "published_value"
+      },
+      "length": {
+        "value": 18.5,
+        "qualifier": "published_value"
+      },
+      "mass": {
+        "value": 0.383,
+        "qualifier": "published_value"
+      }
+    },
+    "ratings": {
+      "50": {
+        "rated_output_torque_at_2000rpm_Nm": 17.0,
+        "repeated_peak_output_torque_Nm": 39.0,
+        "average_output_torque_limit_Nm": 24.0,
+        "momentary_peak_output_torque_Nm": 69.0,
+        "max_input_speed_rpm": 7000.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 9e-06,
+        "backlash_max_arcsec": 20.0
+      },
+      "100": {
+        "rated_output_torque_at_2000rpm_Nm": 28.0,
+        "repeated_peak_output_torque_Nm": 57.0,
+        "average_output_torque_limit_Nm": 32.0,
+        "momentary_peak_output_torque_Nm": 95.0,
+        "max_input_speed_rpm": 7000.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 9e-06,
+        "backlash_max_arcsec": 10.0
+      }
+    },
+    "source_url": "https://www.sitodrive.com/docs/Strain_Wave_Gear_Catalog_en.pdf"
+  },
+  {
+    "model": "HD-20",
+    "pdf_page": 19,
+    "dimensions": {
+      "diameter": {
+        "value": 90.0,
+        "qualifier": "published_value"
+      },
+      "length": {
+        "value": 19.0,
+        "qualifier": "published_value"
+      },
+      "mass": {
+        "value": 0.513,
+        "qualifier": "upper_bound"
+      }
+    },
+    "ratings": {
+      "30": {
+        "rated_output_torque_at_2000rpm_Nm": 10.2,
+        "repeated_peak_output_torque_Nm": 23.4,
+        "average_output_torque_limit_Nm": 14.4,
+        "momentary_peak_output_torque_Nm": 41.4,
+        "max_input_speed_rpm": 7000.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 9e-06,
+        "backlash_max_arcsec": 20.0
+      },
+      "50": {
+        "rated_output_torque_at_2000rpm_Nm": 17.0,
+        "repeated_peak_output_torque_Nm": 39.0,
+        "average_output_torque_limit_Nm": 24.0,
+        "momentary_peak_output_torque_Nm": 69.0,
+        "max_input_speed_rpm": 7000.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 9e-06,
+        "backlash_max_arcsec": 20.0
+      },
+      "80": {
+        "rated_output_torque_at_2000rpm_Nm": 22.4,
+        "repeated_peak_output_torque_Nm": 45.6,
+        "average_output_torque_limit_Nm": 27.2,
+        "momentary_peak_output_torque_Nm": 76.0,
+        "max_input_speed_rpm": 7000.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 9e-06,
+        "backlash_max_arcsec": 10.0
+      },
+      "100": {
+        "rated_output_torque_at_2000rpm_Nm": 28.0,
+        "repeated_peak_output_torque_Nm": 57.0,
+        "average_output_torque_limit_Nm": 32.0,
+        "momentary_peak_output_torque_Nm": 95.0,
+        "max_input_speed_rpm": 7000.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 9e-06,
+        "backlash_max_arcsec": 10.0
+      },
+      "120": {
+        "rated_output_torque_at_2000rpm_Nm": 28.0,
+        "repeated_peak_output_torque_Nm": 61.0,
+        "average_output_torque_limit_Nm": 35.0,
+        "momentary_peak_output_torque_Nm": 95.0,
+        "max_input_speed_rpm": 7000.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 9e-06,
+        "backlash_max_arcsec": 10.0
+      }
+    },
+    "source_url": "https://www.sitodrive.com/docs/Strain_Wave_Gear_Catalog_en.pdf"
+  },
+  {
+    "model": "HD-25",
+    "pdf_page": 20,
+    "dimensions": {
+      "diameter": {
+        "value": 110.0,
+        "qualifier": "published_value"
+      },
+      "length": {
+        "value": 22.0,
+        "qualifier": "published_value"
+      },
+      "mass": {
+        "value": 0.926,
+        "qualifier": "upper_bound"
+      }
+    },
+    "ratings": {
+      "30": {
+        "rated_output_torque_at_2000rpm_Nm": 16.2,
+        "repeated_peak_output_torque_Nm": 41.4,
+        "average_output_torque_limit_Nm": 22.8,
+        "momentary_peak_output_torque_Nm": 76.2,
+        "max_input_speed_rpm": 5600.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 2.82e-05,
+        "backlash_max_arcsec": 20.0
+      },
+      "50": {
+        "rated_output_torque_at_2000rpm_Nm": 26.0,
+        "repeated_peak_output_torque_Nm": 69.0,
+        "average_output_torque_limit_Nm": 38.0,
+        "momentary_peak_output_torque_Nm": 127.0,
+        "max_input_speed_rpm": 5600.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 2.82e-05,
+        "backlash_max_arcsec": 20.0
+      },
+      "80": {
+        "rated_output_torque_at_2000rpm_Nm": 44.0,
+        "repeated_peak_output_torque_Nm": 95.0,
+        "average_output_torque_limit_Nm": 60.0,
+        "momentary_peak_output_torque_Nm": 147.2,
+        "max_input_speed_rpm": 5600.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 2.82e-05,
+        "backlash_max_arcsec": 10.0
+      },
+      "100": {
+        "rated_output_torque_at_2000rpm_Nm": 48.0,
+        "repeated_peak_output_torque_Nm": 110.0,
+        "average_output_torque_limit_Nm": 75.0,
+        "momentary_peak_output_torque_Nm": 184.0,
+        "max_input_speed_rpm": 5600.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 2.82e-05,
+        "backlash_max_arcsec": 10.0
+      },
+      "120": {
+        "rated_output_torque_at_2000rpm_Nm": 54.0,
+        "repeated_peak_output_torque_Nm": 120.0,
+        "average_output_torque_limit_Nm": 80.0,
+        "momentary_peak_output_torque_Nm": 202.0,
+        "max_input_speed_rpm": 5600.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 2.82e-05,
+        "backlash_max_arcsec": 10.0
+      }
+    },
+    "source_url": "https://www.sitodrive.com/docs/Strain_Wave_Gear_Catalog_en.pdf"
+  },
+  {
+    "model": "HS-14-I",
+    "pdf_page": 28,
+    "dimensions": {
+      "diameter": {
+        "value": 70.0,
+        "qualifier": "published_value"
+      },
+      "length": {
+        "value": 29.5,
+        "qualifier": "published_value"
+      },
+      "mass": {
+        "value": 0.374,
+        "qualifier": "upper_bound"
+      }
+    },
+    "ratings": {
+      "30": {
+        "rated_output_torque_at_2000rpm_Nm": 4.0,
+        "repeated_peak_output_torque_Nm": 9.0,
+        "average_output_torque_limit_Nm": 6.8,
+        "momentary_peak_output_torque_Nm": 17.0,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 3.3e-06,
+        "backlash_max_arcsec": 20.0
+      },
+      "50": {
+        "rated_output_torque_at_2000rpm_Nm": 5.4,
+        "repeated_peak_output_torque_Nm": 18.0,
+        "average_output_torque_limit_Nm": 6.9,
+        "momentary_peak_output_torque_Nm": 35.0,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 3.3e-06,
+        "backlash_max_arcsec": 20.0
+      },
+      "80": {
+        "rated_output_torque_at_2000rpm_Nm": 7.8,
+        "repeated_peak_output_torque_Nm": 23.0,
+        "average_output_torque_limit_Nm": 11.0,
+        "momentary_peak_output_torque_Nm": 47.0,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 3.3e-06,
+        "backlash_max_arcsec": 10.0
+      },
+      "100": {
+        "rated_output_torque_at_2000rpm_Nm": 7.8,
+        "repeated_peak_output_torque_Nm": 28.0,
+        "average_output_torque_limit_Nm": 11.0,
+        "momentary_peak_output_torque_Nm": 54.0,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 3.3e-06,
+        "backlash_max_arcsec": 10.0
+      }
+    },
+    "source_url": "https://www.sitodrive.com/docs/Strain_Wave_Gear_Catalog_en.pdf"
+  },
+  {
+    "model": "HS-14-II",
+    "pdf_page": 29,
+    "dimensions": {
+      "diameter": {
+        "value": 74.0,
+        "qualifier": "published_value"
+      },
+      "length": {
+        "value": 52.6,
+        "qualifier": "published_value"
+      },
+      "mass": {
+        "value": 0.55,
+        "qualifier": "upper_bound"
+      }
+    },
+    "ratings": {
+      "30": {
+        "rated_output_torque_at_2000rpm_Nm": 4.0,
+        "repeated_peak_output_torque_Nm": 9.0,
+        "average_output_torque_limit_Nm": 6.8,
+        "momentary_peak_output_torque_Nm": 17.0,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 3.3e-06,
+        "backlash_max_arcsec": 20.0
+      },
+      "50": {
+        "rated_output_torque_at_2000rpm_Nm": 5.4,
+        "repeated_peak_output_torque_Nm": 18.0,
+        "average_output_torque_limit_Nm": 6.9,
+        "momentary_peak_output_torque_Nm": 35.0,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 3.3e-06,
+        "backlash_max_arcsec": 20.0
+      },
+      "80": {
+        "rated_output_torque_at_2000rpm_Nm": 7.8,
+        "repeated_peak_output_torque_Nm": 23.0,
+        "average_output_torque_limit_Nm": 11.0,
+        "momentary_peak_output_torque_Nm": 47.0,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 3.3e-06,
+        "backlash_max_arcsec": 10.0
+      },
+      "100": {
+        "rated_output_torque_at_2000rpm_Nm": 7.8,
+        "repeated_peak_output_torque_Nm": 28.0,
+        "average_output_torque_limit_Nm": 11.0,
+        "momentary_peak_output_torque_Nm": 54.0,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 3.3e-06,
+        "backlash_max_arcsec": 10.0
+      }
+    },
+    "source_url": "https://www.sitodrive.com/docs/Strain_Wave_Gear_Catalog_en.pdf"
+  },
+  {
+    "model": "HS-14-III",
+    "pdf_page": 30,
+    "dimensions": {
+      "diameter": {
+        "value": 70.0,
+        "qualifier": "published_value"
+      },
+      "length": {
+        "value": 23.5,
+        "qualifier": "published_value"
+      },
+      "mass": {
+        "value": 0.366,
+        "qualifier": "upper_bound"
+      }
+    },
+    "ratings": {
+      "30": {
+        "rated_output_torque_at_2000rpm_Nm": 4.0,
+        "repeated_peak_output_torque_Nm": 9.0,
+        "average_output_torque_limit_Nm": 6.8,
+        "momentary_peak_output_torque_Nm": 17.0,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 3.3e-06,
+        "backlash_max_arcsec": 20.0
+      },
+      "50": {
+        "rated_output_torque_at_2000rpm_Nm": 5.4,
+        "repeated_peak_output_torque_Nm": 18.0,
+        "average_output_torque_limit_Nm": 6.9,
+        "momentary_peak_output_torque_Nm": 35.0,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 3.3e-06,
+        "backlash_max_arcsec": 20.0
+      },
+      "80": {
+        "rated_output_torque_at_2000rpm_Nm": 7.8,
+        "repeated_peak_output_torque_Nm": 23.0,
+        "average_output_torque_limit_Nm": 11.0,
+        "momentary_peak_output_torque_Nm": 47.0,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 3.3e-06,
+        "backlash_max_arcsec": 10.0
+      },
+      "100": {
+        "rated_output_torque_at_2000rpm_Nm": 7.8,
+        "repeated_peak_output_torque_Nm": 28.0,
+        "average_output_torque_limit_Nm": 11.0,
+        "momentary_peak_output_torque_Nm": 54.0,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 3.3e-06,
+        "backlash_max_arcsec": 10.0
+      }
+    },
+    "source_url": "https://www.sitodrive.com/docs/Strain_Wave_Gear_Catalog_en.pdf"
+  },
+  {
+    "model": "HS-14-IV",
+    "pdf_page": 31,
+    "dimensions": {
+      "diameter": {
+        "value": 74.0,
+        "qualifier": "published_value"
+      },
+      "length": {
+        "value": 50.5,
+        "qualifier": "published_value"
+      },
+      "mass": {
+        "value": 0.471,
+        "qualifier": "upper_bound"
+      }
+    },
+    "ratings": {
+      "30": {
+        "rated_output_torque_at_2000rpm_Nm": 4.0,
+        "repeated_peak_output_torque_Nm": 9.0,
+        "average_output_torque_limit_Nm": 6.8,
+        "momentary_peak_output_torque_Nm": 17.0,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 3.3e-06,
+        "backlash_max_arcsec": 20.0
+      },
+      "50": {
+        "rated_output_torque_at_2000rpm_Nm": 5.4,
+        "repeated_peak_output_torque_Nm": 18.0,
+        "average_output_torque_limit_Nm": 6.9,
+        "momentary_peak_output_torque_Nm": 35.0,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 3.3e-06,
+        "backlash_max_arcsec": 20.0
+      },
+      "80": {
+        "rated_output_torque_at_2000rpm_Nm": 7.8,
+        "repeated_peak_output_torque_Nm": 23.0,
+        "average_output_torque_limit_Nm": 11.0,
+        "momentary_peak_output_torque_Nm": 47.0,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 3.3e-06,
+        "backlash_max_arcsec": 10.0
+      },
+      "100": {
+        "rated_output_torque_at_2000rpm_Nm": 7.8,
+        "repeated_peak_output_torque_Nm": 28.0,
+        "average_output_torque_limit_Nm": 11.0,
+        "momentary_peak_output_torque_Nm": 54.0,
+        "max_input_speed_rpm": 8500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 3.3e-06,
+        "backlash_max_arcsec": 10.0
+      }
+    },
+    "source_url": "https://www.sitodrive.com/docs/Strain_Wave_Gear_Catalog_en.pdf"
+  },
+  {
+    "model": "HS-17-I",
+    "pdf_page": 32,
+    "dimensions": {
+      "diameter": {
+        "value": 80.0,
+        "qualifier": "published_value"
+      },
+      "length": {
+        "value": 34.0,
+        "qualifier": "published_value"
+      },
+      "mass": {
+        "value": 0.55,
+        "qualifier": "upper_bound"
+      }
+    },
+    "ratings": {
+      "30": {
+        "rated_output_torque_at_2000rpm_Nm": 8.8,
+        "repeated_peak_output_torque_Nm": 16.0,
+        "average_output_torque_limit_Nm": 12.0,
+        "momentary_peak_output_torque_Nm": 30.0,
+        "max_input_speed_rpm": 7300.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 7.9e-06,
+        "backlash_max_arcsec": 20.0
+      },
+      "50": {
+        "rated_output_torque_at_2000rpm_Nm": 16.0,
+        "repeated_peak_output_torque_Nm": 34.0,
+        "average_output_torque_limit_Nm": 26.0,
+        "momentary_peak_output_torque_Nm": 70.0,
+        "max_input_speed_rpm": 7300.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 7.9e-06,
+        "backlash_max_arcsec": 20.0
+      },
+      "80": {
+        "rated_output_torque_at_2000rpm_Nm": 22.0,
+        "repeated_peak_output_torque_Nm": 43.0,
+        "average_output_torque_limit_Nm": 27.0,
+        "momentary_peak_output_torque_Nm": 87.0,
+        "max_input_speed_rpm": 7300.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 7.9e-06,
+        "backlash_max_arcsec": 10.0
+      },
+      "100": {
+        "rated_output_torque_at_2000rpm_Nm": 24.0,
+        "repeated_peak_output_torque_Nm": 54.0,
+        "average_output_torque_limit_Nm": 39.0,
+        "momentary_peak_output_torque_Nm": 110.0,
+        "max_input_speed_rpm": 7300.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 7.9e-06,
+        "backlash_max_arcsec": 10.0
+      }
+    },
+    "source_url": "https://www.sitodrive.com/docs/Strain_Wave_Gear_Catalog_en.pdf"
+  },
+  {
+    "model": "HS-17-II",
+    "pdf_page": 33,
+    "dimensions": {
+      "diameter": {
+        "value": 84.0,
+        "qualifier": "published_value"
+      },
+      "length": {
+        "value": 56.6,
+        "qualifier": "published_value"
+      },
+      "mass": {
+        "value": 0.763,
+        "qualifier": "upper_bound"
+      }
+    },
+    "ratings": {
+      "30": {
+        "rated_output_torque_at_2000rpm_Nm": 8.8,
+        "repeated_peak_output_torque_Nm": 16.0,
+        "average_output_torque_limit_Nm": 12.0,
+        "momentary_peak_output_torque_Nm": 30.0,
+        "max_input_speed_rpm": 7300.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 7.9e-06,
+        "backlash_max_arcsec": 20.0
+      },
+      "50": {
+        "rated_output_torque_at_2000rpm_Nm": 16.0,
+        "repeated_peak_output_torque_Nm": 34.0,
+        "average_output_torque_limit_Nm": 26.0,
+        "momentary_peak_output_torque_Nm": 70.0,
+        "max_input_speed_rpm": 7300.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 7.9e-06,
+        "backlash_max_arcsec": 20.0
+      },
+      "80": {
+        "rated_output_torque_at_2000rpm_Nm": 22.0,
+        "repeated_peak_output_torque_Nm": 43.0,
+        "average_output_torque_limit_Nm": 27.0,
+        "momentary_peak_output_torque_Nm": 87.0,
+        "max_input_speed_rpm": 7300.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 7.9e-06,
+        "backlash_max_arcsec": 10.0
+      },
+      "100": {
+        "rated_output_torque_at_2000rpm_Nm": 24.0,
+        "repeated_peak_output_torque_Nm": 54.0,
+        "average_output_torque_limit_Nm": 39.0,
+        "momentary_peak_output_torque_Nm": 110.0,
+        "max_input_speed_rpm": 7300.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 7.9e-06,
+        "backlash_max_arcsec": 10.0
+      }
+    },
+    "source_url": "https://www.sitodrive.com/docs/Strain_Wave_Gear_Catalog_en.pdf"
+  },
+  {
+    "model": "HS-17-III",
+    "pdf_page": 34,
+    "dimensions": {
+      "diameter": {
+        "value": 80.0,
+        "qualifier": "published_value"
+      },
+      "length": {
+        "value": 26.5,
+        "qualifier": "published_value"
+      },
+      "mass": {
+        "value": 0.53,
+        "qualifier": "upper_bound"
+      }
+    },
+    "ratings": {
+      "30": {
+        "rated_output_torque_at_2000rpm_Nm": 8.8,
+        "repeated_peak_output_torque_Nm": 16.0,
+        "average_output_torque_limit_Nm": 12.0,
+        "momentary_peak_output_torque_Nm": 30.0,
+        "max_input_speed_rpm": 7300.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 7.9e-06,
+        "backlash_max_arcsec": 20.0
+      },
+      "50": {
+        "rated_output_torque_at_2000rpm_Nm": 16.0,
+        "repeated_peak_output_torque_Nm": 34.0,
+        "average_output_torque_limit_Nm": 26.0,
+        "momentary_peak_output_torque_Nm": 70.0,
+        "max_input_speed_rpm": 7300.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 7.9e-06,
+        "backlash_max_arcsec": 20.0
+      },
+      "80": {
+        "rated_output_torque_at_2000rpm_Nm": 22.0,
+        "repeated_peak_output_torque_Nm": 43.0,
+        "average_output_torque_limit_Nm": 27.0,
+        "momentary_peak_output_torque_Nm": 87.0,
+        "max_input_speed_rpm": 7300.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 7.9e-06,
+        "backlash_max_arcsec": 10.0
+      },
+      "100": {
+        "rated_output_torque_at_2000rpm_Nm": 24.0,
+        "repeated_peak_output_torque_Nm": 54.0,
+        "average_output_torque_limit_Nm": 39.0,
+        "momentary_peak_output_torque_Nm": 110.0,
+        "max_input_speed_rpm": 7300.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 7.9e-06,
+        "backlash_max_arcsec": 10.0
+      }
+    },
+    "source_url": "https://www.sitodrive.com/docs/Strain_Wave_Gear_Catalog_en.pdf"
+  },
+  {
+    "model": "HS-17-IV",
+    "pdf_page": 35,
+    "dimensions": {
+      "diameter": {
+        "value": 84.0,
+        "qualifier": "published_value"
+      },
+      "length": {
+        "value": 55.0,
+        "qualifier": "published_value"
+      },
+      "mass": {
+        "value": 0.674,
+        "qualifier": "upper_bound"
+      }
+    },
+    "ratings": {
+      "30": {
+        "rated_output_torque_at_2000rpm_Nm": 8.8,
+        "repeated_peak_output_torque_Nm": 16.0,
+        "average_output_torque_limit_Nm": 12.0,
+        "momentary_peak_output_torque_Nm": 30.0,
+        "max_input_speed_rpm": 7300.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 7.9e-06,
+        "backlash_max_arcsec": 20.0
+      },
+      "50": {
+        "rated_output_torque_at_2000rpm_Nm": 16.0,
+        "repeated_peak_output_torque_Nm": 34.0,
+        "average_output_torque_limit_Nm": 26.0,
+        "momentary_peak_output_torque_Nm": 70.0,
+        "max_input_speed_rpm": 7300.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 7.9e-06,
+        "backlash_max_arcsec": 20.0
+      },
+      "80": {
+        "rated_output_torque_at_2000rpm_Nm": 22.0,
+        "repeated_peak_output_torque_Nm": 43.0,
+        "average_output_torque_limit_Nm": 27.0,
+        "momentary_peak_output_torque_Nm": 87.0,
+        "max_input_speed_rpm": 7300.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 7.9e-06,
+        "backlash_max_arcsec": 10.0
+      },
+      "100": {
+        "rated_output_torque_at_2000rpm_Nm": 24.0,
+        "repeated_peak_output_torque_Nm": 54.0,
+        "average_output_torque_limit_Nm": 39.0,
+        "momentary_peak_output_torque_Nm": 110.0,
+        "max_input_speed_rpm": 7300.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 7.9e-06,
+        "backlash_max_arcsec": 10.0
+      }
+    },
+    "source_url": "https://www.sitodrive.com/docs/Strain_Wave_Gear_Catalog_en.pdf"
+  },
+  {
+    "model": "HS-20-I",
+    "pdf_page": 36,
+    "dimensions": {
+      "diameter": {
+        "value": 90.0,
+        "qualifier": "published_value"
+      },
+      "length": {
+        "value": 33.5,
+        "qualifier": "published_value"
+      },
+      "mass": {
+        "value": 0.787,
+        "qualifier": "upper_bound"
+      }
+    },
+    "ratings": {
+      "30": {
+        "rated_output_torque_at_2000rpm_Nm": 15.0,
+        "repeated_peak_output_torque_Nm": 27.0,
+        "average_output_torque_limit_Nm": 20.0,
+        "momentary_peak_output_torque_Nm": 50.0,
+        "max_input_speed_rpm": 6500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 1.93e-05,
+        "backlash_max_arcsec": 20.0
+      },
+      "50": {
+        "rated_output_torque_at_2000rpm_Nm": 25.0,
+        "repeated_peak_output_torque_Nm": 56.0,
+        "average_output_torque_limit_Nm": 34.0,
+        "momentary_peak_output_torque_Nm": 98.0,
+        "max_input_speed_rpm": 6500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 1.93e-05,
+        "backlash_max_arcsec": 20.0
+      },
+      "80": {
+        "rated_output_torque_at_2000rpm_Nm": 34.0,
+        "repeated_peak_output_torque_Nm": 74.0,
+        "average_output_torque_limit_Nm": 47.0,
+        "momentary_peak_output_torque_Nm": 127.0,
+        "max_input_speed_rpm": 6500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 1.93e-05,
+        "backlash_max_arcsec": 10.0
+      },
+      "100": {
+        "rated_output_torque_at_2000rpm_Nm": 40.0,
+        "repeated_peak_output_torque_Nm": 82.0,
+        "average_output_torque_limit_Nm": 49.0,
+        "momentary_peak_output_torque_Nm": 147.0,
+        "max_input_speed_rpm": 6500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 1.93e-05,
+        "backlash_max_arcsec": 10.0
+      },
+      "120": {
+        "rated_output_torque_at_2000rpm_Nm": 40.0,
+        "repeated_peak_output_torque_Nm": 87.0,
+        "average_output_torque_limit_Nm": 49.0,
+        "momentary_peak_output_torque_Nm": 147.0,
+        "max_input_speed_rpm": 6500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 1.93e-05,
+        "backlash_max_arcsec": 10.0
+      }
+    },
+    "source_url": "https://www.sitodrive.com/docs/Strain_Wave_Gear_Catalog_en.pdf"
+  },
+  {
+    "model": "HS-20-II",
+    "pdf_page": 37,
+    "dimensions": {
+      "diameter": {
+        "value": 95.0,
+        "qualifier": "published_value"
+      },
+      "length": {
+        "value": 51.5,
+        "qualifier": "published_value"
+      },
+      "mass": {
+        "value": 1.061,
+        "qualifier": "upper_bound"
+      }
+    },
+    "ratings": {
+      "30": {
+        "rated_output_torque_at_2000rpm_Nm": 15.0,
+        "repeated_peak_output_torque_Nm": 27.0,
+        "average_output_torque_limit_Nm": 20.0,
+        "momentary_peak_output_torque_Nm": 50.0,
+        "max_input_speed_rpm": 6500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 1.93e-05,
+        "backlash_max_arcsec": 20.0
+      },
+      "50": {
+        "rated_output_torque_at_2000rpm_Nm": 25.0,
+        "repeated_peak_output_torque_Nm": 56.0,
+        "average_output_torque_limit_Nm": 34.0,
+        "momentary_peak_output_torque_Nm": 98.0,
+        "max_input_speed_rpm": 6500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 1.93e-05,
+        "backlash_max_arcsec": 20.0
+      },
+      "80": {
+        "rated_output_torque_at_2000rpm_Nm": 34.0,
+        "repeated_peak_output_torque_Nm": 74.0,
+        "average_output_torque_limit_Nm": 47.0,
+        "momentary_peak_output_torque_Nm": 127.0,
+        "max_input_speed_rpm": 6500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 1.93e-05,
+        "backlash_max_arcsec": 10.0
+      },
+      "100": {
+        "rated_output_torque_at_2000rpm_Nm": 40.0,
+        "repeated_peak_output_torque_Nm": 82.0,
+        "average_output_torque_limit_Nm": 49.0,
+        "momentary_peak_output_torque_Nm": 147.0,
+        "max_input_speed_rpm": 6500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 1.93e-05,
+        "backlash_max_arcsec": 10.0
+      },
+      "120": {
+        "rated_output_torque_at_2000rpm_Nm": 40.0,
+        "repeated_peak_output_torque_Nm": 87.0,
+        "average_output_torque_limit_Nm": 49.0,
+        "momentary_peak_output_torque_Nm": 147.0,
+        "max_input_speed_rpm": 6500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 1.93e-05,
+        "backlash_max_arcsec": 10.0
+      }
+    },
+    "source_url": "https://www.sitodrive.com/docs/Strain_Wave_Gear_Catalog_en.pdf"
+  },
+  {
+    "model": "HS-20-III",
+    "pdf_page": 38,
+    "dimensions": {
+      "diameter": {
+        "value": 90.0,
+        "qualifier": "published_value"
+      },
+      "length": {
+        "value": 29.0,
+        "qualifier": "published_value"
+      },
+      "mass": {
+        "value": 0.75,
+        "qualifier": "upper_bound"
+      }
+    },
+    "ratings": {
+      "30": {
+        "rated_output_torque_at_2000rpm_Nm": 15.0,
+        "repeated_peak_output_torque_Nm": 27.0,
+        "average_output_torque_limit_Nm": 20.0,
+        "momentary_peak_output_torque_Nm": 50.0,
+        "max_input_speed_rpm": 6500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 1.93e-05,
+        "backlash_max_arcsec": 20.0
+      },
+      "50": {
+        "rated_output_torque_at_2000rpm_Nm": 25.0,
+        "repeated_peak_output_torque_Nm": 56.0,
+        "average_output_torque_limit_Nm": 34.0,
+        "momentary_peak_output_torque_Nm": 98.0,
+        "max_input_speed_rpm": 6500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 1.93e-05,
+        "backlash_max_arcsec": 20.0
+      },
+      "80": {
+        "rated_output_torque_at_2000rpm_Nm": 34.0,
+        "repeated_peak_output_torque_Nm": 74.0,
+        "average_output_torque_limit_Nm": 47.0,
+        "momentary_peak_output_torque_Nm": 127.0,
+        "max_input_speed_rpm": 6500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 1.93e-05,
+        "backlash_max_arcsec": 10.0
+      },
+      "100": {
+        "rated_output_torque_at_2000rpm_Nm": 40.0,
+        "repeated_peak_output_torque_Nm": 82.0,
+        "average_output_torque_limit_Nm": 49.0,
+        "momentary_peak_output_torque_Nm": 147.0,
+        "max_input_speed_rpm": 6500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 1.93e-05,
+        "backlash_max_arcsec": 10.0
+      },
+      "120": {
+        "rated_output_torque_at_2000rpm_Nm": 40.0,
+        "repeated_peak_output_torque_Nm": 87.0,
+        "average_output_torque_limit_Nm": 49.0,
+        "momentary_peak_output_torque_Nm": 147.0,
+        "max_input_speed_rpm": 6500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 1.93e-05,
+        "backlash_max_arcsec": 10.0
+      }
+    },
+    "source_url": "https://www.sitodrive.com/docs/Strain_Wave_Gear_Catalog_en.pdf"
+  },
+  {
+    "model": "HS-20-IV",
+    "pdf_page": 39,
+    "dimensions": {
+      "diameter": {
+        "value": 95.0,
+        "qualifier": "published_value"
+      },
+      "length": {
+        "value": 63.5,
+        "qualifier": "published_value"
+      },
+      "mass": {
+        "value": 0.965,
+        "qualifier": "upper_bound"
+      }
+    },
+    "ratings": {
+      "30": {
+        "rated_output_torque_at_2000rpm_Nm": 15.0,
+        "repeated_peak_output_torque_Nm": 27.0,
+        "average_output_torque_limit_Nm": 20.0,
+        "momentary_peak_output_torque_Nm": 50.0,
+        "max_input_speed_rpm": 6500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 1.93e-05,
+        "backlash_max_arcsec": 20.0
+      },
+      "50": {
+        "rated_output_torque_at_2000rpm_Nm": 25.0,
+        "repeated_peak_output_torque_Nm": 56.0,
+        "average_output_torque_limit_Nm": 34.0,
+        "momentary_peak_output_torque_Nm": 98.0,
+        "max_input_speed_rpm": 6500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 1.93e-05,
+        "backlash_max_arcsec": 20.0
+      },
+      "80": {
+        "rated_output_torque_at_2000rpm_Nm": 34.0,
+        "repeated_peak_output_torque_Nm": 74.0,
+        "average_output_torque_limit_Nm": 47.0,
+        "momentary_peak_output_torque_Nm": 127.0,
+        "max_input_speed_rpm": 6500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 1.93e-05,
+        "backlash_max_arcsec": 10.0
+      },
+      "100": {
+        "rated_output_torque_at_2000rpm_Nm": 40.0,
+        "repeated_peak_output_torque_Nm": 82.0,
+        "average_output_torque_limit_Nm": 49.0,
+        "momentary_peak_output_torque_Nm": 147.0,
+        "max_input_speed_rpm": 6500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 1.93e-05,
+        "backlash_max_arcsec": 10.0
+      },
+      "120": {
+        "rated_output_torque_at_2000rpm_Nm": 40.0,
+        "repeated_peak_output_torque_Nm": 87.0,
+        "average_output_torque_limit_Nm": 49.0,
+        "momentary_peak_output_torque_Nm": 147.0,
+        "max_input_speed_rpm": 6500.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 1.93e-05,
+        "backlash_max_arcsec": 10.0
+      }
+    },
+    "source_url": "https://www.sitodrive.com/docs/Strain_Wave_Gear_Catalog_en.pdf"
+  },
+  {
+    "model": "HS-25-I",
+    "pdf_page": 40,
+    "dimensions": {
+      "diameter": {
+        "value": 110.0,
+        "qualifier": "published_value"
+      },
+      "length": {
+        "value": 37.3,
+        "qualifier": "published_value"
+      },
+      "mass": {
+        "value": 1.25,
+        "qualifier": "upper_bound"
+      }
+    },
+    "ratings": {
+      "30": {
+        "rated_output_torque_at_2000rpm_Nm": 27.0,
+        "repeated_peak_output_torque_Nm": 50.0,
+        "average_output_torque_limit_Nm": 38.0,
+        "momentary_peak_output_torque_Nm": 95.0,
+        "max_input_speed_rpm": 5600.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 4.13e-05,
+        "backlash_max_arcsec": 20.0
+      },
+      "50": {
+        "rated_output_torque_at_2000rpm_Nm": 39.0,
+        "repeated_peak_output_torque_Nm": 98.0,
+        "average_output_torque_limit_Nm": 55.0,
+        "momentary_peak_output_torque_Nm": 186.0,
+        "max_input_speed_rpm": 5600.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 4.13e-05,
+        "backlash_max_arcsec": 20.0
+      },
+      "80": {
+        "rated_output_torque_at_2000rpm_Nm": 63.0,
+        "repeated_peak_output_torque_Nm": 137.0,
+        "average_output_torque_limit_Nm": 87.0,
+        "momentary_peak_output_torque_Nm": 255.0,
+        "max_input_speed_rpm": 5600.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 4.13e-05,
+        "backlash_max_arcsec": 10.0
+      },
+      "100": {
+        "rated_output_torque_at_2000rpm_Nm": 67.0,
+        "repeated_peak_output_torque_Nm": 157.0,
+        "average_output_torque_limit_Nm": 108.0,
+        "momentary_peak_output_torque_Nm": 284.0,
+        "max_input_speed_rpm": 5600.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 4.13e-05,
+        "backlash_max_arcsec": 10.0
+      },
+      "120": {
+        "rated_output_torque_at_2000rpm_Nm": 67.0,
+        "repeated_peak_output_torque_Nm": 167.0,
+        "average_output_torque_limit_Nm": 108.0,
+        "momentary_peak_output_torque_Nm": 304.0,
+        "max_input_speed_rpm": 5600.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 4.13e-05,
+        "backlash_max_arcsec": 10.0
+      }
+    },
+    "source_url": "https://www.sitodrive.com/docs/Strain_Wave_Gear_Catalog_en.pdf"
+  },
+  {
+    "model": "HS-25-II",
+    "pdf_page": 41,
+    "dimensions": {
+      "diameter": {
+        "value": 115.0,
+        "qualifier": "published_value"
+      },
+      "length": {
+        "value": 55.5,
+        "qualifier": "published_value"
+      },
+      "mass": {
+        "value": 1.663,
+        "qualifier": "upper_bound"
+      }
+    },
+    "ratings": {
+      "30": {
+        "rated_output_torque_at_2000rpm_Nm": 27.0,
+        "repeated_peak_output_torque_Nm": 50.0,
+        "average_output_torque_limit_Nm": 38.0,
+        "momentary_peak_output_torque_Nm": 95.0,
+        "max_input_speed_rpm": 5600.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 4.13e-05,
+        "backlash_max_arcsec": 20.0
+      },
+      "50": {
+        "rated_output_torque_at_2000rpm_Nm": 39.0,
+        "repeated_peak_output_torque_Nm": 98.0,
+        "average_output_torque_limit_Nm": 55.0,
+        "momentary_peak_output_torque_Nm": 186.0,
+        "max_input_speed_rpm": 5600.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 4.13e-05,
+        "backlash_max_arcsec": 20.0
+      },
+      "80": {
+        "rated_output_torque_at_2000rpm_Nm": 63.0,
+        "repeated_peak_output_torque_Nm": 137.0,
+        "average_output_torque_limit_Nm": 87.0,
+        "momentary_peak_output_torque_Nm": 255.0,
+        "max_input_speed_rpm": 5600.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 4.13e-05,
+        "backlash_max_arcsec": 10.0
+      },
+      "100": {
+        "rated_output_torque_at_2000rpm_Nm": 67.0,
+        "repeated_peak_output_torque_Nm": 157.0,
+        "average_output_torque_limit_Nm": 108.0,
+        "momentary_peak_output_torque_Nm": 284.0,
+        "max_input_speed_rpm": 5600.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 4.13e-05,
+        "backlash_max_arcsec": 10.0
+      },
+      "120": {
+        "rated_output_torque_at_2000rpm_Nm": 67.0,
+        "repeated_peak_output_torque_Nm": 167.0,
+        "average_output_torque_limit_Nm": 108.0,
+        "momentary_peak_output_torque_Nm": 304.0,
+        "max_input_speed_rpm": 5600.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 4.13e-05,
+        "backlash_max_arcsec": 10.0
+      }
+    },
+    "source_url": "https://www.sitodrive.com/docs/Strain_Wave_Gear_Catalog_en.pdf"
+  },
+  {
+    "model": "HS-25-III",
+    "pdf_page": 42,
+    "dimensions": {
+      "diameter": {
+        "value": 110.0,
+        "qualifier": "published_value"
+      },
+      "length": {
+        "value": 34.0,
+        "qualifier": "published_value"
+      },
+      "mass": {
+        "value": 1.222,
+        "qualifier": "upper_bound"
+      }
+    },
+    "ratings": {
+      "30": {
+        "rated_output_torque_at_2000rpm_Nm": 27.0,
+        "repeated_peak_output_torque_Nm": 50.0,
+        "average_output_torque_limit_Nm": 38.0,
+        "momentary_peak_output_torque_Nm": 95.0,
+        "max_input_speed_rpm": 5600.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 4.13e-05,
+        "backlash_max_arcsec": 20.0
+      },
+      "50": {
+        "rated_output_torque_at_2000rpm_Nm": 39.0,
+        "repeated_peak_output_torque_Nm": 98.0,
+        "average_output_torque_limit_Nm": 55.0,
+        "momentary_peak_output_torque_Nm": 186.0,
+        "max_input_speed_rpm": 5600.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 4.13e-05,
+        "backlash_max_arcsec": 20.0
+      },
+      "80": {
+        "rated_output_torque_at_2000rpm_Nm": 63.0,
+        "repeated_peak_output_torque_Nm": 137.0,
+        "average_output_torque_limit_Nm": 87.0,
+        "momentary_peak_output_torque_Nm": 255.0,
+        "max_input_speed_rpm": 5600.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 4.13e-05,
+        "backlash_max_arcsec": 10.0
+      },
+      "100": {
+        "rated_output_torque_at_2000rpm_Nm": 67.0,
+        "repeated_peak_output_torque_Nm": 157.0,
+        "average_output_torque_limit_Nm": 108.0,
+        "momentary_peak_output_torque_Nm": 284.0,
+        "max_input_speed_rpm": 5600.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 4.13e-05,
+        "backlash_max_arcsec": 10.0
+      },
+      "120": {
+        "rated_output_torque_at_2000rpm_Nm": 67.0,
+        "repeated_peak_output_torque_Nm": 167.0,
+        "average_output_torque_limit_Nm": 108.0,
+        "momentary_peak_output_torque_Nm": 304.0,
+        "max_input_speed_rpm": 5600.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 4.13e-05,
+        "backlash_max_arcsec": 10.0
+      }
+    },
+    "source_url": "https://www.sitodrive.com/docs/Strain_Wave_Gear_Catalog_en.pdf"
+  },
+  {
+    "model": "HS-25-IV",
+    "pdf_page": 43,
+    "dimensions": {
+      "diameter": {
+        "value": 115.0,
+        "qualifier": "published_value"
+      },
+      "length": {
+        "value": 72.5,
+        "qualifier": "published_value"
+      },
+      "mass": {
+        "value": 1.556,
+        "qualifier": "upper_bound"
+      }
+    },
+    "ratings": {
+      "30": {
+        "rated_output_torque_at_2000rpm_Nm": 27.0,
+        "repeated_peak_output_torque_Nm": 50.0,
+        "average_output_torque_limit_Nm": 38.0,
+        "momentary_peak_output_torque_Nm": 95.0,
+        "max_input_speed_rpm": 5600.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 4.13e-05,
+        "backlash_max_arcsec": 20.0
+      },
+      "50": {
+        "rated_output_torque_at_2000rpm_Nm": 39.0,
+        "repeated_peak_output_torque_Nm": 98.0,
+        "average_output_torque_limit_Nm": 55.0,
+        "momentary_peak_output_torque_Nm": 186.0,
+        "max_input_speed_rpm": 5600.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 4.13e-05,
+        "backlash_max_arcsec": 20.0
+      },
+      "80": {
+        "rated_output_torque_at_2000rpm_Nm": 63.0,
+        "repeated_peak_output_torque_Nm": 137.0,
+        "average_output_torque_limit_Nm": 87.0,
+        "momentary_peak_output_torque_Nm": 255.0,
+        "max_input_speed_rpm": 5600.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 4.13e-05,
+        "backlash_max_arcsec": 10.0
+      },
+      "100": {
+        "rated_output_torque_at_2000rpm_Nm": 67.0,
+        "repeated_peak_output_torque_Nm": 157.0,
+        "average_output_torque_limit_Nm": 108.0,
+        "momentary_peak_output_torque_Nm": 284.0,
+        "max_input_speed_rpm": 5600.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 4.13e-05,
+        "backlash_max_arcsec": 10.0
+      },
+      "120": {
+        "rated_output_torque_at_2000rpm_Nm": 67.0,
+        "repeated_peak_output_torque_Nm": 167.0,
+        "average_output_torque_limit_Nm": 108.0,
+        "momentary_peak_output_torque_Nm": 304.0,
+        "max_input_speed_rpm": 5600.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 4.13e-05,
+        "backlash_max_arcsec": 10.0
+      }
+    },
+    "source_url": "https://www.sitodrive.com/docs/Strain_Wave_Gear_Catalog_en.pdf"
+  },
+  {
+    "model": "HS-32-I",
+    "pdf_page": 44,
+    "dimensions": {
+      "diameter": {
+        "value": 142.0,
+        "qualifier": "published_value"
+      },
+      "length": {
+        "value": 44.0,
+        "qualifier": "published_value"
+      },
+      "mass": {
+        "value": 2.6,
+        "qualifier": "upper_bound"
+      }
+    },
+    "ratings": {
+      "50": {
+        "rated_output_torque_at_2000rpm_Nm": 76.0,
+        "repeated_peak_output_torque_Nm": 216.0,
+        "average_output_torque_limit_Nm": 108.0,
+        "momentary_peak_output_torque_Nm": 382.0,
+        "max_input_speed_rpm": 4800.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 0.000169,
+        "backlash_max_arcsec": 20.0
+      },
+      "80": {
+        "rated_output_torque_at_2000rpm_Nm": 118.0,
+        "repeated_peak_output_torque_Nm": 304.0,
+        "average_output_torque_limit_Nm": 167.0,
+        "momentary_peak_output_torque_Nm": 568.0,
+        "max_input_speed_rpm": 4800.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 0.000169,
+        "backlash_max_arcsec": 20.0
+      },
+      "100": {
+        "rated_output_torque_at_2000rpm_Nm": 137.0,
+        "repeated_peak_output_torque_Nm": 333.0,
+        "average_output_torque_limit_Nm": 216.0,
+        "momentary_peak_output_torque_Nm": 647.0,
+        "max_input_speed_rpm": 4800.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 0.000169,
+        "backlash_max_arcsec": 10.0
+      },
+      "120": {
+        "rated_output_torque_at_2000rpm_Nm": 137.0,
+        "repeated_peak_output_torque_Nm": 353.0,
+        "average_output_torque_limit_Nm": 216.0,
+        "momentary_peak_output_torque_Nm": 686.0,
+        "max_input_speed_rpm": 4800.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 0.000169,
+        "backlash_max_arcsec": 10.0
+      }
+    },
+    "source_url": "https://www.sitodrive.com/docs/Strain_Wave_Gear_Catalog_en.pdf"
+  },
+  {
+    "model": "HS-32-II",
+    "pdf_page": 45,
+    "dimensions": {
+      "diameter": {
+        "value": 147.0,
+        "qualifier": "published_value"
+      },
+      "length": {
+        "value": 65.1,
+        "qualifier": "published_value"
+      },
+      "mass": {
+        "value": 3.411,
+        "qualifier": "upper_bound"
+      }
+    },
+    "ratings": {
+      "50": {
+        "rated_output_torque_at_2000rpm_Nm": 76.0,
+        "repeated_peak_output_torque_Nm": 216.0,
+        "average_output_torque_limit_Nm": 108.0,
+        "momentary_peak_output_torque_Nm": 382.0,
+        "max_input_speed_rpm": 4800.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 0.000169,
+        "backlash_max_arcsec": 20.0
+      },
+      "80": {
+        "rated_output_torque_at_2000rpm_Nm": 118.0,
+        "repeated_peak_output_torque_Nm": 304.0,
+        "average_output_torque_limit_Nm": 167.0,
+        "momentary_peak_output_torque_Nm": 568.0,
+        "max_input_speed_rpm": 4800.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 0.000169,
+        "backlash_max_arcsec": 20.0
+      },
+      "100": {
+        "rated_output_torque_at_2000rpm_Nm": 137.0,
+        "repeated_peak_output_torque_Nm": 333.0,
+        "average_output_torque_limit_Nm": 216.0,
+        "momentary_peak_output_torque_Nm": 647.0,
+        "max_input_speed_rpm": 4800.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 0.000169,
+        "backlash_max_arcsec": 10.0
+      },
+      "120": {
+        "rated_output_torque_at_2000rpm_Nm": 137.0,
+        "repeated_peak_output_torque_Nm": 353.0,
+        "average_output_torque_limit_Nm": 216.0,
+        "momentary_peak_output_torque_Nm": 686.0,
+        "max_input_speed_rpm": 4800.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 0.000169,
+        "backlash_max_arcsec": 10.0
+      }
+    },
+    "source_url": "https://www.sitodrive.com/docs/Strain_Wave_Gear_Catalog_en.pdf"
+  },
+  {
+    "model": "HS-32-III",
+    "pdf_page": 46,
+    "dimensions": {
+      "diameter": {
+        "value": 142.0,
+        "qualifier": "published_value"
+      },
+      "length": {
+        "value": 42.0,
+        "qualifier": "published_value"
+      },
+      "mass": {
+        "value": 2.55,
+        "qualifier": "upper_bound"
+      }
+    },
+    "ratings": {
+      "50": {
+        "rated_output_torque_at_2000rpm_Nm": 76.0,
+        "repeated_peak_output_torque_Nm": 216.0,
+        "average_output_torque_limit_Nm": 108.0,
+        "momentary_peak_output_torque_Nm": 382.0,
+        "max_input_speed_rpm": 4800.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 0.000169,
+        "backlash_max_arcsec": 20.0
+      },
+      "80": {
+        "rated_output_torque_at_2000rpm_Nm": 118.0,
+        "repeated_peak_output_torque_Nm": 304.0,
+        "average_output_torque_limit_Nm": 167.0,
+        "momentary_peak_output_torque_Nm": 568.0,
+        "max_input_speed_rpm": 4800.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 0.000169,
+        "backlash_max_arcsec": 20.0
+      },
+      "100": {
+        "rated_output_torque_at_2000rpm_Nm": 137.0,
+        "repeated_peak_output_torque_Nm": 333.0,
+        "average_output_torque_limit_Nm": 216.0,
+        "momentary_peak_output_torque_Nm": 647.0,
+        "max_input_speed_rpm": 4800.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 0.000169,
+        "backlash_max_arcsec": 10.0
+      },
+      "120": {
+        "rated_output_torque_at_2000rpm_Nm": 137.0,
+        "repeated_peak_output_torque_Nm": 353.0,
+        "average_output_torque_limit_Nm": 216.0,
+        "momentary_peak_output_torque_Nm": 686.0,
+        "max_input_speed_rpm": 4800.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 0.000169,
+        "backlash_max_arcsec": 10.0
+      }
+    },
+    "source_url": "https://www.sitodrive.com/docs/Strain_Wave_Gear_Catalog_en.pdf"
+  },
+  {
+    "model": "HS-32-IV",
+    "pdf_page": 47,
+    "dimensions": {
+      "diameter": {
+        "value": 147.0,
+        "qualifier": "published_value"
+      },
+      "length": {
+        "value": 84.5,
+        "qualifier": "published_value"
+      },
+      "mass": {
+        "value": 3.171,
+        "qualifier": "upper_bound"
+      }
+    },
+    "ratings": {
+      "50": {
+        "rated_output_torque_at_2000rpm_Nm": 76.0,
+        "repeated_peak_output_torque_Nm": 216.0,
+        "average_output_torque_limit_Nm": 108.0,
+        "momentary_peak_output_torque_Nm": 382.0,
+        "max_input_speed_rpm": 4800.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 0.000169,
+        "backlash_max_arcsec": 20.0
+      },
+      "80": {
+        "rated_output_torque_at_2000rpm_Nm": 118.0,
+        "repeated_peak_output_torque_Nm": 304.0,
+        "average_output_torque_limit_Nm": 167.0,
+        "momentary_peak_output_torque_Nm": 568.0,
+        "max_input_speed_rpm": 4800.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 0.000169,
+        "backlash_max_arcsec": 20.0
+      },
+      "100": {
+        "rated_output_torque_at_2000rpm_Nm": 137.0,
+        "repeated_peak_output_torque_Nm": 333.0,
+        "average_output_torque_limit_Nm": 216.0,
+        "momentary_peak_output_torque_Nm": 647.0,
+        "max_input_speed_rpm": 4800.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 0.000169,
+        "backlash_max_arcsec": 10.0
+      },
+      "120": {
+        "rated_output_torque_at_2000rpm_Nm": 137.0,
+        "repeated_peak_output_torque_Nm": 353.0,
+        "average_output_torque_limit_Nm": 216.0,
+        "momentary_peak_output_torque_Nm": 686.0,
+        "max_input_speed_rpm": 4800.0,
+        "average_input_speed_limit_rpm": 3500.0,
+        "published_inertia_kg_m2": 0.000169,
+        "backlash_max_arcsec": 10.0
+      }
+    },
+    "source_url": "https://www.sitodrive.com/docs/Strain_Wave_Gear_Catalog_en.pdf"
+  }
+]

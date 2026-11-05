@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "run_id": "20261102T030516_358757Z_fa672418",
+  "project_id": "REAL_550_07",
+  "created_utc": "2026-11-02T03:05:16.358757+00:00",
+  "input_source": "C:\\Users\\George\\Desktop\\ArmSim\\optimization\\data\\real",
+  "input_sha256": {
+    "excluded_hardware.csv": "1d8da4f619bcb02f41eac8ae81926efc3dfd353e3f4c6afc4c0e111334e9f693",
+    "hardware_provenance.csv": "b466b94832e727be444119e22b19a4030e3aee117072ce9a3e0de0aab1644482",
+    "link_bounds.csv": "b631395cabdbbee40caded655cafadf30eccf732d0f98df45d67fd125bba79ee",
+    "motor.csv": "6ed3bb7cd657488c94ff385b3c369808724307fe2ea42d69cb4a809b2e49d800",
+    "reducer.csv": "ea73f1bf77eadcd21fa20307ef35445dfe15591dd183e4e6c1f908c0446e9c45",
+    "requirement.csv": "222d7b0f97517392cfcf8c94bff571ebe81236bc9650b7e5971e55627ff680d9",
+    "study_assumptions.csv": "68f91f18b79522f13198648a04ae85a69660ef9ab6d819ab9c25efb7de989bc2",
+    "input_assumptions.json": "0690b32d106bb631af26bf8dc6f5f5aa0c284081eee285fdeb0478c79c4a3a74"
+  },
+  "metadata": {
+    "mode": "optimize",
+    "requirement": {
+      "project_id": "REAL_550_07",
+      "payload_lower_g": 500.0,
+      "payload_upper_g": 1000.0,
+      "reach_lower_mm": 550.0,
+      "reach_upper_mm": 550.0,
+      "elevation_lower_deg": -45.0,
+      "elevation_upper_deg": 45.0,
+      "joint_speed_rad_s": 1.0,
+      "joint_accel_rad_s2": 2.0,
+      "l1_lower_mm": 82.5,
+      "l1_upper_mm": 495.0,
+      "l2_lower_mm": 90.0,
+      "l2_upper_mm": 90.0,
+      "l3_lower_mm": 16.5,
+      "l3_upper_mm": 495.0,
+      "motor_offset_max_mm": 110.0,
+      "seed": 42,
+      "cycles": 200,
+      "checkpoint_every": 10,
+      "allowed_layouts": [
+        7
+      ]
+    },
+    "pose_count": 1008,
+    "pose_limit": null,
+    "sampling": "24 named joint-state references (zero, signed single-axis quarter turns, six fully extended world directions, combined folded/wrist states) plus 984 deterministic Halton states across six joint angles in [-pi, pi). Joint states are common to every design; fully extended tests resolve analytically for each design. Reach bounds constrain maximum shoulder-to-TCP extension, not a workspace shell. Global collision and joint-stop checks disabled.",
+    "python": "3.13.15",
+    "mujoco": "3.17.0",
+    "numpy": "2.5.4",
+    "algorithm": "geometry-filtered block search with near-envelope and global coordinated hardware challenges; one distinct load evaluation per cycle",
+    "evaluation_budget": "Distinct supported physical candidates only; duplicate proposals are skipped",
+    "physical_key_precision_m": 1e-12,
+    "proposal_attempt_limit": 2000,
+    "objective": "maximize guaranteed sampled-basis payload within straightened reach bounds; arm mass breaks ties; J_G is recorded",
+    "reach_definition": "maximum fully extended shoulder-to-TCP radius",
+    "structural_mass_model": "Approved aluminium edge/frame/output stock at 2700 kg/m3, plus the base builder's explicit small transmission-part masses. Catalog motor/reducer masses are separate; structural mass, 3D COM and full inertia follow geometry.",
+    "geometry_contract": "approved-base-template-v5",
+    "motor_offset_coordinates": "Local deltas about approved base placements; coaxial coordinates are fixed",
+    "checks": "approved local mounts, zero-pose own-joint assembly clearance and reach required; global collision and mechanical joint-stop checks disabled"
+  },
+  "retention": "No automatic deletion; output snapshots are exclusive writes."
+}

@@ -1,0 +1,495 @@
+RI75-PH KV70 Potting Frameless Inrunner Torque Motor-48V  348g
+Cubemars - 17 Year Motor Manufacturer
+info@cubemars.com
++86 13755649079
+English
+English
+中文简体
+日本語
+Deutsch
+Français
+한국어
+Español
+Pусский
+CubeMars robot motor logo
+Product Series
+Robotic Actuator
+AK Series Robotic Actuator
+- AK10-9 V3.0 KV60
+- AK80-9 V3.0 KV100
+- AK70-9 V3.0 KV60
+AKH Series Hollow Shaft Planetary Actuator
+- AKH70-48 V1.0 KV41
+- AKH70-16 V1.0 KV41
+AKA Series Robotic Actuator
+- AKA10-9 KV60
+- AKA60-6 KV80
+Quasi Direct Drive Motor
+AKE Series Quasi Direct Drive Motor
+- AKE90-8 KV35
+- AKE80-8 KV30
+- AKE60-8 KV80
+- AKE40-6 KV90
+Frameless Inrunner Torque Motor
+RI Series Frameless Inrunner Torque Motor
+- RI50 KV100
+- RI100 KV105
+- RI80 V2.0 KV75
+RI Series Potting Frameless Inrunner Torque Motor
+- RI85-PH KV85 With Connector
+- RI75-PH KV70 With Connector
+Frameless Outrunner Torque Motor
+RO Series Frameless Outrunner Torque Motor
+- RO100 KV55-Standard-with-hall
+- RO80 KV105-Standard-with-hall
+- RO60 KV115-Standard-with-hall
+Gimbal Motor
+GL Series Gimbal Motor
+- GL II Gimbal Motor
+- GL Gimbal Motor
+G Series Gimbal Motor
+Underwater Thruster
+SW Series Underwater Thruster
+- SW12
+- SW17
+- SW7
+DW Series Underwater Thruster
+- DW15
+- DW20
+- DW25
+W Series Underwater Thruster
+- W30 Underwater Thruster
+TW ESC Series
+Robot Motor Application
+Humanoid Robot Motor
+Upper Limb Power
+Shoulder Joint Motor
+Elbow Joint Motor
+Wrist Joint Motor
+Neck Joint Motor
+Lower Limb Power
+Hip Joint Motor
+Knee Joint Motor
+Ankle Joint Motor
+Exoskeleton Motor
+Robot Joint Module
+Quadruped Robot Motor
+Robot Dog Motor
+Medical Robot Motor
+Rehabilitation Robot Motor
+Underwater Robot Motor
+ROV Thruster
+Gimbal System
+Gimbal Motor
+Product Selection
+Personalized Solution
+Technical Support
+Solution
+Video
+Event Sponsorship
+Contact Us
+Hello！Please LoginSign In|Sign Up
+Shopping cart
+There's nothing in your shopping cart
+Create your CubeMars account
+Home / Product Series / Frameless Inrunner Torque Motor / RI Series Potting Frameless Inrunner Torque Motor  / RI75-PH KV70 Welded Model
+RI75-PH KV70 Welded Model
+$138.90
+Available points：100 Points ▏
+Points reward：138
+Points
+?
+Points Rules
+Spend  $1 = 1point , 100 points can be redeemed for  $1
+Points will be deducted directly at checkout. Available points are subject to the amount displayed on the page ;
+Points are valid for 2 years and will expire automatically after the validity period
+• Potting frameless inrunner torque motor
+• Integrated Hall sensors and temperature sensors
+• Superior thermal performance with high-temperature resistance
+• High structural stability, resistant to vibration and shock
+• High slot fill ratio for efficient and stable performance
+• Lightweight and compact for easy integration
+Model：
+With Connector
+Welded Model
+$138.90
+RI75-PH KV70 Welded Model
+Add to cart
+Buy now
+USD200 Consumption Free Shipping by International Express (Excl. Remote Areas and Special Items).
+Customization Inquiry
+Payment Method :
+Share :
+Detail information
+Specifications
+Support and Downloads
+Leave Message
+Product Description
+The CubeMars RI75‑PH KV70 is a potting frameless inrunner torque motor engineered for high-reliability applications. Building on the RI series’ inherent advantages of high torque density, low cogging torque, and smooth control, this series introduces a potting process that significantly enhances coil protection and overall structural stability.This enables the motor to maintain long-term, stable operation even in harsh environments characterized by high temperatures, vibration, moisture, or dust.
+Thanks to its lightweight stator-rotor design and excellent thermal conductivity, the RI75‑PH KV70 delivers powerful output within an ultra-compact size. It is ideally suited for demanding applications such as exoskeleton joints, collaborative robotic arms, mobile platforms, and service robots—where space efficiency, dynamic responsiveness, and durability are critical.
+Core Data
+Motor Dimensions
+Φ70 × 34 mm
+Through Bore Diameter
+42 mm
+Weight
+348 g
+Peak Torque
+3.8 Nm
+No-Load Speed
+3360 rpm@48V
+Product Highlights
+Potting Protection Design
+Fully potted windings provide enhanced resistance to moisture, vibration, and high temperatures, ensuring reliable operation in challenging conditions
+High Torque Density
+Optimized magnetic circuit and winding layout deliver higher torque output within a small size
+Low Cogging Torque
+Ensures smoother torque delivery and improves precision in motion control applications
+Excellent Thermal Stability
+Advanced heat dissipation structure supports sustained full-load operation without performance degradation
+Flexible Integration
+Frameless inrunner architecture allows seamless embedding into various joint modules or robotic platforms
+Compact Design, Powerful Performance
+RI-PH SERIES FRAMELESS
+INRUNNER TORQUE MOTOR
+LIGHTWEIGHT DESIGN
+HIGHLY COMPATIBLE
+The core yoke is over 30% thinner than the previous RI series maintaining magnetic density
+and fitting compact installations in embedded devices and collaboorative robots
+HIGH-TEMPERATURE RESISTANT
+CONTINUOUSLY EFFICIENT
+Using potting technoloogy,cooling performance is significantly enhanced It performs
+excellently below 85°C and can continuously maintain performance even at winding
+temperature exceeding 150°C
+Torque/N·m
+Temperature/°C
+UPERIOR DESIGN
+ENHANCED PERFORMANCE
+The electroomagnetic design is meticulously crated
+resulting in a 25% increase in torque and power density
+STABLE OUTPUT
+LONG-LASTING EFFICIENCY
+Proovides stable and efficient power output across multiple torque ranges
+Efficiency
+INTEGRATED SENSORS
+FLEXIBLE CONTROL
+Integrated with Hall sensors and temperature sensors for precise control of
+angle and temperature,enhancing flexibility and performance
+Technical Drawing
+Specification
+| Size mm | Ø70*34 (Welded Model)Ø70*36.2 (With Connector) | Insulation Class | Class H
+| Weight g | 348 | Insulation Withstand Voltage | 500VDC
+| Operating Ambient Temperature | -20℃~+85℃ | Insulation Resistance | 100MΩ
+| Pole Pairs | 14 | Winding Type | Delta Connection
+| Number of Slots | 24 |  |
+| Electrical Specifications
+| Maximum Continuous PowerW | 297 | Electrode Constant N·m/√W | 0.203
+| Rated Power V | 48 | Speed Constant RPM/V | 70
+| Rated Torque N·m | 1.2 | Torque Constant N·m/A | 0.143
+| Peak Torque N·m | 3.8 | Back EMF Constant V/kRPM | 0.015
+| Rated Speed RPM | 2365 | Rotor Inertia g·cm² | 416
+| No-Load Speed RPM | 1602 (24V) | Phase Resistance mΩ | 453
+| Rated Current A | 7.28 | Phase Inductance uH | 485
+| Peak Current A | 24.2 (Ref) | Electromechanical Time Constant ms | 0.001
+| Maximum Torque Density N·m/kg | 15 | Electrical Time Constant ms | 0.0013
+| Cogging Torque N·mm | / |  |
+| Wiring Instructions
+| U | 18#Black Silicone Wire | Hv | 30#Green Silicone Wire
+| V | 18#Yellow Silicone Wire | Hw | 30#Blue Silicone Wire
+| W | 18#Red Silicone Wire | VCC GND | 30#Red/Black Silicone Wire
+| Hu | 30#Yellow Silicone Wire | L1/L2 | 30#White Silicone Wire
+Packing List
+89*91*73mm
+RI75-PH KV70 Welded Model
+Wiring Pack:
+18 AWG red/yellow/black silicone wires, 200 mm each
+30 AWG red/black/blue/green/yellow silicone wires, 200 mm each
+2 × 30 AWG white silicone wires, 200 mm each
+Before using this product, please check if all the items listed above are included in the packaging. If there are any missing items, please contact our online customer service or leave message to info@cubemars.com in time.
+Product Comparison
+| category
+| Model
+| Rated Voltage (V)
+| Rated Power (W)
+| Rated Torque (Nm)
+| Rated Current (A)
+| Rated Speed (RPM)
+| Peak Torque (Nm)
+| Peak Current (A)
+| No-load Speed (RPM)
+| Phase to Phase Resistance (mΩ)
+| Phase to Phase Inductance (μH)
+| Pole Pairs
+| Weight (G)
+| Size (diameter *length) MM
+| Operation
+| RI Potting Series
+| RI115-PH KV40 Welded Model
+| 48
+| 823
+| 5.5
+| 20
+| 1430
+| 16
+| 52
+| 1920
+| 134
+| 245
+| 20
+| 1108
+| Ф115*41
+|
+| RI Potting Series
+| RI115-PH KV40 With Connector
+| 48
+| 823
+| 5.5
+| 20
+| 1430
+| 16
+| 52
+| 1920
+| 134
+| 245
+| 20
+| 1108
+| Ф115*42
+|
+| RI Potting Series
+| RI85-PH KV85 With Connector
+| 48
+| 637
+| 2
+| 16
+| 3042
+| 5
+| 44
+| 4080
+| 138.5
+| 239.4
+| 14
+| 411
+| Ф85*32
+|
+| RI Potting Series
+| RI85-PH KV85 Welded Model
+| 48
+| 637
+| 2
+| 16
+| 3042
+| 5
+| 44
+| 4080
+| 138.5
+| 239.4
+| 14
+| 411
+| Ф85*31.5
+|
+| RI Potting Series
+| RI75-PH KV70 Welded Model
+| 48
+| 297
+| 1.2
+| 7.28
+| 2365
+| 3.8
+| 24.2
+| 3360
+| 495
+| 673
+| 14
+| 348
+| Ф70*34
+|
+| RI Potting Series
+| RI75-PH KV70 With Connector
+| 48
+| 297
+| 1.2
+| 7.28
+| 2365
+| 3.8
+| 24.2
+| 3360
+| 495
+| 673
+| 14
+| 348
+| Ф70*36.2
+|
+| RI Frameless Series
+| RI100 KV105
+| 24/36/48
+| 252
+| 1.76
+| 13.6
+| 1370/2100/2825
+| 4.95
+| 38.6
+| 2184/3276/4368
+| 126
+| 366.7
+| 14
+| 500
+| Ф104*26
+|
+| RI Frameless Series
+| RI80 V2.0 KV75
+| 24/36/48
+| 172
+| 1.45
+| 9.4
+| 1135/1785/2430
+| 4.1
+| 9.4
+| 1480/2220/2960
+| 330
+| 510
+| 8
+| 411
+| Ф85*27
+|
+| RI Frameless Series
+| RI70 KV95
+| 24/36/48
+| 125
+| 0.94
+| 7.1
+| 1270/1990/2710
+| 2.68
+| 21
+| 1956/2934/3912
+| 418
+| 622.7
+| 14
+| 270.4
+| Ф76*24
+|
+| RI Frameless Series
+| RI60 KV120
+| 24/36/48
+| 85
+| 0.57
+| 5.6
+| 1440/2320/3190
+| 1.63
+| 16.8
+| 2532/3798/5064
+| 900
+| 877.5
+| 14
+| 155.9
+| Ф60*23
+|
+| RI Frameless Series
+| RI50 KV100
+| 24/36/48
+| 66
+| 0.58
+| 4.8
+| 1090/1860/2600
+| 1.67
+| 14.8
+| 2004/3006/4008
+| 1420
+| 1500
+| 7
+| 180.8
+| Ф54*27
+|
+| RI Frameless Series
+| RI30 KV260
+| 24
+| 33
+| 0.076
+| 1.98
+| 4110
+| 0.23
+| 7.72
+| 6240
+| 2.2
+| 1.41
+| 7
+| 40g
+| φ38*14
+|
+| RI Frameless Series
+| RI20 KV600
+| 16
+| 18
+| 0.024
+| 1.47
+| 7452
+| 0.072
+| 4.4
+| 9600
+| 1.89
+| 0.45
+| 7
+| 20g
+| φ25*14.5
+|
+Support and Downloads
+Model
+Name
+File Type
+Update Time
+Operate
+RI75-PH KV70 Welded Model
+RI75-PH Potting Frameless Torque Motor 3D Drawing (STEP, ZIP)
+Drawing / ZIP
+2026-08-13
+RI75-PH KV70 Welded Model
+RI75-PH Potting Frameless Torque Motor 2D Drawing (PDF)
+Drawing / PDF
+2026-08-13
+RI75-PH KV70 Welded Model
+RI75 PH Potting Frameless Torque Motor Test Fixture (ZIP)
+File / ZIP
+2026-08-13
+Leave Message
+User name
+Anonymous
+E-mail *
+Name *
+Phone
+Comments
+Verification code
+BEST SELLERS
+AKA10-9
+AKE90-8
+GL60 II
+Warm prompt
+OKCancel
+Warm prompt
+Close
+Warm prompt
+Close
+Please Sign In
+Sign InSign Up
+Remember me
+Forgot Password?
+Warm prompt
+OKCancel
+CubeMars is a brand under Sanrui Intelligent (IPO in 2026), focused on robotic power systems. With 17 years of R&D experience, it fully designs and manufactures its product line in-house. The company specializes in compact high-torque planetary module and frameless motors, with an annual output of 6 million units and international certifications, widely used in humanoid robots and exoskeleton applications.
+info@cubemars.com
+Customer Service
+FAQ
+Payment Guide
+Order Information
+Moment
+Shipping Policy
+Return and Refund policy
+Terms & Conditions
+About CubeMars
+About Us
+Contact Us
+SiteMap
+Follow Us
+Moment
+How to Use CubeMars Actuators
+How to Use Two Motors to Build a Customs Electric Wheelchair For his Wife From Scratch
+How to Match Gimbal Motors to Robotics and Vision Systems
+Copyright © 2003-2026 CubeMars, All rights reserved.   Privacy Policy

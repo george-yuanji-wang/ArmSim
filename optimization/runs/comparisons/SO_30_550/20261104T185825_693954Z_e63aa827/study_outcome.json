@@ -1,0 +1,96 @@
+{
+  "status": "finalized_conceptual_simulation_screen",
+  "created_utc": "2026-11-04T18:58:26.054880+00:00",
+  "comparison_dir": "C:\\Users\\George\\Desktop\\ArmSim\\optimization\\runs\\comparisons\\SO_30_550\\20261104T185825_693954Z_e63aa827",
+  "run_paths": [
+    "C:\\Users\\George\\Desktop\\ArmSim\\optimization\\runs\\SO_30_550_07\\20261104T182726_116834Z_4ccaac15",
+    "C:\\Users\\George\\Desktop\\ArmSim\\optimization\\runs\\SO_30_550_08\\20261104T182740_610868Z_855632aa",
+    "C:\\Users\\George\\Desktop\\ArmSim\\optimization\\runs\\SO_30_550_09\\20261104T182740_606750Z_af908b6a"
+  ],
+  "global_best_layout_number": 7,
+  "global_best_run_dir": "C:\\Users\\George\\Desktop\\ArmSim\\optimization\\runs\\SO_30_550_07\\20261104T182726_116834Z_4ccaac15",
+  "global_model_alias": "C:\\Users\\George\\Desktop\\ArmSim\\model\\best_model.xml",
+  "ranking": "optimization.search._rank; nine-decimal score ties; J_G is retained, not separately optimized",
+  "models": [
+    {
+      "layout_number": 7,
+      "run_dir": "C:\\Users\\George\\Desktop\\ArmSim\\optimization\\runs\\SO_30_550_07\\20261104T182726_116834Z_4ccaac15",
+      "model_alias": "C:\\Users\\George\\Desktop\\ArmSim\\model\\best-07-base-6dof.xml",
+      "rank": [
+        true,
+        true,
+        1.0,
+        0.0,
+        -2.306166242,
+        0.305893852,
+        -5.524398393
+      ],
+      "pmax_kg": 0.0,
+      "pmax_known_constraints_kg": 0.30589385176555806,
+      "gravity_score_JG": 0.5804340384119455,
+      "gravity_capacity_score_JG": 0.7705887422334716,
+      "requirements_met": false,
+      "hardware_validation_status": "conservative_basis_screen_only"
+    },
+    {
+      "layout_number": 8,
+      "run_dir": "C:\\Users\\George\\Desktop\\ArmSim\\optimization\\runs\\SO_30_550_08\\20261104T182740_610868Z_855632aa",
+      "model_alias": "C:\\Users\\George\\Desktop\\ArmSim\\model\\best-08-base-6dof.xml",
+      "rank": [
+        true,
+        true,
+        1.0,
+        0.0,
+        -2.401916905,
+        0.557027737,
+        -5.534699646
+      ],
+      "pmax_kg": 0.0,
+      "pmax_known_constraints_kg": 0.5570277374573213,
+      "gravity_score_JG": 0.48430264588544475,
+      "gravity_capacity_score_JG": 0.5666172692999892,
+      "requirements_met": false,
+      "hardware_validation_status": "conservative_basis_screen_only"
+    },
+    {
+      "layout_number": 9,
+      "run_dir": "C:\\Users\\George\\Desktop\\ArmSim\\optimization\\runs\\SO_30_550_09\\20261104T182740_606750Z_af908b6a",
+      "model_alias": "C:\\Users\\George\\Desktop\\ArmSim\\model\\best-09-base-6dof.xml",
+      "rank": [
+        true,
+        true,
+        1.0,
+        0.0,
+        -2.401912581,
+        0.600857294,
+        -5.465973308
+      ],
+      "pmax_kg": 0.0,
+      "pmax_known_constraints_kg": 0.6008572936466597,
+      "gravity_score_JG": 0.4716056832639509,
+      "gravity_capacity_score_JG": 0.7247009581153839,
+      "requirements_met": false,
+      "hardware_validation_status": "conservative_basis_screen_only"
+    }
+  ],
+  "archived_previous_model_files": [
+    "C:\\Users\\George\\Desktop\\ArmSim\\model\\archive\\best-07-base-6dof_20261104T185825_781734Z_fd865764.xml",
+    "C:\\Users\\George\\Desktop\\ArmSim\\model\\archive\\best-08-base-6dof_20261104T185825_869635Z_285afdc5.xml",
+    "C:\\Users\\George\\Desktop\\ArmSim\\model\\archive\\best-09-base-6dof_20261104T185825_956997Z_c99f3ee2.xml",
+    "C:\\Users\\George\\Desktop\\ArmSim\\model\\archive\\best_model_20261104T185826_038973Z_60737232.xml"
+  ],
+  "certification_limits": [
+    "Finite 600-evaluation search per layout; all thirty hardware tuples searched, continuous global optimum not proved.",
+    "1008 joint-state basis tests with selected velocity/acceleration envelopes; not a timed application duty cycle.",
+    "Motor transient torque/current/duration and duty cycle are unverified; conservative Pmax uses the selected continuous motor model.",
+    "Conditional known-constraint Pmax omits unverified motor transient capacity and is not a certified usable payload.",
+    "Reducer gravity/holding uses continuous ratings; instantaneous motion uses repeated-peak ratings. Thermal/lifetime duty is not certified.",
+    "Published motor current convention is unresolved; listed current does not establish phase RMS, heating or energy consumption.",
+    "Unpublished rotor inertia uses the documented mass-times-radius-squared upper bound.",
+    "Global collisions and mechanical joint stops are disabled; structural stiffness, precision, bearing loads and cable routing are not validated."
+  ],
+  "independent_audit_file": "C:\\Users\\George\\Desktop\\ArmSim\\optimization\\runs\\comparisons\\SO_30_550\\20261104T185825_693954Z_e63aa827\\independent_audit.json",
+  "independent_audit_passed": true,
+  "viewer_smoke_passed": true,
+  "viewer_smoke_model": "C:\\Users\\George\\Desktop\\ArmSim\\model\\best_model.xml"
+}

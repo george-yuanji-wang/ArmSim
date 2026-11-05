@@ -1,0 +1,442 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-11-04T08:37:47.034248+00:00",
+  "scope": "Independent read-only verification of final SO_30_550_07,08,09 runs. No original run files changed and no optimization rerun. Previously computed full-precision audit values retained.",
+  "overall_pass": true,
+  "interpretation": "All three exported designs retain valid base geometry and six independent tool DOF, but none meets the 500 g high-speed basis-suite requirement. Reducer output torque limits alone fail at 500 g even when the conservative motor rotor-inertia term is excluded; this failure is therefore independent of that rotor bound. At zero payload, reducers alone fail J1/J2 for 07 and 09. Configuration 08 passes reducer-only empty-arm loads but fails motor-side limits.",
+  "methods": {
+    "reach": "Analytic extension and MuJoCo FK at maximum_reach_pose; TCP distance from shoulder [0,0,0.22] m.",
+    "DOF": "Rank of stacked 3x6 translational and 3x6 rotational TCP Jacobians at 10 joint states from numpy default_rng(49).uniform(-2,2,(10,6)); matrix_rank tolerance 1e-9. All ranks are six.",
+    "mass": "MuJoCo sum(body_mass), result arm_mass_kg, and independently summed approved structural assemblies plus the selected catalog motor and reducer masses.",
+    "assembly": "armsim.model_catalog.export_metadata and armsim.assembly_validation.validate_local_assembly on each final best_model.xml.",
+    "reducer_only_peak_reconstruction": "Read basis_coefficients.csv. For p in {0,0.5} kg, tau=G(p)+M(p)*qdd+H(p,qdot). Reconstruct 37 declared velocity states independently. Max over all 64 acceleration-box corners is computed exactly per joint as max_v(|G_i(p)+H_i(p,v)| + 6*sum_j|M_ij(p)|), then max over all 1008 poses. The unactuated saved basis naturally excludes motor rotor spin; no motor MR^2 term is added.",
+    "peak_crosscheck": "Compare every reconstructed 500 g per-pose per-joint peak against pose_results.csv peak_joint_load_j*_Nm_at_required_payload.",
+    "hash_checks": "Recomputed SHA256 of each saved input and current active input against run.json; compared all run input hashes, reference_poses.csv SHA and scoring protocol fields across three layouts.",
+    "non_claims": "Finite declared velocity/pose suite, not all continuous trajectories. Local assembly checks, not global collision or joint-stop checks."
+  },
+  "all_three_protocol_and_input_and_pose_hashes_match": true,
+  "all_saved_and_active_input_hashes_match": true,
+  "all_19_motor_source_snapshot_hashes_match": true,
+  "motor_source_snapshot_hash_checks": {
+    "SO_42BSA46-24-01": true,
+    "SO_42BSA62-24-01": true,
+    "SO_42BSA62-36-01": true,
+    "SO_42BSA78-24-01": true,
+    "SO_42BSB41-24-01": true,
+    "SO_42BSB61-24-01": true,
+    "SO_42BSB81-24-01": true,
+    "SO_42BYA43-24-01": true,
+    "SO_42BYA51-24-01": true,
+    "SO_42BYA73-24-01": true,
+    "SO_57BLR50-24-01": true,
+    "SO_57BLR50-36-01": true,
+    "SO_57BLR70-24-02": true,
+    "SO_57BLR70-36-01": true,
+    "SO_57BLY54-24-01": true,
+    "SO_57BSA58-24-01": true,
+    "SO_57BSA79-36-01": true,
+    "SO_57BYA54-24-01": true,
+    "SO_57BYA74-36-01": true
+  },
+  "joint_vector_order": [
+    "J1",
+    "J2",
+    "J3",
+    "J4",
+    "J5",
+    "J6"
+  ],
+  "runs": [
+    {
+      "lengths_mm": [
+        124.50743610995855,
+        90.0,
+        217.61605558300442
+      ],
+      "reach_FK_m": 0.5499999999999999,
+      "mass_result_kg": 5.164184563896758,
+      "mass_MuJoCo_kg": 5.164184563896758,
+      "mass_structure_plus_catalog_kg": 5.164184563896757,
+      "empty_peak_Nm": [
+        3.121311053791465,
+        10.2705100888161,
+        5.490899250948712,
+        1.061855620936325,
+        1.2510569733440902,
+        0.0016118721807644853
+      ],
+      "payload_500g_peak_Nm": [
+        6.626280527498484,
+        17.06757147067511,
+        10.688903409665144,
+        3.0256991898016325,
+        3.525629249253824,
+        0.002559545009301086
+      ],
+      "recorded_peak_max_absolute_error_Nm": 3.552713678800501e-15,
+      "layout_number": 7,
+      "run_directory": "optimization/runs/SO_30_550_07/20261104T082459_674180Z_a866ce2a",
+      "geometry_contract": "approved-base-template-v7",
+      "completed_evaluations": 200,
+      "pose_count": 1008,
+      "wrist2_length_mm": 110.0,
+      "reach_formula_m": 0.55,
+      "reach_target_m": 0.55,
+      "reach_check_pass": true,
+      "mass_check_pass": true,
+      "qpos_count": 6,
+      "actuator_count": 6,
+      "generic_TCP_jacobian_ranks": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "generic_TCP_jacobian_rank_check_pass": true,
+      "metadata_validation_pass": true,
+      "local_assembly_validation_pass": true,
+      "reducer_continuous_output_limits_Nm": [
+        3.0,
+        10.2,
+        10.2,
+        2.2,
+        2.2,
+        2.2
+      ],
+      "empty_reducer_utilization_ratio": [
+        1.0404370179304883,
+        1.0069127538055,
+        0.538323455975364,
+        0.4826616458801477,
+        0.56866226061095,
+        0.000732669173074766
+      ],
+      "payload_500g_reducer_utilization_ratio": [
+        2.208760175832828,
+        1.6732913206544224,
+        1.047931706829916,
+        1.3753178135461965,
+        1.6025587496608291,
+        0.0011634295496823117
+      ],
+      "empty_reducer_limit_violating_joints": [
+        1,
+        2
+      ],
+      "payload_500g_reducer_limit_violating_joints": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "reported_Pmax_kg": 0.0,
+      "reported_requirements_met": false,
+      "reported_empty_arm_passes": false,
+      "reported_failure_reason": "empty_arm_exceeds_basis_limits",
+      "reported_peak_empty_arm_utilization_ratio": 1.0769406362065552,
+      "reported_peak_required_payload_utilization_ratio": 2.2087601758328286,
+      "input_sha256": {
+        "excluded_motors.csv": "5ad2561c7a39735ff23cf7425b7c51a91f7b6a685c69ae63d2c29c11c8b28260",
+        "link_bounds.csv": "b631395cabdbbee40caded655cafadf30eccf732d0f98df45d67fd125bba79ee",
+        "motor.csv": "7ee695c5ee7484317fb04405de3ecee00caa78adc4ae5f713a467b6fa4f37a54",
+        "reducer.csv": "540659f38a6f2ac049266c2f5beaa5a84164114dedab841223968fe9228774c6",
+        "requirement.csv": "7cfd93ab2dae0a7ed96f4266b459dbd09a69b4f68218524326374d272bb6958a",
+        "input_assumptions.json": "5d730e6ac5d9a06516d6b23b9ac9fb1ee003b16547011268a82254fbcfbccfa2",
+        "study.json": "45595757e7f08b4c114be1199de6c22e7e14174efc1d8c213dc24bda45fd202f"
+      },
+      "saved_input_hash_checks": {
+        "excluded_motors.csv": true,
+        "link_bounds.csv": true,
+        "motor.csv": true,
+        "reducer.csv": true,
+        "requirement.csv": true,
+        "input_assumptions.json": true,
+        "study.json": true
+      },
+      "active_input_hash_checks": {
+        "excluded_motors.csv": true,
+        "link_bounds.csv": true,
+        "motor.csv": true,
+        "reducer.csv": true,
+        "requirement.csv": true,
+        "input_assumptions.json": true,
+        "study.json": true
+      },
+      "reference_poses_sha256": "3965ab572e8696231791c8107a3bdba3a83c024d47163181966cbfbe45069cf0",
+      "protocol": {
+        "pose_count": 1008,
+        "algorithm": "geometry-filtered block search with near-envelope and global coordinated hardware challenges; one distinct load evaluation per cycle",
+        "objective": "maximize guaranteed sampled-basis payload within straightened reach bounds; zero-payload infeasible ties minimize peak empty-arm utilization; otherwise arm mass breaks ties; J_G is recorded",
+        "evaluation_budget": "Distinct supported physical candidates only; duplicate proposals are skipped",
+        "geometry_contract": "approved-base-template-v7",
+        "sampling": "24 named joint-state references (zero, signed single-axis quarter turns, six fully extended world directions, combined folded/wrist states) plus 984 deterministic Halton states across six joint angles in [-pi, pi). Joint states are common to every design; fully extended tests resolve analytically for each design. Reach bounds constrain maximum shoulder-to-TCP extension, not a workspace shell. Global collision and joint-stop checks disabled."
+      }
+    },
+    {
+      "lengths_mm": [
+        162.15584257800776,
+        90.0,
+        176.18828175000192
+      ],
+      "reach_FK_m": 0.5500000000000004,
+      "mass_result_kg": 4.80257903819037,
+      "mass_MuJoCo_kg": 4.80257903819037,
+      "mass_structure_plus_catalog_kg": 4.80257903819037,
+      "empty_peak_Nm": [
+        2.766735796404688,
+        9.2040114817734,
+        4.017859002208465,
+        0.981491285044447,
+        1.0876442859166584,
+        0.0016118721807644857
+      ],
+      "payload_500g_peak_Nm": [
+        6.124748282705679,
+        15.94013177538979,
+        8.682094936266902,
+        2.9099740249130277,
+        3.2639698615784862,
+        0.002559545009311215
+      ],
+      "recorded_peak_max_absolute_error_Nm": 3.552713678800501e-15,
+      "layout_number": 8,
+      "run_directory": "optimization/runs/SO_30_550_08/20261104T082459_670828Z_0dcdd74d",
+      "geometry_contract": "approved-base-template-v7",
+      "completed_evaluations": 200,
+      "pose_count": 1008,
+      "wrist2_length_mm": 110.0,
+      "reach_formula_m": 0.55,
+      "reach_target_m": 0.55,
+      "reach_check_pass": true,
+      "mass_check_pass": true,
+      "qpos_count": 6,
+      "actuator_count": 6,
+      "generic_TCP_jacobian_ranks": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "generic_TCP_jacobian_rank_check_pass": true,
+      "metadata_validation_pass": true,
+      "local_assembly_validation_pass": true,
+      "reducer_continuous_output_limits_Nm": [
+        3.0,
+        10.2,
+        10.2,
+        2.2,
+        2.2,
+        2.2
+      ],
+      "empty_reducer_utilization_ratio": [
+        0.9222452654682294,
+        0.9023540668405294,
+        0.3939077453145554,
+        0.44613240229293044,
+        0.49438376632575376,
+        0.0007326691730747661
+      ],
+      "payload_500g_reducer_utilization_ratio": [
+        2.041582760901893,
+        1.5627580171950777,
+        0.8511857780653825,
+        1.322715465869558,
+        1.4836226643538573,
+        0.0011634295496869157
+      ],
+      "empty_reducer_limit_violating_joints": [],
+      "payload_500g_reducer_limit_violating_joints": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "reported_Pmax_kg": 0.0,
+      "reported_requirements_met": false,
+      "reported_empty_arm_passes": false,
+      "reported_failure_reason": "empty_arm_exceeds_basis_limits",
+      "reported_peak_empty_arm_utilization_ratio": 1.6517516640251304,
+      "reported_peak_required_payload_utilization_ratio": 3.1168748846487384,
+      "input_sha256": {
+        "excluded_motors.csv": "5ad2561c7a39735ff23cf7425b7c51a91f7b6a685c69ae63d2c29c11c8b28260",
+        "link_bounds.csv": "b631395cabdbbee40caded655cafadf30eccf732d0f98df45d67fd125bba79ee",
+        "motor.csv": "7ee695c5ee7484317fb04405de3ecee00caa78adc4ae5f713a467b6fa4f37a54",
+        "reducer.csv": "540659f38a6f2ac049266c2f5beaa5a84164114dedab841223968fe9228774c6",
+        "requirement.csv": "7cfd93ab2dae0a7ed96f4266b459dbd09a69b4f68218524326374d272bb6958a",
+        "input_assumptions.json": "5d730e6ac5d9a06516d6b23b9ac9fb1ee003b16547011268a82254fbcfbccfa2",
+        "study.json": "45595757e7f08b4c114be1199de6c22e7e14174efc1d8c213dc24bda45fd202f"
+      },
+      "saved_input_hash_checks": {
+        "excluded_motors.csv": true,
+        "link_bounds.csv": true,
+        "motor.csv": true,
+        "reducer.csv": true,
+        "requirement.csv": true,
+        "input_assumptions.json": true,
+        "study.json": true
+      },
+      "active_input_hash_checks": {
+        "excluded_motors.csv": true,
+        "link_bounds.csv": true,
+        "motor.csv": true,
+        "reducer.csv": true,
+        "requirement.csv": true,
+        "input_assumptions.json": true,
+        "study.json": true
+      },
+      "reference_poses_sha256": "3965ab572e8696231791c8107a3bdba3a83c024d47163181966cbfbe45069cf0",
+      "protocol": {
+        "pose_count": 1008,
+        "algorithm": "geometry-filtered block search with near-envelope and global coordinated hardware challenges; one distinct load evaluation per cycle",
+        "objective": "maximize guaranteed sampled-basis payload within straightened reach bounds; zero-payload infeasible ties minimize peak empty-arm utilization; otherwise arm mass breaks ties; J_G is recorded",
+        "evaluation_budget": "Distinct supported physical candidates only; duplicate proposals are skipped",
+        "geometry_contract": "approved-base-template-v7",
+        "sampling": "24 named joint-state references (zero, signed single-axis quarter turns, six fully extended world directions, combined folded/wrist states) plus 984 deterministic Halton states across six joint angles in [-pi, pi). Joint states are common to every design; fully extended tests resolve analytically for each design. Reach bounds constrain maximum shoulder-to-TCP extension, not a workspace shell. Global collision and joint-stop checks disabled."
+      }
+    },
+    {
+      "lengths_mm": [
+        172.17545154695352,
+        90.0,
+        164.85769924874856
+      ],
+      "reach_FK_m": 0.55,
+      "mass_result_kg": 5.33719025373352,
+      "mass_MuJoCo_kg": 5.33719025373352,
+      "mass_structure_plus_catalog_kg": 5.337190253733519,
+      "empty_peak_Nm": [
+        3.1432735370521163,
+        10.265010461010116,
+        4.352628077517995,
+        1.0997147960918696,
+        1.181381939518057,
+        0.0016118721807644822
+      ],
+      "payload_500g_peak_Nm": [
+        6.427444560064027,
+        16.981373083046993,
+        8.82638348355848,
+        3.0034494810823067,
+        3.331871665734165,
+        0.0025595450093071357
+      ],
+      "recorded_peak_max_absolute_error_Nm": 3.552713678800501e-15,
+      "layout_number": 9,
+      "run_directory": "optimization/runs/SO_30_550_09/20261104T082459_672228Z_195ad436",
+      "geometry_contract": "approved-base-template-v7",
+      "completed_evaluations": 200,
+      "pose_count": 1008,
+      "wrist2_length_mm": 110.0,
+      "reach_formula_m": 0.55,
+      "reach_target_m": 0.55,
+      "reach_check_pass": true,
+      "mass_check_pass": true,
+      "qpos_count": 6,
+      "actuator_count": 6,
+      "generic_TCP_jacobian_ranks": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "generic_TCP_jacobian_rank_check_pass": true,
+      "metadata_validation_pass": true,
+      "local_assembly_validation_pass": true,
+      "reducer_continuous_output_limits_Nm": [
+        3.0,
+        10.2,
+        10.2,
+        2.2,
+        2.2,
+        2.2
+      ],
+      "empty_reducer_utilization_ratio": [
+        1.0477578456840388,
+        1.006373574608835,
+        0.4267282428939211,
+        0.4998703618599407,
+        0.5369917906900258,
+        0.0007326691730747646
+      ],
+      "payload_500g_reducer_utilization_ratio": [
+        2.142481520021342,
+        1.6648404983379406,
+        0.8653317140743608,
+        1.3652043095828665,
+        1.5144871207882569,
+        0.0011634295496850615
+      ],
+      "empty_reducer_limit_violating_joints": [
+        1,
+        2
+      ],
+      "payload_500g_reducer_limit_violating_joints": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "reported_Pmax_kg": 0.0,
+      "reported_requirements_met": false,
+      "reported_empty_arm_passes": false,
+      "reported_failure_reason": "empty_arm_exceeds_basis_limits",
+      "reported_peak_empty_arm_utilization_ratio": 1.0479024747991905,
+      "reported_peak_required_payload_utilization_ratio": 2.142481520021342,
+      "input_sha256": {
+        "excluded_motors.csv": "5ad2561c7a39735ff23cf7425b7c51a91f7b6a685c69ae63d2c29c11c8b28260",
+        "link_bounds.csv": "b631395cabdbbee40caded655cafadf30eccf732d0f98df45d67fd125bba79ee",
+        "motor.csv": "7ee695c5ee7484317fb04405de3ecee00caa78adc4ae5f713a467b6fa4f37a54",
+        "reducer.csv": "540659f38a6f2ac049266c2f5beaa5a84164114dedab841223968fe9228774c6",
+        "requirement.csv": "7cfd93ab2dae0a7ed96f4266b459dbd09a69b4f68218524326374d272bb6958a",
+        "input_assumptions.json": "5d730e6ac5d9a06516d6b23b9ac9fb1ee003b16547011268a82254fbcfbccfa2",
+        "study.json": "45595757e7f08b4c114be1199de6c22e7e14174efc1d8c213dc24bda45fd202f"
+      },
+      "saved_input_hash_checks": {
+        "excluded_motors.csv": true,
+        "link_bounds.csv": true,
+        "motor.csv": true,
+        "reducer.csv": true,
+        "requirement.csv": true,
+        "input_assumptions.json": true,
+        "study.json": true
+      },
+      "active_input_hash_checks": {
+        "excluded_motors.csv": true,
+        "link_bounds.csv": true,
+        "motor.csv": true,
+        "reducer.csv": true,
+        "requirement.csv": true,
+        "input_assumptions.json": true,
+        "study.json": true
+      },
+      "reference_poses_sha256": "3965ab572e8696231791c8107a3bdba3a83c024d47163181966cbfbe45069cf0",
+      "protocol": {
+        "pose_count": 1008,
+        "algorithm": "geometry-filtered block search with near-envelope and global coordinated hardware challenges; one distinct load evaluation per cycle",
+        "objective": "maximize guaranteed sampled-basis payload within straightened reach bounds; zero-payload infeasible ties minimize peak empty-arm utilization; otherwise arm mass breaks ties; J_G is recorded",
+        "evaluation_budget": "Distinct supported physical candidates only; duplicate proposals are skipped",
+        "geometry_contract": "approved-base-template-v7",
+        "sampling": "24 named joint-state references (zero, signed single-axis quarter turns, six fully extended world directions, combined folded/wrist states) plus 984 deterministic Halton states across six joint angles in [-pi, pi). Joint states are common to every design; fully extended tests resolve analytically for each design. Reach bounds constrain maximum shoulder-to-TCP extension, not a workspace shell. Global collision and joint-stop checks disabled."
+      }
+    }
+  ]
+}

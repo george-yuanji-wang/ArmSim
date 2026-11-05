@@ -1,0 +1,17 @@
+{
+  "runs": [
+    "C:\\Users\\George\\Desktop\\ArmSim\\optimization\\runs\\SO_30_550_07\\20261104T082459_674180Z_a866ce2a",
+    "C:\\Users\\George\\Desktop\\ArmSim\\optimization\\runs\\SO_30_550_08\\20261104T082459_670828Z_0dcdd74d",
+    "C:\\Users\\George\\Desktop\\ArmSim\\optimization\\runs\\SO_30_550_09\\20261104T082459_672228Z_195ad436"
+  ],
+  "comparison": "C:\\Users\\George\\Desktop\\ArmSim\\optimization\\runs\\comparisons\\SO_30_550\\20261104T083539_503457Z_873144a7",
+  "model_aliases": [
+    "C:\\Users\\George\\Desktop\\ArmSim\\model\\best-07-base-6dof.xml",
+    "C:\\Users\\George\\Desktop\\ArmSim\\model\\best-08-base-6dof.xml",
+    "C:\\Users\\George\\Desktop\\ArmSim\\model\\best-09-base-6dof.xml"
+  ],
+  "best_tested_model_alias": "C:\\Users\\George\\Desktop\\ArmSim\\model\\best_model.xml",
+  "best_tested_layout": 9,
+  "any_requirements_met": false,
+  "interpretation": "Pmax is guaranteed zero-to-P payload over the finite test basis under continuous ratings and explicit MR^2 rotor-inertia bounds. Zero means this screen failed, including an empty-arm failure when reported; no global impossibility claim."
+}

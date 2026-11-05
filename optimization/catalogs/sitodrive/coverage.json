@@ -1,0 +1,20 @@
+{
+  "store_model_count": 66,
+  "store_ratio_variant_count": 243,
+  "catalog_only_model_count": 1,
+  "catalog_only_ratio_variant_count": 2,
+  "store_models_by_series": {
+    "CD": 3,
+    "CS": 10,
+    "CS-Mini": 21,
+    "FD (listed under HD)": 1,
+    "HD": 11,
+    "HS": 20
+  },
+  "variants_with_missing_rated_torque": 3,
+  "store_sku_variant_count": 242,
+  "selector_only_variant_count": 1,
+  "variants_with_source_differences": 71,
+  "source_difference_field_count": 29,
+  "all_max_input_torque_unpublished": true
+}

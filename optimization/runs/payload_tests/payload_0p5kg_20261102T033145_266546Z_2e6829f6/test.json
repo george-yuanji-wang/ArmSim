@@ -1,0 +1,66 @@
+{
+  "status": "completed",
+  "mode": "fixed_design_payload_test",
+  "created_utc": "2026-11-02T03:31:51.117466+00:00",
+  "payload_kg": 0.5,
+  "optimization_performed": false,
+  "fixed_hardware_and_geometry": true,
+  "velocity_states_per_pose": 37,
+  "acceleration_corners_per_velocity": 64,
+  "python_numpy_version": "2.5.4",
+  "mujoco_version": "3.17.0",
+  "sources": [
+    {
+      "configuration": 7,
+      "source_run": "optimization\\runs\\REAL_550_07\\20261102T030516_358757Z_fa672418",
+      "source_sha256": {
+        "best_design.json": "9505e913b38f539a20f9fe616e8a50394342edf266b97a61b877c74ef9f77094",
+        "evaluated_inputs.json": "c95bbbfe58356887071c52ab4743d641ad659be93a7f5beb9cbaba96859a2161",
+        "run.json": "cb305ab3f57fadef3503abb3f89297d2499d31d5f88bae4345afcd1b31e14a97",
+        "reference_poses.csv": "3965ab572e8696231791c8107a3bdba3a83c024d47163181966cbfbe45069cf0",
+        "result.json": "8c276a65b10e449ae075575ccd9f82971ea147b601fb9fb7585e2be159606573",
+        "pose_results.csv": "6e40da0656bacefcff4fb1d2578e41c2b3a512f07d82bda015c6f388acc8eef8",
+        "best_model.xml": "e0651e3bcbade9754046d6e2fb9ceb5371f2dea1681cb6f3299a37561f88d784"
+      },
+      "source_files_unchanged": true,
+      "pose_count": 1008,
+      "joint_speed_rad_s": 1.0,
+      "joint_acceleration_rad_s2": 2.0
+    },
+    {
+      "configuration": 8,
+      "source_run": "optimization\\runs\\REAL_550_08\\20261102T030516_358316Z_a6ab8630",
+      "source_sha256": {
+        "best_design.json": "1ae29aa7b1d222407587812ad223c3569c338206a0a79a7f06bf462c7bdfdeb6",
+        "evaluated_inputs.json": "c95bbbfe58356887071c52ab4743d641ad659be93a7f5beb9cbaba96859a2161",
+        "run.json": "5f073ded5047c70febe9764c10611ffc02a8fa9ec718200514b2563fe655d726",
+        "reference_poses.csv": "3965ab572e8696231791c8107a3bdba3a83c024d47163181966cbfbe45069cf0",
+        "result.json": "04134c59fa7b1254359cbbda451cadc4976207b571500f04ecc839f06672bc9f",
+        "pose_results.csv": "370109d0a232178a039ef289c709c0ac81e7df799df8483818cbb42b19305e12",
+        "best_model.xml": "82bc72185e1560a4bed06f53112f68f5f0e9df1113337435548e55b6c2634216"
+      },
+      "source_files_unchanged": true,
+      "pose_count": 1008,
+      "joint_speed_rad_s": 1.0,
+      "joint_acceleration_rad_s2": 2.0
+    },
+    {
+      "configuration": 9,
+      "source_run": "optimization\\runs\\REAL_550_09\\20261102T030516_346193Z_0404b909",
+      "source_sha256": {
+        "best_design.json": "aad3d8143e60e6a590674c04200783ed0071fdcb18b73cbdf196921c7b0b4938",
+        "evaluated_inputs.json": "c95bbbfe58356887071c52ab4743d641ad659be93a7f5beb9cbaba96859a2161",
+        "run.json": "21bb1c675321153ee43374e0694b0751dff5a4d01984c8cb4a26e8527040de79",
+        "reference_poses.csv": "3965ab572e8696231791c8107a3bdba3a83c024d47163181966cbfbe45069cf0",
+        "result.json": "49cb3bc768ff8ee93edd81efefae4ba12f4e773ca9a066517b738f8a47807f83",
+        "pose_results.csv": "fe86e998b21a00ec3d7e2d81914953fc7b4192d44cd17402c2f230939c55b500",
+        "best_model.xml": "3e7a885125a2e58eb386a4899479bef6233d5302b4f980e734092347a8283461"
+      },
+      "source_files_unchanged": true,
+      "pose_count": 1008,
+      "joint_speed_rad_s": 1.0,
+      "joint_acceleration_rad_s2": 2.0
+    }
+  ],
+  "elapsed_s": 5.849453300004825
+}

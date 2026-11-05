@@ -1,0 +1,32 @@
+{
+  "verified_date": "2026-11-05",
+  "records": 45,
+  "evidence_counts": {
+    "published_1500rpm_point": 2,
+    "curve_1500rpm_point": 1,
+    "conditional_voltage_or_winding": 25,
+    "insufficient_published_data": 11,
+    "outside_size_or_mass": 6
+  },
+  "makers": {
+    "CubeMars": 10,
+    "Huizhou Techno Motor Co., Ltd. (TechnoMotor / TejiaMotor product sites)": 2,
+    "Reacher Technology": 3,
+    "SMC Powers": 15,
+    "T-MOTOR": 2,
+    "iPower Motors / iFlight": 10,
+    "MAD Motor": 2,
+    "RCTimer": 1
+  },
+  "source_hashes_match": true,
+  "xlsx_data_rows": [
+    45,
+    45
+  ],
+  "xlsx_tables": 2,
+  "xlsx_cell_errors": 0,
+  "visual_review": "Both sheets reviewed; clipped main labels corrected.",
+  "stall_peak_semantics": "Distinct in supplier and joined records.",
+  "unresolved_rotor_inertia": "GL40 II remains null; published alternatives retained.",
+  "workbook_sha256": "e6ad5d5297b90b62afc40b9743eaa1a30bd682ffb2e03d753879712d5920a552"
+}

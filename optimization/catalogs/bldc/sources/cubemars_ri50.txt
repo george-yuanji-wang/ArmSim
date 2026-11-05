@@ -1,0 +1,472 @@
+RI50 KV100 Frameless Inrunner Torque Motor for Robot
+Cubemars - 17 Year Motor Manufacturer
+info@cubemars.com
++86 13755649079
+English
+English
+中文简体
+日本語
+Deutsch
+Français
+한국어
+Español
+Pусский
+CubeMars robot motor logo
+Product Series
+Robotic Actuator
+AK Series Robotic Actuator
+- AK10-9 V3.0 KV60
+- AK80-9 V3.0 KV100
+- AK70-9 V3.0 KV60
+AKH Series Hollow Shaft Planetary Actuator
+- AKH70-48 V1.0 KV41
+- AKH70-16 V1.0 KV41
+AKA Series Robotic Actuator
+- AKA10-9 KV60
+- AKA60-6 KV80
+Quasi Direct Drive Motor
+AKE Series Quasi Direct Drive Motor
+- AKE90-8 KV35
+- AKE80-8 KV30
+- AKE60-8 KV80
+- AKE40-6 KV90
+Frameless Inrunner Torque Motor
+RI Series Frameless Inrunner Torque Motor
+- RI50 KV100
+- RI100 KV105
+- RI80 V2.0 KV75
+RI Series Potting Frameless Inrunner Torque Motor
+- RI85-PH KV85 With Connector
+- RI75-PH KV70 With Connector
+Frameless Outrunner Torque Motor
+RO Series Frameless Outrunner Torque Motor
+- RO100 KV55-Standard-with-hall
+- RO80 KV105-Standard-with-hall
+- RO60 KV115-Standard-with-hall
+Gimbal Motor
+GL Series Gimbal Motor
+- GL II Gimbal Motor
+- GL Gimbal Motor
+G Series Gimbal Motor
+Underwater Thruster
+SW Series Underwater Thruster
+- SW12
+- SW17
+- SW7
+DW Series Underwater Thruster
+- DW15
+- DW20
+- DW25
+W Series Underwater Thruster
+- W30 Underwater Thruster
+TW ESC Series
+Robot Motor Application
+Humanoid Robot Motor
+Upper Limb Power
+Shoulder Joint Motor
+Elbow Joint Motor
+Wrist Joint Motor
+Neck Joint Motor
+Lower Limb Power
+Hip Joint Motor
+Knee Joint Motor
+Ankle Joint Motor
+Exoskeleton Motor
+Robot Joint Module
+Quadruped Robot Motor
+Robot Dog Motor
+Medical Robot Motor
+Rehabilitation Robot Motor
+Underwater Robot Motor
+ROV Thruster
+Gimbal System
+Gimbal Motor
+Product Selection
+Personalized Solution
+Technical Support
+Solution
+Video
+Event Sponsorship
+Contact Us
+Hello！Please LoginSign In|Sign Up
+Shopping cart
+There's nothing in your shopping cart
+Create your CubeMars account
+Home / Product Series / Frameless Inrunner Torque Motor / RI Series Frameless Inrunner Torque Motor / RI50 KV100
+RI50 KV100
+$61.90
+Available points：100 Points ▏
+Points reward：61
+Points
+?
+Points Rules
+Spend  $1 = 1point , 100 points can be redeemed for  $1
+Points will be deducted directly at checkout. Available points are subject to the amount displayed on the page ;
+Points are valid for 2 years and will expire automatically after the validity period
+• High torque density with powerful output
+• Low cogging torque for smooth operation
+• Extremely compact design to save space
+• Optional Hall sensor integration
+Style：
+without hall sensor
+with hall sensor
+KV：
+KV100
+$61.90
+RI50 KV100
+Add to cart
+Buy now
+USD200 Consumption Free Shipping by International Express (Excl. Remote Areas and Special Items).
+Customization Inquiry
+Payment Method :
+Share :
+Detail information
+Specifications
+Support and Downloads
+Leave Message
+Product Description
+The RI50 KV100 is a frameless inrunner torque motor from CubeMars’ RI series, engineered for applications where space is limited but rapid response and high dynamics are essential—such as robotic joints, exoskeletons, collaborative robot arms, and AGV hub drives. Featuring high torque density, ultra-low cogging torque, and an exceptionally small form factor, it delivers outstanding dynamic performance and exceptional mechanical integration flexibility.
+Core Data
+Motor Dimensions
+Φ54 × 27 mm
+Hollow Shaft Diameter
+22 mm
+Weight
+180.8 g
+Peak Torque
+1.67 N·m
+No-Load Speed
+4008 rpm @ 48 V
+Product Highlights
+High Torque Density
+Continuous torque of ~0.58 N·m and peak torque of ~1.67 N·m meet the output and responsiveness requirements of lightweight robotic joints and modular actuators
+Low Cogging Design
+Optimized electromagnetic structure minimizes cogging torque, enabling smoother motion and higher control precision
+Frameless Architecture
+Supplied as separate rotor and stator components, allowing users to customize mounting structures and flexibly integrate with gears, flanges, or bearings
+Compact & Lightweight
+Weighing only ~180.8 g with an outer diameter of Φ54 mm and length of 27 mm, ideal for highly constrained spatial layouts
+Technical Drawing
+RI50 without hall sensor
+RI50 with hall sensor
+Specification
+| Application | Cobot Arm/Exoskeleton | Insulation Class | C
+| Driving Way | FOC | Insulation High-Voltage | 500V 5mA/2s
+| Operation Ambient Temperature | -20℃~50℃ | Insulation Resistance | 500V 10MΩ
+| Winding Type | Star | Phase | 3
+| Pole Pairs | 7 |  |
+| Electric Parameters
+| Rated Voltage（V） | 24/36/48 | Ke（V/krpm） | 11.41
+| No-Load Speed（rpm） | 2004/3006/4008 | Phase To Phase Resistance（mΩ） | 1420
+| Rated Torque（Nm） | 0.58 | Phase To Phase Inductace（μH） | 1500
+| Rated Speed（rpm） | 1090/1860/2600 | Inertia（gc㎡） | 22.8
+| Rated Current（ADC） | 4.8 | Km（Nm/√W） | 0.1007
+| Peak Torque（Nm） | 1.67 | Mechanical Time Constant（ms） | 0.22
+| Peak Current（ADC） | 14.8 | Electrical Time Constant（ms） | 1.06
+| Kv（rpm/V） | 100 | Weight（g） | 180.8
+| Kt（Nm/A） | 0.120 | Maximum Torque Weight Ratio（Nm/Kg） | 9.24
+| Connector
+| U | Black+18#Silicone Wire | Hv | Green+30#Silicone Wire
+| V | Yellow+18#Silicone Wire | Hw | Yellow+30#Silicone Wire
+| W | Red+18#Silicone Wire | VCC GND | Red+30#Silicone WireBlack+30#Silicone Wire
+| Hu | Blue+30#Silicone Wire | Correspondence | Hu-U Hv-V Hw-W
+Analysis Chart
+Packing List
+89*91*73mm
+RI50 KV100
+Before using this product, please check if all the items listed above are included in the packaging. If there are any missing items, please contact our online customer service or leave message to info@cubemars.com in time.
+Product Comparison
+| category
+| Model
+| Rated Voltage (V)
+| Rated Power (W)
+| Rated Torque (Nm)
+| Rated Current (A)
+| Rated Speed (RPM)
+| Peak Torque (Nm)
+| Peak Current (A)
+| No-load Speed (RPM)
+| Phase to Phase Resistance (mΩ)
+| Phase to Phase Inductance (μH)
+| Pole Pairs
+| Weight (G)
+| Size (diameter *length) MM
+| Operation
+| RI Potting Series
+| RI115-PH KV40 Welded Model
+| 48
+| 823
+| 5.5
+| 20
+| 1430
+| 16
+| 52
+| 1920
+| 134
+| 245
+| 20
+| 1108
+| Ф115*41
+|
+| RI Potting Series
+| RI115-PH KV40 With Connector
+| 48
+| 823
+| 5.5
+| 20
+| 1430
+| 16
+| 52
+| 1920
+| 134
+| 245
+| 20
+| 1108
+| Ф115*42
+|
+| RI Potting Series
+| RI85-PH KV85 With Connector
+| 48
+| 637
+| 2
+| 16
+| 3042
+| 5
+| 44
+| 4080
+| 138.5
+| 239.4
+| 14
+| 411
+| Ф85*32
+|
+| RI Potting Series
+| RI85-PH KV85 Welded Model
+| 48
+| 637
+| 2
+| 16
+| 3042
+| 5
+| 44
+| 4080
+| 138.5
+| 239.4
+| 14
+| 411
+| Ф85*31.5
+|
+| RI Potting Series
+| RI75-PH KV70 Welded Model
+| 48
+| 297
+| 1.2
+| 7.28
+| 2365
+| 3.8
+| 24.2
+| 3360
+| 495
+| 673
+| 14
+| 348
+| Ф70*34
+|
+| RI Potting Series
+| RI75-PH KV70 With Connector
+| 48
+| 297
+| 1.2
+| 7.28
+| 2365
+| 3.8
+| 24.2
+| 3360
+| 495
+| 673
+| 14
+| 348
+| Ф70*36.2
+|
+| RI Frameless Series
+| RI100 KV105
+| 24/36/48
+| 252
+| 1.76
+| 13.6
+| 1370/2100/2825
+| 4.95
+| 38.6
+| 2184/3276/4368
+| 126
+| 366.7
+| 14
+| 500
+| Ф104*26
+|
+| RI Frameless Series
+| RI80 V2.0 KV75
+| 24/36/48
+| 172
+| 1.45
+| 9.4
+| 1135/1785/2430
+| 4.1
+| 9.4
+| 1480/2220/2960
+| 330
+| 510
+| 8
+| 411
+| Ф85*27
+|
+| RI Frameless Series
+| RI70 KV95
+| 24/36/48
+| 125
+| 0.94
+| 7.1
+| 1270/1990/2710
+| 2.68
+| 21
+| 1956/2934/3912
+| 418
+| 622.7
+| 14
+| 270.4
+| Ф76*24
+|
+| RI Frameless Series
+| RI60 KV120
+| 24/36/48
+| 85
+| 0.57
+| 5.6
+| 1440/2320/3190
+| 1.63
+| 16.8
+| 2532/3798/5064
+| 900
+| 877.5
+| 14
+| 155.9
+| Ф60*23
+|
+| RI Frameless Series
+| RI50 KV100
+| 24/36/48
+| 66
+| 0.58
+| 4.8
+| 1090/1860/2600
+| 1.67
+| 14.8
+| 2004/3006/4008
+| 1420
+| 1500
+| 7
+| 180.8
+| Ф54*27
+|
+| RI Frameless Series
+| RI30 KV260
+| 24
+| 33
+| 0.076
+| 1.98
+| 4110
+| 0.23
+| 7.72
+| 6240
+| 2.2
+| 1.41
+| 7
+| 40g
+| φ38*14
+|
+| RI Frameless Series
+| RI20 KV600
+| 16
+| 18
+| 0.024
+| 1.47
+| 7452
+| 0.072
+| 4.4
+| 9600
+| 1.89
+| 0.45
+| 7
+| 20g
+| φ25*14.5
+|
+Support and Downloads
+Model
+Name
+File Type
+Update Time
+Operate
+RI50 KV100
+RI50 Frameless Torque Motor Test Fixture (ZIP)
+File / ZIP
+2026-02-06
+RI50 KV100
+RI50 Frameless Torque Motor with Hall Sensor 3D Drawing (STEP, ZIP)
+Drawing / ZIP
+2026-02-06
+RI50 KV100
+RI50 Frameless Torque Motor Without Hall Sensor 3D Drawing (STEP, ZIP)
+Drawing / ZIP
+2026-02-06
+RI50 KV100
+RI50 Frameless Torque Motor with Hall Sensor 2D Drawing (PDF)
+Drawing / PDF
+2026-02-06
+RI50 KV100
+RI50 Frameless Torque Motor Without Hall Sensor 2D Drawing (PDF)
+Drawing / PDF
+2026-02-06
+Leave Message
+User name
+Anonymous
+E-mail *
+Name *
+Phone
+Comments
+Verification code
+BEST SELLERS
+AKA10-9
+AKE90-8
+GL60 II
+Warm prompt
+OKCancel
+Warm prompt
+Close
+Warm prompt
+Close
+Please Sign In
+Sign InSign Up
+Remember me
+Forgot Password?
+Warm prompt
+OKCancel
+CubeMars is a brand under Sanrui Intelligent (IPO in 2026), focused on robotic power systems. With 17 years of R&D experience, it fully designs and manufactures its product line in-house. The company specializes in compact high-torque planetary module and frameless motors, with an annual output of 6 million units and international certifications, widely used in humanoid robots and exoskeleton applications.
+info@cubemars.com
+Customer Service
+FAQ
+Payment Guide
+Order Information
+Moment
+Shipping Policy
+Return and Refund policy
+Terms & Conditions
+About CubeMars
+About Us
+Contact Us
+SiteMap
+Follow Us
+Moment
+How to Use CubeMars Actuators
+How to Use Two Motors to Build a Customs Electric Wheelchair For his Wife From Scratch
+How to Match Gimbal Motors to Robotics and Vision Systems
+Copyright © 2003-2026 CubeMars, All rights reserved.   Privacy Policy

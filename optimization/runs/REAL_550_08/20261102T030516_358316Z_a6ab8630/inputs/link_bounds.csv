@@ -1,0 +1,7 @@
+body_name,mass_lower_kg,mass_upper_kg,com_fraction_lower,com_fraction_upper,spread_fraction_lower,spread_fraction_upper,radius_mm
+shoulder_link,0.10,0.40,0.30,0.70,0.04,0.16,45
+upper_arm_link,0.10,0.80,0.25,0.75,0.03,0.15,25
+forearm_link,0.05,0.60,0.25,0.75,0.03,0.15,20
+wrist_1_link,0.03,0.40,0.25,0.75,0.03,0.15,18
+wrist_2_link,0.02,0.25,0.25,0.75,0.03,0.15,16
+tool_flange_link,0.015,0.15,0.25,0.75,0.03,0.15,12

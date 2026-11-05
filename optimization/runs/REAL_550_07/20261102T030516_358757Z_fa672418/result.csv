@@ -1,0 +1,2 @@
+project_id,layout_number,extended_reach_mm,candidate_evaluations,pose_count,reachable_poses,pmax_kg,required_payload_upper_kg,requirements_met,arm_mass_kg,gravity_score_JG,requested_evaluations,budget_reached,proposal_attempts,unique_candidates_checked,duplicate_proposals_skipped,cheap_geometry_rejections,proposal_fallbacks,capacity_challenge_probes,termination_reason
+REAL_550_07,7,550.0,200,1008,1008,7.946210300909068,1.0,True,5.635510744988719,0.02248849092625672,200,True,209,200,9,1104,0,1053,evaluation_budget_reached

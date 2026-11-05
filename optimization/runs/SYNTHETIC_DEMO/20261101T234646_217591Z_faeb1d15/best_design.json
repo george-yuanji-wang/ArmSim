@@ -1,0 +1,54 @@
+{
+  "layout_number": 1,
+  "lengths_m": [
+    0.388235294117647,
+    0.3397058823529412,
+    0.09705882352941175
+  ],
+  "link_masses_kg": [
+    0.1,
+    0.1,
+    0.05,
+    0.03,
+    0.02,
+    0.015
+  ],
+  "com_fractions": [
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5
+  ],
+  "spread_fractions": [
+    0.1,
+    0.09,
+    0.09,
+    0.09,
+    0.09,
+    0.09
+  ],
+  "motor_offsets_m": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "motor_ids": [
+    "SYNTHETIC_M_LARGE",
+    "SYNTHETIC_M_LARGE",
+    "SYNTHETIC_M_LARGE",
+    "SYNTHETIC_M_LARGE",
+    "SYNTHETIC_M_LARGE",
+    "SYNTHETIC_M_LARGE"
+  ],
+  "reducer_ids": [
+    "SYNTHETIC_R_100",
+    "SYNTHETIC_R_100",
+    "SYNTHETIC_R_100",
+    "SYNTHETIC_R_100",
+    "SYNTHETIC_R_100",
+    "SYNTHETIC_R_100"
+  ]
+}

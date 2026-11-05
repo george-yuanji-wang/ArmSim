@@ -1,0 +1,80 @@
+<mujoco model="conceptual-layout-1">
+  <compiler angle="radian" fusestatic="false" />
+  <option gravity="0 0 -9.81" timestep=".002" />
+  <default>
+    <geom contype="0" conaffinity="0" />
+    <joint limited="false" damping="0" frictionloss="0" />
+  </default>
+  <worldbody>
+    <body name="base_link">
+      <body name="motor_1" pos="0 0 0.038" zaxis="0 0 1">
+        <geom type="cylinder" size="0.04 0.03" mass="0.9" rgba=".2 .7 .6 1" />
+      </body>
+      <body name="reducer_1" pos="0 0 0.085" zaxis="0 0 1">
+        <geom type="cylinder" size="0.035 0.015" mass="0.4" rgba=".2 .7 .6 1" />
+      </body>
+      <body name="shoulder_link" pos="0 0 0.1">
+        <joint name="joint_1" type="hinge" axis="0 0 1" />
+        <inertial mass="0.2133329848220018" pos="0 0 0.0363302997826185" diaginertia="0.000238679082083251 0.000238679082083251 0.000215999647132277" />
+        <geom type="capsule" fromto="0 0 0 0 0 0.12" size="0.045" mass="0" rgba=".2 .4 .8 1" />
+        <body name="motor_2" pos="-0.072 0 0.12" zaxis="1 0 0">
+          <geom type="cylinder" size="0.04 0.03" mass="0.9" rgba=".2 .7 .6 1" />
+        </body>
+        <body name="reducer_2" pos="-0.02 0 0.12" zaxis="1 0 0">
+          <geom type="cylinder" size="0.05 0.02" mass="0.8" rgba=".2 .7 .6 1" />
+        </body>
+        <body name="upper_arm_link" pos="0 0 0.12">
+          <joint name="joint_2" type="hinge" axis="1 0 0" />
+          <inertial mass="0.12501156954631307" pos="0 0 0.295333340025148" diaginertia="0.00214671394978301 0.00214671394978301 3.90661154832228e-05" />
+          <geom type="capsule" fromto="0 0 0 0 0 0.4108591193158" size="0.025" mass="0" rgba=".2 .4 .8 1" />
+          <body name="motor_3" pos="-0.072 0 0.4108591193158" zaxis="1 0 0">
+            <geom type="cylinder" size="0.04 0.03" mass="0.9" rgba=".2 .7 .6 1" />
+          </body>
+          <body name="reducer_3" pos="-0.02 0 0.4108591193158" zaxis="1 0 0">
+            <geom type="cylinder" size="0.05 0.02" mass="0.8" rgba=".2 .7 .6 1" />
+          </body>
+          <body name="forearm_link" pos="0 0 0.4108591193158">
+            <joint name="joint_3" type="hinge" axis="1 0 0" />
+            <inertial mass="0.1431211921300825" pos="0 0 0.0273148869368299" diaginertia="0.000124928958890228 0.000124928958890228 2.86242384260165e-05" />
+            <geom type="capsule" fromto="0 0 0 0 0 0.0790318805576451" size="0.02" mass="0" rgba=".2 .4 .8 1" />
+            <body name="motor_4" pos="0 0 0.0170318805576451" zaxis="0 0 1">
+              <geom type="cylinder" size="0.025 0.02" mass="0.35" rgba=".2 .7 .6 1" />
+            </body>
+            <body name="reducer_4" pos="0 0 0.0590318805576451" zaxis="0 0 1">
+              <geom type="cylinder" size="0.05 0.02" mass="0.8" rgba=".2 .7 .6 1" />
+            </body>
+            <body name="wrist_1_link" pos="0 0 0.0790318805576451">
+              <joint name="joint_4" type="hinge" axis="0 0 1" />
+              <inertial mass="0.07529912944887554" pos="0 0 0.182376565364264" diaginertia="0.000464476855277912 0.000464476855277912 1.21984589707178e-05" />
+              <geom type="capsule" fromto="0 0 0 0 0 0.265302078940489" size="0.018" mass="0" rgba=".2 .4 .8 1" />
+              <body name="motor_5" pos="-0.052 0 0.265302078940489" zaxis="1 0 0">
+                <geom type="cylinder" size="0.025 0.02" mass="0.35" rgba=".2 .7 .6 1" />
+              </body>
+              <body name="reducer_5" pos="-0.015 0 0.265302078940489" zaxis="1 0 0">
+                <geom type="cylinder" size="0.035 0.015" mass="0.4" rgba=".2 .7 .6 1" />
+              </body>
+              <body name="wrist_2_link" pos="0 0 0.265302078940489">
+                <joint name="joint_5" type="hinge" axis="1 0 0" />
+                <inertial mass="0.03739286706413901" pos="0 0 0.0314405116615752" diaginertia="9.44277732800586e-06 9.44277732800586e-06 4.78628698420979e-06" />
+                <geom type="capsule" fromto="0 0 0 0 0 0.07" size="0.016" mass="0" rgba=".2 .4 .8 1" />
+                <body name="motor_6" pos="0 0 0.018" zaxis="0 0 1">
+                  <geom type="cylinder" size="0.025 0.02" mass="0.35" rgba=".2 .7 .6 1" />
+                </body>
+                <body name="reducer_6" pos="0 0 0.055" zaxis="0 0 1">
+                  <geom type="cylinder" size="0.035 0.015" mass="0.4" rgba=".2 .7 .6 1" />
+                </body>
+                <body name="tool_flange_link" pos="0 0 0.07">
+                  <joint name="joint_6" type="hinge" axis="0 0 1" />
+                  <inertial mass="0.031053920257618623" pos="0 0 0.0322856400288552" diaginertia="1.21826988032034e-05 1.21826988032034e-05 2.23588225854854e-06" />
+                  <geom type="capsule" fromto="0 0 0 0 0 0.08" size="0.012" mass="0" rgba=".2 .4 .8 1" />
+                  <site name="tool_frame" pos="0 0 .08" size=".005" />
+                  <body name="payload" pos="0 0 .08" />
+                </body>
+              </body>
+            </body>
+          </body>
+        </body>
+      </body>
+    </body>
+  </worldbody>
+</mujoco>

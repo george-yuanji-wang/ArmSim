@@ -1,0 +1,18 @@
+{
+  "link_bounds.csv": {
+    "sha256": "b631395cabdbbee40caded655cafadf30eccf732d0f98df45d67fd125bba79ee",
+    "bytes": 414
+  },
+  "motor.csv": {
+    "sha256": "7ff51dbfed073a40376266ed079f78f83e4f121377f3b09a8219cbd4b994fb91",
+    "bytes": 368
+  },
+  "reducer.csv": {
+    "sha256": "b363987fc94b460aabb2a497666f8f5c5c2162ef9bbe4ba4e54e45c55c8a8a97",
+    "bytes": 301
+  },
+  "requirement.csv": {
+    "sha256": "58b2a068630ef76e8c98419a7864df412a9a7705de51a5ea3c9e3ba35d9b4544",
+    "bytes": 105
+  }
+}

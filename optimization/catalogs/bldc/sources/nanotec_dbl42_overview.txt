@@ -1,0 +1,33 @@
+79
+BLDC MOTORSINTERNAL ROTOR MOTORS
+Brushless DC Motor
+DBL42
+OPTIONS
+III
+I
+I
+I I I
+DIMENSIONS (IN MM)
+DBL42
+VERSIONS
+Type Rated Power 
+W
+Rated Torque 
+Ncm
+Rated Current 
+A
+Peak Current 
+A
+Rated Voltage 
+V
+Rated Speed 
+rpm
+Torque Constant 
+Ncm/A
+Rotor Inertia 
+gcm²
+Length „A“ 
+mm
+Weight 
+kg
+DBL42L024032-A 40 12 2.1 6.3 24 3200 5.4 44 60 0.35

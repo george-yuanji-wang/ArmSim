@@ -1,0 +1,26 @@
+{
+  "joint_speed_limits_deg_s": [
+    180,
+    180,
+    180,
+    300,
+    300,
+    300
+  ],
+  "joint_accel_rad_s2": 6,
+  "wrist2_length_mm": 110,
+  "reducer_load_policy": "hold_and_repeated_peak",
+  "motor_load_policy": "hold_and_peak_envelope",
+  "motor_candidates_by_joint": {
+    "J1": [
+      "CUBEMARS_GL40_KV210"
+    ],
+    "J2": [
+      "CUBEMARS_GL40_KV210"
+    ],
+    "J3": [
+      "CUBEMARS_GL40_KV210"
+    ]
+  },
+  "shared_wrist_motor_id": "CUBEMARS_GL30_KV290"
+}

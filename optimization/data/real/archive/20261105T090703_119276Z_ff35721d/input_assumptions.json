@@ -1,0 +1,641 @@
+{
+  "study": "GL_FIXED_550",
+  "retrieved_client_date": "2026-11-05",
+  "motor_count": 2,
+  "reducer_count": 3,
+  "hardware_combinations_per_layout": 1,
+  "catalog_source_sha256": {
+    "lightweight_motor_survey/smc_cubemars.json": "4cf1dd857579988871dc05fe137bcfea8099b0e7784a3e7671ed91e36b7c6d91",
+    "lightweight_motor_survey/gl_torque_curves.json": "520ff198f39701ecc2dc45e305e17dcc82fc405f7d374473c1be1241c531a886",
+    "sitodrive/locked_gl_hardware.json": "bfd55c740845fcc5205d3a9dda1cae01c664f9aae509d9ffbc649c8f8506bcfb"
+  },
+  "source_files": {
+    "lightweight_motor_survey/smc_cubemars.json": {
+      "path": "C:\\Users\\George\\Desktop\\ArmSim\\optimization\\catalogs\\lightweight_motor_survey\\smc_cubemars.json",
+      "sha256": "4cf1dd857579988871dc05fe137bcfea8099b0e7784a3e7671ed91e36b7c6d91"
+    },
+    "lightweight_motor_survey/gl_torque_curves.json": {
+      "path": "C:\\Users\\George\\Desktop\\ArmSim\\optimization\\catalogs\\lightweight_motor_survey\\gl_torque_curves.json",
+      "sha256": "520ff198f39701ecc2dc45e305e17dcc82fc405f7d374473c1be1241c531a886"
+    },
+    "sitodrive/locked_gl_hardware.json": {
+      "path": "C:\\Users\\George\\Desktop\\ArmSim\\optimization\\catalogs\\sitodrive\\locked_gl_hardware.json",
+      "sha256": "bfd55c740845fcc5205d3a9dda1cae01c664f9aae509d9ffbc649c8f8506bcfb"
+    }
+  },
+  "policies": {
+    "hardware_scope": "User-locked GL40 KV210 J1-J3; GL30 KV290 J4-J6; HD-14 50:1 J1, CD-17 50:1 J2, CD-17 50:1 J3, CS-11-1U-E 30:1 J4-J6. Exactly one hardware tuple per configuration.",
+    "motor_rating": "Holding uses original continuous torque; dynamic capacity uses the speed-dependent transient characteristic capped at original peak torque. No increase in continuous rating. Continuous-only capacity is retained separately.",
+    "motor_rotor_inertia": "Manufacturer rotor inertia: GL40 7.4e-6 kg m^2 and GL30 2.42e-6 kg m^2; included once in motor acceleration load.",
+    "motor_geometry": "Complete bearing-supported motor case dimensions and net masses; custom adapters, encoders, drivers and wiring have no invented masses.",
+    "reducer_geometry": "Exact selected variant envelope; sources, drawings and dimensional interpretations retained in locked_gl_hardware.json.",
+    "reducer_rating": "Static holding against rated output torque; dynamic peaks against repeated peak, not emergency/momentary torque. No undocumented speed uprating. Timed average load and life remain unverified.",
+    "GL30_operating_voltage": "16 V bus is an explicit engineering assumption, not manufacturer-qualified GL30 operation. Original 12 V curve shifted by measured Kv255 * 4 V = 1020 rpm; original 0.08 Nm continuous and 0.28 Nm peak caps retained.",
+    "peak_duration_and_duty": "Unpublished. Pmax is conditional transient-envelope payload capacity, not verified continuous-cycle payload. No fabricated peak duration or RMS duty is supplied.",
+    "transmission": "Ideal lossless reducers and 1:1 local belts; no unpublished gearbox friction/efficiency inserted. Unknown reducer input-shaft torque limits remain unverified.",
+    "gravity_score": "Record J_G using reducer rated-torque denominators and its separate motor-capacity normalization. Changed reducer ratings mean raw torques should accompany comparisons with older hardware.",
+    "geometry_and_mass": "Approved edge-frame configuration topology; geometry-derived aluminium stock mass/CoM/inertia, fixed short 90 mm L2, 110 mm J5-J6 spacing, exact 550 mm extended shoulder-to-TCP reach. Global collisions/joint stops ignored as requested; assembly mounting constraints remain enforced.",
+    "motion": {
+      "joint_speed_limits_deg_s": [
+        180,
+        180,
+        180,
+        300,
+        300,
+        300
+      ],
+      "joint_accel_rad_s2": 6,
+      "wrist2_length_mm": 110,
+      "reducer_load_policy": "hold_and_repeated_peak",
+      "motor_load_policy": "hold_and_peak_envelope",
+      "motor_candidates_by_joint": {
+        "J1": [
+          "CUBEMARS_GL40_KV210"
+        ],
+        "J2": [
+          "CUBEMARS_GL40_KV210"
+        ],
+        "J3": [
+          "CUBEMARS_GL40_KV210"
+        ]
+      },
+      "shared_wrist_motor_id": "CUBEMARS_GL30_KV290"
+    }
+  },
+  "motor_sources": [
+    {
+      "maker": "CubeMars",
+      "model": "GL40",
+      "winding": "KV210",
+      "assembly_type": "complete assembled bearing-supported gimbal motor; no driver or reducer",
+      "diameter_mm": 46.5,
+      "length_mm": 21.5,
+      "mass_g": 107,
+      "rated_voltage_V": 16,
+      "torque_Nm": 0.25,
+      "torque_rating_type": "manufacturer rated torque at the separately listed rated speed; peak duration unstated",
+      "rated_speed_rpm": 2100,
+      "no_load_speed_rpm": 3120,
+      "peak_torque_Nm": 0.75,
+      "rotor_inertia_kg_m2": 7.4e-06,
+      "price": 72.99,
+      "price_currency": "USD",
+      "price_scope": "single bare motor; excludes optional encoder, driver, shipping and tax",
+      "source_url": "https://www.cubemars.com/product/gl40-kv210-gimbal-motor.html",
+      "additional_sources": [
+        "https://www.cubemars.com/product/gl40-kv210-gimbal-motor.html"
+      ],
+      "status": "published_1500rpm_point",
+      "assessment": "Published.25Nm/2100rpm at16V is a credible lightweight1500rpm research point. USD72.99 above former budget; driver not included.",
+      "source_conflicts": [
+        "Marketed KV210 versus detailed Kv195rpm/V; generic prose peak.73Nm versus winding-specific.75Nm."
+      ],
+      "verified_date": "2026-11-05",
+      "motor_id": "CUBEMARS_GL40_KV210",
+      "name": "CubeMars GL40 KV210 (assembled motor)",
+      "rated_torque_Nm": 0.25,
+      "rated_power_W": 54.97787143782138,
+      "stall_torque_Nm": null,
+      "max_speed_rpm": null,
+      "mass_kg": 0.107,
+      "radius_mm": 23.25,
+      "peak_duration_s": null,
+      "capacity_model": "rated_continuous",
+      "rotor_inertia_basis": "published",
+      "operating_voltage_V": 16,
+      "rated_current_A": 4.9,
+      "price_usd": 72.99,
+      "selectable_joints": "1;2;3",
+      "selection_note": "Fixed by user; no hardware search. Rated watts are derived shaft power, not electrical consumption.",
+      "curve": {
+        "source_url": "https://store.tmotor.com/images/202408/121723430944196572.jpg",
+        "source_file": "source_curves\\GL40_KV210_16V.jpg",
+        "source_sha256": "8b308c06d411decd9cadc7a914baa1ba48255052e37795ae0d5fc28f63acc126",
+        "source_voltage_V": 16,
+        "axes": [
+          258,
+          900,
+          1103,
+          1620,
+          0.8,
+          3500
+        ],
+        "observations": [
+          {
+            "torque_Nm": 0.01,
+            "speed_rpm": 3002,
+            "pixel_x": 266,
+            "pixel_y": 1176.5
+          },
+          {
+            "torque_Nm": 0.08,
+            "speed_rpm": 2694,
+            "pixel_x": 322,
+            "pixel_y": 1222.0
+          },
+          {
+            "torque_Nm": 0.16,
+            "speed_rpm": 2393,
+            "pixel_x": 386,
+            "pixel_y": 1266.5
+          },
+          {
+            "torque_Nm": 0.24,
+            "speed_rpm": 2132,
+            "pixel_x": 451,
+            "pixel_y": 1305.0
+          },
+          {
+            "torque_Nm": 0.32,
+            "speed_rpm": 1909,
+            "pixel_x": 515,
+            "pixel_y": 1338.0
+          },
+          {
+            "torque_Nm": 0.4,
+            "speed_rpm": 1706,
+            "pixel_x": 579,
+            "pixel_y": 1368.0
+          },
+          {
+            "torque_Nm": 0.48,
+            "speed_rpm": 1523,
+            "pixel_x": 643,
+            "pixel_y": 1395.0
+          },
+          {
+            "torque_Nm": 0.56,
+            "speed_rpm": 1361,
+            "pixel_x": 707,
+            "pixel_y": 1419.0
+          },
+          {
+            "torque_Nm": 0.64,
+            "speed_rpm": 1205,
+            "pixel_x": 772,
+            "pixel_y": 1442.0
+          },
+          {
+            "torque_Nm": 0.72,
+            "speed_rpm": 1063,
+            "pixel_x": 836,
+            "pixel_y": 1463.0
+          },
+          {
+            "torque_Nm": 0.75,
+            "speed_rpm": 1015,
+            "pixel_x": 860,
+            "pixel_y": 1470.0
+          }
+        ],
+        "operating_voltage_V": 16,
+        "speed_shift_rpm": 0,
+        "peak_torque_speed_curve": [
+          [
+            0,
+            0.75
+          ],
+          [
+            1015,
+            0.75
+          ],
+          [
+            1063,
+            0.72
+          ],
+          [
+            1205,
+            0.64
+          ],
+          [
+            1361,
+            0.56
+          ],
+          [
+            1523,
+            0.48
+          ],
+          [
+            1706,
+            0.4
+          ],
+          [
+            1909,
+            0.32
+          ],
+          [
+            2132,
+            0.24
+          ],
+          [
+            2393,
+            0.16
+          ],
+          [
+            2694,
+            0.08
+          ],
+          [
+            3002,
+            0.01
+          ],
+          [
+            3120,
+            0
+          ]
+        ],
+        "basis": "digitized_official_16V_curve",
+        "qualification": "manufacturer curve; transient duration/thermal duty unspecified"
+      }
+    },
+    {
+      "maker": "CubeMars",
+      "model": "GL30",
+      "winding": "KV290 marketed; table Kv255",
+      "assembly_type": "complete assembled bearing-supported gimbal motor; no driver or reducer",
+      "diameter_mm": 34.5,
+      "length_mm": 15.7,
+      "mass_g": 41,
+      "rated_voltage_V": 12,
+      "torque_Nm": 0.08,
+      "torque_rating_type": "manufacturer rated torque at the separately listed rated speed; peak duration unstated",
+      "rated_speed_rpm": 1990,
+      "no_load_speed_rpm": 3060,
+      "peak_torque_Nm": 0.28,
+      "rotor_inertia_kg_m2": 2.42e-06,
+      "price": 50.99,
+      "price_currency": "USD",
+      "price_scope": "single bare motor; excludes optional encoder, driver, shipping and tax",
+      "source_url": "https://www.cubemars.com/product/gl30-kv290-gimbal-motor.html",
+      "additional_sources": [
+        "https://store.cubemars.com/products/gl30"
+      ],
+      "status": "published_1500rpm_point",
+      "assessment": "Published rated speed exceeds1500rpm; lightweight wrist research candidate, not a full actuator qualification. USD50.99 slightly exceeds former USD50 budget.",
+      "source_conflicts": [
+        "Marketed KV290 versus detailed Kv255rpm/V.",
+        "Store gives rated2200rpm/2.3A; detailed current table1990rpm/2.13ADC."
+      ],
+      "verified_date": "2026-11-05",
+      "motor_id": "CUBEMARS_GL30_KV290",
+      "name": "CubeMars GL30 KV290 (assembled motor)",
+      "rated_torque_Nm": 0.08,
+      "rated_power_W": 16.671385015049836,
+      "stall_torque_Nm": null,
+      "max_speed_rpm": null,
+      "mass_kg": 0.041,
+      "radius_mm": 17.25,
+      "peak_duration_s": null,
+      "capacity_model": "rated_continuous",
+      "rotor_inertia_basis": "published",
+      "operating_voltage_V": 16,
+      "rated_current_A": 2.13,
+      "price_usd": 50.99,
+      "selectable_joints": "4;5;6",
+      "selection_note": "Fixed by user; no hardware search. Rated watts are derived shaft power, not electrical consumption.",
+      "curve": {
+        "source_url": "https://store.tmotor.com/images/202408/121723431229683127.jpg",
+        "source_file": "source_curves\\GL30_KV290_12V.jpg",
+        "source_sha256": "a453c4db84a5089274f6175dec884dc9e155cc4b3641b059bdd5d7d01206297a",
+        "source_voltage_V": 12,
+        "axes": [
+          265,
+          898,
+          200,
+          710,
+          0.3,
+          3500
+        ],
+        "observations": [
+          {
+            "torque_Nm": 0.01,
+            "speed_rpm": 2869,
+            "pixel_x": 286,
+            "pixel_y": 292.0
+          },
+          {
+            "torque_Nm": 0.03,
+            "speed_rpm": 2598,
+            "pixel_x": 328,
+            "pixel_y": 331.5
+          },
+          {
+            "torque_Nm": 0.05,
+            "speed_rpm": 2340,
+            "pixel_x": 370,
+            "pixel_y": 369.0
+          },
+          {
+            "torque_Nm": 0.08,
+            "speed_rpm": 1987,
+            "pixel_x": 434,
+            "pixel_y": 420.5
+          },
+          {
+            "torque_Nm": 0.1,
+            "speed_rpm": 1771,
+            "pixel_x": 476,
+            "pixel_y": 452.0
+          },
+          {
+            "torque_Nm": 0.12,
+            "speed_rpm": 1561,
+            "pixel_x": 518,
+            "pixel_y": 482.5
+          },
+          {
+            "torque_Nm": 0.15,
+            "speed_rpm": 1256,
+            "pixel_x": 582,
+            "pixel_y": 527.0
+          },
+          {
+            "torque_Nm": 0.18,
+            "speed_rpm": 975,
+            "pixel_x": 645,
+            "pixel_y": 568.0
+          },
+          {
+            "torque_Nm": 0.21,
+            "speed_rpm": 700,
+            "pixel_x": 708,
+            "pixel_y": 608.0
+          },
+          {
+            "torque_Nm": 0.24,
+            "speed_rpm": 439,
+            "pixel_x": 771,
+            "pixel_y": 646.0
+          },
+          {
+            "torque_Nm": 0.27,
+            "speed_rpm": 172,
+            "pixel_x": 835,
+            "pixel_y": 685.0
+          }
+        ],
+        "operating_voltage_V": 16,
+        "speed_shift_rpm": 1020,
+        "peak_torque_speed_curve": [
+          [
+            0,
+            0.28
+          ],
+          [
+            1192,
+            0.27
+          ],
+          [
+            1459,
+            0.24
+          ],
+          [
+            1720,
+            0.21
+          ],
+          [
+            1995,
+            0.18
+          ],
+          [
+            2276,
+            0.15
+          ],
+          [
+            2581,
+            0.12
+          ],
+          [
+            2791,
+            0.1
+          ],
+          [
+            3007,
+            0.08
+          ],
+          [
+            3360,
+            0.05
+          ],
+          [
+            3618,
+            0.03
+          ],
+          [
+            3889,
+            0.01
+          ],
+          [
+            4080,
+            0
+          ]
+        ],
+        "basis": "voltage_shift_estimate_from_official_12V_curve",
+        "qualification": "16 V operation and shifted curve unverified by manufacturer"
+      }
+    }
+  ],
+  "reducer_sources": {
+    "reducers": [
+      {
+        "reducer_id": "SITO_HD-14_50",
+        "manufacturer": "SITO Drive",
+        "model": "HD-14",
+        "name": "SITO HD-14 50:1 (fixed GL study; exact drawing retained)",
+        "allowed_joints": [
+          1
+        ],
+        "reduction_ratio": 50,
+        "mass_kg": 0.312,
+        "mass_qualifier": "published_upper_bound",
+        "radius_mm": 35,
+        "diameter_mm": 70,
+        "length_mm": 17.5,
+        "rated_output_torque_at_2000rpm_Nm": 4.5,
+        "continuous_output_torque_Nm": 4.5,
+        "rated_input_speed_rpm": 2000,
+        "repeated_peak_output_torque_Nm": 13,
+        "peak_output_torque_Nm": 13,
+        "average_output_torque_limit_Nm": 6.8,
+        "momentary_peak_output_torque_Nm": 25,
+        "max_input_speed_rpm": 8500,
+        "average_input_speed_limit_rpm": 3500,
+        "max_input_torque_Nm": null,
+        "efficiency": null,
+        "backdriving_torque_Nm": null,
+        "published_inertia_kg_m2": 2.1e-06,
+        "inertia_reference": "Published table does not establish the shaft side. Do not reflect through ratio or assign this as rotating input inertia.",
+        "rotating_inertia_kg_m2": null,
+        "backlash_max_arcsec": 20,
+        "output_bearing_axial_load_N": null,
+        "output_bearing_radial_load_N": null,
+        "output_bearing_tilting_moment_Nm": null,
+        "source_url": "https://www.sitodrive.com/en/product/HD-14",
+        "source_catalog_url": "https://www.sitodrive.com/docs/Strain_Wave_Gear_Catalog_en.pdf",
+        "drawing_url": "https://sitodrive.com/stepfiles/HD/HD14_Standard.PDF",
+        "drawing_local_path": "optimization/catalogs/sitodrive/reducer_sources/HD14_Standard.PDF",
+        "drawing_sha256": "c5df9e7cb3815cd341d2bdc1b1948dcee00081fe7ef3a8075c35e60878cccbd1",
+        "drawing_visually_verified": true,
+        "cross_section": "circular",
+        "geometry_envelope_status": "Model-specific drawing: nominal round 70 mm OD and 17.50 mm overall axial stack; custom input adapter not included.",
+        "drawing_nominal_dimensions_mm": {
+          "outer_diameter": 70,
+          "overall_axial_length": 17.5,
+          "main_body_axial_length": 15.5,
+          "mounting_bolt_circle": 64,
+          "input_bore": 11
+        },
+        "interface_notes": [
+          "Motor adapter/coupler is additional; an 8 mm bore motor does not directly establish the reducer input interface.",
+          "Flange drawings do not establish allowable output-bearing moments or axial/radial loads."
+        ],
+        "source_catalog_file_page_1based": 17,
+        "source_catalog_printed_page": 21
+      },
+      {
+        "reducer_id": "SITO_CD-17_50",
+        "manufacturer": "SITO Drive",
+        "model": "CD-17",
+        "name": "SITO CD-17 50:1 (fixed GL study; exact drawing retained)",
+        "allowed_joints": [
+          2,
+          3
+        ],
+        "reduction_ratio": 50,
+        "mass_kg": 0.421,
+        "mass_qualifier": "published_upper_bound",
+        "radius_mm": 31,
+        "diameter_mm": 62,
+        "length_mm": 26.5,
+        "rated_output_torque_at_2000rpm_Nm": 11,
+        "continuous_output_torque_Nm": 11,
+        "rated_input_speed_rpm": 2000,
+        "repeated_peak_output_torque_Nm": 23,
+        "peak_output_torque_Nm": 23,
+        "average_output_torque_limit_Nm": 18,
+        "momentary_peak_output_torque_Nm": 48,
+        "max_input_speed_rpm": 7300,
+        "average_input_speed_limit_rpm": 3500,
+        "max_input_torque_Nm": null,
+        "efficiency": null,
+        "backdriving_torque_Nm": null,
+        "published_inertia_kg_m2": 5.4e-06,
+        "inertia_reference": "Published table does not establish the shaft side. Do not reflect through ratio or assign this as rotating input inertia.",
+        "rotating_inertia_kg_m2": null,
+        "backlash_max_arcsec": 20,
+        "output_bearing_axial_load_N": null,
+        "output_bearing_radial_load_N": null,
+        "output_bearing_tilting_moment_Nm": null,
+        "source_url": "https://www.sitodrive.com/en/product_detail?productid=1002",
+        "source_catalog_url": "https://www.sitodrive.com/docs/Strain_Wave_Gear_Catalog_en.pdf",
+        "drawing_url": "https://sitodrive.com/stepfiles/CD/CD17_Standard.PDF",
+        "drawing_local_path": "optimization/catalogs/sitodrive/reducer_sources/CD17_Standard.PDF",
+        "drawing_sha256": "88377535b86746fbe95d6a9df2f69bef16ea04202f89320c4e9ce804b90f6e10",
+        "drawing_visually_verified": true,
+        "cross_section": "circular",
+        "geometry_envelope_status": "Model-specific drawing: nominal round 62 mm OD and 26.50 mm overall axial stack; main body 24 mm; custom input adapter not included.",
+        "drawing_nominal_dimensions_mm": {
+          "outer_diameter": 62,
+          "overall_axial_length": 26.5,
+          "main_body_axial_length": 24,
+          "outer_mounting_bolt_circle": 56,
+          "output_mounting_bolt_circle": 27,
+          "bore_diameters": [
+            11,
+            14,
+            15
+          ]
+        },
+        "available_ratios": [
+          50,
+          80,
+          100
+        ],
+        "interface_notes": [
+          "No 30:1 CD-17 rating or selectable product variant is published in the inspected official sources. Do not invent a CD-17 30:1 variant.",
+          "Drawing calls out ten 3.4 mm through holes on 56 mm bolt circle, eight M5 depth 10 output holes, and input-side M3 holes.",
+          "The motor adapter/coupler is additional to the nominal reducer envelope."
+        ],
+        "source_catalog_file_page_1based": 76
+      },
+      {
+        "reducer_id": "SITO_CS-11-1U-E_30",
+        "manufacturer": "SITO Drive",
+        "model": "CS-11-1U-E",
+        "name": "SITO CS-11-1U-E 30:1 (fixed GL study; exact drawing retained)",
+        "allowed_joints": [
+          4,
+          5,
+          6
+        ],
+        "reduction_ratio": 30,
+        "mass_kg": 0.2,
+        "mass_qualifier": "published_upper_bound",
+        "radius_mm": 28.284271247461902,
+        "diameter_mm": null,
+        "length_mm": 56.5,
+        "rated_output_torque_at_2000rpm_Nm": 2.2,
+        "continuous_output_torque_Nm": 2.2,
+        "rated_input_speed_rpm": 2000,
+        "repeated_peak_output_torque_Nm": 4.5,
+        "peak_output_torque_Nm": 4.5,
+        "average_output_torque_limit_Nm": 3.4,
+        "momentary_peak_output_torque_Nm": 8.5,
+        "max_input_speed_rpm": 8500,
+        "average_input_speed_limit_rpm": 3500,
+        "max_input_torque_Nm": null,
+        "efficiency": null,
+        "backdriving_torque_Nm": null,
+        "published_inertia_kg_m2": 1.4e-06,
+        "inertia_reference": "Published table does not establish the shaft side. Do not reflect through ratio or assign this as rotating input inertia.",
+        "rotating_inertia_kg_m2": null,
+        "backlash_max_arcsec": 20,
+        "output_bearing_axial_load_N": null,
+        "output_bearing_radial_load_N": null,
+        "output_bearing_tilting_moment_Nm": null,
+        "source_url": "https://www.sitodrive.com/en/product_detail?productid=1337",
+        "source_catalog_url": "https://www.sitodrive.com/docs/Strain_Wave_Gear_Catalog_en.pdf",
+        "drawing_url": "https://sitodrive.com/stepfiles/CS-Mini/CS11-1U-E_Standard.PDF",
+        "drawing_local_path": "optimization/catalogs/sitodrive/reducer_sources/CS11-1U-E_Standard.PDF",
+        "drawing_sha256": "130ded404dfff4acdd65652cf2b7ca9236bbbb0473679499d8b5eaaae07aa8c7",
+        "drawing_visually_verified": true,
+        "cross_section": "39 mm round body with chamfered 40 mm square mounting flange",
+        "geometry_envelope_status": "Exact variant drawing supersedes generic family page dimensions. radius_mm=20*sqrt(2) conservatively encloses a 40 mm square flange including its undimensioned chamfered corners. It is not an actual round-body radius. length_mm=56.5 includes the 20 mm input-shaft projection and 0.5 mm output lip.",
+        "body_diameter_mm": 39,
+        "nominal_width_mm": 40,
+        "flange_width_mm": 40,
+        "flange_width_tolerance_mm": 0.1,
+        "square_flange_bounding_circle_diameter_mm": 56.568542494923804,
+        "square_flange_bounding_circle_note": "Conservative envelope of an unchamfered 40 mm square; the drawing has undimensioned corner chamfers. This is not an actual round part diameter.",
+        "drawing_nominal_dimensions_mm": {
+          "flange_width": 40,
+          "round_body_diameter": 39,
+          "body_axial_length": 33,
+          "front_flange_axial_length": 3,
+          "output_lip_projection": 0.5,
+          "input_shaft_projection": 20,
+          "input_shaft_diameter": 6,
+          "input_shaft_flat_length": 14,
+          "overall_axial_length": 56.5,
+          "housing_plus_output_lip_axial_length": 36.5,
+          "input_pilot_diameter": 24,
+          "output_bolt_circle": 20.5
+        },
+        "published_family_envelope": {
+          "diameter_upper_bound_mm": 43,
+          "length_upper_bound_mm": 82.5,
+          "mass_upper_bound_kg": 0.2,
+          "note": "Product-page prose is a generic family envelope; exact drawing defines selected variant geometry. Mass remains the published family upper bound because a tighter selected-variant mass was not established."
+        },
+        "interface_notes": [
+          "Four M4 mounting holes depth 8; six M3 output holes depth 5 on a 20.5 mm bolt circle.",
+          "Drawing identifies a 6 mm input shaft with a 14 mm flat portion. Adapter/coupler to GL30 is additional.",
+          "The user-specified 40 x 56.5 mm matches flange across-flats width and total axial length, not a cylindrical diameter.",
+          "A simple radius-20 cylinder does not enclose square flange corners. Detailed geometry/collision clearance must use the square flange dimensions or a conservative radial bound."
+        ],
+        "source_catalog_file_page_1based": 70
+      }
+    ]
+  },
+  "locked_j3_ratio": 50
+}

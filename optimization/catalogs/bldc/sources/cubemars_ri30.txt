@@ -1,0 +1,485 @@
+RI30 KV260 Frameless Inrunner Torque Motor - 230mNm High Torque Output
+Cubemars - 17 Year Motor Manufacturer
+info@cubemars.com
++86 13755649079
+English
+English
+中文简体
+日本語
+Deutsch
+Français
+한국어
+Español
+Pусский
+CubeMars robot motor logo
+Product Series
+Robotic Actuator
+AK Series Robotic Actuator
+- AK10-9 V3.0 KV60
+- AK80-9 V3.0 KV100
+- AK70-9 V3.0 KV60
+AKH Series Hollow Shaft Planetary Actuator
+- AKH70-48 V1.0 KV41
+- AKH70-16 V1.0 KV41
+AKA Series Robotic Actuator
+- AKA10-9 KV60
+- AKA60-6 KV80
+Quasi Direct Drive Motor
+AKE Series Quasi Direct Drive Motor
+- AKE90-8 KV35
+- AKE80-8 KV30
+- AKE60-8 KV80
+- AKE40-6 KV90
+Frameless Inrunner Torque Motor
+RI Series Frameless Inrunner Torque Motor
+- RI50 KV100
+- RI100 KV105
+- RI80 V2.0 KV75
+RI Series Potting Frameless Inrunner Torque Motor
+- RI85-PH KV85 With Connector
+- RI75-PH KV70 With Connector
+Frameless Outrunner Torque Motor
+RO Series Frameless Outrunner Torque Motor
+- RO100 KV55-Standard-with-hall
+- RO80 KV105-Standard-with-hall
+- RO60 KV115-Standard-with-hall
+Gimbal Motor
+GL Series Gimbal Motor
+- GL II Gimbal Motor
+- GL Gimbal Motor
+G Series Gimbal Motor
+Underwater Thruster
+SW Series Underwater Thruster
+- SW12
+- SW17
+- SW7
+DW Series Underwater Thruster
+- DW15
+- DW20
+- DW25
+W Series Underwater Thruster
+- W30 Underwater Thruster
+TW ESC Series
+Robot Motor Application
+Humanoid Robot Motor
+Upper Limb Power
+Shoulder Joint Motor
+Elbow Joint Motor
+Wrist Joint Motor
+Neck Joint Motor
+Lower Limb Power
+Hip Joint Motor
+Knee Joint Motor
+Ankle Joint Motor
+Exoskeleton Motor
+Robot Joint Module
+Quadruped Robot Motor
+Robot Dog Motor
+Medical Robot Motor
+Rehabilitation Robot Motor
+Underwater Robot Motor
+ROV Thruster
+Gimbal System
+Gimbal Motor
+Product Selection
+Personalized Solution
+Technical Support
+Solution
+Video
+Event Sponsorship
+Contact Us
+Hello！Please LoginSign In|Sign Up
+Shopping cart
+There's nothing in your shopping cart
+Create your CubeMars account
+Home / Product Series / Frameless Inrunner Torque Motor / RI Series Frameless Inrunner Torque Motor / RI30 KV260
+RI30 KV260
+$51.90
+Available points：0 Points ▏
+Points reward：51
+Points
+?
+Points Rules
+Spend  $1 = 1point , 100 points can be redeemed for  $1
+Points will be deducted directly at checkout. Available points are subject to the amount displayed on the page ;
+Points are valid for 2 years and will expire automatically after the validity period
+• Ultra-Compact Design, For Space-Constrained Applications
+• Ultra-Low Rotor Inertia, Fast Dynamic Response
+• Low Cogging Torque, Precise Motion Control
+• Compact Form Factor, Easy Integration
+$51.90
+RI30 KV260
+Add to cart
+Buy now
+USD200 Consumption Free Shipping by International Express (Excl. Remote Areas and Special Items).
+Customization Inquiry
+Payment Method :
+Share :
+Detail information
+Specifications
+Support and Downloads
+Leave Message
+Product Description
+The RI30 KV260 is a compact frameless inner-rotor torque motor designed for high torque density applications. At just 40 g, it delivers up to 230 mN·m peak torque and features a Ø17 mm through-bore. It is well suited for quadruped robots, collaborative robot joints, robotic wrists, and precision medical systems requiring a balance of torque, size, and dynamic performance.
+Core Data
+Dimensions
+Ø38*14 mm
+Through Bore Diameter
+Ø17 mm
+Weight
+40 g
+Peak Torque
+230 mN·m
+No-Load Speed
+6240 rpm
+Product Highlights
+Lightweight Design with High Torque Density
+Weighing only 40 g, the motor operates at 24 V and delivers up to 230 mN·m peak torque, providing high torque density in a compact form factor suitable for dynamic motion systems.
+Large Through-Bore Architecture
+Despite its compact Ø38 mm outer diameter, the motor integrates a Ø17 mm through-bore, enabling efficient routing of cables, signal lines, or pneumatic tubing while supporting compact mechanical integration.
+Frameless Design for Maximum Integration Flexibility
+The frameless architecture allows the motor’s electromagnetic core to be directly integrated into robotic structures, high-ratio gearboxes, or fully integrated servo modules, enabling highly efficient system-level packaging and reduced overall system size.
+Low Cogging Torque for Smooth Operation
+Optimized low cogging torque reduces torque ripple across both low-speed and high-speed operation, ensuring smooth and precise performance in high-accuracy servo control applications.
+Ultra-LightweightDesigned for Compact Robotics
+RI20/RI30 Frameless Torque Motors
+Ultra-Lightweight Built to Move Light
+Weighing only 40g with a profile height as low as 14mm, the motor delivers up to 230mN·m peak torque, providing strong power density and load capability for compact robotic joint applications
+High Torque Stiffness for Stable High-Load Control
+With a peak torque of 230mN·m and high torque stiffness,
+the motor maintains stable performance under sudden
+external disturbances and heavy load conditions, providing
+strong steady-state support and precise disturbance rejection
+in demanding motion control applications
+16VVoltage
+72mN·mPeak Torque
+9600RPMNo-Load Speed
+Ф11.6mm Large Through-Bore
+Design for Cable Routing
+Within a compact 25mm form factor, the motor integrates a 11.6mm through-bore, allowing routing of power, signal, or pneumatic
+lines through the center of the motor to simplify mechanical design
+Ample Space
+Wiring Freedom
+Widely Compatible
+Low Tooth-Torque Ultimate Smooth Control
+With cogging torque optimized to 0.95mN·m,
+the motor reduces torque ripple and supports smooth,
+high-precision servo control performance
+Frameless Architecture for
+Flexible Integration
+The frameless design enables direct integration with precision gearboxes, custom bearings, or structural frames,
+maximizing system-level space utilization and design flexibility
+Technical Drawing
+Specification
+| Size mm | φ38*14 | Insulation Class | H
+| Weight g | 40g | Insulation Withstand Voltage | 500V 5mA/2s
+| Operating Ambient Temperature | -20~50℃ | Insulation Resistance | 500V 10MΩ
+| Pole Pairs | 7 | Number of Slots | 12
+| Electrical Specifications
+| Maximum Continuous PowerW | 33 | Electrode Constant N·m/√W | 0.0247
+| Rated Power V | 24 | Speed Constant RPM/V | 260
+| Rated Torque N·m | 0.076 | Torque Constant N·m/A | 0.03673
+| Peak Torque N·m | 0.23 | Back EMF Constant V/kRPM | 0.0038
+| Rated Speed RPM | 4110 | Rotor Inertia g·cm² | 4.23
+| No-Load Speed RPM | 6240 | Phase Resistance mΩ | 2200
+| Rated Current A | 1.98 | Phase Inductance uH | 1410
+| Peak Current A | 7.72 | Electromechanical Time Constant ms | 0.69
+| Maximum Torque Density N·m/kg | 2.14 | Electrical Time Constant ms | 0.641
+| Cogging Torque N·mm | 5.259 |  |
+| Wiring Instructions
+| U | Black-200mm-26#AWG | Hv | /
+| V | Yellow-200mm-26#AWG | Hw | /
+| W | Red-200mm-26#AWG | VCC GND | /
+| Hu | / | L1/L2 | /
+Analysis Chart
+| Performance Curves
+|
+| Cogging Torque Curve
+|
+Packing List
+89*91*73mm
+RI30 KV260
+Before using this product, please check if all the items listed above are included in the packaging. If there are any missing items, please contact our online customer service or leave message to info@cubemars.com in time.
+Product Comparison
+| category
+| Model
+| Rated Voltage (V)
+| Rated Power (W)
+| Rated Torque (Nm)
+| Rated Current (A)
+| Rated Speed (RPM)
+| Peak Torque (Nm)
+| Peak Current (A)
+| No-load Speed (RPM)
+| Phase to Phase Resistance (mΩ)
+| Phase to Phase Inductance (μH)
+| Pole Pairs
+| Weight (G)
+| Size (diameter *length) MM
+| Operation
+| RI Potting Series
+| RI115-PH KV40 Welded Model
+| 48
+| 823
+| 5.5
+| 20
+| 1430
+| 16
+| 52
+| 1920
+| 134
+| 245
+| 20
+| 1108
+| Ф115*41
+|
+| RI Potting Series
+| RI115-PH KV40 With Connector
+| 48
+| 823
+| 5.5
+| 20
+| 1430
+| 16
+| 52
+| 1920
+| 134
+| 245
+| 20
+| 1108
+| Ф115*42
+|
+| RI Potting Series
+| RI85-PH KV85 With Connector
+| 48
+| 637
+| 2
+| 16
+| 3042
+| 5
+| 44
+| 4080
+| 138.5
+| 239.4
+| 14
+| 411
+| Ф85*32
+|
+| RI Potting Series
+| RI85-PH KV85 Welded Model
+| 48
+| 637
+| 2
+| 16
+| 3042
+| 5
+| 44
+| 4080
+| 138.5
+| 239.4
+| 14
+| 411
+| Ф85*31.5
+|
+| RI Potting Series
+| RI75-PH KV70 Welded Model
+| 48
+| 297
+| 1.2
+| 7.28
+| 2365
+| 3.8
+| 24.2
+| 3360
+| 495
+| 673
+| 14
+| 348
+| Ф70*34
+|
+| RI Potting Series
+| RI75-PH KV70 With Connector
+| 48
+| 297
+| 1.2
+| 7.28
+| 2365
+| 3.8
+| 24.2
+| 3360
+| 495
+| 673
+| 14
+| 348
+| Ф70*36.2
+|
+| RI Frameless Series
+| RI100 KV105
+| 24/36/48
+| 252
+| 1.76
+| 13.6
+| 1370/2100/2825
+| 4.95
+| 38.6
+| 2184/3276/4368
+| 126
+| 366.7
+| 14
+| 500
+| Ф104*26
+|
+| RI Frameless Series
+| RI80 V2.0 KV75
+| 24/36/48
+| 172
+| 1.45
+| 9.4
+| 1135/1785/2430
+| 4.1
+| 9.4
+| 1480/2220/2960
+| 330
+| 510
+| 8
+| 411
+| Ф85*27
+|
+| RI Frameless Series
+| RI70 KV95
+| 24/36/48
+| 125
+| 0.94
+| 7.1
+| 1270/1990/2710
+| 2.68
+| 21
+| 1956/2934/3912
+| 418
+| 622.7
+| 14
+| 270.4
+| Ф76*24
+|
+| RI Frameless Series
+| RI60 KV120
+| 24/36/48
+| 85
+| 0.57
+| 5.6
+| 1440/2320/3190
+| 1.63
+| 16.8
+| 2532/3798/5064
+| 900
+| 877.5
+| 14
+| 155.9
+| Ф60*23
+|
+| RI Frameless Series
+| RI50 KV100
+| 24/36/48
+| 66
+| 0.58
+| 4.8
+| 1090/1860/2600
+| 1.67
+| 14.8
+| 2004/3006/4008
+| 1420
+| 1500
+| 7
+| 180.8
+| Ф54*27
+|
+| RI Frameless Series
+| RI30 KV260
+| 24
+| 33
+| 0.076
+| 1.98
+| 4110
+| 0.23
+| 7.72
+| 6240
+| 2.2
+| 1.41
+| 7
+| 40g
+| φ38*14
+|
+| RI Frameless Series
+| RI20 KV600
+| 16
+| 18
+| 0.024
+| 1.47
+| 7452
+| 0.072
+| 4.4
+| 9600
+| 1.89
+| 0.45
+| 7
+| 20g
+| φ25*14.5
+|
+Support and Downloads
+Model
+Name
+File Type
+Update Time
+Operate
+RI30 KV260
+RI30 KV20 Frameless Torque Motor Without Hall Sensor 2D Drawing (PDF)
+Drawing / PDF
+2026-08-14
+RI30 KV260
+RI30 KV260 Frameless Torque Motor Without Hall Sensor 3D Drawing (STEP, ZIP)
+Drawing / ZIP
+2026-08-14
+Leave Message
+User name
+Anonymous
+E-mail *
+Name *
+Phone
+Comments
+Verification code
+BEST SELLERS
+AKA10-9
+AKE90-8
+GL60 II
+Warm prompt
+OKCancel
+Warm prompt
+Close
+Warm prompt
+Close
+Please Sign In
+Sign InSign Up
+Remember me
+Forgot Password?
+Warm prompt
+OKCancel
+CubeMars is a brand under Sanrui Intelligent (IPO in 2026), focused on robotic power systems. With 17 years of R&D experience, it fully designs and manufactures its product line in-house. The company specializes in compact high-torque planetary module and frameless motors, with an annual output of 6 million units and international certifications, widely used in humanoid robots and exoskeleton applications.
+info@cubemars.com
+Customer Service
+FAQ
+Payment Guide
+Order Information
+Moment
+Shipping Policy
+Return and Refund policy
+Terms & Conditions
+About CubeMars
+About Us
+Contact Us
+SiteMap
+Follow Us
+Moment
+How to Use CubeMars Actuators
+How to Use Two Motors to Build a Customs Electric Wheelchair For his Wife From Scratch
+How to Match Gimbal Motors to Robotics and Vision Systems
+Copyright © 2003-2026 CubeMars, All rights reserved.   Privacy Policy

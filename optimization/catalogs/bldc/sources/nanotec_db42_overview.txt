@@ -1,0 +1,66 @@
+78
+Brushless DC Motor
+DB42
+OPTIONS
+III
+I
+I
+I I I
+INTERNAL ROTOR MOTORS
+ACCESSORIES
+ZD-D28  Damper
+ZD-D40  Damper
+ZD-DF40  Damper
+DIMENSIONS (IN MM)
+Front view and mounting Side view Rear view
+"A"
+3
+24±1
+Ø22 0
+-0.025
+Ø5 0
+-0.013
+13.5±1
+Ø5 0
+-0.013
+0.05 A
+UL1430 AWG20
+L=400±20mm
+ 31±0.2
+42±0.3
+4- M3x0.5
+19.05 2- M2.5
+A
+Ø0.05 A
+DB42
+VERSIONS
+Type Rated Power 
+W
+Rated Torque 
+Ncm
+Rated Current 
+A
+Peak Current 
+A
+Rated Voltage 
+V
+Rated Speed 
+rpm
+Torque Constant 
+Ncm/A
+Rotor Inertia 
+gcm²
+Length „A“ 
+mm
+Weight 
+kg
+DB42S01 31 5 0.88 2.63 48 6000 5.7 24 41 0.25
+DB42S02 42 5 3.57 10.78 17 8000 1.4 24 41 0.25
+DB42S03 26 6.25 1.79 5.4 24 4000 3.5 24 41 0.3
+DB42M01 69 11 2.12 5.77 48 6000 5.2 48 60.3 0.45
+DB42M02 62 7 1.63 4.88 48 8500 4.3 48 60.3 0.45
+DB42M03 52 12.5 3.47 10.6 24 4000 3.6 48 60.3 0.45
+DB42L01 75 18 5.14 15.5 24 4000 3.6 67 80.3 0.65
+DB42C01 157 25 4.63 13.89 48 6000 5.4 89 100 0.75
+DB42C02 147 10 3.57 10.71 48 14000 2.8 89 100 0.75
+DB42C03 105 25 6.65 20 24 4000 3.76 89 100 0.75

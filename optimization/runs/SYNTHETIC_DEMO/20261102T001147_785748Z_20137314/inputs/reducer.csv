@@ -1,0 +1,4 @@
+reducer_id,name,reduction_ratio,mass_kg,radius_mm,length_mm,continuous_output_torque_Nm,peak_output_torque_Nm,max_input_torque_Nm,max_input_speed_rpm
+SYNTHETIC_R_50,Invented test fixture ratio 50,50,0.4,35,30,50,75,1.5,5000
+SYNTHETIC_R_100,Invented test fixture ratio 100,100,0.8,50,40,120,180,2,5000
+SYNTHETIC_R_WRIST,Invented compact wrist test fixture,40,0.08,24,30,8,12,0.25,6000

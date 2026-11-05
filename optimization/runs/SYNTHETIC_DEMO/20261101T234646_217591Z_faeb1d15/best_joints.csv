@@ -1,0 +1,7 @@
+joint,drive,motor_id,motor_name,reducer_id,reducer_name,reduction_ratio,motor_mass_kg,reducer_mass_kg,rotor_inertia_kg_m2,fixed_parent_body,position_frame,motor_center_x_mm,motor_center_y_mm,motor_center_z_mm,reducer_center_x_mm,reducer_center_y_mm,reducer_center_z_mm
+J1,coaxial,SYNTHETIC_M_LARGE,Invented test fixture large,SYNTHETIC_R_100,Invented test fixture ratio 100,100.0,0.9,0.8,5e-05,base_link,fixed_parent_body local XYZ,0.0,0.0,28.0,0.0,0.0,80.0
+J2,coaxial,SYNTHETIC_M_LARGE,Invented test fixture large,SYNTHETIC_R_100,Invented test fixture ratio 100,100.0,0.9,0.8,5e-05,shoulder_link,fixed_parent_body local XYZ,-72.0,0.0,120.0,-20.0,0.0,120.0
+J3,coaxial,SYNTHETIC_M_LARGE,Invented test fixture large,SYNTHETIC_R_100,Invented test fixture ratio 100,100.0,0.9,0.8,5e-05,upper_arm_link,fixed_parent_body local XYZ,-72.0,0.0,388.235294117647,-20.0,0.0,388.235294117647
+J4,coaxial,SYNTHETIC_M_LARGE,Invented test fixture large,SYNTHETIC_R_100,Invented test fixture ratio 100,100.0,0.9,0.8,5e-05,forearm_link,fixed_parent_body local XYZ,0.0,0.0,267.705882352941,0.0,0.0,319.705882352941
+J5,coaxial,SYNTHETIC_M_LARGE,Invented test fixture large,SYNTHETIC_R_100,Invented test fixture ratio 100,100.0,0.9,0.8,5e-05,wrist_1_link,fixed_parent_body local XYZ,-72.0,0.0,97.0588235294118,-20.0,0.0,97.0588235294118
+J6,coaxial,SYNTHETIC_M_LARGE,Invented test fixture large,SYNTHETIC_R_100,Invented test fixture ratio 100,100.0,0.9,0.8,5e-05,wrist_2_link,fixed_parent_body local XYZ,0.0,0.0,-2.0,0.0,0.0,50.0

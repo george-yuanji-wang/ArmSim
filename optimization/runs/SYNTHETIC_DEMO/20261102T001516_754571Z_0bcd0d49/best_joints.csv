@@ -1,0 +1,7 @@
+joint,drive,motor_id,motor_name,reducer_id,reducer_name,reduction_ratio,motor_mass_kg,reducer_mass_kg,rotor_inertia_kg_m2,fixed_parent_body,position_frame,motor_center_x_mm,motor_center_y_mm,motor_center_z_mm,reducer_center_x_mm,reducer_center_y_mm,reducer_center_z_mm
+J1,coaxial,SYNTHETIC_M_WRIST,Invented compact wrist test fixture,SYNTHETIC_R_50,Invented test fixture ratio 50,50.0,0.15,0.4,3e-06,base_link,fixed_parent_body local XYZ,0.0,0.0,59.0,0.0,0.0,81.0
+J2,coaxial,SYNTHETIC_M_LARGE,Invented test fixture large,SYNTHETIC_R_50,Invented test fixture ratio 50,50.0,0.9,0.4,5e-05,shoulder_link,fixed_parent_body local XYZ,-62.0,0.0,120.0,-19.0,0.0,120.0
+J3,coaxial,SYNTHETIC_M_LARGE,Invented test fixture large,SYNTHETIC_R_50,Invented test fixture ratio 50,50.0,0.9,0.4,5e-05,upper_arm_link,fixed_parent_body local XYZ,-62.0,0.0,540.0,-19.0,0.0,540.0
+J4,coaxial,SYNTHETIC_M_WRIST,Invented compact wrist test fixture,SYNTHETIC_R_WRIST,Invented compact wrist test fixture,40.0,0.15,0.08,3e-06,forearm_link,fixed_parent_body local XYZ,0.0,-23.0,102.3752611091637,0.0,-1.000000000000001,102.3752611091637
+J5,coaxial,SYNTHETIC_M_WRIST,Invented compact wrist test fixture,SYNTHETIC_R_WRIST,Invented compact wrist test fixture,40.0,0.15,0.08,3e-06,wrist_1_link,fixed_parent_body local XYZ,-41.0,0.0,276.31677363695377,-19.0,0.0,276.31677363695377
+J6,coaxial,SYNTHETIC_M_WRIST,Invented compact wrist test fixture,SYNTHETIC_R_WRIST,Invented compact wrist test fixture,40.0,0.15,0.08,3e-06,wrist_2_link,fixed_parent_body local XYZ,0.0,0.0,53.0,0.0,0.0,75.0

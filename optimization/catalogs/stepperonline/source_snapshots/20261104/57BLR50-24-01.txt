@@ -1,0 +1,421 @@
+24V 3500RPM 0.23Nm 84W 5.0A Ф57x49mm Brushless DC Motor - 57BLR50-24-01 | StepperOnline (https://www.omc-stepperonline.com/index.php?product_id=667&route=product%2Fproduct)
+citeturn156view0 [wordlim: 200] Crawled: 2 days ago; Content type: text/html; Source: click({"ref_id":"turn138view0","id":44}); Redirected to URL: https://www.omc-stepperonline.com/24v-3500rpm-0-23nm-84w-5-0a-%D1%8457x49mm-brushless-dc-motor-57blr50-24-01; Total lines: 418
+L0:   * 【0†Compare 0】
+L1:   * 【1†Account】
+L2: 
+L3:     * 【2†Login】
+L4:     * 【3†Register】
+L5: 
+L6: We've upgraded our website — we'd love to hear how we can make it even better. Share feedback
+L7: 
+L8: [Button: ]
+L9: 
+L10: Search here... [Input: Search here...]
+L11: 
+L12: English
+L13: 
+L14:   * English
+L15:   * English
+L16:   * English
+L17:   * English
+L18:   * Deutsch
+L19:   * Deutsch
+L20:   * Français
+L21:   * Italiano
+L22:   * Español
+L23:   * Español
+L24:   * Nederlands
+L25:   * Polski
+L26:   * 日本語
+L27:   * 한국인
+L28:   * Русский
+L29:   * Türkçe
+L30: 
+L31: [Input] [Input]
+L32: 
+L33: $ USD USD
+L34:   * A$ AUD AUD
+L35:   * C$ CAD CAD
+L36:   * € EUR EUR
+L37:   * £ GBP GBP
+L38:   * ¥ JPY JPY
+L39:   * ₩ KRW KRW
+L40:   * M$ MXN MXN
+L41:   * zł PLN PLN
+L42:   * руб. RUB RUB
+L43:   * TL TRY TRY
+L44:   * $ USD USD
+L45: 
+L46: [Input] [Input]
+L47: 
+L48:   * 【0†Compare 0】
+L49:   * 【1†Account】
+L50: 
+L51:     * 【2†Login】
+L52:     * 【3†Register】
+L53: 
+L54: 【4†Cart 0 item(s) - $0.00 0】
+L55: 
+L56:   * Your shopping cart is empty!
+L57: 
+L58:   * Menu
+L59: 
+L60:   *   * Motors & Drivers
+L61: 
+L62:   * Linear Motion
+L63: 
+L64:   * Gearboxes
+L65: 
+L66:   * Electrical
+L67: 
+L68:   * Mechanical
+L69: 
+L70:   * New Product
+L71: 
+L72:   * 【5†Sales】
+L73:   * 【6†Support†help.omc-stepperonline.com】
+L74: 
+L75:   * Menu
+L76:   * 【0†Compare 0】
+L77:   * 【1†Account】
+L78: 
+L79:     * 【2†Login】
+L80:     * 【3†Register】
+L81: 
+L82: 【7†0】
+L83: # 24V 3500RPM 0.23Nm 84W 5.0A Ф57x49mm Brushless DC Motor
+L84: 
+L85: 【8†Image: 24V 3500RPM 0.23Nm 84W 5.0A Ф57x49mm Brushless DC Motor - 57BLR50-24-01 | StepperOnline】
+L86: 
+L87: 【9†Image: 24V 3500RPM 0.23Nm 84W 5.0A Ф57x49mm Brushless DC Motor - 57BLR50-24-01 | StepperOnline】
+L88: 
+L89: 【10†Image: 24V 3500RPM 0.23Nm 84W 5.0A Ф57x49mm Brushless DC Motor - 57BLR50-24-01 | StepperOnline】
+L90: 
+L91: 【11†Image: 24V 3500RPM 0.23Nm 84W 5.0A Ф57x49mm Brushless DC Motor - 57BLR50-24-01 | StepperOnline】
+L92: 【12†Image: 24V 3500RPM 0.23Nm 84W 5.0A Ф57x49mm Brushless DC Motor - 57BLR50-24-01 | StepperOnline】
+L93: 
+L94: 【13†Image: 24V 3500RPM 0.23Nm 84W 5.0A Ф57x49mm Brushless DC Motor - 57BLR50-24-01 | StepperOnline】
+L95: 
+L96: 【14†Image: 24V 3500RPM 0.23Nm 84W 5.0A Ф57x49mm Brushless DC Motor - 57BLR50-24-01 | StepperOnline】
+L97: 
+L98: 【15†Image: 24V 3500RPM 0.23Nm 84W 5.0A Ф57x49mm Brushless DC Motor - 57BLR50-24-01 | StepperOnline】
+L99: 
+L100: 【16†Image: 24V 3500RPM 0.23Nm 84W 5.0A Ф57x49mm Brushless DC Motor - 57BLR50-24-01 | StepperOnline】
+L101: 【17†Image: 24V 3500RPM 0.23Nm 84W 5.0A Ф57x49mm Brushless DC Motor - 57BLR50-24-01 | StepperOnline】
+L102: 
+L103: 【18†Image: 24V 3500RPM 0.23Nm 84W 5.0A Ф57x49mm Brushless DC Motor - 57BLR50-24-01 | StepperOnline】
+L104: 
+L105: 【19†Image: 24V 3500RPM 0.23Nm 84W 5.0A Ф57x49mm Brushless DC Motor - 57BLR50-24-01 | StepperOnline】
+L106: 
+L107: 57BLR50-24-01
+L108: 
+L109: Output Shaft Type O
+L110: 
+L111: Shaft Diameter(mm)8
+L112: 
+L113: Shaft Length(mm)25
+L114: 
+L115: Rated Voltage(V)24
+L116: 
+L117: 【20†Question】
+L118: 
+L119: China In stock Stock: 4
+L120: ## Downloads
+L121: 
+L122: 【21†🔒57BLR50-24-01.STEPSTEP · 1.03MB Log in to download】【22†↓ 57BLR50-24-01_Full_Datasheet.pdfPDF · 198.92KB†files.omc-stepperonline.com】
+L123: 
+L124: Same series
+L125: Model  | Output Shaft Type  | Shaft Diameter(mm)  | Shaft Length(mm)  | Rated Voltage(V)  | Price  | Stock
+L126: --- | --- | --- | --- | --- | --- | ---
+L127: 【23†42BLR43-24-01】  | O  | 5  | 20  | 24  | $19.87  | Backorder
+L128: 【24†42BLS40-24-01】  | O  | 5  | 20  | 24  | $17.16  | In stock
+L129: 【25†42BLS60-24-01】  | O  | 5  | 20  | 24  | $21.44  | In stock
+L130: 【26†42BSA46-24-01】  | O  | 5  | 24  | 24  | $15.89  | In stock
+L131: 【27†42BSA62-24-01】  | O  | 5  | 24  | 24  | $17.88  | In stock
+L132: 【28†42BSA62-36-01】  | O  | 5  | 24  | 36  | $17.88  | In stock
+L133: 【29†42BSA78-24-01】  | O  | 5  | 24  | 24  | $23.83  | In stock
+L134: 【30†42BSA78-48-01】  | O  | 5  | 24  | 48  | $23.83  | In stock
+L135: 【31†42BSB101-24-01】  | O  | 5  | 20  | 24  | $21.85  | In stock
+L136: 【32†42BSB101-48-01】  | O  | 5  | 20  | 48  | $21.85  | In stock
+L137: 【33†42BSB41-24-01】  | O  | 5  | 20  | 24  | $13.90  | In stock
+L138: 【34†42BSB61-24-01】  | O  | 5  | 20  | 24  | $15.89  | In stock
+L139: 【35†42BSB61-48-01】  | O  | 5  | 20  | 48  | $15.89  | In stock
+L140: 【36†42BSB81-24-01】  | O  | 5  | 20  | 24  | $19.86  | In stock
+L141: 【37†42BSB81-48-01】  | O  | 5  | 20  | 48  | $19.86  | In stock
+L142: 【38†42BYA43-24-01】  | O  | 5  | 20  | 24  | $14.90  | In stock
+L143: 【39†42BYA51-24-01】  | O  | 5  | 20  | 24  | $16.88  | In stock
+L144: 【40†42BYA73-24-01】  | O  | 5  | 20  | 24  | $23.83  | In stock
+L145: 【41†57BLR110-36-01】  | O  | 8  | 25  | 36  | $36.12  | In stock
+L146: 【42†57BLR50-24-01】  | O  | 8  | 25  | 24  | $22.21  | In stock
+L147: 【43†57BLR50-36-01】  | D  | 8  | 25  | 36  | $22.21  | In stock
+L148: 【44†57BLR70-24-02】  | O  | 8  | 25  | 24  | $31.56  | In stock
+L149: 【45†57BLR70-36-01】  | O  | 8  | 25  | 36  | $25.72  | In stock
+L150: 【46†57BLY54-24-01】  | O  | 8  | 21  | 24  | $18.70  | In stock
+L151: 【47†57BSA100-36-01】  | D  | 8  | 21  | 36  | $43.70  | In stock
+L152: 【48†57BSA100-48-01】  | D  | 8  | 21  | 48  | $43.70  | In stock
+L153: 【49†57BSA58-24-01】  | D  | 8  | 21  | 24  | $21.85  | In stock
+L154: 【50†57BSA79-36-01】  | D  | 8  | 21  | 36  | $31.78  | In stock
+L155: 【51†57BSD116-36-01】  | D  | 8  | 21  | 36  | $28.80  | In stock
+L156: 【52†57BSD116-48-01】  | D  | 8  | 21  | 48  | $28.80  | In stock
+L157: [Button: Show all 30]【53†View all in category】
+L158: 
+L159: 【54†Image】
+L160: 
+L161: The gearboxes suitable for this motor are 【55†EG23-G5-D8】, 【56†EG23-G10-D8】, 【57†EG23-G20-D8】, 【58†EG23-G50-D8】.
+L162: 
+L163: 24V 3500RPM 0.23Nm 84W 5.0A Ф57x49mm Brushless DC Motor
+L164: 
+L165: Electrical Specification Manufacturer Part Number: 57BLR50-24-01 Phase: 3 Poles: 4 Rated ... Read More
+L166: 
+L167: 0 reviews • Write a review
+L168: 
+L169: from
+L170: 
+L171: $22.21
+L172: 
+L173: 5 + $21.45
+L174: 
+L175: 10 + $20.74
+L176: 
+L177: 50 + $20.08
+L178: 
+L179: 100 + $19.45
+L180: ## Click country for live stock
+L181: 
+L182: Ships from
+L183: 
+L184: [Input] China
+L185: 
+L186: Qty
+L187: 
+L188: [Input] [Input]
+L189: 
+L190: Add to Cart
+L191: 
+L192: Notify Me
+L193: 
+L194: Add to Wish List Compare this Product
+L195: 
+L196: Easy Returns
+L197: 
+L198: Return within 30 days of delivery. Contact us first and we'll take it from there.
+L199: 
+L200: 【59†Read more】
+L201: 
+L202: Ships within 24 hours!
+L203: 
+L204: Ships within 24 hours basically means that your product will be shipped out or dispatched from our warehouse within 24 hours if it has enough stock. 【60†Read more†help.stepperonline.com】.
+L205: Choose a Local Warehouse, Get More Benefits!
+L206: 
+L207: Customers in the US, UK, EU, Australia and Russia: choose your local warehouse for faster delivery, easier after-sales support and no customs clearance. All other countries: please choose the China warehouse.
+L208: 
+L209:   * 【61†Description】
+L210:   * 【62†Specifications】
+L211:   * 【63†Reviews】
+L212: ### Electrical Specification
+L213: 
+L214:   * Manufacturer Part Number: 57BLR50-24-01
+L215:   * Phase: 3
+L216:   * Poles: 4
+L217:   * Rated Voltage: 24V
+L218:   * Rated Speed: 3500±10%RPM
+L219:   * Rated Torque: 0.23Nm(32.57oz.in)
+L220:   * Rated Current: 5±10%A
+L221:   * Rated Power: 84W
+L222:   * Insulation Class: B 130°C[266°F]
+L223:   * Insulation Resistance: 100MΩ Min @500VDC
+L224:   * Dielectric Strength Test: 500VAC for 1 Minute
+L225: ### Physical Specification
+L226: 
+L227:   * Frame Size: Φ57mm
+L228:   * Body Length: 49.1mm
+L229:   * Shaft Diameter: Φ8mm
+L230:   * Shaft Length: 25mm
+L231:   * Shaft Type: D-cut
+L232:   * D-cut Length: 20mm
+L233:   * Number of Leads: 8
+L234:   * Lead Length: 300mm
+L235:   * Bearing Type: NMB Ball Bearing, C3
+L236:   * Weight: 0.5kg
+L237: ### Connection
+L238: 
+L239: U  | V  | W  | +5V  | GND  | A  | B  | C
+L240: Orange  | Green  | Brown  | Red  | Black  | Yellow  | White  | Blue
+L241: Product Type
+L242: Product Type  | BLDC Motor
+L243: Electrical Specification
+L244: No. of Phase  | 3
+L245: Rated Current(A)  | 5
+L246: Rated Power(W)  | 84
+L247: Rated Speed(rpm)  | 3500
+L248: Rated Torque(Nm)  | 0.23
+L249: Rated Voltage(V)  | 24
+L250: Physical Specification
+L251: Body Length(mm)  | 49.1
+L252: Frame Size(mm)  | Nema 23 (57 x 57)
+L253: IP Rating  | 20
+L254: Output Shaft Type  | O
+L255: Shaft Diameter(mm)  | 8
+L256: Shaft Length(mm)  | 25
+L257: With Gearbox  | No
+L258: #### Write a review
+L259: 
+L260: Your Name
+L261: 
+L262: [Input]
+L263: 
+L264: Your Email
+L265: 
+L266: [Input]
+L267: 
+L268: Not published. We only use it to follow up on your review.
+L269: 
+L270: Your Review
+L271: 
+L272: Note: HTML is not translated!
+L273: 
+L274: Rating
+L275: 
+L276: Rating
+L277: 
+L278: Bad [Input] [Input] [Input] [Input] [Input] Good
+L279: 
+L280: Captcha
+L281: 
+L282: Please Verify
+L283: 
+L284: [Button: Continue]
+L285: 
+L286:   * 【64†Related Products】
+L287:   * 【65†Also Bought】
+L288: 
+L289: Quickview
+L290: 
+L291: 【66†24V 84W 350RPM Geared Brushless DC Motor 1.89Nm(267.65oz.in) 10:1 High Precision Gearbox】
+L292: Electrical Specification Manufacturer Part Number: 57BLR50-24-01-HG10 Phase: 3 Poles: 4 Rated Voltage: 24V Rated Speed: 350±10%RPM Rated Torque: 1.8..
+L293: 
+L294: from
+L295: 
+L296: $0.00
+L297: 
+L298: 24V 84W 350RPM Geared Brushless DC Motor 1.89Nm(267.65oz.in) 10:1 High Precision Gearbox [Input] [Input]
+L299: 
+L300: Add to Cart
+L301: 
+L302: Add to Wish List Compare this Product
+L303: 
+L304: Quickview
+L305: 
+L306: 【67†24V 84W 35RPM Geared Brushless DC Motor 14.95Nm(2117.09oz.in) 100:1 High Precision Gearbox】
+L307: Electrical Specification Manufacturer Part Number: 57BLR50-24-01-HG100 Phase: 3 Poles: 4 Rated Voltage: 24V Rated Speed: 35±10%RPM Rated Torq..
+L308: 
+L309: from
+L310: 
+L311: $0.00
+L312: 
+L313: 24V 84W 35RPM Geared Brushless DC Motor 14.95Nm(2117.09oz.in) 100:1 High Precision Gearbox [Input] [Input]
+L314: 
+L315: Add to Cart
+L316: 
+L317: Add to Wish List Compare this Product
+L318: 
+L319: Quickview
+L320: 
+L321: 【68†8mm - 14mm Flexible Jaw Coupling 30x35mm CNC Stepper Motor Shaft Coupler】
+L322: Specification Part Number: MH3035-8-14 Type: Jaw Type Rated Torque: 6.5Nm(919.29oz.in) Max. Torque: 13Nm(1840.52oz.in) Max...
+L323: 
+L324: from
+L325: 
+L326: $4.12
+L327: 
+L328: 8mm - 14mm Flexible Jaw Coupling 30x35mm CNC Stepper Motor Shaft Coupler [Input] [Input]
+L329: 
+L330: Add to Cart
+L331: 
+L332: Add to Wish List Compare this Product
+L333: 
+L334: Quickview
+L335: 
+L336: 【69†NEMA 23 Stepper Motor Vibration Damper】
+L337: 
+L338: This damper is designed for NEMA 23 stepper motors. It can effectively reduce the noise and vibration generated during the operation of stepper motors..
+L339: 
+L340: from
+L341: 
+L342: $6.88
+L343: NEMA 23 Stepper Motor Vibration Damper [Input] [Input]
+L344: 
+L345: Add to Cart
+L346: 
+L347: Add to Wish List Compare this Product
+L348: 
+L349: Quickview
+L350: 
+L351: 【70†24V 101W Round Geared Brushless DC Motor 6.90Nm(977.12oz.in) 27:1 Round Planetary Gearbox】
+L352: 
+L353: This is a 24V 101W brushless DC motor with a flange of Φ57mm. The built-in 27:1 round planetary gearbox delivers a rated torque of 6.90Nm(977.12oz.in)..
+L354: 
+L355: from
+L356: 
+L357: $64.57
+L358: 
+L359: 24V 101W Round Geared Brushless DC Motor 6.90Nm(977.12oz.in) 27:1 Round Planetary Gearbox [Input] [Input]
+L360: 
+L361: Add to Cart
+L362: Add to Wish List Compare this Product
+L363: 
+L364: Quickview
+L365: 
+L366: 【71†24V 101W Round Geared Brushless DC Motor 20.00Nm(2832.23oz.in) 100:1 Round Planetary Gearbox】
+L367: 
+L368: This is a 24V 101W round brushless DC motor with a flange of Φ57mm. The built-in 100:1 round planetary gearbox delivers rated torque of 20.00Nm(2832.2..
+L369: 
+L370: from
+L371: 
+L372: $69.54
+L373: 
+L374: 24V 101W Round Geared Brushless DC Motor 20.00Nm(2832.23oz.in) 100:1 Round Planetary Gearbox [Input] [Input]
+L375: 
+L376: Add to Cart
+L377: 
+L378: Add to Wish List Compare this Product
+L379: 
+L380: Quickview
+L381: 【72†24V 101W Round Geared Brushless DC Motor 11.42Nm(1617.20oz.in) 51:1 Round Planetary Gearbox】
+L382: 
+L383: This is a 24V 101W brushless DC motor with a flange of Φ57mm. The built-in 51:1 round planetary gearbox delivers a rated torque of 11.42Nm(1617.20oz.i..
+L384: 
+L385: from
+L386: 
+L387: $0.00
+L388: 
+L389: 24V 101W Round Geared Brushless DC Motor 11.42Nm(1617.20oz.in) 51:1 Round Planetary Gearbox [Input] [Input]
+L390: 
+L391: Add to Cart
+L392: 
+L393: Add to Wish List Compare this Product
+L394: 
+L395: Quickview
+L396: 【73†24V 200W 560RPM Geared Brushless DC Motor 3.10Nm(439.00oz.in) 5.36:1 Planetary Gearbox】
+L397: 
+L398: This is a 24V 200W brushless DC motor with a Φ82mm flange diameter, a rated torque of 3.10Nm(439.00oz.in) and a rated speed of 560rpm. It is equipped ..
+L399: 
+L400: from
+L401: 
+L402: $50.65
+L403: 
+L404: 24V 200W 560RPM Geared Brushless DC Motor 3.10Nm(439.00oz.in) 5.36:1 Planetary Gearbox [Input] [Input]
+L405: 
+L406: Add to Cart
+L407: 
+L408: Add to Wish List Compare this Product
+L409: Top Categories【74†AC Motors】【75†DC Gear Motor】【53†Brushless DC Motor】【76†Planetary Gearbox】【77†Servo Motor】
+L410: 
+L411: Support【78†About Us】【79†Payment】【80†Shipping】【59†Returns】【81†Contact】
+L412: 
+L413: Account【1†My Account】【82†Affiliate Account】【83†Order History】【84†Privacy Policy】【85†Terms & Conditions】
+L414: 
+L415: Useful Links【6†Support†help.omc-stepperonline.com】【86†Training】【87†Links】【88†Affiliate Program】【89†Educational Sponsorship】
+L416: 
+L417: © 2026 STEPPERONLINE PayPal · Visa · Mastercard · American Express
+

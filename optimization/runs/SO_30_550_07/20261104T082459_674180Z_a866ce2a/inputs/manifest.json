@@ -1,0 +1,30 @@
+{
+  "excluded_motors.csv": {
+    "sha256": "5ad2561c7a39735ff23cf7425b7c51a91f7b6a685c69ae63d2c29c11c8b28260",
+    "bytes": 1663
+  },
+  "link_bounds.csv": {
+    "sha256": "b631395cabdbbee40caded655cafadf30eccf732d0f98df45d67fd125bba79ee",
+    "bytes": 414
+  },
+  "motor.csv": {
+    "sha256": "7ee695c5ee7484317fb04405de3ecee00caa78adc4ae5f713a467b6fa4f37a54",
+    "bytes": 5786
+  },
+  "reducer.csv": {
+    "sha256": "540659f38a6f2ac049266c2f5beaa5a84164114dedab841223968fe9228774c6",
+    "bytes": 718
+  },
+  "requirement.csv": {
+    "sha256": "7cfd93ab2dae0a7ed96f4266b459dbd09a69b4f68218524326374d272bb6958a",
+    "bytes": 101
+  },
+  "input_assumptions.json": {
+    "sha256": "5d730e6ac5d9a06516d6b23b9ac9fb1ee003b16547011268a82254fbcfbccfa2",
+    "bytes": 70377
+  },
+  "study.json": {
+    "sha256": "45595757e7f08b4c114be1199de6c22e7e14174efc1d8c213dc24bda45fd202f",
+    "bytes": 159
+  }
+}

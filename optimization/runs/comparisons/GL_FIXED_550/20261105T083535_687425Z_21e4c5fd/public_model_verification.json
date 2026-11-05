@@ -1,0 +1,31 @@
+{
+  "models": [
+    {
+      "layout": 7,
+      "exact_saved_model": true,
+      "metadata_valid": true,
+      "six_axes_actuators": true,
+      "motor_load_policy": "hold_and_peak_envelope",
+      "sha256": "cad904222d667f87154577e4dc8e07411441a51165c60de50f0c10f540c55741"
+    },
+    {
+      "layout": 8,
+      "exact_saved_model": true,
+      "metadata_valid": true,
+      "six_axes_actuators": true,
+      "motor_load_policy": "hold_and_peak_envelope",
+      "sha256": "70c89db9496d53b72433ec44c6fff089bd06e1268378ef4913f3c236139ed6e9"
+    },
+    {
+      "layout": 9,
+      "exact_saved_model": true,
+      "metadata_valid": true,
+      "six_axes_actuators": true,
+      "motor_load_policy": "hold_and_peak_envelope",
+      "sha256": "51c2a459432d1ac3f106986e4ec5dbd69658faad98935a058fa80f2101eb072b"
+    }
+  ],
+  "alias_layout": 7,
+  "alias_exact_selected_model": true,
+  "overall_pass": true
+}

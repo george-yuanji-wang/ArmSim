@@ -1,0 +1,32 @@
+{
+  "joint_speed_limits_deg_s": [
+    180,
+    180,
+    180,
+    300,
+    300,
+    300
+  ],
+  "joint_accel_rad_s2": 6,
+  "wrist2_length_mm": 110,
+  "reducer_load_policy": "hold_and_repeated_peak",
+  "motor_candidates_by_joint": {
+    "J1": [
+      "SO_57BLR50-24-01",
+      "SO_57BLR70-24-02"
+    ],
+    "J2": [
+      "SO_57BLR70-24-02",
+      "SO_57BYA94-36-01",
+      "SO_57BSD96-36-01"
+    ],
+    "J3": [
+      "SO_42BSA62-36-01",
+      "SO_57BYA54-24-01",
+      "SO_57BLY54-24-01",
+      "SO_57BLR50-24-01",
+      "SO_57BLR70-24-02"
+    ]
+  },
+  "shared_wrist_motor_id": "SO_42BSB41-24-01"
+}

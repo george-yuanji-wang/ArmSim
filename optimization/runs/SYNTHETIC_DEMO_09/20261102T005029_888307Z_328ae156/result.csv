@@ -1,0 +1,2 @@
+project_id,layout_number,extended_reach_mm,candidate_evaluations,pose_count,reachable_poses,pmax_kg,required_payload_upper_kg,requirements_met,arm_mass_kg,gravity_score_JG
+SYNTHETIC_DEMO_09,9,513.4371106932208,200,1008,1008,2.7109681597853776,1.0,True,4.556034137579808,0.09514259151227765

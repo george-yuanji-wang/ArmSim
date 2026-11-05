@@ -1,0 +1,1 @@
+motor_id,name,rated_torque_Nm,rated_speed_rpm,rated_power_W,stall_torque_Nm,no_load_speed_rpm,max_speed_rpm,mass_kg,radius_mm,length_mm,rotor_inertia_kg_m2,peak_torque_Nm,peak_duration_s

@@ -1,0 +1,190 @@
+{
+  "hallmark": {
+    "cycle": 180,
+    "best_found_cycle": 169,
+    "checkpoint_kind": "evaluation_milestone",
+    "requested_evaluations": 200,
+    "proposal_attempts": 186,
+    "unique_candidates_checked": 180,
+    "duplicate_proposals_skipped": 6,
+    "elapsed_s": 382.432,
+    "layout_number": 8,
+    "reachable_poses": 1008,
+    "total_poses": 1008,
+    "pmax_kg": 6.592076094084951,
+    "required_payload_upper_kg": 1.0,
+    "requirements_met": true,
+    "geometry_valid": true,
+    "extended_reach_mm": 550.0,
+    "geometry_rejections": 0,
+    "cheap_geometry_rejections": 978,
+    "proposal_fallbacks": 0,
+    "capacity_challenge_probes": 890,
+    "arm_mass_kg": 6.0552401307044805,
+    "gravity_score_JG": 0.024692961791915973
+  },
+  "best_design": {
+    "layout_number": 8,
+    "lengths_m": [
+      0.23077339209640862,
+      0.09,
+      0.14330961175914148
+    ],
+    "link_masses_kg": [
+      0.14683734597836995,
+      0.19491945014543938,
+      0.08282404774856363,
+      0.11465822866855327,
+      0.06566829793745292,
+      0.08322818360612139
+    ],
+    "com_fractions": [
+      0.2660768816159213,
+      0.2398127566773979,
+      0.19411475558144758,
+      0.40601342502333465,
+      0.2169692904883919,
+      0.5036526163496731
+    ],
+    "spread_fractions": [
+      0.1101970564550544,
+      0.12343584289043938,
+      0.10032350147610587,
+      0.09258825395264418,
+      0.13070939317148506,
+      0.07342882289625784
+    ],
+    "motor_offsets_m": [
+      0.006532382508391201,
+      -0.0006527937074695542,
+      -0.007711715569724917,
+      -0.0009354399067022449
+    ],
+    "motor_ids": [
+      "CUBEMARS_RI75-PH_KV70_With_Connector_48V",
+      "CUBEMARS_RI75-PH_KV70_Welded_48V",
+      "CUBEMARS_RO50_Lite_KV108_24V",
+      "CUBEMARS_RO50_Lite_KV108_24V",
+      "CUBEMARS_RO40_Lite_KV140_24V",
+      "CUBEMARS_RO40_Lite_KV140_24V"
+    ],
+    "reducer_ids": [
+      "SITO_HS-20-I_100",
+      "SITO_CS-25-II_120",
+      "SITO_CD-20_100",
+      "SITO_CD-20_100",
+      "SITO_CD-17_100",
+      "SITO_HS-14-I_80"
+    ]
+  },
+  "summary": {
+    "geometry_valid": true,
+    "geometry_contract": "approved-base-template-v5",
+    "extended_reach_mm": 550.0,
+    "reach_bounds_pass": true,
+    "reach_definition": "maximum unrestricted shoulder-to-TCP extension",
+    "required_extended_reach_lower_mm": 550.0,
+    "required_extended_reach_upper_mm": 550.0,
+    "pose_basis": "24 named joint-state references (zero, signed single-axis quarter turns, six fully extended world directions, combined folded/wrist states) plus 984 deterministic Halton states across six joint angles in [-pi, pi). Joint states are common to every design; fully extended tests resolve analytically for each design. Reach bounds constrain maximum shoulder-to-TCP extension, not a workspace shell. Global collision and joint-stop checks disabled.",
+    "ik_policy": "joint-state references applied directly; named extension poses resolved analytically",
+    "score_definition": "guaranteed zero-to-P payload over the finite velocity basis and acceleration box",
+    "capacity_model": "continuous-rated motor/reducer screening; ideal lossless 1:1 input belts",
+    "motor_envelope_assumption": "Per motor: rated_continuous uses published continuous torque from rest through rated rpm with no extrapolation; legacy_linear uses min(rated torque, stall*(1-rpm/no-load)). Known mechanical maxima enforced. No measured thermal curve.",
+    "motor_capacity_models": [
+      "rated_continuous",
+      "rated_continuous",
+      "rated_continuous",
+      "rated_continuous",
+      "rated_continuous",
+      "rated_continuous"
+    ],
+    "motor_evaluation_speed_limits_rpm": [
+      2365.0,
+      2365.0,
+      2100.0,
+      2100.0,
+      2450.0,
+      2450.0
+    ],
+    "reducer_evaluation_input_speed_limits_rpm": [
+      2000.0,
+      2000.0,
+      2000.0,
+      2000.0,
+      2000.0,
+      2000.0
+    ],
+    "unpublished_reducer_input_torque_limits": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "reducer_input_torque_policy": "Published output ratings enforced; input-shaft torque constraint applied only when separately published. Unpublished input limits remain unverified.",
+    "velocity_cases_per_pose": 37,
+    "velocity_coefficient_order": [
+      "qdot1^2",
+      "qdot2^2",
+      "qdot3^2",
+      "qdot4^2",
+      "qdot5^2",
+      "qdot6^2",
+      "qdot1*qdot2",
+      "qdot1*qdot3",
+      "qdot1*qdot4",
+      "qdot1*qdot5",
+      "qdot1*qdot6",
+      "qdot2*qdot3",
+      "qdot2*qdot4",
+      "qdot2*qdot5",
+      "qdot2*qdot6",
+      "qdot3*qdot4",
+      "qdot3*qdot5",
+      "qdot3*qdot6",
+      "qdot4*qdot5",
+      "qdot4*qdot6",
+      "qdot5*qdot6"
+    ],
+    "acceleration_corners_per_velocity": 64,
+    "payload_inertia_model": "TCP-centered sphere, radius 10 mm, inertia per kg 4e-5 m2",
+    "unknown_reducer_rotating_inertia": "omitted; complete reducer case mass on parent",
+    "collision_checks": false,
+    "joint_stop_checks": false,
+    "worst_pose_id": "pose_0014",
+    "limiting_joint": 3,
+    "failure_reason": "",
+    "empty_arm_passes": true,
+    "unreachable_pose_count": 0,
+    "required_payload_upper_kg": 1.0,
+    "required_payload_lower_kg": 0.5,
+    "required_payload_passes": true,
+    "jg_definition": "sum of squared normalized gravity torques at required upper payload, fixed pose weights"
+  },
+  "rng_state": {
+    "bit_generator": "PCG64",
+    "state": {
+      "state": 262378838652102482563265976495451309891,
+      "inc": 332724090758049132448979897138935081983
+    },
+    "has_uint32": 1,
+    "uinteger": 1455373873
+  },
+  "geometry_rejection_counts": {},
+  "proposal_diagnostics": {
+    "block_trials": 298,
+    "geometry_rejected_trials": 978,
+    "duplicate_trials": 1,
+    "capacity_challenge_probes": 890,
+    "capacity_challenge_probe_limit_reached": 11,
+    "fallback_to_incumbent": 0,
+    "selected_blocks": {
+      "hardware": 58,
+      "lengths": 43,
+      "placement": 73,
+      "coordinated_capacity_challenge": 11
+    },
+    "fallback_reasons": {}
+  }
+}

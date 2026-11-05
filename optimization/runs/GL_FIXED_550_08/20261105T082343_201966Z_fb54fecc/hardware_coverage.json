@@ -1,0 +1,105 @@
+{
+  "mode": "exhaustive motor tuples with independent bounded geometry searches",
+  "hardware_tuple_count": 1,
+  "hardware_tuples_attempted": 1,
+  "hardware_tuples_load_evaluated": 1,
+  "categorical_coverage_complete": true,
+  "load_evaluation_coverage_complete": true,
+  "all_inner_budgets_met": true,
+  "continuous_global_optimality_proven": false,
+  "seed_failure_scope": "Only the recorded bounded seed probes; not a proof that no geometry can fit",
+  "tuples": [
+    {
+      "tuple_index": 1,
+      "layout_number": 8,
+      "motor_ids": [
+        "CUBEMARS_GL40_KV210",
+        "CUBEMARS_GL40_KV210",
+        "CUBEMARS_GL40_KV210",
+        "CUBEMARS_GL30_KV290",
+        "CUBEMARS_GL30_KV290",
+        "CUBEMARS_GL30_KV290"
+      ],
+      "allocated_evaluations": 200,
+      "evaluations": 200,
+      "proposal_attempts": 201,
+      "duplicate_proposals": 1,
+      "geometry_rejections": 0,
+      "reach_rejections": 0,
+      "seed_probes": 1,
+      "seed_error": null,
+      "attempted": true,
+      "status": "inner_budget_complete",
+      "best_pmax_kg": 0.9186256882755456,
+      "best_pmax_known_constraints_kg": 0.9186256882755456,
+      "best_peak_required_payload_utilization": 0.658618933481942,
+      "best_gravity_score_JG": 0.2818298934730018,
+      "best_gravity_capacity_score_JG": 0.2818298934730018,
+      "best_arm_mass_kg": 2.8047505557719767,
+      "best_design": {
+        "layout_number": 8,
+        "lengths_m": [
+          0.20501411744883247,
+          0.09,
+          0.12617695427519365
+        ],
+        "link_masses_kg": [
+          0.11596396499135805,
+          0.11497126331861682,
+          0.0740991707720352,
+          0.09677132036770425,
+          0.06086095019747103,
+          0.06524080359729179
+        ],
+        "com_fractions": [
+          0.3588589347519671,
+          0.41489670384373106,
+          0.24378690396830902,
+          0.46032560565883235,
+          0.20806598423593467,
+          0.5500758533822141
+        ],
+        "spread_fractions": [
+          0.12809424603266678,
+          0.1457278644945267,
+          0.10813276589629087,
+          0.08901583668093174,
+          0.08174459375011396,
+          0.08347718250779625
+        ],
+        "motor_offsets_m": [
+          -0.0134507591983221,
+          0.00698812697668902,
+          0.022938617118847274,
+          0.0002800410446894998
+        ],
+        "motor_ids": [
+          "CUBEMARS_GL40_KV210",
+          "CUBEMARS_GL40_KV210",
+          "CUBEMARS_GL40_KV210",
+          "CUBEMARS_GL30_KV290",
+          "CUBEMARS_GL30_KV290",
+          "CUBEMARS_GL30_KV290"
+        ],
+        "reducer_ids": [
+          "SITO_HD-14_50",
+          "SITO_CD-17_50",
+          "SITO_CD-17_50",
+          "SITO_CS-11-1U-E_30",
+          "SITO_CS-11-1U-E_30",
+          "SITO_CS-11-1U-E_30"
+        ],
+        "wrist2_length_m": 0.11
+      },
+      "rng_state": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 227916796718727044872897435337495585891,
+          "inc": 252101603063402394885084957393789173453
+        },
+        "has_uint32": 0,
+        "uinteger": 3272368464
+      }
+    }
+  ]
+}

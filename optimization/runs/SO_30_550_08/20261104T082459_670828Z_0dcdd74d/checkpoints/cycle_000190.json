@@ -1,0 +1,236 @@
+{
+  "hallmark": {
+    "cycle": 190,
+    "best_found_cycle": 189,
+    "checkpoint_kind": "evaluation_milestone",
+    "requested_evaluations": 200,
+    "proposal_attempts": 194,
+    "unique_candidates_checked": 190,
+    "duplicate_proposals_skipped": 4,
+    "elapsed_s": 589.6,
+    "layout_number": 8,
+    "reachable_poses": 1008,
+    "total_poses": 1008,
+    "pmax_kg": 0.0,
+    "required_payload_upper_kg": 0.5,
+    "requirements_met": false,
+    "geometry_valid": true,
+    "extended_reach_mm": 550.0,
+    "wrist2_length_mm": 110.0,
+    "geometry_rejections": 0,
+    "cheap_geometry_rejections": 509,
+    "proposal_fallbacks": 0,
+    "capacity_challenge_probes": 300,
+    "arm_mass_kg": 4.80257903819037,
+    "gravity_score_JG": 1.1781967667333608
+  },
+  "best_design": {
+    "layout_number": 8,
+    "lengths_m": [
+      0.16215584257800778,
+      0.09,
+      0.17618828175000192
+    ],
+    "link_masses_kg": [
+      0.12401820175534992,
+      0.1363403591577364,
+      0.08397307694176337,
+      0.11212055103156292,
+      0.064959726821869,
+      0.06696749404743758
+    ],
+    "com_fractions": [
+      0.36901495223998404,
+      0.3595939645146336,
+      0.20338524848935355,
+      0.42213246347593575,
+      0.23398658057748076,
+      0.5445133829586419
+    ],
+    "spread_fractions": [
+      0.1221096021940204,
+      0.1254078613885474,
+      0.10404159406214494,
+      0.09910673496601922,
+      0.10338592891257863,
+      0.08251453933779028
+    ],
+    "motor_offsets_m": [
+      -0.0043769231054952,
+      0.007835264322861864,
+      -0.008621069562831946,
+      -0.022684666168023972
+    ],
+    "motor_ids": [
+      "SO_57BLY54-24-01",
+      "SO_57BLR50-24-01",
+      "SO_42BSA62-36-01",
+      "SO_42BSB41-24-01",
+      "SO_42BYA43-24-01",
+      "SO_42BYA43-24-01"
+    ],
+    "reducer_ids": [
+      "SITO_HD-14_30",
+      "SITO_CD-20_30",
+      "SITO_CD-20_30",
+      "SITO_CS-11-2XH-A_30",
+      "SITO_CS-11-2XH-A_30",
+      "SITO_CS-11-2XH-A_30"
+    ],
+    "wrist2_length_m": 0.11
+  },
+  "summary": {
+    "geometry_valid": true,
+    "geometry_contract": "approved-base-template-v7",
+    "extended_reach_mm": 550.0,
+    "reach_bounds_pass": true,
+    "reach_definition": "maximum unrestricted shoulder-to-TCP extension",
+    "required_extended_reach_lower_mm": 550.0,
+    "required_extended_reach_upper_mm": 550.0,
+    "pose_basis": "24 named joint-state references (zero, signed single-axis quarter turns, six fully extended world directions, combined folded/wrist states) plus 984 deterministic Halton states across six joint angles in [-pi, pi). Joint states are common to every design; fully extended tests resolve analytically for each design. Reach bounds constrain maximum shoulder-to-TCP extension, not a workspace shell. Global collision and joint-stop checks disabled.",
+    "ik_policy": "joint-state references applied directly; named extension poses resolved analytically",
+    "score_definition": "guaranteed zero-to-P payload over the finite velocity basis and acceleration box",
+    "capacity_model": "continuous-rated motor/reducer screening; ideal lossless 1:1 input belts",
+    "motor_envelope_assumption": "Per motor: rated_continuous uses published continuous torque from rest through rated rpm with no extrapolation; legacy_linear uses min(rated torque, stall*(1-rpm/no-load)). Known mechanical maxima enforced. No measured thermal curve.",
+    "motor_capacity_models": [
+      "rated_continuous",
+      "rated_continuous",
+      "rated_continuous",
+      "rated_continuous",
+      "rated_continuous",
+      "rated_continuous"
+    ],
+    "motor_evaluation_speed_limits_rpm": [
+      4000.0,
+      3500.0,
+      3000.0,
+      3000.0,
+      3000.0,
+      3000.0
+    ],
+    "reducer_evaluation_input_speed_limits_rpm": [
+      2000.0,
+      2000.0,
+      2000.0,
+      2000.0,
+      2000.0,
+      2000.0
+    ],
+    "unpublished_reducer_input_torque_limits": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "reducer_input_torque_policy": "Published output ratings enforced; input-shaft torque constraint applied only when separately published. Unpublished input limits remain unverified.",
+    "velocity_cases_per_pose": 37,
+    "joint_speed_limits_rad_s": [
+      3.141592653589793,
+      3.141592653589793,
+      3.141592653589793,
+      5.235987755982989,
+      5.235987755982989,
+      5.235987755982989
+    ],
+    "joint_accel_rad_s2": 6.0,
+    "motor_rotor_inertia_basis": [
+      "mass_radius_upper_bound",
+      "mass_radius_upper_bound",
+      "mass_radius_upper_bound",
+      "mass_radius_upper_bound",
+      "mass_radius_upper_bound",
+      "mass_radius_upper_bound"
+    ],
+    "motor_evaluation_rotor_inertia_kg_m2": [
+      0.00036551250000000003,
+      0.000406125,
+      0.00037925999999999997,
+      0.000231084,
+      8.820000000000002e-05,
+      8.820000000000002e-05
+    ],
+    "motor_rotor_inertia_assumption": "Published rotor inertia when available; otherwise explicit conservative upper bound M_motor * R_envelope^2. Unpublished rotor values remain null in source inputs.",
+    "velocity_coefficient_order": [
+      "qdot1^2",
+      "qdot2^2",
+      "qdot3^2",
+      "qdot4^2",
+      "qdot5^2",
+      "qdot6^2",
+      "qdot1*qdot2",
+      "qdot1*qdot3",
+      "qdot1*qdot4",
+      "qdot1*qdot5",
+      "qdot1*qdot6",
+      "qdot2*qdot3",
+      "qdot2*qdot4",
+      "qdot2*qdot5",
+      "qdot2*qdot6",
+      "qdot3*qdot4",
+      "qdot3*qdot5",
+      "qdot3*qdot6",
+      "qdot4*qdot5",
+      "qdot4*qdot6",
+      "qdot5*qdot6"
+    ],
+    "acceleration_corners_per_velocity": 64,
+    "payload_inertia_model": "TCP-centered sphere, radius 10 mm, inertia per kg 4e-5 m2",
+    "unknown_reducer_rotating_inertia": "omitted; complete reducer case mass on parent",
+    "collision_checks": false,
+    "joint_stop_checks": false,
+    "worst_pose_id": "pose_0001",
+    "limiting_joint": 3,
+    "failure_reason": "empty_arm_exceeds_basis_limits",
+    "empty_arm_passes": false,
+    "peak_empty_arm_utilization": 1.6517516640251304,
+    "peak_empty_arm_utilization_by_joint": [
+      0.9876048534176434,
+      1.6517516640251304,
+      1.26372145879343,
+      1.1795475582245751,
+      1.3032702382638819,
+      0.3982432268173038
+    ],
+    "peak_required_payload_utilization": 3.1168748846487384,
+    "peak_required_payload_utilization_by_joint": [
+      2.041582760901893,
+      2.6280009819405494,
+      2.235437278388938,
+      2.1999087962502792,
+      3.1168748846487384,
+      0.399032954174426
+    ],
+    "unreachable_pose_count": 0,
+    "required_payload_upper_kg": 0.5,
+    "required_payload_lower_kg": 0.5,
+    "required_payload_passes": false,
+    "jg_definition": "sum of squared normalized gravity torques at required upper payload, fixed pose weights"
+  },
+  "rng_state": {
+    "bit_generator": "PCG64",
+    "state": {
+      "state": 301536301814331957407502615572581530691,
+      "inc": 332724090758049132448979897138935081983
+    },
+    "has_uint32": 0,
+    "uinteger": 1752181001
+  },
+  "geometry_rejection_counts": {},
+  "proposal_diagnostics": {
+    "block_trials": 431,
+    "geometry_rejected_trials": 509,
+    "duplicate_trials": 5,
+    "capacity_challenge_probes": 300,
+    "capacity_challenge_probe_limit_reached": 0,
+    "fallback_to_incumbent": 0,
+    "selected_blocks": {
+      "placement": 92,
+      "hardware": 55,
+      "lengths": 34,
+      "coordinated_capacity_challenge": 12
+    },
+    "fallback_reasons": {}
+  }
+}

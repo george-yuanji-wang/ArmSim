@@ -1,0 +1,1633 @@
+{
+  "schema_version": 2,
+  "created_utc": "2026-11-05T09:23:04.169699+00:00",
+  "overall_pass": true,
+  "scope": "Independent reconstruction from saved G/M/velocity-quadratic coefficients; no optimizer or production evaluator invoked. Original runs and models unchanged.",
+  "method": "Thirty-seven declared velocity states; exact support function over all 64 acceleration corners; independent piecewise-linear absolute-affine payload root solver. Both static continuous and dynamic peak limits checked over all 1008 poses. Saved-model M/G/C crosschecks at all 1008 poses, ten generic full-rank tool Jacobians per model, and constraint utilization at Pmax and exactly Pmax plus 1 gram.",
+  "interpretation": "Pmax is conditional on the recorded instantaneous motor envelopes and ideal lossless transmission. GL30 16 V is an explicitly unqualified voltage-shift estimate from 12 V data. The CS-11 wrist uses a user-authorized diameter 43 mm x length 32 mm, 200 g series-envelope model assumption, not verified CS-11-1U-E geometry. No thermal, peak-duration, average-load/lifetime or application duty certification is implied. Global collisions and joint stops remain disabled.",
+  "runs": [
+    {
+      "layout_number": 7,
+      "run_dir": "C:\\Users\\George\\Desktop\\ArmSim\\optimization\\runs\\GL_CD20_550_07\\20261105T090917_848639Z_858d5f48",
+      "overall_pass": true,
+      "evaluations": 200,
+      "hardware_tuple_count": 1,
+      "pose_count": 1008,
+      "geometry_contract": "approved-base-template-v8",
+      "maximum_extension_FK_mm": 550.0000000000001,
+      "generic_TCP_Jacobian_ranks": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "arm_mass_kg": 3.025408114012703,
+      "motor_ids": [
+        "CUBEMARS_GL40_KV210",
+        "CUBEMARS_GL40_KV210",
+        "CUBEMARS_GL40_KV210",
+        "CUBEMARS_GL30_KV290",
+        "CUBEMARS_GL30_KV290",
+        "CUBEMARS_GL30_KV290"
+      ],
+      "reducer_ids": [
+        "SITO_HD-14_50",
+        "SITO_CD-20_50",
+        "SITO_CD-20_30",
+        "SITO_CS-11_30_USER_ENVELOPE",
+        "SITO_CS-11_30_USER_ENVELOPE",
+        "SITO_CS-11_30_USER_ENVELOPE"
+      ],
+      "ratios": [
+        50.0,
+        50.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0
+      ],
+      "reducer_envelope_radius_m": [
+        0.035,
+        0.035,
+        0.035,
+        0.0215,
+        0.0215,
+        0.0215
+      ],
+      "reducer_envelope_length_m": [
+        0.0175,
+        0.0297,
+        0.0297,
+        0.032,
+        0.032,
+        0.032
+      ],
+      "reducer_mass_kg": [
+        0.312,
+        0.591,
+        0.591,
+        0.2,
+        0.2,
+        0.2
+      ],
+      "wrist_geometry_status": "User-authorized CS-11 series model assumption: circular diameter 43 mm x axial length 32 mm, 200 g each. This does not identify actual CS-11-1U-E hardware.",
+      "lengths_mm": [
+        252.3476782949313,
+        90.0,
+        59.06794704822244
+      ],
+      "reconstructed_Pmax_kg": 0.9184422358265393,
+      "reconstructed_continuous_screen_kg": 0.3983208381541048,
+      "reconstructed_known_constraints_kg": 0.9184422358265393,
+      "reconstructed_gravity_JG": 0.2481810112698689,
+      "payload_500g_gravity_peak_output_Nm": [
+        0.0,
+        8.029567032105042,
+        2.652041375134569,
+        1.2607822605942884,
+        1.2896247073994462,
+        2.8622937353617317e-16
+      ],
+      "payload_500g_joint_peak_Nm": [
+        5.812753294220271,
+        13.682901041875215,
+        5.049578651773605,
+        2.629542357520445,
+        2.7670350680336604,
+        0.002041588769198221
+      ],
+      "payload_500g_motor_peak_Nm": [
+        0.11847506588440543,
+        0.27587802083750435,
+        0.16965128839245353,
+        0.08808701191734816,
+        0.09267010226778868,
+        0.0005036529589732741
+      ],
+      "payload_500g_utilization_by_constraint_and_joint": {
+        "motor_peak_speed_envelope": [
+          0.20854324546638098,
+          0.5156310137184835,
+          0.2262017178566047,
+          0.3145964711333863,
+          0.33416489432581464,
+          0.0019915240060532613
+        ],
+        "reducer_repeated_peak_torque": [
+          0.4471348687861747,
+          0.35084361645833884,
+          0.21579395947750452,
+          0.5843427461156545,
+          0.6148966817852579,
+          0.00045368639315516025
+        ],
+        "motor_continuous_holding": [
+          0.0,
+          0.6423653625684034,
+          0.35360551668460916,
+          0.5253259419142868,
+          0.5373436280831027,
+          1.192622389734055e-16
+        ],
+        "reducer_continuous_holding": [
+          0.0,
+          0.4723274724767672,
+          0.2600040563857421,
+          0.5730828457246765,
+          0.5861930488179301,
+          1.3010426069826053e-16
+        ]
+      },
+      "Pmax_maximum_utilization_by_constraint": {
+        "motor_peak_speed_envelope": 0.6999641384787937,
+        "reducer_repeated_peak_torque": 1.0,
+        "motor_continuous_holding": 0.8623163294818892,
+        "reducer_continuous_holding": 0.9407087230711517
+      },
+      "Pmax_endpoint_itself_is_feasible": true,
+      "Pmax_limiting_constraint": "reducer_repeated_peak_torque",
+      "Pmax_independent_limiting_pose_id": "pose_0582",
+      "Pmax_independent_limiting_joint": 5,
+      "recorded_limiting_pose_id": "pose_0582",
+      "recorded_limiting_joint": 5,
+      "above_Pmax_payload_kg": 0.9194422358265393,
+      "above_Pmax_max_utilization": 1.0009203261173054,
+      "saved_model_basis_crosscheck_max_errors": {
+        "M_kg_m2": 5.551115123125783e-17,
+        "G_Nm": 0.0,
+        "velocity_terms_Nm": 5.329070518200751e-15
+      },
+      "saved_model_basis_crosscheck_pose_count": 1008,
+      "input_sha256": {
+        "excluded_hardware.csv": "e632b7113bf7747275b2880a5ef2a967427d567a441e601c0e8228031e06c076",
+        "hardware_provenance.csv": "e51e936ae794bf3e10fdbda50c3e56f302c70a7c22abb03db55a7f9c8293cf21",
+        "link_bounds.csv": "b631395cabdbbee40caded655cafadf30eccf732d0f98df45d67fd125bba79ee",
+        "motor.csv": "15a19c4e879c83077db9bba88686929f54290919a37f24729c503fd877f4d222",
+        "motor_curve.csv": "583902468ea9674345a493a8f2f6eff83ad855943c1abc91c80384df8690156d",
+        "reducer.csv": "c5fc7119878204e36e1455f8f77ef5bbb59dfc76242a49928ea3b48116ad9ca2",
+        "requirement.csv": "ccc256fa74ef07abd7eee0600b646fbf7aa9962b9dad6e6b8f068845a95d12dd",
+        "study_assumptions.csv": "4c3f4c445151005493e502a5a1aacc83497639afb81b96045d98e57977f80a6b",
+        "input_assumptions.json": "4a4ffd2ea934f114b0930b33ad3acd8555806dff7be45a595789894bcc6a75e7",
+        "study.json": "4d186c2bc5702101e34a82a9143f091ac685f3fd19729a81b8ab00f4f594455d"
+      },
+      "curve_evidence": [
+        {
+          "motor_id": "CUBEMARS_GL40_KV210",
+          "curve_basis": "digitized_official_16V_curve",
+          "operating_voltage_V": 16.0,
+          "published_rated_voltage_V": 16.0,
+          "operating_voltage_matches_published_rating": true,
+          "curve_points": [
+            [
+              0.0,
+              0.75
+            ],
+            [
+              1015.0,
+              0.75
+            ],
+            [
+              1063.0,
+              0.72
+            ],
+            [
+              1205.0,
+              0.64
+            ],
+            [
+              1361.0,
+              0.56
+            ],
+            [
+              1523.0,
+              0.48
+            ],
+            [
+              1706.0,
+              0.4
+            ],
+            [
+              1909.0,
+              0.32
+            ],
+            [
+              2132.0,
+              0.24
+            ],
+            [
+              2393.0,
+              0.16
+            ],
+            [
+              2694.0,
+              0.08
+            ],
+            [
+              3002.0,
+              0.01
+            ],
+            [
+              3120.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "motor_id": "CUBEMARS_GL40_KV210",
+          "curve_basis": "digitized_official_16V_curve",
+          "operating_voltage_V": 16.0,
+          "published_rated_voltage_V": 16.0,
+          "operating_voltage_matches_published_rating": true,
+          "curve_points": [
+            [
+              0.0,
+              0.75
+            ],
+            [
+              1015.0,
+              0.75
+            ],
+            [
+              1063.0,
+              0.72
+            ],
+            [
+              1205.0,
+              0.64
+            ],
+            [
+              1361.0,
+              0.56
+            ],
+            [
+              1523.0,
+              0.48
+            ],
+            [
+              1706.0,
+              0.4
+            ],
+            [
+              1909.0,
+              0.32
+            ],
+            [
+              2132.0,
+              0.24
+            ],
+            [
+              2393.0,
+              0.16
+            ],
+            [
+              2694.0,
+              0.08
+            ],
+            [
+              3002.0,
+              0.01
+            ],
+            [
+              3120.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "motor_id": "CUBEMARS_GL40_KV210",
+          "curve_basis": "digitized_official_16V_curve",
+          "operating_voltage_V": 16.0,
+          "published_rated_voltage_V": 16.0,
+          "operating_voltage_matches_published_rating": true,
+          "curve_points": [
+            [
+              0.0,
+              0.75
+            ],
+            [
+              1015.0,
+              0.75
+            ],
+            [
+              1063.0,
+              0.72
+            ],
+            [
+              1205.0,
+              0.64
+            ],
+            [
+              1361.0,
+              0.56
+            ],
+            [
+              1523.0,
+              0.48
+            ],
+            [
+              1706.0,
+              0.4
+            ],
+            [
+              1909.0,
+              0.32
+            ],
+            [
+              2132.0,
+              0.24
+            ],
+            [
+              2393.0,
+              0.16
+            ],
+            [
+              2694.0,
+              0.08
+            ],
+            [
+              3002.0,
+              0.01
+            ],
+            [
+              3120.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "motor_id": "CUBEMARS_GL30_KV290",
+          "curve_basis": "voltage_shift_estimate_from_official_12V_curve",
+          "operating_voltage_V": 16.0,
+          "published_rated_voltage_V": 12.0,
+          "operating_voltage_matches_published_rating": false,
+          "curve_points": [
+            [
+              0.0,
+              0.28
+            ],
+            [
+              1192.0,
+              0.27
+            ],
+            [
+              1459.0,
+              0.24
+            ],
+            [
+              1720.0,
+              0.21
+            ],
+            [
+              1995.0,
+              0.18
+            ],
+            [
+              2276.0,
+              0.15
+            ],
+            [
+              2581.0,
+              0.12
+            ],
+            [
+              2791.0,
+              0.1
+            ],
+            [
+              3007.0,
+              0.08
+            ],
+            [
+              3360.0,
+              0.05
+            ],
+            [
+              3618.0,
+              0.03
+            ],
+            [
+              3889.0,
+              0.01
+            ],
+            [
+              4080.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "motor_id": "CUBEMARS_GL30_KV290",
+          "curve_basis": "voltage_shift_estimate_from_official_12V_curve",
+          "operating_voltage_V": 16.0,
+          "published_rated_voltage_V": 12.0,
+          "operating_voltage_matches_published_rating": false,
+          "curve_points": [
+            [
+              0.0,
+              0.28
+            ],
+            [
+              1192.0,
+              0.27
+            ],
+            [
+              1459.0,
+              0.24
+            ],
+            [
+              1720.0,
+              0.21
+            ],
+            [
+              1995.0,
+              0.18
+            ],
+            [
+              2276.0,
+              0.15
+            ],
+            [
+              2581.0,
+              0.12
+            ],
+            [
+              2791.0,
+              0.1
+            ],
+            [
+              3007.0,
+              0.08
+            ],
+            [
+              3360.0,
+              0.05
+            ],
+            [
+              3618.0,
+              0.03
+            ],
+            [
+              3889.0,
+              0.01
+            ],
+            [
+              4080.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "motor_id": "CUBEMARS_GL30_KV290",
+          "curve_basis": "voltage_shift_estimate_from_official_12V_curve",
+          "operating_voltage_V": 16.0,
+          "published_rated_voltage_V": 12.0,
+          "operating_voltage_matches_published_rating": false,
+          "curve_points": [
+            [
+              0.0,
+              0.28
+            ],
+            [
+              1192.0,
+              0.27
+            ],
+            [
+              1459.0,
+              0.24
+            ],
+            [
+              1720.0,
+              0.21
+            ],
+            [
+              1995.0,
+              0.18
+            ],
+            [
+              2276.0,
+              0.15
+            ],
+            [
+              2581.0,
+              0.12
+            ],
+            [
+              2791.0,
+              0.1
+            ],
+            [
+              3007.0,
+              0.08
+            ],
+            [
+              3360.0,
+              0.05
+            ],
+            [
+              3618.0,
+              0.03
+            ],
+            [
+              3889.0,
+              0.01
+            ],
+            [
+              4080.0,
+              0.0
+            ]
+          ]
+        }
+      ],
+      "thermal_duty_verified": false,
+      "motor_transient_rating_verified": false
+    },
+    {
+      "layout_number": 8,
+      "run_dir": "C:\\Users\\George\\Desktop\\ArmSim\\optimization\\runs\\GL_CD20_550_08\\20261105T090917_826307Z_9314dc03",
+      "overall_pass": true,
+      "evaluations": 200,
+      "hardware_tuple_count": 1,
+      "pose_count": 1008,
+      "geometry_contract": "approved-base-template-v8",
+      "maximum_extension_FK_mm": 550.0,
+      "generic_TCP_Jacobian_ranks": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "arm_mass_kg": 3.124163268506671,
+      "motor_ids": [
+        "CUBEMARS_GL40_KV210",
+        "CUBEMARS_GL40_KV210",
+        "CUBEMARS_GL40_KV210",
+        "CUBEMARS_GL30_KV290",
+        "CUBEMARS_GL30_KV290",
+        "CUBEMARS_GL30_KV290"
+      ],
+      "reducer_ids": [
+        "SITO_HD-14_50",
+        "SITO_CD-20_50",
+        "SITO_CD-20_30",
+        "SITO_CS-11_30_USER_ENVELOPE",
+        "SITO_CS-11_30_USER_ENVELOPE",
+        "SITO_CS-11_30_USER_ENVELOPE"
+      ],
+      "ratios": [
+        50.0,
+        50.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0
+      ],
+      "reducer_envelope_radius_m": [
+        0.035,
+        0.035,
+        0.035,
+        0.0215,
+        0.0215,
+        0.0215
+      ],
+      "reducer_envelope_length_m": [
+        0.0175,
+        0.0297,
+        0.0297,
+        0.032,
+        0.032,
+        0.032
+      ],
+      "reducer_mass_kg": [
+        0.312,
+        0.591,
+        0.591,
+        0.2,
+        0.2,
+        0.2
+      ],
+      "wrist_geometry_status": "User-authorized CS-11 series model assumption: circular diameter 43 mm x axial length 32 mm, 200 g each. This does not identify actual CS-11-1U-E hardware.",
+      "lengths_mm": [
+        202.04223505573978,
+        90.0,
+        129.8100747484038
+      ],
+      "reconstructed_Pmax_kg": 0.90080021015731,
+      "reconstructed_continuous_screen_kg": 0.3937809824454325,
+      "reconstructed_known_constraints_kg": 0.90080021015731,
+      "reconstructed_gravity_JG": 0.24205033865136327,
+      "payload_500g_gravity_peak_output_Nm": [
+        0.0,
+        7.5004073546783205,
+        3.1489016071293463,
+        1.2514862698245905,
+        1.289624707399446,
+        2.8102520310824275e-16
+      ],
+      "payload_500g_joint_peak_Nm": [
+        5.627825342613669,
+        13.586838871632324,
+        6.5029980534755305,
+        2.6594453625682277,
+        2.8296134501668986,
+        0.002041588769192294
+      ],
+      "payload_500g_motor_peak_Nm": [
+        0.11477650685227338,
+        0.27395677743264646,
+        0.21809860178251766,
+        0.08908377875227425,
+        0.09475604833889661,
+        0.0005036529589730765
+      ],
+      "payload_500g_utilization_by_constraint_and_joint": {
+        "motor_peak_speed_envelope": [
+          0.19326110978917857,
+          0.4854248018715851,
+          0.29079813571002355,
+          0.3181563526866937,
+          0.34061487928175876,
+          0.001991524006053215
+        ],
+        "reducer_repeated_peak_torque": [
+          0.43290964173951296,
+          0.3483804838880083,
+          0.2779058997211765,
+          0.5909878583484951,
+          0.6288029889259774,
+          0.0004536863931538431
+        ],
+        "motor_continuous_holding": [
+          0.0,
+          0.6000325883742657,
+          0.4198535476172462,
+          0.5214526124269128,
+          0.5373436280831025,
+          1.1709383462843448e-16
+        ],
+        "reducer_continuous_holding": [
+          0.0,
+          0.4412004326281365,
+          0.3087158438362104,
+          0.5688573953748138,
+          0.58619304881793,
+          1.2773872868556487e-16
+        ]
+      },
+      "Pmax_maximum_utilization_by_constraint": {
+        "motor_peak_speed_envelope": 0.659511688485069,
+        "reducer_repeated_peak_torque": 1.0,
+        "motor_continuous_holding": 0.8486150912965237,
+        "reducer_continuous_holding": 0.9257619177780257
+      },
+      "Pmax_endpoint_itself_is_feasible": true,
+      "Pmax_limiting_constraint": "reducer_repeated_peak_torque",
+      "Pmax_independent_limiting_pose_id": "pose_0437",
+      "Pmax_independent_limiting_joint": 5,
+      "recorded_limiting_pose_id": "pose_0437",
+      "recorded_limiting_joint": 5,
+      "above_Pmax_payload_kg": 0.90180021015731,
+      "above_Pmax_max_utilization": 1.0009261397615743,
+      "saved_model_basis_crosscheck_max_errors": {
+        "M_kg_m2": 5.551115123125783e-17,
+        "G_Nm": 0.0,
+        "velocity_terms_Nm": 7.105427357601002e-15
+      },
+      "saved_model_basis_crosscheck_pose_count": 1008,
+      "input_sha256": {
+        "excluded_hardware.csv": "e632b7113bf7747275b2880a5ef2a967427d567a441e601c0e8228031e06c076",
+        "hardware_provenance.csv": "e51e936ae794bf3e10fdbda50c3e56f302c70a7c22abb03db55a7f9c8293cf21",
+        "link_bounds.csv": "b631395cabdbbee40caded655cafadf30eccf732d0f98df45d67fd125bba79ee",
+        "motor.csv": "15a19c4e879c83077db9bba88686929f54290919a37f24729c503fd877f4d222",
+        "motor_curve.csv": "583902468ea9674345a493a8f2f6eff83ad855943c1abc91c80384df8690156d",
+        "reducer.csv": "c5fc7119878204e36e1455f8f77ef5bbb59dfc76242a49928ea3b48116ad9ca2",
+        "requirement.csv": "ccc256fa74ef07abd7eee0600b646fbf7aa9962b9dad6e6b8f068845a95d12dd",
+        "study_assumptions.csv": "4c3f4c445151005493e502a5a1aacc83497639afb81b96045d98e57977f80a6b",
+        "input_assumptions.json": "4a4ffd2ea934f114b0930b33ad3acd8555806dff7be45a595789894bcc6a75e7",
+        "study.json": "4d186c2bc5702101e34a82a9143f091ac685f3fd19729a81b8ab00f4f594455d"
+      },
+      "curve_evidence": [
+        {
+          "motor_id": "CUBEMARS_GL40_KV210",
+          "curve_basis": "digitized_official_16V_curve",
+          "operating_voltage_V": 16.0,
+          "published_rated_voltage_V": 16.0,
+          "operating_voltage_matches_published_rating": true,
+          "curve_points": [
+            [
+              0.0,
+              0.75
+            ],
+            [
+              1015.0,
+              0.75
+            ],
+            [
+              1063.0,
+              0.72
+            ],
+            [
+              1205.0,
+              0.64
+            ],
+            [
+              1361.0,
+              0.56
+            ],
+            [
+              1523.0,
+              0.48
+            ],
+            [
+              1706.0,
+              0.4
+            ],
+            [
+              1909.0,
+              0.32
+            ],
+            [
+              2132.0,
+              0.24
+            ],
+            [
+              2393.0,
+              0.16
+            ],
+            [
+              2694.0,
+              0.08
+            ],
+            [
+              3002.0,
+              0.01
+            ],
+            [
+              3120.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "motor_id": "CUBEMARS_GL40_KV210",
+          "curve_basis": "digitized_official_16V_curve",
+          "operating_voltage_V": 16.0,
+          "published_rated_voltage_V": 16.0,
+          "operating_voltage_matches_published_rating": true,
+          "curve_points": [
+            [
+              0.0,
+              0.75
+            ],
+            [
+              1015.0,
+              0.75
+            ],
+            [
+              1063.0,
+              0.72
+            ],
+            [
+              1205.0,
+              0.64
+            ],
+            [
+              1361.0,
+              0.56
+            ],
+            [
+              1523.0,
+              0.48
+            ],
+            [
+              1706.0,
+              0.4
+            ],
+            [
+              1909.0,
+              0.32
+            ],
+            [
+              2132.0,
+              0.24
+            ],
+            [
+              2393.0,
+              0.16
+            ],
+            [
+              2694.0,
+              0.08
+            ],
+            [
+              3002.0,
+              0.01
+            ],
+            [
+              3120.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "motor_id": "CUBEMARS_GL40_KV210",
+          "curve_basis": "digitized_official_16V_curve",
+          "operating_voltage_V": 16.0,
+          "published_rated_voltage_V": 16.0,
+          "operating_voltage_matches_published_rating": true,
+          "curve_points": [
+            [
+              0.0,
+              0.75
+            ],
+            [
+              1015.0,
+              0.75
+            ],
+            [
+              1063.0,
+              0.72
+            ],
+            [
+              1205.0,
+              0.64
+            ],
+            [
+              1361.0,
+              0.56
+            ],
+            [
+              1523.0,
+              0.48
+            ],
+            [
+              1706.0,
+              0.4
+            ],
+            [
+              1909.0,
+              0.32
+            ],
+            [
+              2132.0,
+              0.24
+            ],
+            [
+              2393.0,
+              0.16
+            ],
+            [
+              2694.0,
+              0.08
+            ],
+            [
+              3002.0,
+              0.01
+            ],
+            [
+              3120.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "motor_id": "CUBEMARS_GL30_KV290",
+          "curve_basis": "voltage_shift_estimate_from_official_12V_curve",
+          "operating_voltage_V": 16.0,
+          "published_rated_voltage_V": 12.0,
+          "operating_voltage_matches_published_rating": false,
+          "curve_points": [
+            [
+              0.0,
+              0.28
+            ],
+            [
+              1192.0,
+              0.27
+            ],
+            [
+              1459.0,
+              0.24
+            ],
+            [
+              1720.0,
+              0.21
+            ],
+            [
+              1995.0,
+              0.18
+            ],
+            [
+              2276.0,
+              0.15
+            ],
+            [
+              2581.0,
+              0.12
+            ],
+            [
+              2791.0,
+              0.1
+            ],
+            [
+              3007.0,
+              0.08
+            ],
+            [
+              3360.0,
+              0.05
+            ],
+            [
+              3618.0,
+              0.03
+            ],
+            [
+              3889.0,
+              0.01
+            ],
+            [
+              4080.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "motor_id": "CUBEMARS_GL30_KV290",
+          "curve_basis": "voltage_shift_estimate_from_official_12V_curve",
+          "operating_voltage_V": 16.0,
+          "published_rated_voltage_V": 12.0,
+          "operating_voltage_matches_published_rating": false,
+          "curve_points": [
+            [
+              0.0,
+              0.28
+            ],
+            [
+              1192.0,
+              0.27
+            ],
+            [
+              1459.0,
+              0.24
+            ],
+            [
+              1720.0,
+              0.21
+            ],
+            [
+              1995.0,
+              0.18
+            ],
+            [
+              2276.0,
+              0.15
+            ],
+            [
+              2581.0,
+              0.12
+            ],
+            [
+              2791.0,
+              0.1
+            ],
+            [
+              3007.0,
+              0.08
+            ],
+            [
+              3360.0,
+              0.05
+            ],
+            [
+              3618.0,
+              0.03
+            ],
+            [
+              3889.0,
+              0.01
+            ],
+            [
+              4080.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "motor_id": "CUBEMARS_GL30_KV290",
+          "curve_basis": "voltage_shift_estimate_from_official_12V_curve",
+          "operating_voltage_V": 16.0,
+          "published_rated_voltage_V": 12.0,
+          "operating_voltage_matches_published_rating": false,
+          "curve_points": [
+            [
+              0.0,
+              0.28
+            ],
+            [
+              1192.0,
+              0.27
+            ],
+            [
+              1459.0,
+              0.24
+            ],
+            [
+              1720.0,
+              0.21
+            ],
+            [
+              1995.0,
+              0.18
+            ],
+            [
+              2276.0,
+              0.15
+            ],
+            [
+              2581.0,
+              0.12
+            ],
+            [
+              2791.0,
+              0.1
+            ],
+            [
+              3007.0,
+              0.08
+            ],
+            [
+              3360.0,
+              0.05
+            ],
+            [
+              3618.0,
+              0.03
+            ],
+            [
+              3889.0,
+              0.01
+            ],
+            [
+              4080.0,
+              0.0
+            ]
+          ]
+        }
+      ],
+      "thermal_duty_verified": false,
+      "motor_transient_rating_verified": false
+    },
+    {
+      "layout_number": 9,
+      "run_dir": "C:\\Users\\George\\Desktop\\ArmSim\\optimization\\runs\\GL_CD20_550_09\\20261105T090917_839683Z_f97256e1",
+      "overall_pass": true,
+      "evaluations": 200,
+      "hardware_tuple_count": 1,
+      "pose_count": 1008,
+      "geometry_contract": "approved-base-template-v8",
+      "maximum_extension_FK_mm": 550.0,
+      "generic_TCP_Jacobian_ranks": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "arm_mass_kg": 3.0928534991616625,
+      "motor_ids": [
+        "CUBEMARS_GL40_KV210",
+        "CUBEMARS_GL40_KV210",
+        "CUBEMARS_GL40_KV210",
+        "CUBEMARS_GL30_KV290",
+        "CUBEMARS_GL30_KV290",
+        "CUBEMARS_GL30_KV290"
+      ],
+      "reducer_ids": [
+        "SITO_HD-14_50",
+        "SITO_CD-20_50",
+        "SITO_CD-20_30",
+        "SITO_CS-11_30_USER_ENVELOPE",
+        "SITO_CS-11_30_USER_ENVELOPE",
+        "SITO_CS-11_30_USER_ENVELOPE"
+      ],
+      "ratios": [
+        50.0,
+        50.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0
+      ],
+      "reducer_envelope_radius_m": [
+        0.035,
+        0.035,
+        0.035,
+        0.0215,
+        0.0215,
+        0.0215
+      ],
+      "reducer_envelope_length_m": [
+        0.0175,
+        0.0297,
+        0.0297,
+        0.032,
+        0.032,
+        0.032
+      ],
+      "reducer_mass_kg": [
+        0.312,
+        0.591,
+        0.591,
+        0.2,
+        0.2,
+        0.2
+      ],
+      "wrist_geometry_status": "User-authorized CS-11 series model assumption: circular diameter 43 mm x axial length 32 mm, 200 g each. This does not identify actual CS-11-1U-E hardware.",
+      "lengths_mm": [
+        209.068388639023,
+        90.0,
+        121.1624995946395
+      ],
+      "reconstructed_Pmax_kg": 0.9098408870558825,
+      "reconstructed_continuous_screen_kg": 0.39862671702389496,
+      "reconstructed_known_constraints_kg": 0.9098408870558825,
+      "reconstructed_gravity_JG": 0.24266105705425844,
+      "payload_500g_gravity_peak_output_Nm": [
+        0.0,
+        7.583375790071889,
+        3.0772273941901656,
+        1.2514865746072585,
+        1.2896247073994467,
+        3.400058012914542e-16
+      ],
+      "payload_500g_joint_peak_Nm": [
+        5.662716924578572,
+        13.63992114943682,
+        6.308290698277185,
+        2.655407615225657,
+        2.8059513716624656,
+        0.0020415887691982546
+      ],
+      "payload_500g_motor_peak_Nm": [
+        0.11547433849157143,
+        0.27501842298873636,
+        0.2116083566092395,
+        0.08894918717418857,
+        0.09396731238874884,
+        0.0005036529589732752
+      ],
+      "payload_500g_utilization_by_constraint_and_joint": {
+        "motor_peak_speed_envelope": [
+          0.195503017819375,
+          0.4907791767414053,
+          0.28214447547898597,
+          0.31767566847924483,
+          0.34073884532555354,
+          0.001991524006053253
+        ],
+        "reducer_repeated_peak_torque": [
+          0.43559360958296706,
+          0.3497415679342774,
+          0.2695850725759481,
+          0.5900905811612571,
+          0.6235447492583257,
+          0.0004536863931551677
+        ],
+        "motor_continuous_holding": [
+          0.0,
+          0.6066700632057511,
+          0.41029698589202207,
+          0.5214527394196911,
+          0.5373436280831028,
+          1.4166908387143925e-16
+        ],
+        "reducer_continuous_holding": [
+          0.0,
+          0.4460809288277582,
+          0.30168896021472213,
+          0.5688575339123902,
+          0.5861930488179302,
+          1.5454809149611552e-16
+        ]
+      },
+      "Pmax_maximum_utilization_by_constraint": {
+        "motor_peak_speed_envelope": 0.66940115744126,
+        "reducer_repeated_peak_torque": 1.0,
+        "motor_continuous_holding": 0.8556363069928782,
+        "reducer_continuous_holding": 0.9334214258104124
+      },
+      "Pmax_endpoint_itself_is_feasible": true,
+      "Pmax_limiting_constraint": "reducer_repeated_peak_torque",
+      "Pmax_independent_limiting_pose_id": "pose_0437",
+      "Pmax_independent_limiting_joint": 5,
+      "recorded_limiting_pose_id": "pose_0437",
+      "recorded_limiting_joint": 5,
+      "above_Pmax_payload_kg": 0.9108408870558825,
+      "above_Pmax_max_utilization": 1.0009185400057226,
+      "saved_model_basis_crosscheck_max_errors": {
+        "M_kg_m2": 5.551115123125783e-17,
+        "G_Nm": 0.0,
+        "velocity_terms_Nm": 5.329070518200751e-15
+      },
+      "saved_model_basis_crosscheck_pose_count": 1008,
+      "input_sha256": {
+        "excluded_hardware.csv": "e632b7113bf7747275b2880a5ef2a967427d567a441e601c0e8228031e06c076",
+        "hardware_provenance.csv": "e51e936ae794bf3e10fdbda50c3e56f302c70a7c22abb03db55a7f9c8293cf21",
+        "link_bounds.csv": "b631395cabdbbee40caded655cafadf30eccf732d0f98df45d67fd125bba79ee",
+        "motor.csv": "15a19c4e879c83077db9bba88686929f54290919a37f24729c503fd877f4d222",
+        "motor_curve.csv": "583902468ea9674345a493a8f2f6eff83ad855943c1abc91c80384df8690156d",
+        "reducer.csv": "c5fc7119878204e36e1455f8f77ef5bbb59dfc76242a49928ea3b48116ad9ca2",
+        "requirement.csv": "ccc256fa74ef07abd7eee0600b646fbf7aa9962b9dad6e6b8f068845a95d12dd",
+        "study_assumptions.csv": "4c3f4c445151005493e502a5a1aacc83497639afb81b96045d98e57977f80a6b",
+        "input_assumptions.json": "4a4ffd2ea934f114b0930b33ad3acd8555806dff7be45a595789894bcc6a75e7",
+        "study.json": "4d186c2bc5702101e34a82a9143f091ac685f3fd19729a81b8ab00f4f594455d"
+      },
+      "curve_evidence": [
+        {
+          "motor_id": "CUBEMARS_GL40_KV210",
+          "curve_basis": "digitized_official_16V_curve",
+          "operating_voltage_V": 16.0,
+          "published_rated_voltage_V": 16.0,
+          "operating_voltage_matches_published_rating": true,
+          "curve_points": [
+            [
+              0.0,
+              0.75
+            ],
+            [
+              1015.0,
+              0.75
+            ],
+            [
+              1063.0,
+              0.72
+            ],
+            [
+              1205.0,
+              0.64
+            ],
+            [
+              1361.0,
+              0.56
+            ],
+            [
+              1523.0,
+              0.48
+            ],
+            [
+              1706.0,
+              0.4
+            ],
+            [
+              1909.0,
+              0.32
+            ],
+            [
+              2132.0,
+              0.24
+            ],
+            [
+              2393.0,
+              0.16
+            ],
+            [
+              2694.0,
+              0.08
+            ],
+            [
+              3002.0,
+              0.01
+            ],
+            [
+              3120.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "motor_id": "CUBEMARS_GL40_KV210",
+          "curve_basis": "digitized_official_16V_curve",
+          "operating_voltage_V": 16.0,
+          "published_rated_voltage_V": 16.0,
+          "operating_voltage_matches_published_rating": true,
+          "curve_points": [
+            [
+              0.0,
+              0.75
+            ],
+            [
+              1015.0,
+              0.75
+            ],
+            [
+              1063.0,
+              0.72
+            ],
+            [
+              1205.0,
+              0.64
+            ],
+            [
+              1361.0,
+              0.56
+            ],
+            [
+              1523.0,
+              0.48
+            ],
+            [
+              1706.0,
+              0.4
+            ],
+            [
+              1909.0,
+              0.32
+            ],
+            [
+              2132.0,
+              0.24
+            ],
+            [
+              2393.0,
+              0.16
+            ],
+            [
+              2694.0,
+              0.08
+            ],
+            [
+              3002.0,
+              0.01
+            ],
+            [
+              3120.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "motor_id": "CUBEMARS_GL40_KV210",
+          "curve_basis": "digitized_official_16V_curve",
+          "operating_voltage_V": 16.0,
+          "published_rated_voltage_V": 16.0,
+          "operating_voltage_matches_published_rating": true,
+          "curve_points": [
+            [
+              0.0,
+              0.75
+            ],
+            [
+              1015.0,
+              0.75
+            ],
+            [
+              1063.0,
+              0.72
+            ],
+            [
+              1205.0,
+              0.64
+            ],
+            [
+              1361.0,
+              0.56
+            ],
+            [
+              1523.0,
+              0.48
+            ],
+            [
+              1706.0,
+              0.4
+            ],
+            [
+              1909.0,
+              0.32
+            ],
+            [
+              2132.0,
+              0.24
+            ],
+            [
+              2393.0,
+              0.16
+            ],
+            [
+              2694.0,
+              0.08
+            ],
+            [
+              3002.0,
+              0.01
+            ],
+            [
+              3120.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "motor_id": "CUBEMARS_GL30_KV290",
+          "curve_basis": "voltage_shift_estimate_from_official_12V_curve",
+          "operating_voltage_V": 16.0,
+          "published_rated_voltage_V": 12.0,
+          "operating_voltage_matches_published_rating": false,
+          "curve_points": [
+            [
+              0.0,
+              0.28
+            ],
+            [
+              1192.0,
+              0.27
+            ],
+            [
+              1459.0,
+              0.24
+            ],
+            [
+              1720.0,
+              0.21
+            ],
+            [
+              1995.0,
+              0.18
+            ],
+            [
+              2276.0,
+              0.15
+            ],
+            [
+              2581.0,
+              0.12
+            ],
+            [
+              2791.0,
+              0.1
+            ],
+            [
+              3007.0,
+              0.08
+            ],
+            [
+              3360.0,
+              0.05
+            ],
+            [
+              3618.0,
+              0.03
+            ],
+            [
+              3889.0,
+              0.01
+            ],
+            [
+              4080.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "motor_id": "CUBEMARS_GL30_KV290",
+          "curve_basis": "voltage_shift_estimate_from_official_12V_curve",
+          "operating_voltage_V": 16.0,
+          "published_rated_voltage_V": 12.0,
+          "operating_voltage_matches_published_rating": false,
+          "curve_points": [
+            [
+              0.0,
+              0.28
+            ],
+            [
+              1192.0,
+              0.27
+            ],
+            [
+              1459.0,
+              0.24
+            ],
+            [
+              1720.0,
+              0.21
+            ],
+            [
+              1995.0,
+              0.18
+            ],
+            [
+              2276.0,
+              0.15
+            ],
+            [
+              2581.0,
+              0.12
+            ],
+            [
+              2791.0,
+              0.1
+            ],
+            [
+              3007.0,
+              0.08
+            ],
+            [
+              3360.0,
+              0.05
+            ],
+            [
+              3618.0,
+              0.03
+            ],
+            [
+              3889.0,
+              0.01
+            ],
+            [
+              4080.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "motor_id": "CUBEMARS_GL30_KV290",
+          "curve_basis": "voltage_shift_estimate_from_official_12V_curve",
+          "operating_voltage_V": 16.0,
+          "published_rated_voltage_V": 12.0,
+          "operating_voltage_matches_published_rating": false,
+          "curve_points": [
+            [
+              0.0,
+              0.28
+            ],
+            [
+              1192.0,
+              0.27
+            ],
+            [
+              1459.0,
+              0.24
+            ],
+            [
+              1720.0,
+              0.21
+            ],
+            [
+              1995.0,
+              0.18
+            ],
+            [
+              2276.0,
+              0.15
+            ],
+            [
+              2581.0,
+              0.12
+            ],
+            [
+              2791.0,
+              0.1
+            ],
+            [
+              3007.0,
+              0.08
+            ],
+            [
+              3360.0,
+              0.05
+            ],
+            [
+              3618.0,
+              0.03
+            ],
+            [
+              3889.0,
+              0.01
+            ],
+            [
+              4080.0,
+              0.0
+            ]
+          ]
+        }
+      ],
+      "thermal_duty_verified": false,
+      "motor_transient_rating_verified": false
+    }
+  ]
+}

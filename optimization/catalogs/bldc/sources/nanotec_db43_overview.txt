@@ -1,0 +1,55 @@
+80
+Brushless DC motor
+DB43
+OPTIONS
+INTERNAL ROTOR MOTORS
+ACCESSORIES
+ZD-D28  Damper
+ZD-D40  Damper
+ZD-DF40  Damper
+DIMENSIONS (IN MM)
+Front view and mounting Side view Rear view
+42±0.3
+42±0.3
+4x M3
+2
+11
+"A" ±122±1
+2±0.2
+Ø6.35 0
+-0.012
+Ø22 0
+-0.05
+400 ±20
+14.5
+0.05 A
+Ø0.05 A
+A
+ 31±0.2
+DB43
+VERSIONS
+Type Rated Power 
+W
+Rated Torque 
+Ncm
+Rated Current 
+A
+Peak Current 
+A
+Rated Voltage 
+V
+Rated Speed 
+rpm
+Torque Constant 
+Ncm/A
+Rotor Inertia 
+gcm²
+Length „A“ 
+mm
+Weight 
+kg
+DB43M024030 53 17 3.1 9.3 24 3000 5.5 60 60.3 0.6
+DB43M048030 53 17 1.5 4.6 48 3000 11 60 60.3 0.6
+DB43L024030 94 30 4.8 14.4 24 3000 6.25 80 80.3 0.8
+DB43L048030 94 30 2.4 7.2 48 3000 12.5 80 80.3 0.8
+DB43C048030 138 44 3.66 11 48 3000 12 167 100.3 1

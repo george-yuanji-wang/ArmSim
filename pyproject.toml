@@ -1,0 +1,14 @@
+[project]
+name = "armsim"
+version = "0.1.0"
+description = "Arm simulation with MuJoCo, NumPy, and Matplotlib."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "matplotlib>=3.11.2",
+    "mujoco>=3.17.0",
+    "numpy>=2.5.4",
+    "pillow>=13.0.0",
+    "pyopengl>=3.1.10",
+    "pyside6-essentials>=6.12.0",
+]

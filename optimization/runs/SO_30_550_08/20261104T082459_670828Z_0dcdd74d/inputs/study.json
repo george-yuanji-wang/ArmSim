@@ -1,0 +1,12 @@
+{
+  "joint_speed_limits_deg_s": [
+    180,
+    180,
+    180,
+    300,
+    300,
+    300
+  ],
+  "joint_accel_rad_s2": 6,
+  "wrist2_length_mm": 110
+}

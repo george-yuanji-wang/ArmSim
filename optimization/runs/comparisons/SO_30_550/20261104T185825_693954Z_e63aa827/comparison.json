@@ -1,0 +1,468 @@
+{
+  "study_conditions": {
+    "payload_lower_g": 500.0,
+    "payload_upper_g": 500.0,
+    "reach_lower_mm": 550.0,
+    "reach_upper_mm": 550.0,
+    "seed": 42.0,
+    "joint_speed_rad_s": 1.0,
+    "joint_accel_rad_s2": 6.0,
+    "cycles": 600.0,
+    "joint_speed_limits_rad_s": [
+      3.141592653589793,
+      3.141592653589793,
+      3.141592653589793,
+      5.235987755982989,
+      5.235987755982989,
+      5.235987755982989
+    ],
+    "wrist2_length_m": 0.11,
+    "motor_candidates_by_joint": [
+      [
+        "SO_57BLR50-24-01",
+        "SO_57BLR70-24-02"
+      ],
+      [
+        "SO_57BLR70-24-02",
+        "SO_57BYA94-36-01",
+        "SO_57BSD96-36-01"
+      ],
+      [
+        "SO_42BSA62-36-01",
+        "SO_57BYA54-24-01",
+        "SO_57BLY54-24-01",
+        "SO_57BLR50-24-01",
+        "SO_57BLR70-24-02"
+      ]
+    ],
+    "shared_wrist_motor_id": "SO_42BSB41-24-01",
+    "reducer_load_policy": "hold_and_repeated_peak",
+    "evaluations": 600.0,
+    "hardware_enumeration_plan": [
+      {
+        "motor_ids": [
+          "SO_57BLR50-24-01",
+          "SO_57BLR70-24-02",
+          "SO_42BSA62-36-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01"
+        ],
+        "allocated_evaluations": 20.0
+      },
+      {
+        "motor_ids": [
+          "SO_57BLR50-24-01",
+          "SO_57BLR70-24-02",
+          "SO_57BYA54-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01"
+        ],
+        "allocated_evaluations": 20.0
+      },
+      {
+        "motor_ids": [
+          "SO_57BLR50-24-01",
+          "SO_57BLR70-24-02",
+          "SO_57BLY54-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01"
+        ],
+        "allocated_evaluations": 20.0
+      },
+      {
+        "motor_ids": [
+          "SO_57BLR50-24-01",
+          "SO_57BLR70-24-02",
+          "SO_57BLR50-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01"
+        ],
+        "allocated_evaluations": 20.0
+      },
+      {
+        "motor_ids": [
+          "SO_57BLR50-24-01",
+          "SO_57BLR70-24-02",
+          "SO_57BLR70-24-02",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01"
+        ],
+        "allocated_evaluations": 20.0
+      },
+      {
+        "motor_ids": [
+          "SO_57BLR50-24-01",
+          "SO_57BYA94-36-01",
+          "SO_42BSA62-36-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01"
+        ],
+        "allocated_evaluations": 20.0
+      },
+      {
+        "motor_ids": [
+          "SO_57BLR50-24-01",
+          "SO_57BYA94-36-01",
+          "SO_57BYA54-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01"
+        ],
+        "allocated_evaluations": 20.0
+      },
+      {
+        "motor_ids": [
+          "SO_57BLR50-24-01",
+          "SO_57BYA94-36-01",
+          "SO_57BLY54-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01"
+        ],
+        "allocated_evaluations": 20.0
+      },
+      {
+        "motor_ids": [
+          "SO_57BLR50-24-01",
+          "SO_57BYA94-36-01",
+          "SO_57BLR50-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01"
+        ],
+        "allocated_evaluations": 20.0
+      },
+      {
+        "motor_ids": [
+          "SO_57BLR50-24-01",
+          "SO_57BYA94-36-01",
+          "SO_57BLR70-24-02",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01"
+        ],
+        "allocated_evaluations": 20.0
+      },
+      {
+        "motor_ids": [
+          "SO_57BLR50-24-01",
+          "SO_57BSD96-36-01",
+          "SO_42BSA62-36-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01"
+        ],
+        "allocated_evaluations": 20.0
+      },
+      {
+        "motor_ids": [
+          "SO_57BLR50-24-01",
+          "SO_57BSD96-36-01",
+          "SO_57BYA54-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01"
+        ],
+        "allocated_evaluations": 20.0
+      },
+      {
+        "motor_ids": [
+          "SO_57BLR50-24-01",
+          "SO_57BSD96-36-01",
+          "SO_57BLY54-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01"
+        ],
+        "allocated_evaluations": 20.0
+      },
+      {
+        "motor_ids": [
+          "SO_57BLR50-24-01",
+          "SO_57BSD96-36-01",
+          "SO_57BLR50-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01"
+        ],
+        "allocated_evaluations": 20.0
+      },
+      {
+        "motor_ids": [
+          "SO_57BLR50-24-01",
+          "SO_57BSD96-36-01",
+          "SO_57BLR70-24-02",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01"
+        ],
+        "allocated_evaluations": 20.0
+      },
+      {
+        "motor_ids": [
+          "SO_57BLR70-24-02",
+          "SO_57BLR70-24-02",
+          "SO_42BSA62-36-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01"
+        ],
+        "allocated_evaluations": 20.0
+      },
+      {
+        "motor_ids": [
+          "SO_57BLR70-24-02",
+          "SO_57BLR70-24-02",
+          "SO_57BYA54-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01"
+        ],
+        "allocated_evaluations": 20.0
+      },
+      {
+        "motor_ids": [
+          "SO_57BLR70-24-02",
+          "SO_57BLR70-24-02",
+          "SO_57BLY54-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01"
+        ],
+        "allocated_evaluations": 20.0
+      },
+      {
+        "motor_ids": [
+          "SO_57BLR70-24-02",
+          "SO_57BLR70-24-02",
+          "SO_57BLR50-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01"
+        ],
+        "allocated_evaluations": 20.0
+      },
+      {
+        "motor_ids": [
+          "SO_57BLR70-24-02",
+          "SO_57BLR70-24-02",
+          "SO_57BLR70-24-02",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01"
+        ],
+        "allocated_evaluations": 20.0
+      },
+      {
+        "motor_ids": [
+          "SO_57BLR70-24-02",
+          "SO_57BYA94-36-01",
+          "SO_42BSA62-36-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01"
+        ],
+        "allocated_evaluations": 20.0
+      },
+      {
+        "motor_ids": [
+          "SO_57BLR70-24-02",
+          "SO_57BYA94-36-01",
+          "SO_57BYA54-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01"
+        ],
+        "allocated_evaluations": 20.0
+      },
+      {
+        "motor_ids": [
+          "SO_57BLR70-24-02",
+          "SO_57BYA94-36-01",
+          "SO_57BLY54-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01"
+        ],
+        "allocated_evaluations": 20.0
+      },
+      {
+        "motor_ids": [
+          "SO_57BLR70-24-02",
+          "SO_57BYA94-36-01",
+          "SO_57BLR50-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01"
+        ],
+        "allocated_evaluations": 20.0
+      },
+      {
+        "motor_ids": [
+          "SO_57BLR70-24-02",
+          "SO_57BYA94-36-01",
+          "SO_57BLR70-24-02",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01"
+        ],
+        "allocated_evaluations": 20.0
+      },
+      {
+        "motor_ids": [
+          "SO_57BLR70-24-02",
+          "SO_57BSD96-36-01",
+          "SO_42BSA62-36-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01"
+        ],
+        "allocated_evaluations": 20.0
+      },
+      {
+        "motor_ids": [
+          "SO_57BLR70-24-02",
+          "SO_57BSD96-36-01",
+          "SO_57BYA54-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01"
+        ],
+        "allocated_evaluations": 20.0
+      },
+      {
+        "motor_ids": [
+          "SO_57BLR70-24-02",
+          "SO_57BSD96-36-01",
+          "SO_57BLY54-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01"
+        ],
+        "allocated_evaluations": 20.0
+      },
+      {
+        "motor_ids": [
+          "SO_57BLR70-24-02",
+          "SO_57BSD96-36-01",
+          "SO_57BLR50-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01"
+        ],
+        "allocated_evaluations": 20.0
+      },
+      {
+        "motor_ids": [
+          "SO_57BLR70-24-02",
+          "SO_57BSD96-36-01",
+          "SO_57BLR70-24-02",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01",
+          "SO_42BSB41-24-01"
+        ],
+        "allocated_evaluations": 20.0
+      }
+    ],
+    "pose_count": 1008.0,
+    "pose_limit": null,
+    "sampling": "24 named joint-state references (zero, signed single-axis quarter turns, six fully extended world directions, combined folded/wrist states) plus 984 deterministic Halton states across six joint angles in [-pi, pi). Joint states are common to every design; fully extended tests resolve analytically for each design. Reach bounds constrain maximum shoulder-to-TCP extension, not a workspace shell. Global collision and joint-stop checks disabled.",
+    "reach_definition": "maximum fully extended shoulder-to-TCP radius",
+    "structural_mass_model": "Approved aluminium edge/frame/output stock at 2700 kg/m3, plus the base builder's explicit small transmission-part masses. Catalog motor/reducer masses are separate; structural mass, 3D COM and full inertia follow geometry.",
+    "geometry_contract": "approved-base-template-v8",
+    "python": "3.13.15",
+    "mujoco": "3.17.0",
+    "numpy": "2.5.4",
+    "algorithm": "exhaustive motor-tuple enumeration with independent balanced bounded geometry searches",
+    "evaluation_budget": "Distinct supported physical candidates only; duplicate proposals are skipped",
+    "score_definition": "conservative zero-to-P payload over the finite velocity basis and acceleration box; motor dynamic torque capped by continuous rating",
+    "capacity_model": "continuous-rated motors; rated reducer holding and repeated-peak motion; ideal lossless 1:1 input belts",
+    "velocity_cases_per_pose": 37,
+    "acceleration_corners_per_velocity": 64,
+    "payload_inertia_model": "TCP-centered sphere, radius 10 mm, inertia per kg 4e-5 m2",
+    "jg_definition": "weighted mean of squared gravity torques divided by the common reducer rated limits at required payload",
+    "reference_poses_sha256": "3965ab572e8696231791c8107a3bdba3a83c024d47163181966cbfbe45069cf0",
+    "catalog_sha256": {
+      "excluded_hardware.csv": "66913b38544cc709647a79d618d0e16dcbf39317cfb06c7a607e6b4acbe66bc0",
+      "hardware_provenance.csv": "d1342ce191c239b047e48ee017f4056576e43d2df2329b3658545ffdb26cd934",
+      "link_bounds.csv": "b631395cabdbbee40caded655cafadf30eccf732d0f98df45d67fd125bba79ee",
+      "motor.csv": "f9309f333e6f1340395198c18537944ee99857fdc3371d387d34a193caa86fe4",
+      "reducer.csv": "540659f38a6f2ac049266c2f5beaa5a84164114dedab841223968fe9228774c6",
+      "study_assumptions.csv": "36af7e753b4bc0c9481c7b00a847ee5ace8e3a9251b25c553366b29cff77a5a4",
+      "input_assumptions.json": "af60a8c5c6a15de65c25c249e9a728b89a5d35c4e7c7b1f2cc62f27b37d17505",
+      "study.json": "1ffb8328672ef5de9cda3eb54911dcefd41b0635fa1841f48f9ba919aea32ffe"
+    }
+  },
+  "results": [
+    {
+      "layout_number": 7,
+      "extended_reach_mm": 550.0,
+      "L1_mm": 244.61178733599337,
+      "L2_mm": 90.0,
+      "L3_mm": 72.21107686355349,
+      "L1_mass_g": 97.00166834791904,
+      "L2_mass_g": 83.97307694176337,
+      "L3_mass_g": 58.93512366145376,
+      "arm_mass_kg": 5.524398393224886,
+      "pmax_kg": 0.0,
+      "pmax_known_constraints_kg": 0.30589385176555806,
+      "gravity_score_JG": 0.5804340384119455,
+      "gravity_capacity_score_JG": 0.7705887422334716,
+      "evaluations": 600.0,
+      "allocated_evaluations": 600.0,
+      "hardware_validation_status": "conservative_basis_screen_only",
+      "requirements_met": false,
+      "run_dir": "C:\\Users\\George\\Desktop\\ArmSim\\optimization\\runs\\SO_30_550_07\\20261104T182726_116834Z_4ccaac15",
+      "model_file": "C:\\Users\\George\\Desktop\\ArmSim\\optimization\\runs\\SO_30_550_07\\20261104T182726_116834Z_4ccaac15\\best_model.xml"
+    },
+    {
+      "layout_number": 8,
+      "extended_reach_mm": 550.0,
+      "L1_mm": 181.77540730447888,
+      "L2_mm": 90.0,
+      "L3_mm": 153.83109387079196,
+      "L1_mass_g": 144.53056045601207,
+      "L2_mass_g": 83.97307694176337,
+      "L3_mass_g": 108.40519648149109,
+      "arm_mass_kg": 5.534699645585312,
+      "pmax_kg": 0.0,
+      "pmax_known_constraints_kg": 0.5570277374573213,
+      "gravity_score_JG": 0.48430264588544475,
+      "gravity_capacity_score_JG": 0.5666172692999892,
+      "evaluations": 600.0,
+      "allocated_evaluations": 600.0,
+      "hardware_validation_status": "conservative_basis_screen_only",
+      "requirements_met": false,
+      "run_dir": "C:\\Users\\George\\Desktop\\ArmSim\\optimization\\runs\\SO_30_550_08\\20261104T182740_610868Z_855632aa",
+      "model_file": "C:\\Users\\George\\Desktop\\ArmSim\\optimization\\runs\\SO_30_550_08\\20261104T182740_610868Z_855632aa\\best_model.xml"
+    },
+    {
+      "layout_number": 9,
+      "extended_reach_mm": 550.0,
+      "L1_mm": 181.77734011654888,
+      "L2_mm": 90.0,
+      "L3_mm": 153.82885456224497,
+      "L1_mass_g": 138.8105141615576,
+      "L2_mass_g": 83.97307694176337,
+      "L3_mass_g": 108.39562883924381,
+      "arm_mass_kg": 5.465973307864864,
+      "pmax_kg": 0.0,
+      "pmax_known_constraints_kg": 0.6008572936466597,
+      "gravity_score_JG": 0.4716056832639509,
+      "gravity_capacity_score_JG": 0.7247009581153839,
+      "evaluations": 600.0,
+      "allocated_evaluations": 600.0,
+      "hardware_validation_status": "conservative_basis_screen_only",
+      "requirements_met": false,
+      "run_dir": "C:\\Users\\George\\Desktop\\ArmSim\\optimization\\runs\\SO_30_550_09\\20261104T182740_606750Z_af908b6a",
+      "model_file": "C:\\Users\\George\\Desktop\\ArmSim\\optimization\\runs\\SO_30_550_09\\20261104T182740_606750Z_af908b6a\\best_model.xml"
+    }
+  ],
+  "retention": "Original runs are unchanged; no automatic deletion."
+}

@@ -1,0 +1,806 @@
+{
+  "retrieved_date": "2026-11-04",
+  "retrieval_dates": [
+    "2026-11-01",
+    "2026-11-04"
+  ],
+  "motor_records": 65,
+  "physical_model_or_winding_variants": 61,
+  "manufacturer_record_counts": {
+    "CubeMars": 11,
+    "maxon": 15,
+    "Nanotec": 11,
+    "STEPPERONLINE": 28
+  },
+  "optimizer_ready_records": 15,
+  "optimizer_incomplete_records": 50,
+  "body_size_filter": {
+    "minimum_cylindrical_envelope_diameter_mm": 30,
+    "maximum_cylindrical_envelope_diameter_mm": 70,
+    "maximum_body_length_mm_exclusive": 100
+  },
+  "body_size_filter_counts": {
+    "pass": 62,
+    "outside": 3
+  },
+  "complete_axial_envelope_counts": {
+    "not established": 16,
+    "under 100 mm including shafts": 20,
+    "100 mm or more including shafts": 1,
+    "lower bound only; full envelope not established": 20,
+    "lower bound >=100 mm; full envelope not established": 8
+  },
+  "missing_field_counts": {
+    "stall_torque_Nm": 50,
+    "max_speed_rpm": 50,
+    "peak_duration_s": 17,
+    "no_load_speed_rpm": 9,
+    "rotor_inertia_kg_m2": 28,
+    "mass_kg": 2
+  },
+  "input_catalogs": [
+    {
+      "path": "bldc/motors.csv",
+      "sha256": "8909e423d8ec4fbd946506536cfaf9c74c8364980dde52895126004a18944153"
+    },
+    {
+      "path": "maxon/motors.csv",
+      "sha256": "09848eba544d943409bfb50e05e4facd8a674db005cee8b9df63310a40eaddb3"
+    },
+    {
+      "path": "stepperonline/motors.json",
+      "sha256": "75b1ee99d9372d1fbe592dafa03c06df6c01e1968cb4d4dd72824c663a2f325c"
+    }
+  ],
+  "motors": [
+    {
+      "motor_id": "CUBEMARS_RI30_KV260_24V",
+      "source_url": "https://www.cubemars.com/product/ri30-kv260-frameless-torque-motor.html",
+      "optimizer_ready": false,
+      "missing_required_fields": [
+        "stall_torque_Nm",
+        "max_speed_rpm",
+        "peak_duration_s"
+      ],
+      "size_filter_pass": true,
+      "complete_axial_envelope_status": "not established"
+    },
+    {
+      "motor_id": "CUBEMARS_RI50_KV100_24V",
+      "source_url": "https://www.cubemars.com/product/ri50-kv100-frameless-inrunner-torque-motor.html",
+      "optimizer_ready": false,
+      "missing_required_fields": [
+        "stall_torque_Nm",
+        "max_speed_rpm",
+        "peak_duration_s"
+      ],
+      "size_filter_pass": true,
+      "complete_axial_envelope_status": "not established"
+    },
+    {
+      "motor_id": "CUBEMARS_RI50_KV100_36V",
+      "source_url": "https://www.cubemars.com/product/ri50-kv100-frameless-inrunner-torque-motor.html",
+      "optimizer_ready": false,
+      "missing_required_fields": [
+        "stall_torque_Nm",
+        "max_speed_rpm",
+        "peak_duration_s"
+      ],
+      "size_filter_pass": true,
+      "complete_axial_envelope_status": "not established"
+    },
+    {
+      "motor_id": "CUBEMARS_RI50_KV100_48V",
+      "source_url": "https://www.cubemars.com/product/ri50-kv100-frameless-inrunner-torque-motor.html",
+      "optimizer_ready": false,
+      "missing_required_fields": [
+        "stall_torque_Nm",
+        "max_speed_rpm",
+        "peak_duration_s"
+      ],
+      "size_filter_pass": true,
+      "complete_axial_envelope_status": "not established"
+    },
+    {
+      "motor_id": "CUBEMARS_RI60_KV120_24V",
+      "source_url": "https://www.cubemars.com/product/ri60-kv120-frameless-inrunner-torque-motor.html",
+      "optimizer_ready": false,
+      "missing_required_fields": [
+        "stall_torque_Nm",
+        "max_speed_rpm",
+        "peak_duration_s"
+      ],
+      "size_filter_pass": true,
+      "complete_axial_envelope_status": "not established"
+    },
+    {
+      "motor_id": "CUBEMARS_RI60_KV120_36V",
+      "source_url": "https://www.cubemars.com/product/ri60-kv120-frameless-inrunner-torque-motor.html",
+      "optimizer_ready": false,
+      "missing_required_fields": [
+        "stall_torque_Nm",
+        "max_speed_rpm",
+        "peak_duration_s"
+      ],
+      "size_filter_pass": true,
+      "complete_axial_envelope_status": "not established"
+    },
+    {
+      "motor_id": "CUBEMARS_RI60_KV120_48V",
+      "source_url": "https://www.cubemars.com/product/ri60-kv120-frameless-inrunner-torque-motor.html",
+      "optimizer_ready": false,
+      "missing_required_fields": [
+        "stall_torque_Nm",
+        "max_speed_rpm",
+        "peak_duration_s"
+      ],
+      "size_filter_pass": true,
+      "complete_axial_envelope_status": "not established"
+    },
+    {
+      "motor_id": "CUBEMARS_RI75-PH_KV70_Welded_48V",
+      "source_url": "https://www.cubemars.com/product/ri75-ph-kv70-potting-frameless-torque-motor-welded-model.html",
+      "optimizer_ready": false,
+      "missing_required_fields": [
+        "stall_torque_Nm",
+        "max_speed_rpm",
+        "peak_duration_s"
+      ],
+      "size_filter_pass": true,
+      "complete_axial_envelope_status": "not established"
+    },
+    {
+      "motor_id": "CUBEMARS_RI75-PH_KV70_With_Connector_48V",
+      "source_url": "https://www.cubemars.com/product/ri75-ph-kv70-potting-frameless-torque-motor.html",
+      "optimizer_ready": false,
+      "missing_required_fields": [
+        "stall_torque_Nm",
+        "max_speed_rpm",
+        "peak_duration_s"
+      ],
+      "size_filter_pass": true,
+      "complete_axial_envelope_status": "not established"
+    },
+    {
+      "motor_id": "CUBEMARS_RO40_Lite_KV140_24V",
+      "source_url": "https://www.cubemars.com/product/ro40-kv140-lite-without-hall-frameless-torque-motor.html",
+      "optimizer_ready": false,
+      "missing_required_fields": [
+        "stall_torque_Nm",
+        "max_speed_rpm",
+        "peak_duration_s"
+      ],
+      "size_filter_pass": true,
+      "complete_axial_envelope_status": "not established"
+    },
+    {
+      "motor_id": "CUBEMARS_RO50_Lite_KV108_24V",
+      "source_url": "https://www.cubemars.com/product/ro50-kv108-lite-without-hall-frameless-torque-motor.html",
+      "optimizer_ready": false,
+      "missing_required_fields": [
+        "stall_torque_Nm",
+        "max_speed_rpm",
+        "peak_duration_s"
+      ],
+      "size_filter_pass": true,
+      "complete_axial_envelope_status": "not established"
+    },
+    {
+      "motor_id": "NANOTEC_DB42S01",
+      "source_url": "https://www.nanotec.com/fileadmin/files/Datenblaetter/BLDC/DB42/DB42S01.pdf",
+      "optimizer_ready": false,
+      "missing_required_fields": [
+        "stall_torque_Nm",
+        "max_speed_rpm",
+        "peak_duration_s"
+      ],
+      "size_filter_pass": true,
+      "complete_axial_envelope_status": "under 100 mm including shafts"
+    },
+    {
+      "motor_id": "NANOTEC_DB42S02",
+      "source_url": "https://www.nanotec.com/fileadmin/files/Datenblaetter/BLDC/DB42/DB42S02.pdf",
+      "optimizer_ready": false,
+      "missing_required_fields": [
+        "stall_torque_Nm",
+        "max_speed_rpm",
+        "peak_duration_s"
+      ],
+      "size_filter_pass": true,
+      "complete_axial_envelope_status": "under 100 mm including shafts"
+    },
+    {
+      "motor_id": "NANOTEC_DB42S03",
+      "source_url": "https://www.nanotec.com/fileadmin/files/Datenblaetter/BLDC/DB42/DB42S03.pdf",
+      "optimizer_ready": false,
+      "missing_required_fields": [
+        "stall_torque_Nm",
+        "max_speed_rpm",
+        "peak_duration_s"
+      ],
+      "size_filter_pass": true,
+      "complete_axial_envelope_status": "under 100 mm including shafts"
+    },
+    {
+      "motor_id": "NANOTEC_DB42M01",
+      "source_url": "https://www.nanotec.com/fileadmin/files/Datenblaetter/BLDC/DB42/DB42M01.pdf",
+      "optimizer_ready": false,
+      "missing_required_fields": [
+        "stall_torque_Nm",
+        "max_speed_rpm",
+        "peak_duration_s"
+      ],
+      "size_filter_pass": true,
+      "complete_axial_envelope_status": "under 100 mm including shafts"
+    },
+    {
+      "motor_id": "NANOTEC_DB42M03",
+      "source_url": "https://www.nanotec.com/fileadmin/files/Datenblaetter/BLDC/DB42/DB42M03.pdf",
+      "optimizer_ready": false,
+      "missing_required_fields": [
+        "stall_torque_Nm",
+        "max_speed_rpm",
+        "peak_duration_s"
+      ],
+      "size_filter_pass": true,
+      "complete_axial_envelope_status": "under 100 mm including shafts"
+    },
+    {
+      "motor_id": "NANOTEC_DB42L01",
+      "source_url": "https://www.nanotec.com/fileadmin/files/Datenblaetter/BLDC/DB42/DB42L01.pdf",
+      "optimizer_ready": false,
+      "missing_required_fields": [
+        "stall_torque_Nm",
+        "max_speed_rpm",
+        "peak_duration_s"
+      ],
+      "size_filter_pass": true,
+      "complete_axial_envelope_status": "100 mm or more including shafts"
+    },
+    {
+      "motor_id": "NANOTEC_DB43M024030-A",
+      "source_url": "https://www.nanotec.com/fileadmin/files/Baureihenuebersichten/BLDC_Motoren/Product_Overview_DB43.pdf",
+      "optimizer_ready": false,
+      "missing_required_fields": [
+        "stall_torque_Nm",
+        "no_load_speed_rpm",
+        "max_speed_rpm"
+      ],
+      "size_filter_pass": true,
+      "complete_axial_envelope_status": "not established"
+    },
+    {
+      "motor_id": "NANOTEC_DB43M048030-A",
+      "source_url": "https://www.nanotec.com/fileadmin/files/Baureihenuebersichten/BLDC_Motoren/Product_Overview_DB43.pdf",
+      "optimizer_ready": false,
+      "missing_required_fields": [
+        "stall_torque_Nm",
+        "no_load_speed_rpm",
+        "max_speed_rpm"
+      ],
+      "size_filter_pass": true,
+      "complete_axial_envelope_status": "not established"
+    },
+    {
+      "motor_id": "NANOTEC_DB43L024030-A",
+      "source_url": "https://www.nanotec.com/fileadmin/files/Baureihenuebersichten/BLDC_Motoren/Product_Overview_DB43.pdf",
+      "optimizer_ready": false,
+      "missing_required_fields": [
+        "stall_torque_Nm",
+        "no_load_speed_rpm",
+        "max_speed_rpm"
+      ],
+      "size_filter_pass": true,
+      "complete_axial_envelope_status": "not established"
+    },
+    {
+      "motor_id": "NANOTEC_DB43L048030-A",
+      "source_url": "https://www.nanotec.com/fileadmin/files/Baureihenuebersichten/BLDC_Motoren/Product_Overview_DB43.pdf",
+      "optimizer_ready": false,
+      "missing_required_fields": [
+        "stall_torque_Nm",
+        "no_load_speed_rpm",
+        "max_speed_rpm"
+      ],
+      "size_filter_pass": true,
+      "complete_axial_envelope_status": "not established"
+    },
+    {
+      "motor_id": "NANOTEC_DBL42L024032-A",
+      "source_url": "https://www.nanotec.com/fileadmin/files/Baureihenuebersichten/BLDC_Motoren/Product_Overview_DBL42.pdf",
+      "optimizer_ready": false,
+      "missing_required_fields": [
+        "stall_torque_Nm",
+        "no_load_speed_rpm",
+        "max_speed_rpm"
+      ],
+      "size_filter_pass": true,
+      "complete_axial_envelope_status": "not established"
+    },
+    {
+      "motor_id": "MAXON_449463",
+      "source_url": "https://www.maxongroup.com/maxon/view/product/449463",
+      "optimizer_ready": true,
+      "missing_required_fields": [],
+      "size_filter_pass": true,
+      "complete_axial_envelope_status": "under 100 mm including shafts"
+    },
+    {
+      "motor_id": "MAXON_449464",
+      "source_url": "https://www.maxongroup.com/maxon/view/product/449464",
+      "optimizer_ready": true,
+      "missing_required_fields": [],
+      "size_filter_pass": true,
+      "complete_axial_envelope_status": "under 100 mm including shafts"
+    },
+    {
+      "motor_id": "MAXON_539472",
+      "source_url": "https://www.maxongroup.com/maxon/view/product/539472",
+      "optimizer_ready": true,
+      "missing_required_fields": [],
+      "size_filter_pass": true,
+      "complete_axial_envelope_status": "under 100 mm including shafts"
+    },
+    {
+      "motor_id": "MAXON_539473",
+      "source_url": "https://www.maxongroup.com/maxon/view/product/539473",
+      "optimizer_ready": true,
+      "missing_required_fields": [],
+      "size_filter_pass": true,
+      "complete_axial_envelope_status": "under 100 mm including shafts"
+    },
+    {
+      "motor_id": "MAXON_539474",
+      "source_url": "https://www.maxongroup.com/maxon/view/product/539474",
+      "optimizer_ready": true,
+      "missing_required_fields": [],
+      "size_filter_pass": true,
+      "complete_axial_envelope_status": "under 100 mm including shafts"
+    },
+    {
+      "motor_id": "MAXON_539475",
+      "source_url": "https://www.maxongroup.com/maxon/view/product/539475",
+      "optimizer_ready": true,
+      "missing_required_fields": [],
+      "size_filter_pass": true,
+      "complete_axial_envelope_status": "under 100 mm including shafts"
+    },
+    {
+      "motor_id": "MAXON_539476",
+      "source_url": "https://www.maxongroup.com/maxon/view/product/539476",
+      "optimizer_ready": true,
+      "missing_required_fields": [],
+      "size_filter_pass": true,
+      "complete_axial_envelope_status": "under 100 mm including shafts"
+    },
+    {
+      "motor_id": "MAXON_539477",
+      "source_url": "https://www.maxongroup.com/maxon/view/product/539477",
+      "optimizer_ready": true,
+      "missing_required_fields": [],
+      "size_filter_pass": true,
+      "complete_axial_envelope_status": "under 100 mm including shafts"
+    },
+    {
+      "motor_id": "MAXON_539478",
+      "source_url": "https://www.maxongroup.com/maxon/view/product/539478",
+      "optimizer_ready": true,
+      "missing_required_fields": [],
+      "size_filter_pass": true,
+      "complete_axial_envelope_status": "under 100 mm including shafts"
+    },
+    {
+      "motor_id": "MAXON_539479",
+      "source_url": "https://www.maxongroup.com/maxon/view/product/539479",
+      "optimizer_ready": true,
+      "missing_required_fields": [],
+      "size_filter_pass": true,
+      "complete_axial_envelope_status": "under 100 mm including shafts"
+    },
+    {
+      "motor_id": "MAXON_539480",
+      "source_url": "https://www.maxongroup.com/maxon/view/product/539480",
+      "optimizer_ready": true,
+      "missing_required_fields": [],
+      "size_filter_pass": true,
+      "complete_axial_envelope_status": "under 100 mm including shafts"
+    },
+    {
+      "motor_id": "MAXON_539481",
+      "source_url": "https://www.maxongroup.com/maxon/view/product/539481",
+      "optimizer_ready": true,
+      "missing_required_fields": [],
+      "size_filter_pass": true,
+      "complete_axial_envelope_status": "under 100 mm including shafts"
+    },
+    {
+      "motor_id": "MAXON_539482",
+      "source_url": "https://www.maxongroup.com/maxon/view/product/539482",
+      "optimizer_ready": true,
+      "missing_required_fields": [],
+      "size_filter_pass": true,
+      "complete_axial_envelope_status": "under 100 mm including shafts"
+    },
+    {
+      "motor_id": "MAXON_539483",
+      "source_url": "https://www.maxongroup.com/maxon/view/product/539483",
+      "optimizer_ready": true,
+      "missing_required_fields": [],
+      "size_filter_pass": true,
+      "complete_axial_envelope_status": "under 100 mm including shafts"
+    },
+    {
+      "motor_id": "MAXON_539484",
+      "source_url": "https://www.maxongroup.com/maxon/view/product/539484",
+      "optimizer_ready": true,
+      "missing_required_fields": [],
+      "size_filter_pass": true,
+      "complete_axial_envelope_status": "under 100 mm including shafts"
+    },
+    {
+      "motor_id": "SO_42BLR43-24-01",
+      "source_url": "https://www.omc-stepperonline.com/24v-2000rpm-0-062nm-13w-0-91a-round-%D1%8442x43mm-brushless-dc-motor-42blr43-24-01",
+      "optimizer_ready": false,
+      "missing_required_fields": [
+        "stall_torque_Nm",
+        "max_speed_rpm",
+        "rotor_inertia_kg_m2"
+      ],
+      "size_filter_pass": true,
+      "complete_axial_envelope_status": "lower bound only; full envelope not established"
+    },
+    {
+      "motor_id": "SO_42BLS40-24-01",
+      "source_url": "https://www.omc-stepperonline.com/24v-4000rpm-0-0625nm-26w-1-8a-42x42x40mm-brushless-dc-motor-42bls40-24-01",
+      "optimizer_ready": false,
+      "missing_required_fields": [
+        "stall_torque_Nm",
+        "max_speed_rpm",
+        "mass_kg",
+        "rotor_inertia_kg_m2"
+      ],
+      "size_filter_pass": true,
+      "complete_axial_envelope_status": "lower bound only; full envelope not established"
+    },
+    {
+      "motor_id": "SO_42BLS60-24-01",
+      "source_url": "https://www.omc-stepperonline.com/24v-4000rpm-0-125nm-52-5w-3-4a-42x42x60mm-brushless-dc-motor-42bls60-24-01",
+      "optimizer_ready": false,
+      "missing_required_fields": [
+        "stall_torque_Nm",
+        "max_speed_rpm",
+        "mass_kg",
+        "rotor_inertia_kg_m2"
+      ],
+      "size_filter_pass": true,
+      "complete_axial_envelope_status": "lower bound only; full envelope not established"
+    },
+    {
+      "motor_id": "SO_42BSA46-24-01",
+      "source_url": "https://www.omc-stepperonline.com/24v-3000rpm-0-08nm-25w-1-80a-42x42x46mm-brushless-dc-motor-42bsa46-24-01",
+      "optimizer_ready": false,
+      "missing_required_fields": [
+        "stall_torque_Nm",
+        "max_speed_rpm",
+        "rotor_inertia_kg_m2"
+      ],
+      "size_filter_pass": true,
+      "complete_axial_envelope_status": "lower bound only; full envelope not established"
+    },
+    {
+      "motor_id": "SO_42BSA62-24-01",
+      "source_url": "https://www.omc-stepperonline.com/24v-3000rpm-0-16nm-50w-3-30a-42x42x62mm-brushless-dc-motor-42bsa62-24-01",
+      "optimizer_ready": false,
+      "missing_required_fields": [
+        "stall_torque_Nm",
+        "max_speed_rpm",
+        "rotor_inertia_kg_m2"
+      ],
+      "size_filter_pass": true,
+      "complete_axial_envelope_status": "lower bound only; full envelope not established"
+    },
+    {
+      "motor_id": "SO_42BSA62-36-01",
+      "source_url": "https://www.omc-stepperonline.com/36v-3000rpm-0-16nm-50w-2-20a-42x42x62mm-brushless-dc-motor-42bsa62-36-01",
+      "optimizer_ready": false,
+      "missing_required_fields": [
+        "stall_torque_Nm",
+        "max_speed_rpm",
+        "rotor_inertia_kg_m2"
+      ],
+      "size_filter_pass": true,
+      "complete_axial_envelope_status": "lower bound only; full envelope not established"
+    },
+    {
+      "motor_id": "SO_42BSA78-24-01",
+      "source_url": "https://www.omc-stepperonline.com/24v-3000rpm-0-24nm-75w-4-80a-42x42x78mm-brushless-dc-motor-42bsa78-24-01",
+      "optimizer_ready": false,
+      "missing_required_fields": [
+        "stall_torque_Nm",
+        "max_speed_rpm",
+        "rotor_inertia_kg_m2"
+      ],
+      "size_filter_pass": true,
+      "complete_axial_envelope_status": "lower bound >=100 mm; full envelope not established"
+    },
+    {
+      "motor_id": "SO_42BSA78-48-01",
+      "source_url": "https://www.omc-stepperonline.com/48v-3000rpm-0-24nm-75w-2-40a-42x42x78mm-brushless-dc-motor-42bsa78-48-01",
+      "optimizer_ready": false,
+      "missing_required_fields": [
+        "stall_torque_Nm",
+        "max_speed_rpm",
+        "rotor_inertia_kg_m2"
+      ],
+      "size_filter_pass": true,
+      "complete_axial_envelope_status": "lower bound >=100 mm; full envelope not established"
+    },
+    {
+      "motor_id": "SO_42BSB41-24-01",
+      "source_url": "https://www.omc-stepperonline.com/24v-3000rpm-0-063nm-20w-1-20a-42x42x41mm-brushless-dc-motor-42bsb41-24-01",
+      "optimizer_ready": false,
+      "missing_required_fields": [
+        "stall_torque_Nm",
+        "max_speed_rpm",
+        "rotor_inertia_kg_m2"
+      ],
+      "size_filter_pass": true,
+      "complete_axial_envelope_status": "lower bound only; full envelope not established"
+    },
+    {
+      "motor_id": "SO_42BSB61-24-01",
+      "source_url": "https://www.omc-stepperonline.com/24v-3000rpm-0-125nm-39w-2-30a-42x42x61mm-brushless-dc-motor-42bsb61-24-01",
+      "optimizer_ready": false,
+      "missing_required_fields": [
+        "stall_torque_Nm",
+        "max_speed_rpm",
+        "rotor_inertia_kg_m2"
+      ],
+      "size_filter_pass": true,
+      "complete_axial_envelope_status": "lower bound only; full envelope not established"
+    },
+    {
+      "motor_id": "SO_42BSB61-48-01",
+      "source_url": "https://www.omc-stepperonline.com/48v-3000rpm-0-125nm-39w-1-20a-42x42x61mm-brushless-dc-motor-42bsb61-48-01",
+      "optimizer_ready": false,
+      "missing_required_fields": [
+        "stall_torque_Nm",
+        "max_speed_rpm",
+        "rotor_inertia_kg_m2"
+      ],
+      "size_filter_pass": true,
+      "complete_axial_envelope_status": "lower bound only; full envelope not established"
+    },
+    {
+      "motor_id": "SO_42BSB81-24-01",
+      "source_url": "https://www.omc-stepperonline.com/24v-3000rpm-0-19nm-60w-3-60a-42x42x81mm-brushless-dc-motor-42bsb81-24-01",
+      "optimizer_ready": false,
+      "missing_required_fields": [
+        "stall_torque_Nm",
+        "max_speed_rpm",
+        "rotor_inertia_kg_m2"
+      ],
+      "size_filter_pass": true,
+      "complete_axial_envelope_status": "lower bound >=100 mm; full envelope not established"
+    },
+    {
+      "motor_id": "SO_42BSB81-48-01",
+      "source_url": "https://www.omc-stepperonline.com/48v-3000rpm-0-19nm-60w-1-80a-42x42x81mm-brushless-dc-motor-42bsb81-48-01",
+      "optimizer_ready": false,
+      "missing_required_fields": [
+        "stall_torque_Nm",
+        "max_speed_rpm",
+        "rotor_inertia_kg_m2"
+      ],
+      "size_filter_pass": true,
+      "complete_axial_envelope_status": "lower bound >=100 mm; full envelope not established"
+    },
+    {
+      "motor_id": "SO_42BYA43-24-01",
+      "source_url": "https://www.omc-stepperonline.com/24v-3000rpm-0-04nm-13w-1-00a-42x43mm-brushless-dc-motor-42bya43-24-01",
+      "optimizer_ready": false,
+      "missing_required_fields": [
+        "stall_torque_Nm",
+        "max_speed_rpm",
+        "rotor_inertia_kg_m2"
+      ],
+      "size_filter_pass": true,
+      "complete_axial_envelope_status": "lower bound only; full envelope not established"
+    },
+    {
+      "motor_id": "SO_42BYA51-24-01",
+      "source_url": "https://www.omc-stepperonline.com/24v-3000rpm-0-08nm-25w-1-80a-42x51mm-brushless-dc-motor-42bya51-24-01",
+      "optimizer_ready": false,
+      "missing_required_fields": [
+        "stall_torque_Nm",
+        "max_speed_rpm",
+        "rotor_inertia_kg_m2"
+      ],
+      "size_filter_pass": true,
+      "complete_axial_envelope_status": "lower bound only; full envelope not established"
+    },
+    {
+      "motor_id": "SO_42BYA73-24-01",
+      "source_url": "https://www.omc-stepperonline.com/24v-3000rpm-0-16nm-50w-3-30a-42x73mm-brushless-dc-motor-42bya73-24-01",
+      "optimizer_ready": false,
+      "missing_required_fields": [
+        "stall_torque_Nm",
+        "max_speed_rpm",
+        "rotor_inertia_kg_m2"
+      ],
+      "size_filter_pass": true,
+      "complete_axial_envelope_status": "lower bound only; full envelope not established"
+    },
+    {
+      "motor_id": "SO_57BLR50-24-01",
+      "source_url": "https://www.omc-stepperonline.com/24v-3500rpm-0-23nm-84w-5-0a-%D1%8457x49mm-brushless-dc-motor-57blr50-24-01",
+      "optimizer_ready": false,
+      "missing_required_fields": [
+        "stall_torque_Nm",
+        "no_load_speed_rpm",
+        "max_speed_rpm",
+        "rotor_inertia_kg_m2"
+      ],
+      "size_filter_pass": true,
+      "complete_axial_envelope_status": "lower bound only; full envelope not established"
+    },
+    {
+      "motor_id": "SO_57BLR50-36-01",
+      "source_url": "https://www.omc-stepperonline.com/36v-4000rpm-0-11nm-46w-2-0a-%D1%8457x49mm-brushless-dc-motor-57blr50-36-01",
+      "optimizer_ready": false,
+      "missing_required_fields": [
+        "stall_torque_Nm",
+        "no_load_speed_rpm",
+        "max_speed_rpm",
+        "rotor_inertia_kg_m2"
+      ],
+      "size_filter_pass": true,
+      "complete_axial_envelope_status": "lower bound only; full envelope not established"
+    },
+    {
+      "motor_id": "SO_57BLR70-24-02",
+      "source_url": "https://www.omc-stepperonline.com/24v-3500rpm-0-47nm-172w-10-4a-57x69mm-brushless-dc-motor-57blr70-24-02",
+      "optimizer_ready": false,
+      "missing_required_fields": [
+        "stall_torque_Nm",
+        "no_load_speed_rpm",
+        "max_speed_rpm",
+        "rotor_inertia_kg_m2"
+      ],
+      "size_filter_pass": true,
+      "complete_axial_envelope_status": "lower bound only; full envelope not established"
+    },
+    {
+      "motor_id": "SO_57BLR70-36-01",
+      "source_url": "https://www.omc-stepperonline.com/36v-4300rpm-0-22nm-99w-4-2a-%D1%8457x69mm-brushless-dc-motor-57blr70-36-01",
+      "optimizer_ready": false,
+      "missing_required_fields": [
+        "stall_torque_Nm",
+        "no_load_speed_rpm",
+        "max_speed_rpm",
+        "rotor_inertia_kg_m2"
+      ],
+      "size_filter_pass": true,
+      "complete_axial_envelope_status": "lower bound only; full envelope not established"
+    },
+    {
+      "motor_id": "SO_57BLY54-24-01",
+      "source_url": "https://www.omc-stepperonline.com/24v-4000rpm-0-16nm-67w-4-1a-%D1%8457x53-5mm-brushless-dc-motor-57bly54-24-01",
+      "optimizer_ready": false,
+      "missing_required_fields": [
+        "stall_torque_Nm",
+        "max_speed_rpm",
+        "rotor_inertia_kg_m2"
+      ],
+      "size_filter_pass": true,
+      "complete_axial_envelope_status": "lower bound only; full envelope not established"
+    },
+    {
+      "motor_id": "SO_57BSA58-24-01",
+      "source_url": "https://www.omc-stepperonline.com/24v-3000rpm-0-2nm-63w-3-60a-57x57x58mm-brushless-dc-motor-57bsa58-24-01",
+      "optimizer_ready": false,
+      "missing_required_fields": [
+        "stall_torque_Nm",
+        "max_speed_rpm",
+        "rotor_inertia_kg_m2"
+      ],
+      "size_filter_pass": false,
+      "complete_axial_envelope_status": "lower bound only; full envelope not established"
+    },
+    {
+      "motor_id": "SO_57BSA79-36-01",
+      "source_url": "https://www.omc-stepperonline.com/36v-3000rpm-0-4nm-126w-4-80a-57x57x79mm-brushless-dc-motor-57bsa79-36-01",
+      "optimizer_ready": false,
+      "missing_required_fields": [
+        "stall_torque_Nm",
+        "max_speed_rpm",
+        "rotor_inertia_kg_m2"
+      ],
+      "size_filter_pass": false,
+      "complete_axial_envelope_status": "lower bound >=100 mm; full envelope not established"
+    },
+    {
+      "motor_id": "SO_57BSD96-36-01",
+      "source_url": "https://www.omc-stepperonline.com/36v-3000rpm-0-45nm-141w-5-40a-57x57x96mm-brushless-dc-motor-57bsd96-36-01",
+      "optimizer_ready": false,
+      "missing_required_fields": [
+        "stall_torque_Nm",
+        "max_speed_rpm",
+        "rotor_inertia_kg_m2"
+      ],
+      "size_filter_pass": false,
+      "complete_axial_envelope_status": "lower bound >=100 mm; full envelope not established"
+    },
+    {
+      "motor_id": "SO_57BYA54-24-01",
+      "source_url": "https://www.omc-stepperonline.com/24v-3000rpm-0-16nm-50w-2-90a-57x57x53-5mm-brushless-dc-motor-57bya54-24-01",
+      "optimizer_ready": false,
+      "missing_required_fields": [
+        "stall_torque_Nm",
+        "max_speed_rpm",
+        "rotor_inertia_kg_m2"
+      ],
+      "size_filter_pass": true,
+      "complete_axial_envelope_status": "lower bound only; full envelope not established"
+    },
+    {
+      "motor_id": "SO_57BYA74-36-01",
+      "source_url": "https://www.omc-stepperonline.com/36v-3000rpm-0-32nm-101w-3-80a-57x73-5mm-brushless-dc-motor-57bya74-36-01",
+      "optimizer_ready": false,
+      "missing_required_fields": [
+        "stall_torque_Nm",
+        "max_speed_rpm",
+        "rotor_inertia_kg_m2"
+      ],
+      "size_filter_pass": true,
+      "complete_axial_envelope_status": "lower bound only; full envelope not established"
+    },
+    {
+      "motor_id": "SO_57BYA94-36-01",
+      "source_url": "https://www.omc-stepperonline.com/36v-3000rpm-0-45nm-141w-5-40a-57x57x93-5mm-brushless-dc-motor-57bya94-36-01",
+      "optimizer_ready": false,
+      "missing_required_fields": [
+        "stall_torque_Nm",
+        "max_speed_rpm",
+        "rotor_inertia_kg_m2"
+      ],
+      "size_filter_pass": true,
+      "complete_axial_envelope_status": "lower bound >=100 mm; full envelope not established"
+    },
+    {
+      "motor_id": "SO_57BYA94-48-01",
+      "source_url": "https://www.omc-stepperonline.com/48v-3000rpm-0-45nm-141w-4-00a-57x57x93-5mm-brushless-dc-motor-57bya94-48-01",
+      "optimizer_ready": false,
+      "missing_required_fields": [
+        "stall_torque_Nm",
+        "max_speed_rpm",
+        "rotor_inertia_kg_m2"
+      ],
+      "size_filter_pass": true,
+      "complete_axial_envelope_status": "lower bound >=100 mm; full envelope not established"
+    }
+  ],
+  "simulation_status": "Research catalog rebuild does not replace optimizer inputs or run simulations.",
+  "reducer_catalog": "sitodrive/reducer_variants.csv",
+  "reducer_readiness": "Public reducer specifications must be checked for every required optimizer field; output torque divided by ratio is not a published input-torque limit.",
+  "sitodrive_coverage": {
+    "store_model_count": 66,
+    "store_ratio_variant_count": 243,
+    "catalog_only_model_count": 1,
+    "catalog_only_ratio_variant_count": 2,
+    "store_models_by_series": {
+      "CD": 3,
+      "CS": 10,
+      "CS-Mini": 21,
+      "FD (listed under HD)": 1,
+      "HD": 11,
+      "HS": 20
+    },
+    "variants_with_missing_rated_torque": 3,
+    "store_sku_variant_count": 242,
+    "selector_only_variant_count": 1,
+    "variants_with_source_differences": 71,
+    "source_difference_field_count": 29,
+    "all_max_input_torque_unpublished": true
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "layout_number": 7,
+  "lengths_m": [
+    0.54,
+    0.10237526110916371,
+    0.27631677363695384
+  ],
+  "link_masses_kg": [
+    0.115137174316629,
+    0.15898005479190733,
+    0.5576176737759959,
+    0.03,
+    0.02,
+    0.015
+  ],
+  "com_fractions": [
+    0.6842126716299465,
+    0.2806912110151071,
+    0.42389266219738897,
+    0.6130892037159393,
+    0.45228981453744427,
+    0.2936647109397378
+  ],
+  "spread_fractions": [
+    0.04774451660908172,
+    0.08991258147611524,
+    0.13870015700639357,
+    0.08962598461798417,
+    0.0671456598636427,
+    0.035492790989053766
+  ],
+  "motor_offsets_m": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "motor_ids": [
+    "SYNTHETIC_M_WRIST",
+    "SYNTHETIC_M_LARGE",
+    "SYNTHETIC_M_LARGE",
+    "SYNTHETIC_M_WRIST",
+    "SYNTHETIC_M_WRIST",
+    "SYNTHETIC_M_WRIST"
+  ],
+  "reducer_ids": [
+    "SYNTHETIC_R_50",
+    "SYNTHETIC_R_50",
+    "SYNTHETIC_R_50",
+    "SYNTHETIC_R_WRIST",
+    "SYNTHETIC_R_WRIST",
+    "SYNTHETIC_R_WRIST"
+  ]
+}

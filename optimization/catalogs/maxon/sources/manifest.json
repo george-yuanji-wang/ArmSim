@@ -1,0 +1,100 @@
+{
+  "retrieved_date": "2026-11-01",
+  "files": [
+    {
+      "file": "303.pdf",
+      "bytes": 106786,
+      "sha256": "b868ffb1bb09fed6684827bcd44b5456206a589c35bd225ce4958e743f9d376b"
+    },
+    {
+      "file": "304.pdf",
+      "bytes": 106091,
+      "sha256": "e03f310e2e397e60cc864244d6f916de4966761b33c0ba93ade33b48d88fccda"
+    },
+    {
+      "file": "306.pdf",
+      "bytes": 103825,
+      "sha256": "8523414858e1bbf58303973cfc59522c4e75b8637d6e211cfe1ae734d0336ad6"
+    },
+    {
+      "file": "449463.html",
+      "bytes": 41532,
+      "sha256": "90927dd0c6ea56adf193d4c9a3f097e7f72a4fb36509bea1a3d79c79280f240b"
+    },
+    {
+      "file": "449464.html",
+      "bytes": 41531,
+      "sha256": "c004510359b640f171cf322a555fc1122ffa125c84f9e69281345c000c670da5"
+    },
+    {
+      "file": "539472.html",
+      "bytes": 41403,
+      "sha256": "40ea0737086fcb0faff474a911381888d173906d79dda631a68f284e0bcc81f6"
+    },
+    {
+      "file": "539473.html",
+      "bytes": 41401,
+      "sha256": "5b7ab655ad8e19b50ebd5bead2f81eaa58454cb84729baa3efaff729540e37b7"
+    },
+    {
+      "file": "539474.html",
+      "bytes": 41399,
+      "sha256": "723608083da3aef16a5648126d0fe71eb0b3ed6388daeecff5c9d8205b52a249"
+    },
+    {
+      "file": "539475.html",
+      "bytes": 41400,
+      "sha256": "4f06daf89134165d1bcc72270035a664b63a2277116b247dafb67c60dd85573d"
+    },
+    {
+      "file": "539476.html",
+      "bytes": 41420,
+      "sha256": "5ae850fa5b35fad91333da1ae53b7cc783a5dd8c6b068ba0ba823191e8eafd5d"
+    },
+    {
+      "file": "539477.html",
+      "bytes": 41418,
+      "sha256": "3f16dbc9b24446947b467b93690c55f90cd1c4ea1fdffcab3100c95f08759abe"
+    },
+    {
+      "file": "539478.html",
+      "bytes": 41415,
+      "sha256": "ff47ac0ddb3bad33746151a76673ca7da6e1b1f281cfe60f17f3848eb575cd62"
+    },
+    {
+      "file": "539479.html",
+      "bytes": 41420,
+      "sha256": "87a504a6e826b2d734132edbd7f4a64a9e1c25d122f4944669a7b3c6dc644c5b"
+    },
+    {
+      "file": "539480.html",
+      "bytes": 41484,
+      "sha256": "a4f3c8f515f32a15657251b5be5091c58293962abb761cff16d180a0b2ffa5f4"
+    },
+    {
+      "file": "539481.html",
+      "bytes": 41490,
+      "sha256": "6933ff6c1a0ce6cd4b2dfb624104c30e6623ba60225006ee7f1484785c3ff4a0"
+    },
+    {
+      "file": "539482.html",
+      "bytes": 41488,
+      "sha256": "d65db154c730796f60e5f5ec19ca1537927fc3eb4902ae14b09460b81156aec3"
+    },
+    {
+      "file": "539483.html",
+      "bytes": 41488,
+      "sha256": "76aa7cfcd2709063b5238c2a75854e119f8aea8ea0b81bd0ab845e548f90a8cf"
+    },
+    {
+      "file": "539484.html",
+      "bytes": 41486,
+      "sha256": "3d568a816201aa90d8a3cab92b24fbacc9319a1563e9b94f178c2123ecee2e46"
+    },
+    {
+      "file": "EC-i30-302.pdf",
+      "bytes": 105431,
+      "sha256": "ac3abc4c36836543ecc5fe798aa160ccc2c2da1f6ed393eac74ce28fc15b45ad"
+    }
+  ]
+}

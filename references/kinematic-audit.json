@@ -1,0 +1,347 @@
+[
+  {
+    "model": "universal_robots_ur5e",
+    "revision": "b0655057a9df2abe39ea7fc989914ba6f248301c",
+    "joints": [
+      {
+        "name": "shoulder_pan_joint",
+        "local_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "zero_world_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "zero_world_position_m": [
+          0.0,
+          0.0,
+          0.163
+        ]
+      },
+      {
+        "name": "shoulder_lift_joint",
+        "local_axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "zero_world_axis": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "zero_world_position_m": [
+          0.0,
+          -0.138,
+          0.163
+        ]
+      },
+      {
+        "name": "elbow_joint",
+        "local_axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "zero_world_axis": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "zero_world_position_m": [
+          -0.425,
+          -0.007,
+          0.163
+        ]
+      },
+      {
+        "name": "wrist_1_joint",
+        "local_axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "zero_world_axis": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "zero_world_position_m": [
+          -0.817,
+          -0.007,
+          0.163
+        ]
+      },
+      {
+        "name": "wrist_2_joint",
+        "local_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "zero_world_axis": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "zero_world_position_m": [
+          -0.817,
+          -0.134,
+          0.163
+        ]
+      },
+      {
+        "name": "wrist_3_joint",
+        "local_axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "zero_world_axis": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "zero_world_position_m": [
+          -0.817,
+          -0.134,
+          0.063
+        ]
+      }
+    ],
+    "source": "https://github.com/google-deepmind/mujoco_menagerie/blob/b0655057a9df2abe39ea7fc989914ba6f248301c/universal_robots_ur5e/ur5e.xml"
+  },
+  {
+    "model": "ufactory_lite6",
+    "revision": "b0655057a9df2abe39ea7fc989914ba6f248301c",
+    "joints": [
+      {
+        "name": "joint1",
+        "local_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "zero_world_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "zero_world_position_m": [
+          0.0,
+          0.0,
+          0.2435
+        ]
+      },
+      {
+        "name": "joint2",
+        "local_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "zero_world_axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "zero_world_position_m": [
+          0.0,
+          0.0,
+          0.2435
+        ]
+      },
+      {
+        "name": "joint3",
+        "local_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "zero_world_axis": [
+          0.0,
+          -1.0,
+          7e-06
+        ],
+        "zero_world_position_m": [
+          0.0,
+          0.0,
+          0.4437
+        ]
+      },
+      {
+        "name": "joint4",
+        "local_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "zero_world_axis": [
+          -4e-06,
+          -3e-06,
+          -1.0
+        ],
+        "zero_world_position_m": [
+          0.086999,
+          -2e-06,
+          0.21609
+        ]
+      },
+      {
+        "name": "joint5",
+        "local_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "zero_world_axis": [
+          -0.0,
+          1.0,
+          -3e-06
+        ],
+        "zero_world_position_m": [
+          0.086999,
+          -2e-06,
+          0.21609
+        ]
+      },
+      {
+        "name": "joint6",
+        "local_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "zero_world_axis": [
+          -4e-06,
+          -3e-06,
+          -1.0
+        ],
+        "zero_world_position_m": [
+          0.086999,
+          -2e-06,
+          0.15359
+        ]
+      }
+    ],
+    "source": "https://github.com/google-deepmind/mujoco_menagerie/blob/b0655057a9df2abe39ea7fc989914ba6f248301c/ufactory_lite6/lite6.xml"
+  },
+  {
+    "model": "fanuc_crx5ia",
+    "revision": "b0655057a9df2abe39ea7fc989914ba6f248301c",
+    "joints": [
+      {
+        "name": "J1",
+        "local_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "zero_world_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "zero_world_position_m": [
+          0.0,
+          0.0,
+          0.185
+        ]
+      },
+      {
+        "name": "J2",
+        "local_axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "zero_world_axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "zero_world_position_m": [
+          0.0,
+          0.0,
+          0.185
+        ]
+      },
+      {
+        "name": "J3",
+        "local_axis": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "zero_world_axis": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "zero_world_position_m": [
+          0.0,
+          0.0,
+          0.595
+        ]
+      },
+      {
+        "name": "J4",
+        "local_axis": [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        "zero_world_axis": [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        "zero_world_position_m": [
+          0.0,
+          0.0,
+          0.595
+        ]
+      },
+      {
+        "name": "J5",
+        "local_axis": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "zero_world_axis": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "zero_world_position_m": [
+          0.43,
+          0.0,
+          0.595
+        ]
+      },
+      {
+        "name": "J6",
+        "local_axis": [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        "zero_world_axis": [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        "zero_world_position_m": [
+          0.43,
+          -0.13,
+          0.595
+        ]
+      }
+    ],
+    "source": "https://github.com/google-deepmind/mujoco_menagerie/blob/b0655057a9df2abe39ea7fc989914ba6f248301c/fanuc_crx5ia/crx5ia.xml"
+  }
+]

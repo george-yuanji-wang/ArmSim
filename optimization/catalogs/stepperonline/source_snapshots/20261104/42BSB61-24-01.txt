@@ -1,0 +1,331 @@
+24V 3000RPM 0.125Nm 39W 2.30A 42x42x61mm Brushless DC Motor - 42BSB61-24-01 | StepperOnline (https://www.omc-stepperonline.com/index.php?product_id=3530&route=product%2Fproduct)
+citeturn150view0 [wordlim: 200] Crawled: 2 days ago; Content type: text/html; Source: click({"ref_id":"turn138view0","id":36}); Redirected to URL: https://www.omc-stepperonline.com/24v-3000rpm-0-125nm-39w-2-30a-42x42x61mm-brushless-dc-motor-42bsb61-24-01; Total lines: 328
+L0:   * 【0†Compare 0】
+L1:   * 【1†Account】
+L2: 
+L3:     * 【2†Login】
+L4:     * 【3†Register】
+L5: 
+L6: We've upgraded our website — we'd love to hear how we can make it even better. Share feedback
+L7: 
+L8: [Button: ]
+L9: 
+L10: Search here... [Input: Search here...]
+L11: 
+L12: English
+L13: 
+L14:   * English
+L15:   * English
+L16:   * English
+L17:   * English
+L18:   * Deutsch
+L19:   * Deutsch
+L20:   * Français
+L21:   * Italiano
+L22:   * Español
+L23:   * Español
+L24:   * Nederlands
+L25:   * Polski
+L26:   * 日本語
+L27:   * 한국인
+L28:   * Русский
+L29:   * Türkçe
+L30: 
+L31: [Input] [Input]
+L32: 
+L33: $ USD USD
+L34:   * A$ AUD AUD
+L35:   * C$ CAD CAD
+L36:   * € EUR EUR
+L37:   * £ GBP GBP
+L38:   * ¥ JPY JPY
+L39:   * ₩ KRW KRW
+L40:   * M$ MXN MXN
+L41:   * zł PLN PLN
+L42:   * руб. RUB RUB
+L43:   * TL TRY TRY
+L44:   * $ USD USD
+L45: 
+L46: [Input] [Input]
+L47: 
+L48:   * 【0†Compare 0】
+L49:   * 【1†Account】
+L50: 
+L51:     * 【2†Login】
+L52:     * 【3†Register】
+L53: 
+L54: 【4†Cart 0 item(s) - $0.00 0】
+L55: 
+L56:   * Your shopping cart is empty!
+L57: 
+L58:   * Menu
+L59: 
+L60:   *   * Motors & Drivers
+L61: 
+L62:   * Linear Motion
+L63: 
+L64:   * Gearboxes
+L65: 
+L66:   * Electrical
+L67: 
+L68:   * Mechanical
+L69: 
+L70:   * New Product
+L71: 
+L72:   * 【5†Sales】
+L73:   * 【6†Support†help.omc-stepperonline.com】
+L74: 
+L75:   * Menu
+L76:   * 【0†Compare 0】
+L77:   * 【1†Account】
+L78: 
+L79:     * 【2†Login】
+L80:     * 【3†Register】
+L81: 
+L82: 【7†0】
+L83: # 24V 3000RPM 0.125Nm 39W 2.30A 42x42x61mm Brushless DC Motor
+L84: 
+L85: 【8†Image: 24V 3000RPM 0.125Nm 39W 2.30A 42x42x61mm Brushless DC Motor - 42BSB61-24-01 | StepperOnline】
+L86: 
+L87: 【9†Image: 24V 3000RPM 0.125Nm 39W 2.30A 42x42x61mm Brushless DC Motor - 42BSB61-24-01 | StepperOnline】
+L88: 
+L89: 【10†Image: 24V 3000RPM 0.125Nm 39W 2.30A 42x42x61mm Brushless DC Motor - 42BSB61-24-01 | StepperOnline】
+L90: 
+L91: 【11†Image: 24V 3000RPM 0.125Nm 39W 2.30A 42x42x61mm Brushless DC Motor - 42BSB61-24-01 | StepperOnline】
+L92: 【12†Image: 24V 3000RPM 0.125Nm 39W 2.30A 42x42x61mm Brushless DC Motor - 42BSB61-24-01 | StepperOnline】
+L93: 
+L94: 【13†Image: 24V 3000RPM 0.125Nm 39W 2.30A 42x42x61mm Brushless DC Motor - 42BSB61-24-01 | StepperOnline】
+L95: 
+L96: 【14†Image: 24V 3000RPM 0.125Nm 39W 2.30A 42x42x61mm Brushless DC Motor - 42BSB61-24-01 | StepperOnline】
+L97: 
+L98: 【15†Image: 24V 3000RPM 0.125Nm 39W 2.30A 42x42x61mm Brushless DC Motor - 42BSB61-24-01 | StepperOnline】
+L99: 【16†Image: 24V 3000RPM 0.125Nm 39W 2.30A 42x42x61mm Brushless DC Motor - 42BSB61-24-01 | StepperOnline】
+L100: 
+L101: 【17†Image: 24V 3000RPM 0.125Nm 39W 2.30A 42x42x61mm Brushless DC Motor - 42BSB61-24-01 | StepperOnline】
+L102: 
+L103: 【18†Image: 24V 3000RPM 0.125Nm 39W 2.30A 42x42x61mm Brushless DC Motor - 42BSB61-24-01 | StepperOnline】
+L104: 
+L105: 【19†Image: 24V 3000RPM 0.125Nm 39W 2.30A 42x42x61mm Brushless DC Motor - 42BSB61-24-01 | StepperOnline】
+L106: 
+L107: 42BSB61-24-01
+L108: 
+L109: Output Shaft Type O
+L110: 
+L111: Shaft Diameter(mm)5
+L112: 
+L113: Shaft Length(mm)20
+L114: Rated Voltage(V)24
+L115: 
+L116: 【20†Question】
+L117: 
+L118: China In stock Stock: 5
+L119: ## Downloads
+L120: 
+L121: 【21†↓42BSB61-24-01_Full_Datasheet.pdfPDF · 118.85KB†files.omc-stepperonline.com】【22†↓42BSB61-24-01_Torque_Curve_24V.pdfPDF · 92.73KB†files.omc-stepperonline.com】
+L122: 
+L123: Same series
+L124: Model  | Output Shaft Type  | Shaft Diameter(mm)  | Shaft Length(mm)  | Rated Voltage(V)  | Price  | Stock
+L125: --- | --- | --- | --- | --- | --- | ---
+L126: 【23†42BLR43-24-01】  | O  | 5  | 20  | 24  | $19.87  | Backorder
+L127: 【24†42BLS40-24-01】  | O  | 5  | 20  | 24  | $17.16  | In stock
+L128: 【25†42BLS60-24-01】  | O  | 5  | 20  | 24  | $21.44  | In stock
+L129: 【26†42BSA46-24-01】  | O  | 5  | 24  | 24  | $15.89  | In stock
+L130: 【27†42BSA62-24-01】  | O  | 5  | 24  | 24  | $17.88  | In stock
+L131: 【28†42BSA62-36-01】  | O  | 5  | 24  | 36  | $17.88  | In stock
+L132: 【29†42BSA78-24-01】  | O  | 5  | 24  | 24  | $23.83  | In stock
+L133: 【30†42BSA78-48-01】  | O  | 5  | 24  | 48  | $23.83  | In stock
+L134: 【31†42BSB101-24-01】  | O  | 5  | 20  | 24  | $21.85  | In stock
+L135: 【32†42BSB101-48-01】  | O  | 5  | 20  | 48  | $21.85  | In stock
+L136: 【33†42BSB41-24-01】  | O  | 5  | 20  | 24  | $13.90  | In stock
+L137: 【34†42BSB61-24-01】  | O  | 5  | 20  | 24  | $15.89  | In stock
+L138: 【35†42BSB61-48-01】  | O  | 5  | 20  | 48  | $15.89  | In stock
+L139: 【36†42BSB81-24-01】  | O  | 5  | 20  | 24  | $19.86  | In stock
+L140: 【37†42BSB81-48-01】  | O  | 5  | 20  | 48  | $19.86  | In stock
+L141: 【38†42BYA43-24-01】  | O  | 5  | 20  | 24  | $14.90  | In stock
+L142: 【39†42BYA51-24-01】  | O  | 5  | 20  | 24  | $16.88  | In stock
+L143: 【40†42BYA73-24-01】  | O  | 5  | 20  | 24  | $23.83  | In stock
+L144: 【41†57BLR110-36-01】  | O  | 8  | 25  | 36  | $36.12  | In stock
+L145: 【42†57BLR50-24-01】  | O  | 8  | 25  | 24  | $22.21  | In stock
+L146: 【43†57BLR50-36-01】  | D  | 8  | 25  | 36  | $22.21  | In stock
+L147: 【44†57BLR70-24-02】  | O  | 8  | 25  | 24  | $31.56  | In stock
+L148: 【45†57BLR70-36-01】  | O  | 8  | 25  | 36  | $25.72  | In stock
+L149: 【46†57BLY54-24-01】  | O  | 8  | 21  | 24  | $18.70  | In stock
+L150: 【47†57BSA100-36-01】  | D  | 8  | 21  | 36  | $43.70  | In stock
+L151: 【48†57BSA100-48-01】  | D  | 8  | 21  | 48  | $43.70  | In stock
+L152: 【49†57BSA58-24-01】  | D  | 8  | 21  | 24  | $21.85  | In stock
+L153: 【50†57BSA79-36-01】  | D  | 8  | 21  | 36  | $31.78  | In stock
+L154: 【51†57BSD116-36-01】  | D  | 8  | 21  | 36  | $28.80  | In stock
+L155: 【52†57BSD116-48-01】  | D  | 8  | 21  | 48  | $28.80  | In stock
+L156: [Button: Show all 30]【53†View all in category】
+L157: 
+L158: 【54†Image】
+L159: 
+L160: 【55†Image】
+L161: 
+L162: 24V 3000RPM 0.125Nm 39W 2.30A 42x42x61mm Brushless DC Motor
+L163: 
+L164: This is a 24V brushless DC motor with 3 phases and 8 poles. It offers a rated speed of 3000rpm and t... Read More
+L165: 
+L166: 0 reviews • Write a review
+L167: 
+L168: from
+L169: 
+L170: $15.89
+L171: 
+L172: 5 + $15.43
+L173: 
+L174: 10 + $14.99
+L175: 
+L176: 50 + $14.57
+L177: 
+L178: 100 + $14.18
+L179: ## Click country for live stock
+L180: 
+L181: Ships from
+L182: 
+L183: [Input] China
+L184: 
+L185: Qty
+L186: 
+L187: [Input] [Input]
+L188: 
+L189: Add to Cart
+L190: 
+L191: Notify Me
+L192: 
+L193: Add to Wish List Compare this Product
+L194: 
+L195: Easy Returns
+L196: 
+L197: Return within 30 days of delivery. Contact us first and we'll take it from there.
+L198: 
+L199: 【56†Read more】
+L200: 
+L201: Ships within 24 hours!
+L202: 
+L203: Ships within 24 hours basically means that your product will be shipped out or dispatched from our warehouse within 24 hours if it has enough stock. 【57†Read more†help.stepperonline.com】.
+L204: Choose a Local Warehouse, Get More Benefits!
+L205: 
+L206: Customers in the US, UK, EU, Australia and Russia: choose your local warehouse for faster delivery, easier after-sales support and no customs clearance. All other countries: please choose the China warehouse.
+L207: 
+L208:   * 【58†Description】
+L209:   * 【59†Specifications】
+L210:   * 【60†Reviews】
+L211: This is a 24V brushless DC motor with 3 phases and 8 poles. It offers a rated speed of 3000rpm and torque of 0.125Nm(17.70oz.in).
+L212: The 42BSB series brushless motor is designed as an economical yet higher performance general purpose motor and is suitable for medium to low power applications with low torque requirements, such as cooling fans, pumps and other household appliances, etc.
+L213: ### Electrical Specification
+L214: 
+L215:   * Manufacturer Part Number: 42BSB61-24-01
+L216:   * Phase: 3
+L217:   * Poles: 8
+L218:   * Rated Voltage: 24V
+L219:   * Rated Torque: 0.125Nm(17.70oz.in)
+L220:   * Rated Power: 39W
+L221:   * Rated Speed: 3000±10%RPM
+L222:   * Rated Current: 2.30A
+L223:   * No-load Speed: 4100±10%RPM
+L224:   * Resistance/phase: 1.73±10%Ohms
+L225:   * Inductance/phase: 1.85±20%mH
+L226:   * BACK EMF: 4.00±5%V/krpm
+L227:   * Insulation Class: B 130°C[266°F]
+L228: ### Physical Specification
+L229: 
+L230:   * Frame Size: 42 x 42mm
+L231:   * Body Length: 61mm
+L232:   * Shaft Diameter: Φ5mm
+L233:   * Shaft Length: 20mm
+L234:   * Shaft Type: Round
+L235:   * Number of Leads: 8
+L236:   * Lead Length: 500mm
+L237:   * Sensor: Hall Sensor
+L238:   * Weight: 0.438kg
+L239: ### Connection
+L240: 
+L241: U  | V  | W  | +5V  | GND  | A  | B  | C
+L242: Yellow  | Green  | Blue  | Red  | Black  | Yellow  | Green  | Blue
+L243: 
+L244: Product Type
+L245: Product Type  | BLDC Motor
+L246: Electrical Specification
+L247: No. of Phase  | 3
+L248: Rated Current(A)  | 2.3
+L249: Rated Power(W)  | 39
+L250: Rated Speed(rpm)  | 3000
+L251: Rated Torque(Nm)  | 0.125
+L252: Rated Voltage(V)  | 24
+L253: Physical Specification
+L254: Body Length(mm)  | 61
+L255: Frame Size(mm)  | Nema 17 (42 x 42)
+L256: Output Shaft Type  | O
+L257: Shaft Diameter(mm)  | 5
+L258: Shaft Length(mm)  | 20
+L259: #### Write a review
+L260: 
+L261: Your Name
+L262: 
+L263: [Input]
+L264: 
+L265: Your Email
+L266: 
+L267: [Input]
+L268: 
+L269: Not published. We only use it to follow up on your review.
+L270: 
+L271: Your Review
+L272: 
+L273: Note: HTML is not translated!
+L274: 
+L275: Rating
+L276: 
+L277: Rating
+L278: 
+L279: Bad [Input] [Input] [Input] [Input] [Input] Good
+L280: 
+L281: Captcha
+L282: 
+L283: Please Verify
+L284: 
+L285: [Button: Continue]
+L286: 
+L287:   * 【61†Related Products】
+L288:   * 【62†Also Bought】
+L289: 
+L290: Quickview
+L291: 
+L292: 【63†24V 3000RPM 0.063Nm 20W 1.20A 42x42x41mm Brushless DC Motor】
+L293: This is a 24V brushless DC motor with 3 phases and 8 poles. It offers a rated speed of 3000rpm and torque of 0.063Nm(8.92oz.in). The 42BSB series br..
+L294: 
+L295: from
+L296: 
+L297: $13.90
+L298: 
+L299: 24V 3000RPM 0.063Nm 20W 1.20A 42x42x41mm Brushless DC Motor [Input] [Input]
+L300: 
+L301: Add to Cart
+L302: 
+L303: Add to Wish List Compare this Product
+L304: 
+L305: Quickview
+L306: 
+L307: 【64†48V 3000RPM 0.125Nm 39W 1.20A 42x42x61mm Brushless DC Motor】
+L308: This is a 48V brushless DC motor with 3 phases and 8 poles. It offers a rated speed of 3000rpm and torque of 0.125Nm(17.70oz.in). The 42BSB series b..
+L309: 
+L310: from
+L311: 
+L312: $15.89
+L313: 
+L314: 48V 3000RPM 0.125Nm 39W 1.20A 42x42x61mm Brushless DC Motor [Input] [Input]
+L315: 
+L316: Add to Cart
+L317: 
+L318: Add to Wish List Compare this Product
+L319: 
+L320: Top Categories【65†AC Motors】【66†DC Gear Motor】【53†Brushless DC Motor】【67†Planetary Gearbox】【68†Servo Motor】
+L321: 
+L322: Support【69†About Us】【70†Payment】【71†Shipping】【56†Returns】【72†Contact】
+L323: Account【1†My Account】【73†Affiliate Account】【74†Order History】【75†Privacy Policy】【76†Terms & Conditions】
+L324: 
+L325: Useful Links【6†Support†help.omc-stepperonline.com】【77†Training】【78†Links】【79†Affiliate Program】【80†Educational Sponsorship】
+L326: 
+L327: © 2026 STEPPERONLINE PayPal · Visa · Mastercard · American Express
+

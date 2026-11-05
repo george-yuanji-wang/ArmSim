@@ -1,0 +1,287 @@
+{
+  "date": "2026-11-05",
+  "motors": {
+    "GL30_KV290": {
+      "source_url": "https://store.tmotor.com/images/202408/121723431229683127.jpg",
+      "source_file": "source_curves\\GL30_KV290_12V.jpg",
+      "source_sha256": "a453c4db84a5089274f6175dec884dc9e155cc4b3641b059bdd5d7d01206297a",
+      "source_voltage_V": 12,
+      "axes": [
+        265,
+        898,
+        200,
+        710,
+        0.3,
+        3500
+      ],
+      "observations": [
+        {
+          "torque_Nm": 0.01,
+          "speed_rpm": 2869,
+          "pixel_x": 286,
+          "pixel_y": 292.0
+        },
+        {
+          "torque_Nm": 0.03,
+          "speed_rpm": 2598,
+          "pixel_x": 328,
+          "pixel_y": 331.5
+        },
+        {
+          "torque_Nm": 0.05,
+          "speed_rpm": 2340,
+          "pixel_x": 370,
+          "pixel_y": 369.0
+        },
+        {
+          "torque_Nm": 0.08,
+          "speed_rpm": 1987,
+          "pixel_x": 434,
+          "pixel_y": 420.5
+        },
+        {
+          "torque_Nm": 0.1,
+          "speed_rpm": 1771,
+          "pixel_x": 476,
+          "pixel_y": 452.0
+        },
+        {
+          "torque_Nm": 0.12,
+          "speed_rpm": 1561,
+          "pixel_x": 518,
+          "pixel_y": 482.5
+        },
+        {
+          "torque_Nm": 0.15,
+          "speed_rpm": 1256,
+          "pixel_x": 582,
+          "pixel_y": 527.0
+        },
+        {
+          "torque_Nm": 0.18,
+          "speed_rpm": 975,
+          "pixel_x": 645,
+          "pixel_y": 568.0
+        },
+        {
+          "torque_Nm": 0.21,
+          "speed_rpm": 700,
+          "pixel_x": 708,
+          "pixel_y": 608.0
+        },
+        {
+          "torque_Nm": 0.24,
+          "speed_rpm": 439,
+          "pixel_x": 771,
+          "pixel_y": 646.0
+        },
+        {
+          "torque_Nm": 0.27,
+          "speed_rpm": 172,
+          "pixel_x": 835,
+          "pixel_y": 685.0
+        }
+      ],
+      "operating_voltage_V": 16,
+      "speed_shift_rpm": 1020,
+      "peak_torque_speed_curve": [
+        [
+          0,
+          0.28
+        ],
+        [
+          1192,
+          0.27
+        ],
+        [
+          1459,
+          0.24
+        ],
+        [
+          1720,
+          0.21
+        ],
+        [
+          1995,
+          0.18
+        ],
+        [
+          2276,
+          0.15
+        ],
+        [
+          2581,
+          0.12
+        ],
+        [
+          2791,
+          0.1
+        ],
+        [
+          3007,
+          0.08
+        ],
+        [
+          3360,
+          0.05
+        ],
+        [
+          3618,
+          0.03
+        ],
+        [
+          3889,
+          0.01
+        ],
+        [
+          4080,
+          0
+        ]
+      ],
+      "basis": "voltage_shift_estimate_from_official_12V_curve",
+      "qualification": "16 V operation and shifted curve unverified by manufacturer"
+    },
+    "GL40_KV210": {
+      "source_url": "https://store.tmotor.com/images/202408/121723430944196572.jpg",
+      "source_file": "source_curves\\GL40_KV210_16V.jpg",
+      "source_sha256": "8b308c06d411decd9cadc7a914baa1ba48255052e37795ae0d5fc28f63acc126",
+      "source_voltage_V": 16,
+      "axes": [
+        258,
+        900,
+        1103,
+        1620,
+        0.8,
+        3500
+      ],
+      "observations": [
+        {
+          "torque_Nm": 0.01,
+          "speed_rpm": 3002,
+          "pixel_x": 266,
+          "pixel_y": 1176.5
+        },
+        {
+          "torque_Nm": 0.08,
+          "speed_rpm": 2694,
+          "pixel_x": 322,
+          "pixel_y": 1222.0
+        },
+        {
+          "torque_Nm": 0.16,
+          "speed_rpm": 2393,
+          "pixel_x": 386,
+          "pixel_y": 1266.5
+        },
+        {
+          "torque_Nm": 0.24,
+          "speed_rpm": 2132,
+          "pixel_x": 451,
+          "pixel_y": 1305.0
+        },
+        {
+          "torque_Nm": 0.32,
+          "speed_rpm": 1909,
+          "pixel_x": 515,
+          "pixel_y": 1338.0
+        },
+        {
+          "torque_Nm": 0.4,
+          "speed_rpm": 1706,
+          "pixel_x": 579,
+          "pixel_y": 1368.0
+        },
+        {
+          "torque_Nm": 0.48,
+          "speed_rpm": 1523,
+          "pixel_x": 643,
+          "pixel_y": 1395.0
+        },
+        {
+          "torque_Nm": 0.56,
+          "speed_rpm": 1361,
+          "pixel_x": 707,
+          "pixel_y": 1419.0
+        },
+        {
+          "torque_Nm": 0.64,
+          "speed_rpm": 1205,
+          "pixel_x": 772,
+          "pixel_y": 1442.0
+        },
+        {
+          "torque_Nm": 0.72,
+          "speed_rpm": 1063,
+          "pixel_x": 836,
+          "pixel_y": 1463.0
+        },
+        {
+          "torque_Nm": 0.75,
+          "speed_rpm": 1015,
+          "pixel_x": 860,
+          "pixel_y": 1470.0
+        }
+      ],
+      "operating_voltage_V": 16,
+      "speed_shift_rpm": 0,
+      "peak_torque_speed_curve": [
+        [
+          0,
+          0.75
+        ],
+        [
+          1015,
+          0.75
+        ],
+        [
+          1063,
+          0.72
+        ],
+        [
+          1205,
+          0.64
+        ],
+        [
+          1361,
+          0.56
+        ],
+        [
+          1523,
+          0.48
+        ],
+        [
+          1706,
+          0.4
+        ],
+        [
+          1909,
+          0.32
+        ],
+        [
+          2132,
+          0.24
+        ],
+        [
+          2393,
+          0.16
+        ],
+        [
+          2694,
+          0.08
+        ],
+        [
+          3002,
+          0.01
+        ],
+        [
+          3120,
+          0
+        ]
+      ],
+      "basis": "digitized_official_16V_curve",
+      "qualification": "manufacturer curve; transient duration/thermal duty unspecified"
+    }
+  },
+  "method": "Orange trace sampled at fixed torque coordinates; approximate raster readings. Original observations retained. No quantified validation error is available for the GL30 16 V extrapolation. No continuous rating increase or peak-current increase.",
+  "voltage_shift_reference": "https://support.maxongroup.com/hc/en-us/articles/360012252780-What-supply-voltage-is-required-by-a-controller"
+}

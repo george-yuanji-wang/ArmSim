@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<robot name="base-6dof">
+  <!--
+    Generic fixed-base arm. SI units: m, kg, s, rad, N m.
+    Joint axes, in their local joint frames: Z, X, X, Z, X, Y. J4 rolls L3 along its length.
+    All joint origin rotations are zero; frames align at zero joint angles.
+    Zero configuration: straight upright, with the tool pointing along +Z.
+    Dimensions, masses, damping, and limits are design placeholders.
+    Inertias are those of uniform solid primitives, about each link's COM.
+  -->
+
+  <!-- MuJoCo extension: retain named fixed frames and use the supplied inertias. -->
+  <mujoco>
+    <compiler discardvisual="false" fusestatic="false" inertiafromgeom="false"/>
+  </mujoco>
+
+  <material name="base_gray"><color rgba="0.20 0.23 0.28 1"/></material>
+  <material name="arm_blue"><color rgba="0.12 0.38 0.70 1"/></material>
+  <material name="wrist_gray"><color rgba="0.55 0.60 0.67 1"/></material>
+  <material name="tool_orange"><color rgba="0.95 0.48 0.12 1"/></material>
+
+  <!-- Base: solid cylinder, radius 0.10 m, height 0.10 m, mass 4 kg.
+       The base_link origin is at the center of the mounting surface. -->
+  <link name="base_link">
+    <inertial>
+      <origin xyz="0 0 0.05" rpy="0 0 0"/>
+      <mass value="4.0"/>
+      <inertia ixx="0.013333333333" ixy="0" ixz="0" iyy="0.013333333333" iyz="0" izz="0.020000000000"/>
+    </inertial>
+    <visual name="base_visual">
+      <origin xyz="0 0 0.05" rpy="0 0 0"/>
+      <geometry><cylinder radius="0.10" length="0.10"/></geometry>
+      <material name="base_gray"/>
+    </visual>
+    <collision name="base_collision">
+      <origin xyz="0 0 0.05" rpy="0 0 0"/>
+      <geometry><cylinder radius="0.10" length="0.10"/></geometry>
+    </collision>
+  </link>
+
+  <!-- Shoulder pedestal: solid cylinder, radius 0.065 m, length 0.12 m. -->
+  <link name="shoulder_link">
+    <inertial>
+      <origin xyz="0 0 0.06" rpy="0 0 0"/>
+      <mass value="2.0"/>
+      <inertia ixx="0.0045125" ixy="0" ixz="0" iyy="0.0045125" iyz="0" izz="0.004225"/>
+    </inertial>
+    <visual name="shoulder_visual">
+      <origin xyz="0 0 0.06" rpy="0 0 0"/>
+      <geometry><cylinder radius="0.065" length="0.12"/></geometry>
+      <material name="arm_blue"/>
+    </visual>
+    <collision name="shoulder_collision">
+      <origin xyz="0 0 0.06" rpy="0 0 0"/>
+      <geometry><cylinder radius="0.065" length="0.12"/></geometry>
+    </collision>
+  </link>
+
+  <joint name="joint_1" type="revolute">
+    <parent link="base_link"/>
+    <child link="shoulder_link"/>
+    <origin xyz="0 0 0.10" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-3.141592653590" upper="3.141592653590" effort="100" velocity="2.0"/>
+    <dynamics damping="1.0" friction="0.1"/>
+  </joint>
+
+  <!-- Upper arm: solid box, 0.07 x 0.07 x 0.32 m. -->
+  <link name="upper_arm_link">
+    <inertial>
+      <origin xyz="0 0 0.16" rpy="0 0 0"/>
+      <mass value="2.5"/>
+      <inertia ixx="0.022354166667" ixy="0" ixz="0" iyy="0.022354166667" iyz="0" izz="0.002041666667"/>
+    </inertial>
+    <visual name="upper_arm_visual">
+      <origin xyz="0 0 0.16" rpy="0 0 0"/>
+      <geometry><box size="0.07 0.07 0.32"/></geometry>
+      <material name="arm_blue"/>
+    </visual>
+    <collision name="upper_arm_collision">
+      <origin xyz="0 0 0.16" rpy="0 0 0"/>
+      <geometry><box size="0.07 0.07 0.32"/></geometry>
+    </collision>
+  </link>
+
+  <joint name="joint_2" type="revolute">
+    <parent link="shoulder_link"/>
+    <child link="upper_arm_link"/>
+    <origin xyz="0 0 0.12" rpy="0 0 0"/>
+    <axis xyz="1 0 0"/>
+    <limit lower="-1.570796326795" upper="1.570796326795" effort="100" velocity="2.0"/>
+    <dynamics damping="1.0" friction="0.1"/>
+  </joint>
+
+  <!-- Forearm: solid box, 0.06 x 0.06 x 0.28 m. -->
+  <link name="forearm_link">
+    <inertial>
+      <origin xyz="0 0 0.14" rpy="0 0 0"/>
+      <mass value="1.8"/>
+      <inertia ixx="0.0123" ixy="0" ixz="0" iyy="0.0123" iyz="0" izz="0.00108"/>
+    </inertial>
+    <visual name="forearm_visual">
+      <origin xyz="0 0 0.14" rpy="0 0 0"/>
+      <geometry><box size="0.06 0.06 0.28"/></geometry>
+      <material name="arm_blue"/>
+    </visual>
+    <collision name="forearm_collision">
+      <origin xyz="0 0 0.14" rpy="0 0 0"/>
+      <geometry><box size="0.06 0.06 0.28"/></geometry>
+    </collision>
+  </link>
+
+  <joint name="joint_3" type="revolute">
+    <parent link="upper_arm_link"/>
+    <child link="forearm_link"/>
+    <origin xyz="0 0 0.32" rpy="0 0 0"/>
+    <axis xyz="1 0 0"/>
+    <limit lower="-2.617993877991" upper="2.617993877991" effort="80" velocity="2.0"/>
+    <dynamics damping="0.8" friction="0.08"/>
+  </joint>
+
+  <!-- Wrist 1: solid cylinder, radius 0.045 m, length 0.08 m. -->
+  <link name="wrist_1_link">
+    <inertial>
+      <origin xyz="0 0 0.04" rpy="0 0 0"/>
+      <mass value="0.6"/>
+      <inertia ixx="0.00062375" ixy="0" ixz="0" iyy="0.00062375" iyz="0" izz="0.0006075"/>
+    </inertial>
+    <visual name="wrist_1_visual">
+      <origin xyz="0 0 0.04" rpy="0 0 0"/>
+      <geometry><cylinder radius="0.045" length="0.08"/></geometry>
+      <material name="wrist_gray"/>
+    </visual>
+    <collision name="wrist_1_collision">
+      <origin xyz="0 0 0.04" rpy="0 0 0"/>
+      <geometry><cylinder radius="0.045" length="0.08"/></geometry>
+    </collision>
+  </link>
+
+  <joint name="joint_4" type="revolute">
+    <parent link="forearm_link"/>
+    <child link="wrist_1_link"/>
+    <origin xyz="0 0 0.28" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-3.141592653590" upper="3.141592653590" effort="20" velocity="3.0"/>
+    <dynamics damping="0.2" friction="0.02"/>
+  </joint>
+
+  <!-- Wrist 2: solid cylinder, radius 0.04 m, length 0.07 m. -->
+  <link name="wrist_2_link">
+    <inertial>
+      <origin xyz="0 0 0.035" rpy="0 0 0"/>
+      <mass value="0.45"/>
+      <inertia ixx="0.00036375" ixy="0" ixz="0" iyy="0.00036375" iyz="0" izz="0.00036"/>
+    </inertial>
+    <visual name="wrist_2_visual">
+      <origin xyz="0 0 0.035" rpy="0 0 0"/>
+      <geometry><cylinder radius="0.04" length="0.07"/></geometry>
+      <material name="wrist_gray"/>
+    </visual>
+    <collision name="wrist_2_collision">
+      <origin xyz="0 0 0.035" rpy="0 0 0"/>
+      <geometry><cylinder radius="0.04" length="0.07"/></geometry>
+    </collision>
+  </link>
+
+  <joint name="joint_5" type="revolute">
+    <parent link="wrist_1_link"/>
+    <child link="wrist_2_link"/>
+    <origin xyz="0 0 0.08" rpy="0 0 0"/>
+    <axis xyz="1 0 0"/>
+    <limit lower="-1.570796326795" upper="1.570796326795" effort="15" velocity="3.0"/>
+    <dynamics damping="0.15" friction="0.02"/>
+  </joint>
+
+  <!-- Tool flange: solid cylinder, radius 0.035 m, length 0.08 m. -->
+  <link name="tool_flange_link">
+    <inertial>
+      <origin xyz="0 0 0.04" rpy="0 0 0"/>
+      <mass value="0.3"/>
+      <inertia ixx="0.000251875" ixy="0" ixz="0" iyy="0.000251875" iyz="0" izz="0.00018375"/>
+    </inertial>
+    <visual name="tool_flange_visual">
+      <origin xyz="0 0 0.04" rpy="0 0 0"/>
+      <geometry><cylinder radius="0.035" length="0.08"/></geometry>
+      <material name="tool_orange"/>
+    </visual>
+    <collision name="tool_flange_collision">
+      <origin xyz="0 0 0.04" rpy="0 0 0"/>
+      <geometry><cylinder radius="0.035" length="0.08"/></geometry>
+    </collision>
+  </link>
+
+  <joint name="joint_6" type="revolute">
+    <parent link="wrist_2_link"/>
+    <child link="tool_flange_link"/>
+    <origin xyz="0 0 0.07" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+    <limit lower="-3.141592653590" upper="3.141592653590" effort="10" velocity="3.0"/>
+    <dynamics damping="0.1" friction="0.01"/>
+  </joint>
+
+  <!-- Massless attachment frame at the flange tip; adds no degree of freedom. -->
+  <link name="tool0"/>
+  <joint name="tool0_fixed" type="fixed">
+    <parent link="tool_flange_link"/>
+    <child link="tool0"/>
+    <origin xyz="0 0 0.08" rpy="0 0 0"/>
+  </joint>
+</robot>

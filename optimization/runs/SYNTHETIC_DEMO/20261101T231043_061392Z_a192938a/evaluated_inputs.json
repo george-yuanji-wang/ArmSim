@@ -1,0 +1,158 @@
+{
+  "motors": [
+    {
+      "motor_id": "SYNTHETIC_M_SMALL",
+      "name": "Invented test fixture small",
+      "rated_torque_Nm": 0.5,
+      "rated_speed_rpm": 1500.0,
+      "stall_torque_Nm": 4.0,
+      "no_load_speed_rpm": 6000.0,
+      "max_speed_rpm": 5000.0,
+      "mass_kg": 0.35,
+      "radius_mm": 25.0,
+      "length_mm": 40.0,
+      "rotor_inertia_kg_m2": 2e-05,
+      "rated_power_W": null,
+      "peak_torque_Nm": 1.0,
+      "peak_duration_s": 1.0
+    },
+    {
+      "motor_id": "SYNTHETIC_M_LARGE",
+      "name": "Invented test fixture large",
+      "rated_torque_Nm": 1.5,
+      "rated_speed_rpm": 1500.0,
+      "stall_torque_Nm": 9.0,
+      "no_load_speed_rpm": 6000.0,
+      "max_speed_rpm": 5000.0,
+      "mass_kg": 0.9,
+      "radius_mm": 40.0,
+      "length_mm": 60.0,
+      "rotor_inertia_kg_m2": 5e-05,
+      "rated_power_W": null,
+      "peak_torque_Nm": 3.0,
+      "peak_duration_s": 1.0
+    }
+  ],
+  "reducers": [
+    {
+      "reducer_id": "SYNTHETIC_R_50",
+      "name": "Invented test fixture ratio 50",
+      "reduction_ratio": 50.0,
+      "mass_kg": 0.4,
+      "radius_mm": 35.0,
+      "length_mm": 30.0,
+      "continuous_output_torque_Nm": 50.0,
+      "peak_output_torque_Nm": 75.0,
+      "max_input_torque_Nm": 1.5,
+      "max_input_speed_rpm": 5000.0
+    },
+    {
+      "reducer_id": "SYNTHETIC_R_100",
+      "name": "Invented test fixture ratio 100",
+      "reduction_ratio": 100.0,
+      "mass_kg": 0.8,
+      "radius_mm": 50.0,
+      "length_mm": 40.0,
+      "continuous_output_torque_Nm": 120.0,
+      "peak_output_torque_Nm": 180.0,
+      "max_input_torque_Nm": 2.0,
+      "max_input_speed_rpm": 5000.0
+    }
+  ],
+  "requirements": [
+    {
+      "project_id": "SYNTHETIC_DEMO",
+      "payload_lower_g": 500.0,
+      "payload_upper_g": 1000.0,
+      "reach_lower_mm": 450.0,
+      "reach_upper_mm": 600.0,
+      "elevation_lower_deg": -45.0,
+      "elevation_upper_deg": 45.0,
+      "joint_speed_rad_s": 1.0,
+      "joint_accel_rad_s2": 2.0,
+      "l1_lower_mm": 90.0,
+      "l1_upper_mm": 540.0,
+      "l2_lower_mm": 18.0,
+      "l2_upper_mm": 540.0,
+      "l3_lower_mm": 18.0,
+      "l3_upper_mm": 540.0,
+      "motor_offset_max_mm": 120.0,
+      "seed": 42,
+      "cycles": 200,
+      "checkpoint_every": 10,
+      "allowed_layouts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    }
+  ],
+  "links": [
+    {
+      "body_name": "shoulder_link",
+      "mass_lower_kg": 0.1,
+      "mass_upper_kg": 0.4,
+      "com_fraction_lower": 0.3,
+      "com_fraction_upper": 0.7,
+      "spread_fraction_lower": 0.04,
+      "spread_fraction_upper": 0.16,
+      "radius_mm": 45.0
+    },
+    {
+      "body_name": "upper_arm_link",
+      "mass_lower_kg": 0.1,
+      "mass_upper_kg": 0.8,
+      "com_fraction_lower": 0.25,
+      "com_fraction_upper": 0.75,
+      "spread_fraction_lower": 0.03,
+      "spread_fraction_upper": 0.15,
+      "radius_mm": 25.0
+    },
+    {
+      "body_name": "forearm_link",
+      "mass_lower_kg": 0.05,
+      "mass_upper_kg": 0.6,
+      "com_fraction_lower": 0.25,
+      "com_fraction_upper": 0.75,
+      "spread_fraction_lower": 0.03,
+      "spread_fraction_upper": 0.15,
+      "radius_mm": 20.0
+    },
+    {
+      "body_name": "wrist_1_link",
+      "mass_lower_kg": 0.03,
+      "mass_upper_kg": 0.4,
+      "com_fraction_lower": 0.25,
+      "com_fraction_upper": 0.75,
+      "spread_fraction_lower": 0.03,
+      "spread_fraction_upper": 0.15,
+      "radius_mm": 18.0
+    },
+    {
+      "body_name": "wrist_2_link",
+      "mass_lower_kg": 0.02,
+      "mass_upper_kg": 0.25,
+      "com_fraction_lower": 0.25,
+      "com_fraction_upper": 0.75,
+      "spread_fraction_lower": 0.03,
+      "spread_fraction_upper": 0.15,
+      "radius_mm": 16.0
+    },
+    {
+      "body_name": "tool_flange_link",
+      "mass_lower_kg": 0.015,
+      "mass_upper_kg": 0.15,
+      "com_fraction_lower": 0.25,
+      "com_fraction_upper": 0.75,
+      "spread_fraction_lower": 0.03,
+      "spread_fraction_upper": 0.15,
+      "radius_mm": 12.0
+    }
+  ]
+}

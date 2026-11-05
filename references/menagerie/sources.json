@@ -1,0 +1,76 @@
+{
+  "repository": "https://github.com/google-deepmind/mujoco_menagerie",
+  "revision": "b0655057a9df2abe39ea7fc989914ba6f248301c",
+  "files": [
+    {
+      "path": "references/menagerie/universal_robots_ur5e/LICENSE",
+      "source": "https://github.com/google-deepmind/mujoco_menagerie/blob/b0655057a9df2abe39ea7fc989914ba6f248301c/universal_robots_ur5e/LICENSE",
+      "sha256": "5ec71ccf66c8d03261448f2441a586765b97f2248c860a1ae19689fb1c45cee6"
+    },
+    {
+      "path": "references/menagerie/universal_robots_ur5e/README.md",
+      "source": "https://github.com/google-deepmind/mujoco_menagerie/blob/b0655057a9df2abe39ea7fc989914ba6f248301c/universal_robots_ur5e/README.md",
+      "sha256": "435600d4f00cfdbd7edec4b60f0cd7fbb539f39abaefcd8bb3994beed3b1156a"
+    },
+    {
+      "path": "references/menagerie/universal_robots_ur5e/scene.xml",
+      "source": "https://github.com/google-deepmind/mujoco_menagerie/blob/b0655057a9df2abe39ea7fc989914ba6f248301c/universal_robots_ur5e/scene.xml",
+      "sha256": "e877852d40095926ff7db9cfb85e595b550e03da398bd6f6f58885d39038d1b6"
+    },
+    {
+      "path": "references/menagerie/universal_robots_ur5e/ur5e.xml",
+      "source": "https://github.com/google-deepmind/mujoco_menagerie/blob/b0655057a9df2abe39ea7fc989914ba6f248301c/universal_robots_ur5e/ur5e.xml",
+      "sha256": "ffd0a7b336d3c2d27c35a15cc0d4aaa95196769aca190ac8d6522d3318c345a0"
+    },
+    {
+      "path": "references/menagerie/ufactory_lite6/LICENSE",
+      "source": "https://github.com/google-deepmind/mujoco_menagerie/blob/b0655057a9df2abe39ea7fc989914ba6f248301c/ufactory_lite6/LICENSE",
+      "sha256": "4fe659325706d0fc41592c8743d085a0bdf778056249f2a108943d22be916fb2"
+    },
+    {
+      "path": "references/menagerie/ufactory_lite6/README.md",
+      "source": "https://github.com/google-deepmind/mujoco_menagerie/blob/b0655057a9df2abe39ea7fc989914ba6f248301c/ufactory_lite6/README.md",
+      "sha256": "bd3265373ec4c8a23a2ace74049d30eb22e643ba26954268b0eb2fa502e755e6"
+    },
+    {
+      "path": "references/menagerie/ufactory_lite6/lite6.xml",
+      "source": "https://github.com/google-deepmind/mujoco_menagerie/blob/b0655057a9df2abe39ea7fc989914ba6f248301c/ufactory_lite6/lite6.xml",
+      "sha256": "89672be1b10bef6ab49850c105f6faf1945bf13d238f8a79df0f200cfe6d7796"
+    },
+    {
+      "path": "references/menagerie/ufactory_lite6/lite6_gripper_narrow.xml",
+      "source": "https://github.com/google-deepmind/mujoco_menagerie/blob/b0655057a9df2abe39ea7fc989914ba6f248301c/ufactory_lite6/lite6_gripper_narrow.xml",
+      "sha256": "f2ecb61b8c2bf87bbad2e53a8f6e4d45b6b6aae5ae70de47ef34503a7f7e2dd4"
+    },
+    {
+      "path": "references/menagerie/ufactory_lite6/lite6_gripper_wide.xml",
+      "source": "https://github.com/google-deepmind/mujoco_menagerie/blob/b0655057a9df2abe39ea7fc989914ba6f248301c/ufactory_lite6/lite6_gripper_wide.xml",
+      "sha256": "3ef9fb392e504949797b6d77557148b32623098ee7206e05273fdd4b2199f2ff"
+    },
+    {
+      "path": "references/menagerie/ufactory_lite6/scene.xml",
+      "source": "https://github.com/google-deepmind/mujoco_menagerie/blob/b0655057a9df2abe39ea7fc989914ba6f248301c/ufactory_lite6/scene.xml",
+      "sha256": "3e009a1b8105cc1f2c7a5e15352e31827f353b64b1f17e3b696d47818b01c7bf"
+    },
+    {
+      "path": "references/menagerie/fanuc_crx5ia/LICENSE",
+      "source": "https://github.com/google-deepmind/mujoco_menagerie/blob/b0655057a9df2abe39ea7fc989914ba6f248301c/fanuc_crx5ia/LICENSE",
+      "sha256": "074e6e32c86a4c0ef8b3ed25b721ca23aca83df277cd88106ef7177c354615ff"
+    },
+    {
+      "path": "references/menagerie/fanuc_crx5ia/README.md",
+      "source": "https://github.com/google-deepmind/mujoco_menagerie/blob/b0655057a9df2abe39ea7fc989914ba6f248301c/fanuc_crx5ia/README.md",
+      "sha256": "5063f91fbeb6dc4fb9c2f152bbe6109e80a5169757d43c266e67a7d7aeb87b8c"
+    },
+    {
+      "path": "references/menagerie/fanuc_crx5ia/crx5ia.xml",
+      "source": "https://github.com/google-deepmind/mujoco_menagerie/blob/b0655057a9df2abe39ea7fc989914ba6f248301c/fanuc_crx5ia/crx5ia.xml",
+      "sha256": "3411ad7432da20866dbb34593d6ba3f69d7becf9f04a48d9d0b9cd8af6d46538"
+    },
+    {
+      "path": "references/menagerie/fanuc_crx5ia/scene.xml",
+      "source": "https://github.com/google-deepmind/mujoco_menagerie/blob/b0655057a9df2abe39ea7fc989914ba6f248301c/fanuc_crx5ia/scene.xml",
+      "sha256": "833aecabed5a0f996bb41f86614912466b3108a2e48e52314bdae81cd18e3168"
+    }
+  ]
+}

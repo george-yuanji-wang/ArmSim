@@ -1,0 +1,29 @@
+{
+  "study": "GL_CD20_550",
+  "comparison": "C:\\Users\\George\\Desktop\\ArmSim\\optimization\\runs\\comparisons\\GL_CD20_550\\20261105T092248_985041Z_a9aba572",
+  "models": [
+    {
+      "layout": 7,
+      "source_run": "C:\\Users\\George\\Desktop\\ArmSim\\optimization\\runs\\GL_CD20_550_07\\20261105T090917_848639Z_858d5f48",
+      "model": "C:\\Users\\George\\Desktop\\ArmSim\\model\\best-07-base-6dof.xml",
+      "sha256": "0b828590ab2d19fcd637205093455bfde7a8dfe6a3862c0a734978725bf4e1d4"
+    },
+    {
+      "layout": 8,
+      "source_run": "C:\\Users\\George\\Desktop\\ArmSim\\optimization\\runs\\GL_CD20_550_08\\20261105T090917_826307Z_9314dc03",
+      "model": "C:\\Users\\George\\Desktop\\ArmSim\\model\\best-08-base-6dof.xml",
+      "sha256": "74ee5d7e6c0106f9282aca32b09d441be8027dc1b0b9322a688127d832f5c234"
+    },
+    {
+      "layout": 9,
+      "source_run": "C:\\Users\\George\\Desktop\\ArmSim\\optimization\\runs\\GL_CD20_550_09\\20261105T090917_839683Z_f97256e1",
+      "model": "C:\\Users\\George\\Desktop\\ArmSim\\model\\best-09-base-6dof.xml",
+      "sha256": "954186a4ed5d2bb0ced22b3658c3292c6a9f52dd28557015bb397237ffe63d07"
+    }
+  ],
+  "alias": "C:\\Users\\George\\Desktop\\ArmSim\\model\\best_model.xml",
+  "alias_layout": 7,
+  "alias_selection": "Same lexicographic payload/feasibility/mass ranking as optimization.search._rank",
+  "capacity_interpretation": "Conditional transient-envelope Pmax; original holding ratings, speed-aware curves, unknown pulse duration/duty, assumed GL30 16 V and ideal transmissions.",
+  "run_metadata_objective_note": "The explicit motor_load_policy and result.summary.score_definition govern these peak-envelope scores."
+}

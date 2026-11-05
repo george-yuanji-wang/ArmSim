@@ -1,0 +1,676 @@
+{
+  "retrieved_date": "2026-11-01",
+  "product_source_count": 66,
+  "all_product_sources_http_200_and_correct_model": true,
+  "products": [
+    {
+      "model": "CD-14",
+      "observed_inventory_url": "https://www.sitodrive.com/en/product/CD-14",
+      "final_response_url": "https://www.sitodrive.com/en/product/CD-14",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "confirmed_product_heading": "CD-14",
+      "table_count": 1,
+      "response_sha256": "7c527e3002c3953cad7e893421f4ba5da6a54e1484bcfee7169018f451e3217d"
+    },
+    {
+      "model": "CD-17",
+      "observed_inventory_url": "https://www.sitodrive.com/en/product/CD-17",
+      "final_response_url": "https://www.sitodrive.com/en/product/CD-17",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "confirmed_product_heading": "CD-17",
+      "table_count": 1,
+      "response_sha256": "5c8c553bd1f276bbd24bfdf3a34bf5bf8c19c699a54abb6723ff81fc0e195a99"
+    },
+    {
+      "model": "CD-20",
+      "observed_inventory_url": "https://www.sitodrive.com/en/product/CD-20",
+      "final_response_url": "https://www.sitodrive.com/en/product/CD-20",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "confirmed_product_heading": "CD-20",
+      "table_count": 1,
+      "response_sha256": "91b247925fda438f51c71af2ac6628d79a7586ff0a34d6077552e0ae651bc517"
+    },
+    {
+      "model": "CS-03-1U-C",
+      "observed_inventory_url": "https://www.sitodrive.com/en/product/CS-03-1U-C",
+      "final_response_url": "https://www.sitodrive.com/en/product/CS-03-1U-C",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "confirmed_product_heading": "CS-03-1U-C",
+      "table_count": 1,
+      "response_sha256": "b50b796e759e404334271f0a1cb50c9e63ff693281afe44ecf04fe026251e4bd"
+    },
+    {
+      "model": "CS-03-1U-U",
+      "observed_inventory_url": "https://www.sitodrive.com/en/product/CS-03",
+      "final_response_url": "https://www.sitodrive.com/en/product/CS-03",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "confirmed_product_heading": "CS-03-1U-U",
+      "table_count": 1,
+      "response_sha256": "fbbc48bceb04b1df42328bd46d0bbf56430c09ac660fce67d15948cf88f7f833"
+    },
+    {
+      "model": "CS-05-1U-C",
+      "observed_inventory_url": "https://www.sitodrive.com/en/product_detail?productid=1322",
+      "final_response_url": "https://www.sitodrive.com/en/product_detail?productid=1322",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "confirmed_product_heading": "CS-05-1U-C",
+      "table_count": 1,
+      "response_sha256": "c2abb1dd0b7af67fac6f15fc634cd3fe875a952a3432ce88eb9a28ec2cc5dc1b"
+    },
+    {
+      "model": "CS-05-1U-D",
+      "observed_inventory_url": "https://www.sitodrive.com/en/product_detail?productid=1323",
+      "final_response_url": "https://www.sitodrive.com/en/product_detail?productid=1323",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "confirmed_product_heading": "CS-05-1U-D",
+      "table_count": 1,
+      "response_sha256": "c6081bff71bc523569eae532505121eb9d5e7fe71fd01055a7fc502e650c4809"
+    },
+    {
+      "model": "CS-05-1U-E",
+      "observed_inventory_url": "https://www.sitodrive.com/en/product_detail?productid=1324",
+      "final_response_url": "https://www.sitodrive.com/en/product_detail?productid=1324",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "confirmed_product_heading": "CS-05-1U-E",
+      "table_count": 1,
+      "response_sha256": "0c98afd6c205e8c9749709cacf0fcd6cb096adc433f68cb1a1bedc94954eec07"
+    },
+    {
+      "model": "CS-05-1U-U",
+      "observed_inventory_url": "https://www.sitodrive.com/en/product_detail?productid=1325",
+      "final_response_url": "https://www.sitodrive.com/en/product_detail?productid=1325",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "confirmed_product_heading": "CS-05-1U-U",
+      "table_count": 1,
+      "response_sha256": "d12e89009e1408aba691bf713d01f4b7a80a1e1fd1d3a6a0304657a00eca22d7"
+    },
+    {
+      "model": "CS-05-2XH-A",
+      "observed_inventory_url": "https://www.sitodrive.com/en/product_detail?productid=1326",
+      "final_response_url": "https://www.sitodrive.com/en/product_detail?productid=1326",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "confirmed_product_heading": "CS-05-2XH-A",
+      "table_count": 1,
+      "response_sha256": "2bbbb7460b487fba7fe8d1ac7d8a2a3d2ed92bc8797112a1c065bee20c4f7efd"
+    },
+    {
+      "model": "CS-05-2XH-B",
+      "observed_inventory_url": "https://www.sitodrive.com/en/product_detail?productid=1327",
+      "final_response_url": "https://www.sitodrive.com/en/product_detail?productid=1327",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "confirmed_product_heading": "CS-05-2XH-B",
+      "table_count": 1,
+      "response_sha256": "8673f19d799f63decfa94f81a399b71f81dab3ab7d8b0d629e6725973a9c0b54"
+    },
+    {
+      "model": "CS-08-1U-C",
+      "observed_inventory_url": "https://www.sitodrive.com/en/product_detail?productid=1328",
+      "final_response_url": "https://www.sitodrive.com/en/product_detail?productid=1328",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "confirmed_product_heading": "CS-08-1U-C",
+      "table_count": 1,
+      "response_sha256": "6c6d855b86074fd14e6348d9ef4d14ca0bd939358b140e072a893093777f6016"
+    },
+    {
+      "model": "CS-08-1U-D",
+      "observed_inventory_url": "https://www.sitodrive.com/en/product_detail?productid=1329",
+      "final_response_url": "https://www.sitodrive.com/en/product_detail?productid=1329",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "confirmed_product_heading": "CS-08-1U-D",
+      "table_count": 1,
+      "response_sha256": "3beb267c7a854de00fc14ed1b95ed84182cfe879378c8caac7e9f39de189cc29"
+    },
+    {
+      "model": "CS-08-1U-E",
+      "observed_inventory_url": "https://www.sitodrive.com/en/product_detail?productid=1330",
+      "final_response_url": "https://www.sitodrive.com/en/product_detail?productid=1330",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "confirmed_product_heading": "CS-08-1U-E",
+      "table_count": 1,
+      "response_sha256": "fcccc7a65728b0aa587606fe8b5d14c59d8eb3d39a598df2ae29027f83ae552b"
+    },
+    {
+      "model": "CS-08-1U-U",
+      "observed_inventory_url": "https://www.sitodrive.com/en/product_detail?productid=1331",
+      "final_response_url": "https://www.sitodrive.com/en/product_detail?productid=1331",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "confirmed_product_heading": "CS-08-1U-U",
+      "table_count": 1,
+      "response_sha256": "80f4c45eab4393ca9504c8982c83cb8374876778b5f17e5420ed68bc2cd9f1b5"
+    },
+    {
+      "model": "CS-08-2UP",
+      "observed_inventory_url": "https://www.sitodrive.com/en/product_detail?productid=1332",
+      "final_response_url": "https://www.sitodrive.com/en/product_detail?productid=1332",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "confirmed_product_heading": "CS-08-2UP",
+      "table_count": 1,
+      "response_sha256": "60438ae159feab6c1a912013b92de22e0f6cb6edf3c3522f09da226ab823b4ff"
+    },
+    {
+      "model": "CS-08-2XH-A",
+      "observed_inventory_url": "https://www.sitodrive.com/en/product_detail?productid=1333",
+      "final_response_url": "https://www.sitodrive.com/en/product_detail?productid=1333",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "confirmed_product_heading": "CS-08-2XH-A",
+      "table_count": 1,
+      "response_sha256": "fbd63188432300cc41766da0691a5f1d7fa6ad3164443a5bb8968446f9d47571"
+    },
+    {
+      "model": "CS-08-2XH-B",
+      "observed_inventory_url": "https://www.sitodrive.com/en/product_detail?productid=1334",
+      "final_response_url": "https://www.sitodrive.com/en/product_detail?productid=1334",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "confirmed_product_heading": "CS-08-2XH-B",
+      "table_count": 1,
+      "response_sha256": "f07d72c7e29b29692b002f47ed4488ac8b92de6f51f62240766f23cf44658210"
+    },
+    {
+      "model": "CS-11-1U-C",
+      "observed_inventory_url": "https://www.sitodrive.com/en/product_detail?productid=1335",
+      "final_response_url": "https://www.sitodrive.com/en/product_detail?productid=1335",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "confirmed_product_heading": "CS-11-1U-C",
+      "table_count": 1,
+      "response_sha256": "e9fb302e81c787836d5aca8f748c1b1bd4da15e4c927a41d5058b4e649f6bff8"
+    },
+    {
+      "model": "CS-11-1U-D",
+      "observed_inventory_url": "https://www.sitodrive.com/en/product_detail?productid=1336",
+      "final_response_url": "https://www.sitodrive.com/en/product_detail?productid=1336",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "confirmed_product_heading": "CS-11-1U-D",
+      "table_count": 1,
+      "response_sha256": "bfe72a768020097bd0b1676cc42dc2dc9af926c1693c2f922a5f07f4d919de90"
+    },
+    {
+      "model": "CS-11-1U-E",
+      "observed_inventory_url": "https://www.sitodrive.com/en/product_detail?productid=1337",
+      "final_response_url": "https://www.sitodrive.com/en/product_detail?productid=1337",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "confirmed_product_heading": "CS-11-1U-E",
+      "table_count": 1,
+      "response_sha256": "65dc0f4194b806581ee6041f2d9c34a52c624869f2886bd22525b5abeceb4f87"
+    },
+    {
+      "model": "CS-11-1U-U",
+      "observed_inventory_url": "https://www.sitodrive.com/en/product_detail?productid=1338",
+      "final_response_url": "https://www.sitodrive.com/en/product_detail?productid=1338",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "confirmed_product_heading": "CS-11-1U-U",
+      "table_count": 1,
+      "response_sha256": "9549eeef1e16e60d97701b457448a03526d656b33315fdbcdc5786c619cb0a3a"
+    },
+    {
+      "model": "CS-11-2XH-A",
+      "observed_inventory_url": "https://www.sitodrive.com/en/product_detail?productid=1339",
+      "final_response_url": "https://www.sitodrive.com/en/product_detail?productid=1339",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "confirmed_product_heading": "CS-11-2XH-A",
+      "table_count": 1,
+      "response_sha256": "b966bfd4d24e30c199367844c3d8e4db6fc2f33cebe16768fa5bceaf53402963"
+    },
+    {
+      "model": "CS-11-2XH-B",
+      "observed_inventory_url": "https://www.sitodrive.com/en/product_detail?productid=1340",
+      "final_response_url": "https://www.sitodrive.com/en/product_detail?productid=1340",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "confirmed_product_heading": "CS-11-2XH-B",
+      "table_count": 1,
+      "response_sha256": "4fca667e25072dc1c8ebe4cf120d93ad3b4a73f1ed4b81a6d89708f772c7c283"
+    },
+    {
+      "model": "CS-14-I",
+      "observed_inventory_url": "https://www.sitodrive.com/en/product/CS-14-I",
+      "final_response_url": "https://www.sitodrive.com/en/product/CS-14-I",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "confirmed_product_heading": "CS-14-I",
+      "table_count": 1,
+      "response_sha256": "8d99006009e01dfbf0678c50c29a81424206020ad6d207471746b93cf6c9fae5"
+    },
+    {
+      "model": "CS-14-II",
+      "observed_inventory_url": "https://www.sitodrive.com/en/product/CS-14-II",
+      "final_response_url": "https://www.sitodrive.com/en/product/CS-14-II",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "confirmed_product_heading": "CS-14-II",
+      "table_count": 1,
+      "response_sha256": "fa2fc619a47c79f0eebd66d6039cd4118d5ce3f2e62b6b2541c3c78aee456cf8"
+    },
+    {
+      "model": "CS-17-I",
+      "observed_inventory_url": "https://www.sitodrive.com/en/product/CS-17-I",
+      "final_response_url": "https://www.sitodrive.com/en/product/CS-17-I",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "confirmed_product_heading": "CS-17-I",
+      "table_count": 1,
+      "response_sha256": "eb49dfd58202e0b976be426ccaa9e975568e859cb8ca54b90729235111abab2a"
+    },
+    {
+      "model": "CS-17-II",
+      "observed_inventory_url": "https://www.sitodrive.com/en/product/CS-17-II",
+      "final_response_url": "https://www.sitodrive.com/en/product/CS-17-II",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "confirmed_product_heading": "CS-17-II",
+      "table_count": 1,
+      "response_sha256": "528cd3f7a31ffe27e78c59a43837002909da5a2d376c516746cd38921e63f8f7"
+    },
+    {
+      "model": "CS-20-I",
+      "observed_inventory_url": "https://www.sitodrive.com/en/product/CS-20-I",
+      "final_response_url": "https://www.sitodrive.com/en/product/CS-20-I",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "confirmed_product_heading": "CS-20-I",
+      "table_count": 1,
+      "response_sha256": "788f768a3f997aa5fc8b2c3cb7b0ad4e816e201aa83eaeed52b640f93babbd97"
+    },
+    {
+      "model": "CS-20-II",
+      "observed_inventory_url": "https://www.sitodrive.com/en/product/CS-20-II",
+      "final_response_url": "https://www.sitodrive.com/en/product/CS-20-II",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "confirmed_product_heading": "CS-20-II",
+      "table_count": 1,
+      "response_sha256": "c5981c54ab194494730e948ae4b72ed55278029001bb177680d7ee5bc254212e"
+    },
+    {
+      "model": "CS-25-I",
+      "observed_inventory_url": "https://www.sitodrive.com/en/product/CS-25-I",
+      "final_response_url": "https://www.sitodrive.com/en/product/CS-25-I",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "confirmed_product_heading": "CS-25-I",
+      "table_count": 1,
+      "response_sha256": "7ceb93ae6420e4e46352c3f33d57a37090914dc7de3c7058f7b44048d6545766"
+    },
+    {
+      "model": "CS-25-II",
+      "observed_inventory_url": "https://www.sitodrive.com/en/product/CS-25-II",
+      "final_response_url": "https://www.sitodrive.com/en/product/CS-25-II",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "confirmed_product_heading": "CS-25-II",
+      "table_count": 1,
+      "response_sha256": "8a221aa557f550862f53fd96bced8e406def1bf138f2eccb72b290445d79a018"
+    },
+    {
+      "model": "CS-32-I",
+      "observed_inventory_url": "https://www.sitodrive.com/en/product/CS-32-I",
+      "final_response_url": "https://www.sitodrive.com/en/product/CS-32-I",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "confirmed_product_heading": "CS-32-I",
+      "table_count": 1,
+      "response_sha256": "5ac57ae5f67d8e42684a04a8050faec4a54686a1b11c0d6056be1490ce122ec8"
+    },
+    {
+      "model": "CS-32-II",
+      "observed_inventory_url": "https://www.sitodrive.com/en/product/CS-32-II",
+      "final_response_url": "https://www.sitodrive.com/en/product/CS-32-II",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "confirmed_product_heading": "CS-32-II",
+      "table_count": 1,
+      "response_sha256": "ef07f2933afb9d532081e80863810eb0eac4846c70de3c9bb1bcf0033f3fc6c1"
+    },
+    {
+      "model": "FD-03",
+      "observed_inventory_url": "https://www.sitodrive.com/en/product_detail?productid=1343",
+      "final_response_url": "https://www.sitodrive.com/en/product_detail?productid=1343",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "confirmed_product_heading": "FD-03",
+      "table_count": 0,
+      "response_sha256": "407dfe9f3365c9842f6ef285c003e29a05af5770b63e6288851d9be5ca7418d4"
+    },
+    {
+      "model": "HD-03",
+      "observed_inventory_url": "https://www.sitodrive.com/en/product/HD-03",
+      "final_response_url": "https://www.sitodrive.com/en/product/HD-03",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "confirmed_product_heading": "HD-03",
+      "table_count": 1,
+      "response_sha256": "eede0798a9c7f80a92fd391b1006bf5e8000a6ced075d9f74c8fe373354f5b4a"
+    },
+    {
+      "model": "HD-05",
+      "observed_inventory_url": "https://www.sitodrive.com/en/product/HD-05",
+      "final_response_url": "https://www.sitodrive.com/en/product/HD-05",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "confirmed_product_heading": "HD-05",
+      "table_count": 1,
+      "response_sha256": "dde69bd3415dcb9b04a3302ec11519f28ce3d446d95a40ecaa57f188f08496ec"
+    },
+    {
+      "model": "HD-08",
+      "observed_inventory_url": "https://www.sitodrive.com/en/product/HD-08",
+      "final_response_url": "https://www.sitodrive.com/en/product/HD-08",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "confirmed_product_heading": "HD-08",
+      "table_count": 1,
+      "response_sha256": "b8857e16833ba89511ec0dae4c12c4c53324ad2b7f2e673682d57a25aa573db2"
+    },
+    {
+      "model": "HD-11",
+      "observed_inventory_url": "https://www.sitodrive.com/en/product/HD-11",
+      "final_response_url": "https://www.sitodrive.com/en/product/HD-11",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "confirmed_product_heading": "HD-11",
+      "table_count": 1,
+      "response_sha256": "b98b1f9168c84cb3c096fb6944565163d83f68bd304c3552e36b5064638dbdc9"
+    },
+    {
+      "model": "HD-11Pro",
+      "observed_inventory_url": "https://www.sitodrive.com/en/product_detail?productid=963",
+      "final_response_url": "https://www.sitodrive.com/en/product_detail?productid=963",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "confirmed_product_heading": "HD-11Pro",
+      "table_count": 1,
+      "response_sha256": "591ef15cf8f30ed2ebce999f7bb5ad44a8b18baafa9cd390f13357061fb79111"
+    },
+    {
+      "model": "HD-14",
+      "observed_inventory_url": "https://www.sitodrive.com/en/product/HD-14",
+      "final_response_url": "https://www.sitodrive.com/en/product/HD-14",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "confirmed_product_heading": "HD-14",
+      "table_count": 1,
+      "response_sha256": "df9009d07cd651e4a47e521e88addf63d71a41038a8c39bdef458ffb2dc8beef"
+    },
+    {
+      "model": "HD-14Pro",
+      "observed_inventory_url": "https://www.sitodrive.com/en/product/HD-14pro",
+      "final_response_url": "https://www.sitodrive.com/en/product/HD-14pro",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "confirmed_product_heading": "HD-14Pro",
+      "table_count": 1,
+      "response_sha256": "4f8fb968481bbf4b077f05105984793fadf1ad91c0250fe2005ab1813103057c"
+    },
+    {
+      "model": "HD-17",
+      "observed_inventory_url": "https://www.sitodrive.com/en/product/HD-17",
+      "final_response_url": "https://www.sitodrive.com/en/product/HD-17",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "confirmed_product_heading": "HD-17",
+      "table_count": 1,
+      "response_sha256": "c2b0fd7834ca69cf242053d3714c8f59d8810fc2cec1f1b0d917a4e29c549c31"
+    },
+    {
+      "model": "HD-17Pro",
+      "observed_inventory_url": "https://www.sitodrive.com/en/product/HD-17pro",
+      "final_response_url": "https://www.sitodrive.com/en/product/HD-17pro",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "confirmed_product_heading": "HD-17Pro",
+      "table_count": 1,
+      "response_sha256": "95b105cdd54b56e4382cb6baafb94538302b1e895e85bd92981390b0f8b24d23"
+    },
+    {
+      "model": "HD-20",
+      "observed_inventory_url": "https://www.sitodrive.com/en/product/HD-20",
+      "final_response_url": "https://www.sitodrive.com/en/product/HD-20",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "confirmed_product_heading": "HD-20",
+      "table_count": 1,
+      "response_sha256": "f27dab467d26d746a6c3cad37b88e35dc45a8f88d35050d29e29ba5d940de081"
+    },
+    {
+      "model": "HD-25",
+      "observed_inventory_url": "https://www.sitodrive.com/en/product/HD-25",
+      "final_response_url": "https://www.sitodrive.com/en/product/HD-25",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "confirmed_product_heading": "HD-25",
+      "table_count": 1,
+      "response_sha256": "111d165a6a1aae3033e2e01c7d4289296faf7723be865b7ef40b38c8bd0e8903"
+    },
+    {
+      "model": "HS-14-I",
+      "observed_inventory_url": "https://www.sitodrive.com/en/product/HS-14-I",
+      "final_response_url": "https://www.sitodrive.com/en/product/HS-14-I",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "confirmed_product_heading": "HS-14-I",
+      "table_count": 1,
+      "response_sha256": "f36a6120cecddc7224654435269c8d0a960f21e4d999d5da53209c434033af8f"
+    },
+    {
+      "model": "HS-14-II",
+      "observed_inventory_url": "https://www.sitodrive.com/en/product/HS-14-II",
+      "final_response_url": "https://www.sitodrive.com/en/product/HS-14-II",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "confirmed_product_heading": "HS-14-II",
+      "table_count": 1,
+      "response_sha256": "7ebb3be7a786042921d616e6403e3eb349f8c5c1c56588708ee8e3aae51994e5"
+    },
+    {
+      "model": "HS-14-III",
+      "observed_inventory_url": "https://www.sitodrive.com/en/product/HS-14-III",
+      "final_response_url": "https://www.sitodrive.com/en/product/HS-14-III",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "confirmed_product_heading": "HS-14-III",
+      "table_count": 1,
+      "response_sha256": "dda73bbda5e37f9b7b0a67f0f59a82520e27d9dd991068a7939e7bc2747bc04b"
+    },
+    {
+      "model": "HS-14-IV",
+      "observed_inventory_url": "https://www.sitodrive.com/en/product/HS-14-IV",
+      "final_response_url": "https://www.sitodrive.com/en/product/HS-14-IV",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "confirmed_product_heading": "HS-14-IV",
+      "table_count": 1,
+      "response_sha256": "dad49d91f9a0488fec9face86442059fc8353519648e0be311b1bb3b34c78aa6"
+    },
+    {
+      "model": "HS-17-I",
+      "observed_inventory_url": "https://www.sitodrive.com/en/product/HS-17-I",
+      "final_response_url": "https://www.sitodrive.com/en/product/HS-17-I",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "confirmed_product_heading": "HS-17-I",
+      "table_count": 1,
+      "response_sha256": "d7f827bbda531fff500de19a73220bfcf1334e7726a57e272c13a642a8f6819a"
+    },
+    {
+      "model": "HS-17-II",
+      "observed_inventory_url": "https://www.sitodrive.com/en/product/HS-17-II",
+      "final_response_url": "https://www.sitodrive.com/en/product/HS-17-II",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "confirmed_product_heading": "HS-17-II",
+      "table_count": 1,
+      "response_sha256": "b0e0d7d95cda780861b85ffc7d2058800ac1e27692948dc62b49005d16b338e6"
+    },
+    {
+      "model": "HS-17-III",
+      "observed_inventory_url": "https://www.sitodrive.com/en/product/HS-17-III",
+      "final_response_url": "https://www.sitodrive.com/en/product/HS-17-III",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "confirmed_product_heading": "HS-17-III",
+      "table_count": 1,
+      "response_sha256": "be676cd7ac02f889bce8198a7a59746d06669cd77c884589ef883003c43c2c83"
+    },
+    {
+      "model": "HS-17-IV",
+      "observed_inventory_url": "https://www.sitodrive.com/en/product/HS-17-IV",
+      "final_response_url": "https://www.sitodrive.com/en/product/HS-17-IV",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "confirmed_product_heading": "HS-17-IV",
+      "table_count": 1,
+      "response_sha256": "ce87ebc086e2e1d8d9d5c35b0cb28398c296742b9256def7cc1fbc781a89dbb6"
+    },
+    {
+      "model": "HS-20-I",
+      "observed_inventory_url": "https://www.sitodrive.com/en/product/HS-20-I",
+      "final_response_url": "https://www.sitodrive.com/en/product/HS-20-I",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "confirmed_product_heading": "HS-20-I",
+      "table_count": 1,
+      "response_sha256": "03d8d4b392ed9234895d527b7c1dca6822c02fdf0a9c58be03430edcbb6671d0"
+    },
+    {
+      "model": "HS-20-II",
+      "observed_inventory_url": "https://www.sitodrive.com/en/product/HS-20-II",
+      "final_response_url": "https://www.sitodrive.com/en/product/HS-20-II",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "confirmed_product_heading": "HS-20-II",
+      "table_count": 1,
+      "response_sha256": "ffc14884c8b05ae36538f6a3db2fdfdbc06795bb882337368230c937489ba9f9"
+    },
+    {
+      "model": "HS-20-III",
+      "observed_inventory_url": "https://www.sitodrive.com/en/product/HS-20-III",
+      "final_response_url": "https://www.sitodrive.com/en/product/HS-20-III",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "confirmed_product_heading": "HS-20-III",
+      "table_count": 1,
+      "response_sha256": "e049a94bdf1d21687a60743f20cda346b3e555ab2440adfdabb980bf69c9440b"
+    },
+    {
+      "model": "HS-20-IV",
+      "observed_inventory_url": "https://www.sitodrive.com/en/product/HS-20-IV",
+      "final_response_url": "https://www.sitodrive.com/en/product/HS-20-IV",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "confirmed_product_heading": "HS-20-IV",
+      "table_count": 1,
+      "response_sha256": "351131b2d106caf83d3638490b7ba04ff58151ef624b33dac631615e301124a1"
+    },
+    {
+      "model": "HS-25-I",
+      "observed_inventory_url": "https://www.sitodrive.com/en/product/HS-25-I",
+      "final_response_url": "https://www.sitodrive.com/en/product/HS-25-I",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "confirmed_product_heading": "HS-25-I",
+      "table_count": 1,
+      "response_sha256": "c7857d583176f4fbc2936ce46353e1b6fca9784648ccbaa143c7d61b5956ab05"
+    },
+    {
+      "model": "HS-25-II",
+      "observed_inventory_url": "https://www.sitodrive.com/en/product/HS-25-II",
+      "final_response_url": "https://www.sitodrive.com/en/product/HS-25-II",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "confirmed_product_heading": "HS-25-II",
+      "table_count": 1,
+      "response_sha256": "1a206c6364e79134f0f3439e58da056b7b4b774a80f23531d1df10602ed29dc8"
+    },
+    {
+      "model": "HS-25-III",
+      "observed_inventory_url": "https://www.sitodrive.com/en/product/HS-25-III",
+      "final_response_url": "https://www.sitodrive.com/en/product/HS-25-III",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "confirmed_product_heading": "HS-25-III",
+      "table_count": 1,
+      "response_sha256": "799f170ebfd94eae332efcd83bf5818247eb8cc269d405e11ef2505fa793715d"
+    },
+    {
+      "model": "HS-25-IV",
+      "observed_inventory_url": "https://www.sitodrive.com/en/product/HS-25-IV",
+      "final_response_url": "https://www.sitodrive.com/en/product/HS-25-IV",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "confirmed_product_heading": "HS-25-IV",
+      "table_count": 1,
+      "response_sha256": "ea356ccc0f180c7c01fb461eeb63910ded680928f960005143bb75a36644ac73"
+    },
+    {
+      "model": "HS-32-I",
+      "observed_inventory_url": "https://www.sitodrive.com/en/product/HS-32-I",
+      "final_response_url": "https://www.sitodrive.com/en/product/HS-32-I",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "confirmed_product_heading": "HS-32-I",
+      "table_count": 1,
+      "response_sha256": "87b9cda31b40fe4194046bc48e30bb0f9a09e0573b80abb13da5e84993409a6c"
+    },
+    {
+      "model": "HS-32-II",
+      "observed_inventory_url": "https://www.sitodrive.com/en/product/HS-32-II",
+      "final_response_url": "https://www.sitodrive.com/en/product/HS-32-II",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "confirmed_product_heading": "HS-32-II",
+      "table_count": 1,
+      "response_sha256": "3cc1e2a7fa003b7721bde0cb1393f32e58f34d0d257f87b615d88f1fe6316ab2"
+    },
+    {
+      "model": "HS-32-III",
+      "observed_inventory_url": "https://www.sitodrive.com/en/product/HS-32-III",
+      "final_response_url": "https://www.sitodrive.com/en/product/HS-32-III",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "confirmed_product_heading": "HS-32-III",
+      "table_count": 1,
+      "response_sha256": "2466df9fc0b69c836cc9fb0b9fa3618a57ac96758617ccb4530a1ca21d2261e2"
+    },
+    {
+      "model": "HS-32-IV",
+      "observed_inventory_url": "https://www.sitodrive.com/en/product/HS-32-IV",
+      "final_response_url": "https://www.sitodrive.com/en/product/HS-32-IV",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "confirmed_product_heading": "HS-32-IV",
+      "table_count": 1,
+      "response_sha256": "036c99efcd625e2ce64012df7b42f6e42db466e499d2067eb425d1e0200c464d"
+    }
+  ],
+  "catalog_pdf": {
+    "url": "https://www.sitodrive.com/docs/Strain_Wave_Gear_Catalog_en.pdf",
+    "final_response_url": "https://www.sitodrive.com/docs/Strain_Wave_Gear_Catalog_en.pdf",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "bytes": 10292544,
+    "sha256": "74454513b9c6b344c3a8f170c35f7728d76cdaa52677e6260eaea5474ae480e0",
+    "valid_pdf_signature": true
+  }
+}

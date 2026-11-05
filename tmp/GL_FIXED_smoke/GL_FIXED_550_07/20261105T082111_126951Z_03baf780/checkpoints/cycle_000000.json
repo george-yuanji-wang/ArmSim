@@ -1,0 +1,227 @@
+{
+  "hallmark": {
+    "cycle": 0,
+    "best_found_cycle": 0,
+    "checkpoint_kind": "hardware_search_finished",
+    "requested_evaluations": 1,
+    "proposal_attempts": 1,
+    "unique_candidates_checked": 1,
+    "duplicate_proposals_skipped": 0,
+    "elapsed_s": 0.24,
+    "layout_number": 7,
+    "reachable_poses": 0,
+    "total_poses": 1008,
+    "pmax_kg": 0.0,
+    "required_payload_upper_kg": 0.5,
+    "requirements_met": false,
+    "geometry_valid": false,
+    "extended_reach_mm": 550.0,
+    "wrist2_length_mm": 110.0,
+    "geometry_rejections": 1,
+    "cheap_geometry_rejections": 0,
+    "proposal_fallbacks": 0,
+    "capacity_challenge_probes": 0,
+    "arm_mass_kg": 0.0,
+    "gravity_score_JG": null
+  },
+  "best_design": {
+    "layout_number": 7,
+    "lengths_m": [
+      0.17550000000000004,
+      0.09,
+      0.16105977151355952
+    ],
+    "link_masses_kg": [
+      0.1,
+      0.1,
+      0.05,
+      0.03,
+      0.02,
+      0.015
+    ],
+    "com_fractions": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "spread_fractions": [
+      0.1,
+      0.09,
+      0.09,
+      0.09,
+      0.09,
+      0.09
+    ],
+    "motor_offsets_m": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "motor_ids": [
+      "CUBEMARS_GL40_KV210",
+      "CUBEMARS_GL40_KV210",
+      "CUBEMARS_GL40_KV210",
+      "CUBEMARS_GL30_KV290",
+      "CUBEMARS_GL30_KV290",
+      "CUBEMARS_GL30_KV290"
+    ],
+    "reducer_ids": [
+      "SITO_HD-14_50",
+      "SITO_CD-17_50",
+      "SITO_CD-17_50",
+      "SITO_CS-11-1U-E_30",
+      "SITO_CS-11-1U-E_30",
+      "SITO_CS-11-1U-E_30"
+    ],
+    "wrist2_length_m": 0.11
+  },
+  "summary": {
+    "geometry_valid": false,
+    "geometry_contract": "approved-base-template-v8",
+    "failure_reason": "unsupported_base_geometry",
+    "geometry_error": "Case is outside the local template mount envelope: J5 motor",
+    "geometry_errors": [
+      "Case is outside the local template mount envelope: J5 motor"
+    ],
+    "extended_reach_mm": 550.0,
+    "reach_bounds_pass": true,
+    "reach_definition": "maximum unrestricted shoulder-to-TCP extension",
+    "required_extended_reach_lower_mm": 550.0,
+    "required_extended_reach_upper_mm": 550.0,
+    "collision_checks": false,
+    "joint_stop_checks": false
+  },
+  "rng_state": {
+    "bit_generator": "PCG64",
+    "state": {
+      "state": 274674114334540486603088602300644985544,
+      "inc": 332724090758049132448979897138935081983
+    },
+    "has_uint32": 0,
+    "uinteger": 0
+  },
+  "geometry_rejection_counts": {
+    "Case is outside the local template mount envelope: J5 motor": 1
+  },
+  "proposal_diagnostics": {
+    "block_trials": 0,
+    "geometry_rejected_trials": 0,
+    "duplicate_trials": 0,
+    "capacity_challenge_probes": 0,
+    "capacity_challenge_probe_limit_reached": 0,
+    "fallback_to_incumbent": 0,
+    "selected_blocks": {
+      "hardware_tuple_seed": 1
+    },
+    "fallback_reasons": {}
+  },
+  "hardware_coverage": {
+    "mode": "exhaustive motor tuples with independent bounded geometry searches",
+    "hardware_tuple_count": 1,
+    "hardware_tuples_attempted": 1,
+    "hardware_tuples_load_evaluated": 0,
+    "categorical_coverage_complete": true,
+    "load_evaluation_coverage_complete": false,
+    "all_inner_budgets_met": false,
+    "continuous_global_optimality_proven": false,
+    "seed_failure_scope": "Only the recorded bounded seed probes; not a proof that no geometry can fit",
+    "tuples": [
+      {
+        "tuple_index": 1,
+        "layout_number": 7,
+        "motor_ids": [
+          "CUBEMARS_GL40_KV210",
+          "CUBEMARS_GL40_KV210",
+          "CUBEMARS_GL40_KV210",
+          "CUBEMARS_GL30_KV290",
+          "CUBEMARS_GL30_KV290",
+          "CUBEMARS_GL30_KV290"
+        ],
+        "allocated_evaluations": 1,
+        "evaluations": 0,
+        "proposal_attempts": 1,
+        "duplicate_proposals": 0,
+        "geometry_rejections": 1,
+        "reach_rejections": 0,
+        "seed_probes": 5,
+        "seed_error": "Insufficient spatial frame span for catalog hardware: wrist_1_link",
+        "attempted": true,
+        "status": "no_supported_seed_in_probe_grid",
+        "best_pmax_kg": 0.0,
+        "best_pmax_known_constraints_kg": null,
+        "best_peak_required_payload_utilization": null,
+        "best_gravity_score_JG": null,
+        "best_gravity_capacity_score_JG": null,
+        "best_arm_mass_kg": 0.0,
+        "best_design": {
+          "layout_number": 7,
+          "lengths_m": [
+            0.17550000000000004,
+            0.09,
+            0.16105977151355952
+          ],
+          "link_masses_kg": [
+            0.1,
+            0.1,
+            0.05,
+            0.03,
+            0.02,
+            0.015
+          ],
+          "com_fractions": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "spread_fractions": [
+            0.1,
+            0.09,
+            0.09,
+            0.09,
+            0.09,
+            0.09
+          ],
+          "motor_offsets_m": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "motor_ids": [
+            "CUBEMARS_GL40_KV210",
+            "CUBEMARS_GL40_KV210",
+            "CUBEMARS_GL40_KV210",
+            "CUBEMARS_GL30_KV290",
+            "CUBEMARS_GL30_KV290",
+            "CUBEMARS_GL30_KV290"
+          ],
+          "reducer_ids": [
+            "SITO_HD-14_50",
+            "SITO_CD-17_50",
+            "SITO_CD-17_50",
+            "SITO_CS-11-1U-E_30",
+            "SITO_CS-11-1U-E_30",
+            "SITO_CS-11-1U-E_30"
+          ],
+          "wrist2_length_m": 0.11
+        },
+        "rng_state": {
+          "bit_generator": "PCG64",
+          "state": {
+            "state": 321106103742628468597145984965858931511,
+            "inc": 204927678183806843212562267652975179825
+          },
+          "has_uint32": 0,
+          "uinteger": 0
+        }
+      }
+    ]
+  }
+}

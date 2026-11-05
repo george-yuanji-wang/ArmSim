@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "run_id": "20261105T082343_201966Z_fb54fecc",
+  "project_id": "GL_FIXED_550_08",
+  "created_utc": "2026-11-05T08:23:43.201966+00:00",
+  "input_source": "C:\\Users\\George\\Desktop\\ArmSim\\optimization\\data\\real",
+  "input_sha256": {
+    "excluded_hardware.csv": "e632b7113bf7747275b2880a5ef2a967427d567a441e601c0e8228031e06c076",
+    "hardware_provenance.csv": "1d26834b83a45434a917fc77d072507e79e0355ccabf5b83cacc3e97f8625e02",
+    "link_bounds.csv": "b631395cabdbbee40caded655cafadf30eccf732d0f98df45d67fd125bba79ee",
+    "motor.csv": "15a19c4e879c83077db9bba88686929f54290919a37f24729c503fd877f4d222",
+    "motor_curve.csv": "583902468ea9674345a493a8f2f6eff83ad855943c1abc91c80384df8690156d",
+    "reducer.csv": "25a3028da9c3d9eba1c5857082143ce5232ac1221dc316077fdfa8bf622724db",
+    "requirement.csv": "bbbdbf30d0595a1485c5d5ddeef7b5ec5056e435df0b1f9a840875245f463b11",
+    "study_assumptions.csv": "3fd2b99d6d4c664dbbeecad493b183003b7706757fe7f78d67d9f1569c24e557",
+    "input_assumptions.json": "2c78792d5198f61c293c35bdd19d2496e764257551149c2bd4d40d539f2c3f4b",
+    "study.json": "4d186c2bc5702101e34a82a9143f091ac685f3fd19729a81b8ab00f4f594455d"
+  },
+  "metadata": {
+    "mode": "optimize",
+    "requirement": {
+      "project_id": "GL_FIXED_550_08",
+      "payload_lower_g": 500.0,
+      "payload_upper_g": 500.0,
+      "reach_lower_mm": 550.0,
+      "reach_upper_mm": 550.0,
+      "elevation_lower_deg": -45.0,
+      "elevation_upper_deg": 45.0,
+      "joint_speed_rad_s": 1.0,
+      "joint_accel_rad_s2": 6.0,
+      "l1_lower_mm": 82.5,
+      "l1_upper_mm": 495.0,
+      "l2_lower_mm": 90.0,
+      "l2_upper_mm": 90.0,
+      "l3_lower_mm": 16.5,
+      "l3_upper_mm": 495.0,
+      "motor_offset_max_mm": 110.0,
+      "seed": 42,
+      "cycles": 200,
+      "checkpoint_every": 20,
+      "allowed_layouts": [
+        8
+      ],
+      "joint_speed_limits_rad_s": [
+        3.141592653589793,
+        3.141592653589793,
+        3.141592653589793,
+        5.235987755982989,
+        5.235987755982989,
+        5.235987755982989
+      ],
+      "wrist2_length_m": 0.11,
+      "motor_candidates_by_joint": [
+        [
+          "CUBEMARS_GL40_KV210"
+        ],
+        [
+          "CUBEMARS_GL40_KV210"
+        ],
+        [
+          "CUBEMARS_GL40_KV210"
+        ]
+      ],
+      "shared_wrist_motor_id": "CUBEMARS_GL30_KV290",
+      "reducer_load_policy": "hold_and_repeated_peak",
+      "motor_load_policy": "hold_and_peak_envelope"
+    },
+    "pose_count": 1008,
+    "pose_limit": null,
+    "sampling": "24 named joint-state references (zero, signed single-axis quarter turns, six fully extended world directions, combined folded/wrist states) plus 984 deterministic Halton states across six joint angles in [-pi, pi). Joint states are common to every design; fully extended tests resolve analytically for each design. Reach bounds constrain maximum shoulder-to-TCP extension, not a workspace shell. Global collision and joint-stop checks disabled.",
+    "python": "3.13.15",
+    "mujoco": "3.17.0",
+    "numpy": "2.5.4",
+    "algorithm": "exhaustive motor-tuple enumeration with independent balanced bounded geometry searches",
+    "hardware_tuple_count": 1,
+    "continuous_global_optimality_proven": false,
+    "evaluation_budget": "Distinct supported physical candidates only; duplicate proposals are skipped",
+    "physical_key_precision_m": 1e-12,
+    "proposal_attempt_limit": 2000,
+    "objective": "maximize conservative sampled-basis payload within straightened reach bounds; zero-payload ties minimize peak required-payload utilization, then maximize conditional known-constraint capacity; otherwise arm mass breaks ties; J_G is recorded",
+    "reach_definition": "maximum fully extended shoulder-to-TCP radius",
+    "structural_mass_model": "Approved aluminium edge/frame/output stock at 2700 kg/m3, plus the base builder's explicit small transmission-part masses. Catalog motor/reducer masses are separate; structural mass, 3D COM and full inertia follow geometry.",
+    "geometry_contract": "approved-base-template-v8",
+    "motor_offset_coordinates": "Local deltas about approved base placements; coaxial coordinates are fixed",
+    "checks": "approved local mounts, zero-pose own-joint assembly clearance and reach required; global collision and mechanical joint-stop checks disabled"
+  },
+  "retention": "No automatic deletion; output snapshots are exclusive writes."
+}

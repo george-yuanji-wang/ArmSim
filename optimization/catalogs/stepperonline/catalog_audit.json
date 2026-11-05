@@ -1,0 +1,88 @@
+{
+  "record_count": 28,
+  "source_fields_complete_except_inertia": 21,
+  "voltage_counts": {
+    "24": 17,
+    "36": 7,
+    "48": 4
+  },
+  "missing_net_mass_models": [
+    "42BLS40-24-01",
+    "42BLS60-24-01"
+  ],
+  "missing_rotor_inertia_models": [
+    "42BLR43-24-01",
+    "42BLS40-24-01",
+    "42BLS60-24-01",
+    "42BSA46-24-01",
+    "42BSA62-24-01",
+    "42BSA62-36-01",
+    "42BSA78-24-01",
+    "42BSA78-48-01",
+    "42BSB41-24-01",
+    "42BSB61-24-01",
+    "42BSB61-48-01",
+    "42BSB81-24-01",
+    "42BSB81-48-01",
+    "42BYA43-24-01",
+    "42BYA51-24-01",
+    "42BYA73-24-01",
+    "57BLR50-24-01",
+    "57BLR50-36-01",
+    "57BLR70-24-02",
+    "57BLR70-36-01",
+    "57BLY54-24-01",
+    "57BSA58-24-01",
+    "57BSA79-36-01",
+    "57BSD96-36-01",
+    "57BYA54-24-01",
+    "57BYA74-36-01",
+    "57BYA94-36-01",
+    "57BYA94-48-01"
+  ],
+  "excluded_from_active_study": [
+    {
+      "model": "42BLR43-24-01",
+      "reasons": [
+        "published minimum order exceeds one motor"
+      ]
+    },
+    {
+      "model": "42BLS40-24-01",
+      "reasons": [
+        "net motor mass unpublished in captured HTML"
+      ]
+    },
+    {
+      "model": "42BLS60-24-01",
+      "reasons": [
+        "net motor mass unpublished in captured HTML"
+      ]
+    },
+    {
+      "model": "42BSA78-48-01",
+      "reasons": [
+        "optional voltage outside active 24/36 V study"
+      ]
+    },
+    {
+      "model": "42BSB61-48-01",
+      "reasons": [
+        "optional voltage outside active 24/36 V study"
+      ]
+    },
+    {
+      "model": "42BSB81-48-01",
+      "reasons": [
+        "optional voltage outside active 24/36 V study"
+      ]
+    },
+    {
+      "model": "57BYA94-48-01",
+      "reasons": [
+        "optional voltage outside active 24/36 V study"
+      ]
+    }
+  ],
+  "refresh": "Recapture source pages into a new dated snapshot directory and update the builder date/path deliberately; running this builder never refetches or mutates retained snapshots."
+}
